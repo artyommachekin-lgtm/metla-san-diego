@@ -38,7 +38,7 @@ const DeepCleaningCostPage: React.FC = () => {
         },
         {
             question: "Why is deep cleaning more expensive than regular cleaning?",
-            answer: "Deep cleaning takes 2-3x longer than standard cleaning because it addresses inside appliances, behind furniture, baseboards, light fixtures, detailed bathroom sanitization, and other areas not covered in routine maintenance. It requires more cleaning products and often uses specialty equipment."
+            answer: "Deep cleaning takes 2-3x longer than standard cleaning because it addresses baseboards, ceiling fans, blinds, light fixtures, and other areas not covered in routine maintenance. Add-ons like inside appliances (oven, refrigerator) are available for an additional fee. It requires more cleaning products and often uses specialty equipment."
         }
     ];
 
@@ -84,7 +84,7 @@ const DeepCleaningCostPage: React.FC = () => {
         { factor: "Home Condition", impact: "Up to +50%", description: "Heavily soiled or previously neglected homes cost more" },
         { factor: "Number of Bathrooms", impact: "+$25-50 each", description: "Additional bathrooms add time and complexity" },
         { factor: "Pets", impact: "+10-20%", description: "Pet hair, dander, and odor removal adds labor" },
-        { factor: "Kitchen Appliances", impact: "+$20-50 each", description: "Inside oven, refrigerator, or dishwasher cleaning" },
+        { factor: "Kitchen Appliances", impact: "+$20-50 each", description: "Inside oven or refrigerator cleaning (add-on services)" },
         { factor: "Windows (interior)", impact: "+$5-10 each", description: "Detailed window cleaning beyond basic wipe-down" },
         { factor: "Frequency Discount", impact: "-10-15%", description: "Recurring customers typically receive discounts" }
     ];
@@ -160,7 +160,7 @@ const DeepCleaningCostPage: React.FC = () => {
                             Whether you're preparing for guests, moving into a new home, or simply overdue for a thorough cleaning, knowing what deep cleaning costs in San Diego helps you budget appropriately and avoid sticker shock.
                         </p>
                         <p className="text-slate-600">
-                            Deep cleaning costs more than regular maintenance cleaning because it's far more comprehensive. Where a standard clean takes 2-3 hours and focuses on visible surfaces, deep cleaning runs 4-8 hours and addresses inside appliances, behind furniture, and all those neglected nooks and crannies.
+                            Deep cleaning costs more than regular maintenance cleaning because it's far more comprehensive. Where a standard clean takes 2-3 hours and focuses on visible surfaces, deep cleaning runs 4-8 hours and addresses baseboards, ceiling fans, blinds, light fixtures, and all those neglected nooks and crannies. Inside appliances like the oven and refrigerator are available as add-ons.
                         </p>
                         <p className="text-slate-600">
                             Let's break down what you can expect to pay in San Diego, what factors affect pricing, and how to get the best value for your money.
@@ -270,7 +270,11 @@ const DeepCleaningCostPage: React.FC = () => {
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                                        Inside kitchen appliances (oven, fridge)
+                                        Appliance exteriors (fridge, oven, dishwasher)
+                                    </li>
+                                    <li className="flex items-start gap-2">
+                                        <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
+                                        Microwave cleaned inside and out
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
@@ -291,8 +295,16 @@ const DeepCleaningCostPage: React.FC = () => {
                                 </ul>
                             </div>
                             <div className="bg-teal-50 p-5 rounded-xl">
-                                <h3 className="font-bold text-slate-900 mb-3">Often Add-On Services:</h3>
+                                <h3 className="font-bold text-slate-900 mb-3">Available Add-On Services:</h3>
                                 <ul className="space-y-2 text-slate-600 text-sm">
+                                    <li className="flex items-start gap-2">
+                                        <DollarSign className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
+                                        Inside oven cleaning ($20-40)
+                                    </li>
+                                    <li className="flex items-start gap-2">
+                                        <DollarSign className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
+                                        Inside refrigerator ($20-50)
+                                    </li>
                                     <li className="flex items-start gap-2">
                                         <DollarSign className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
                                         Interior windows ($5-10 each)
@@ -308,10 +320,6 @@ const DeepCleaningCostPage: React.FC = () => {
                                     <li className="flex items-start gap-2">
                                         <DollarSign className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
                                         Garage cleaning ($75-150)
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <DollarSign className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                                        Laundry service ($25-50 load)
                                     </li>
                                 </ul>
                             </div>
