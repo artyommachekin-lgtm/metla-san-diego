@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake, Key, WashingMachine, Columns, FolderOpen, PawPrint } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake, Key, WashingMachine, Columns, FolderOpen, PawPrint, Layers, Moon, Box, Leaf, Monitor } from 'lucide-react';
 import { COMPANY_NAME } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
@@ -207,6 +207,57 @@ export const BLOG_POSTS = [
         datePublished: '2024-01-16',
         image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=800&fm=webp',
         icon: PawPrint
+    },
+    // Batch 4: Specialty Guides
+    {
+        slug: 'how-to-clean-hardwood-and-tile-floors',
+        title: 'How to Clean Hardwood and Tile Floors',
+        excerpt: 'The right techniques for beautiful, long-lasting floors. Tips for San Diego homes dealing with sand and hard water.',
+        category: 'How-To',
+        readTime: '8 min read',
+        datePublished: '2024-01-22',
+        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&fm=webp',
+        icon: Layers
+    },
+    {
+        slug: 'how-to-deep-clean-your-mattress',
+        title: 'How to Deep Clean Your Mattress',
+        excerpt: 'Freshen up where you spend a third of your life. Remove allergens, stains, and odors for better sleep.',
+        category: 'How-To',
+        readTime: '7 min read',
+        datePublished: '2024-01-21',
+        image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=800&fm=webp',
+        icon: Moon
+    },
+    {
+        slug: 'move-in-cleaning-checklist',
+        title: 'Move-In Cleaning Checklist for San Diego Renters',
+        excerpt: 'Start fresh in your new home. Clean before you unpack for the best results. Room-by-room guide.',
+        category: 'Checklists',
+        readTime: '7 min read',
+        datePublished: '2024-01-20',
+        image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&fm=webp',
+        icon: Box
+    },
+    {
+        slug: 'eco-friendly-cleaning-tips',
+        title: 'Eco-Friendly Cleaning Tips',
+        excerpt: 'Clean your home and protect the planet. Natural solutions that work just as well as harsh chemicals.',
+        category: 'Green Living',
+        readTime: '8 min read',
+        datePublished: '2024-01-19',
+        image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&fm=webp',
+        icon: Leaf
+    },
+    {
+        slug: 'how-to-clean-your-home-office',
+        title: 'How to Clean Your Home Office',
+        excerpt: 'A clean workspace is a productive workspace. Keep your home office fresh and distraction-free.',
+        category: 'How-To',
+        readTime: '7 min read',
+        datePublished: '2024-01-18',
+        image: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?q=80&w=800&fm=webp',
+        icon: Monitor
     }
 ];
 
