@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake, Key, WashingMachine, Columns, FolderOpen, PawPrint } from 'lucide-react';
 import { COMPANY_NAME } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
@@ -156,6 +156,57 @@ export const BLOG_POSTS = [
         datePublished: '2024-01-12',
         image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&fm=webp',
         icon: Hammer
+    },
+    // Batch 3: Specialty Guides
+    {
+        slug: 'vacation-rental-cleaning-tips-for-hosts',
+        title: 'Vacation Rental Cleaning Tips for San Diego Hosts',
+        excerpt: 'Master the turnover process and keep your guests giving you 5-star reviews for cleanliness. Tips for Airbnb and VRBO hosts.',
+        category: 'For Hosts',
+        readTime: '8 min read',
+        datePublished: '2024-01-20',
+        image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&fm=webp',
+        icon: Key
+    },
+    {
+        slug: 'how-to-deep-clean-your-laundry-room',
+        title: 'How to Deep Clean Your Laundry Room',
+        excerpt: 'From washing machine maintenance to dryer vent safety—keep your laundry room fresh and efficient.',
+        category: 'How-To',
+        readTime: '7 min read',
+        datePublished: '2024-01-19',
+        image: 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?q=80&w=800&fm=webp',
+        icon: WashingMachine
+    },
+    {
+        slug: 'how-to-clean-windows-like-a-pro',
+        title: 'How to Clean Windows Like a Pro',
+        excerpt: 'Professional techniques for streak-free, sparkling windows. Tips for San Diego homes dealing with salt spray and hard water.',
+        category: 'How-To',
+        readTime: '7 min read',
+        datePublished: '2024-01-18',
+        image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800&fm=webp',
+        icon: Columns
+    },
+    {
+        slug: 'declutter-before-deep-cleaning',
+        title: 'Declutter Before Deep Cleaning',
+        excerpt: 'Why organizing before you clean leads to dramatically better results—and how to do it efficiently.',
+        category: 'Organization',
+        readTime: '6 min read',
+        datePublished: '2024-01-17',
+        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&fm=webp',
+        icon: FolderOpen
+    },
+    {
+        slug: 'how-to-remove-pet-odors-from-your-home',
+        title: 'How to Remove Pet Odors From Your Home',
+        excerpt: 'Effective techniques to find, treat, and prevent pet odors—because you love your pets, not their smell.',
+        category: 'Pet Owners',
+        readTime: '9 min read',
+        datePublished: '2024-01-16',
+        image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=800&fm=webp',
+        icon: PawPrint
     }
 ];
 
