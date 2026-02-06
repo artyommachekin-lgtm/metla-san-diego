@@ -18,8 +18,6 @@ const BlogPage = lazy(() => import('./pages/BlogPage'));
 const DeepCleaningGuidePage = lazy(() => import('./pages/blog/DeepCleaningGuidePage'));
 const MoveOutChecklistPage = lazy(() => import('./pages/blog/MoveOutChecklistPage'));
 const StandardCleaningBenefitsPage = lazy(() => import('./pages/blog/StandardCleaningBenefitsPage'));
-const AirbnbCleaningGuidePage = lazy(() => import('./pages/blog/AirbnbCleaningGuidePage'));
-const PostConstructionCleaningPage = lazy(() => import('./pages/blog/PostConstructionCleaningPage'));
 const FAQPage = lazy(() => import('./pages/FAQPage'));
 
 // Batch 1 Blog Pages
@@ -86,8 +84,6 @@ const App: React.FC = () => {
             <Route path="/blog/deep-cleaning-guide-san-diego" element={<DeepCleaningGuidePage />} />
             <Route path="/blog/move-out-cleaning-checklist" element={<MoveOutChecklistPage />} />
             <Route path="/blog/benefits-of-regular-cleaning-service" element={<StandardCleaningBenefitsPage />} />
-            <Route path="/blog/airbnb-turnover-cleaning-guide" element={<AirbnbCleaningGuidePage />} />
-            <Route path="/blog/post-construction-cleaning-guide" element={<PostConstructionCleaningPage />} />
             {/* Batch 1 Blog Routes */}
             <Route path="/blog/how-to-deep-clean-the-kitchen" element={<KitchenDeepCleanPage />} />
             <Route path="/blog/bathroom-deep-cleaning-checklist" element={<BathroomChecklistPage />} />

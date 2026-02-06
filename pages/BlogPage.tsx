@@ -137,26 +137,6 @@ export const BLOG_POSTS = [
         image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&fm=webp',
         icon: Home
     },
-    {
-        slug: 'airbnb-turnover-cleaning-guide',
-        title: 'Airbnb Cleaning Guide: Turnover Tips for Superhost Status',
-        excerpt: 'Master the art of vacation rental turnovers with our comprehensive guide. Learn pro tips for fast, thorough cleaning that earns 5-star reviews.',
-        category: 'Vacation Rentals',
-        readTime: '7 min read',
-        datePublished: '2024-01-18',
-        image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800&fm=webp',
-        icon: Plane
-    },
-    {
-        slug: 'post-construction-cleaning-guide',
-        title: 'Post-Construction Cleaning: Complete Guide for San Diego Homes',
-        excerpt: 'Just finished a renovation? Here\'s everything you need to know about getting construction dust out and your space move-in ready.',
-        category: 'Specialty Cleaning',
-        readTime: '7 min read',
-        datePublished: '2024-01-12',
-        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&fm=webp',
-        icon: Hammer
-    },
     // Batch 3: Specialty Guides
     {
         slug: 'vacation-rental-cleaning-tips-for-hosts',
@@ -171,7 +151,7 @@ export const BLOG_POSTS = [
     {
         slug: 'how-to-deep-clean-your-laundry-room',
         title: 'How to Deep Clean Your Laundry Room',
-        excerpt: 'From washing machine maintenance to dryer vent safety—keep your laundry room fresh and efficient.',
+        excerpt: 'From washing machine maintenance to dryer vent safety—essential tips for San Diego homeowners to keep laundry spaces fresh.',
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-19',
@@ -195,7 +175,7 @@ export const BLOG_POSTS = [
         category: 'Organization',
         readTime: '6 min read',
         datePublished: '2024-01-17',
-        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=800&fm=webp',
         icon: FolderOpen
     },
     {
@@ -222,7 +202,7 @@ export const BLOG_POSTS = [
     {
         slug: 'how-to-deep-clean-your-mattress',
         title: 'How to Deep Clean Your Mattress',
-        excerpt: 'Freshen up where you spend a third of your life. Remove allergens, stains, and odors for better sleep.',
+        excerpt: 'Freshen up where you spend a third of your life. Essential tips for San Diego homes dealing with allergens and dust mites.',
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-21',
@@ -242,7 +222,7 @@ export const BLOG_POSTS = [
     {
         slug: 'eco-friendly-cleaning-tips',
         title: 'Eco-Friendly Cleaning Tips',
-        excerpt: 'Clean your home and protect the planet. Natural solutions that work just as well as harsh chemicals.',
+        excerpt: 'Protect the planet while keeping your San Diego home spotless. Natural solutions that work just as well as harsh chemicals.',
         category: 'Green Living',
         readTime: '8 min read',
         datePublished: '2024-01-19',
@@ -252,7 +232,7 @@ export const BLOG_POSTS = [
     {
         slug: 'how-to-clean-your-home-office',
         title: 'How to Clean Your Home Office',
-        excerpt: 'A clean workspace is a productive workspace. Keep your home office fresh and distraction-free.',
+        excerpt: 'A clean workspace is a productive workspace. Tips for San Diego remote workers to keep home offices fresh.',
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
@@ -273,7 +253,7 @@ export const BLOG_POSTS = [
     {
         slug: 'how-to-clean-stainless-steel-appliances',
         title: 'How to Clean Stainless Steel Appliances',
-        excerpt: 'Get streak-free, fingerprint-free stainless steel. The right technique makes all the difference.',
+        excerpt: 'Get streak-free, fingerprint-free stainless steel. Tips for San Diego homes with hard water stains.',
         category: 'How-To',
         readTime: '6 min read',
         datePublished: '2024-01-23',
@@ -283,7 +263,7 @@ export const BLOG_POSTS = [
     {
         slug: 'weekly-cleaning-schedule-guide',
         title: 'Weekly Cleaning Schedule Guide',
-        excerpt: 'A realistic routine that keeps your home consistently clean—without taking over your life.',
+        excerpt: 'A realistic routine for busy San Diego lifestyles—keep your home consistently clean without stress.',
         category: 'Guides',
         readTime: '7 min read',
         datePublished: '2024-01-22',
@@ -293,7 +273,7 @@ export const BLOG_POSTS = [
     {
         slug: 'allergy-proofing-your-home',
         title: 'Allergy-Proofing Your Home',
-        excerpt: 'Reduce indoor allergens and breathe easier. Cleaning strategies that make a real difference.',
+        excerpt: 'Reduce indoor allergens and breathe easier. Essential strategies for San Diego allergy season.',
         category: 'Health',
         readTime: '8 min read',
         datePublished: '2024-01-21',
@@ -303,7 +283,7 @@ export const BLOG_POSTS = [
     {
         slug: 'how-to-prepare-your-guest-room',
         title: 'How to Prepare Your Guest Room',
-        excerpt: 'Make your visitors feel truly welcome with a thoughtfully prepared space. It\'s the little details.',
+        excerpt: 'Make your visitors feel truly welcome. Perfect for San Diego hosts welcoming family and tourists.',
         category: 'Hospitality',
         readTime: '7 min read',
         datePublished: '2024-01-20',
