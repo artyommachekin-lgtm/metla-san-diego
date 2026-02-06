@@ -1,0 +1,16 @@
+# Metla House Cleaning - Robots.txt
+# TODO: [NEEDS LOCALIZATION] Update domain URL below to match SITE_CONFIG.baseUrl for each franchise
+# https://metlahousecleaningmiami.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://metlahousecleaningmiami.com/sitemap.xml
+
+# Crawl-delay (optional, helps server load)
+Crawl-delay: 1
+
+# Block common non-public directories
+Disallow: /api/
+Disallow: /.env
