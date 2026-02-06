@@ -74,7 +74,7 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
-        image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&fm=webp',
         icon: Fan
     },
     {
@@ -84,7 +84,7 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-17',
-        image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800&fm=webp',
         icon: Gem
     },
     {
@@ -94,7 +94,7 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '9 min read',
         datePublished: '2024-01-16',
-        image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=800&fm=webp',
         icon: Sofa
     },
     {
@@ -104,7 +104,7 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '10 min read',
         datePublished: '2024-01-15',
-        image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=80&w=800&fm=webp',
         icon: Bug
     },
     {
@@ -114,7 +114,7 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-14',
-        image: 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?q=80&w=800&fm=webp',
+        image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?q=80&w=800&fm=webp',
         icon: ThermometerSnowflake
     },
     {
