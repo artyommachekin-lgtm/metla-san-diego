@@ -1,8 +1,8 @@
 /**
- * TODO: [GEO-SPECIFIC] This blog page contains Miami-specific content:
- * - SEO title/description mentions "Miami"
- * - Content references "Miami", "humidity", "salt air", "tropical climate"
- * - Location links to Miami, Brickell, Coral Gables
+ * TODO: [GEO-SPECIFIC] This blog page contains San Diego-specific content:
+ * - SEO title/description mentions "San Diego"
+ * - Content references "San Diego", "coastal conditions", "ocean air", "coastal climate"
+ * - Location links to San Diego, Downtown, La Mesa
  * Update for each franchise location.
  */
 import React, { useEffect } from 'react';
@@ -83,8 +83,8 @@ const DeepCleaningGuidePage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Ultimate Deep Cleaning Guide for Miami Homes | ${COMPANY_NAME}`,
-            description: 'Learn how to deep clean your Miami home like a professional. Step-by-step guide covering humidity challenges, room-by-room cleaning, and pro tips for lasting results.',
+            title: `Ultimate Deep Cleaning Guide for San Diego Homes | ${COMPANY_NAME}`,
+            description: 'Learn how to deep clean your San Diego home like a professional. Step-by-step guide covering coastal conditions challenges, room-by-room cleaning, and pro tips for lasting results.',
             path: location.pathname,
         });
         return () => {
@@ -95,15 +95,15 @@ const DeepCleaningGuidePage: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             <ArticleSchema
-                title="The Ultimate Deep Cleaning Guide for Miami Homes"
-                description="Learn how to deep clean your Miami home like a professional. Our comprehensive guide covers humidity considerations, room-by-room techniques, and expert tips."
+                title="The Ultimate Deep Cleaning Guide for San Diego Homes"
+                description="Learn how to deep clean your San Diego home like a professional. Our comprehensive guide covers coastal conditions considerations, room-by-room techniques, and expert tips."
                 slug="deep-cleaning-guide-miami"
                 datePublished="2024-01-15"
                 dateModified="2024-01-15"
             />
             <HowToSchema
-                name="How to Deep Clean Your Miami Home"
-                description="A professional step-by-step guide to deep cleaning your home in Miami's humid climate."
+                name="How to Deep Clean Your San Diego Home"
+                description="A professional step-by-step guide to deep cleaning your home in San Diego's humid climate."
                 totalTime="PT6H"
                 supply={[
                     "Microfiber cloths",
@@ -141,10 +141,10 @@ const DeepCleaningGuidePage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            The Ultimate Deep Cleaning Guide for Miami Homes
+                            The Ultimate Deep Cleaning Guide for San Diego Homes
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Learn how to deep clean your home like a professional, with special tips for Miami's unique climate challenges.
+                            Learn how to deep clean your home like a professional, with special tips for San Diego's unique climate challenges.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -163,23 +163,23 @@ const DeepCleaningGuidePage: React.FC = () => {
                         <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
-                                <strong>How to deep clean your Miami home:</strong> Start by decluttering, then dust from top to bottom (ceiling fans to baseboards).
+                                <strong>How to deep clean your San Diego home:</strong> Start by decluttering, then dust from top to bottom (ceiling fans to baseboards).
                                 Deep clean bathrooms and kitchen, including inside appliances. Address floors, windows, and high-touch surfaces.
-                                In Miami's 70%+ humidity climate, pay special attention to moisture-prone areas like bathroom fans, closets, and AC vents.
+                                In San Diego's 70%+ coastal conditions climate, pay special attention to moisture-prone areas like bathroom fans, closets, and AC vents.
                                 A thorough deep clean takes 4-8 hours for a typical home, or you can hire professionals for $200-400.
                             </p>
                         </div>
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Living in Miami means enjoying beautiful weather, stunning beaches, and a vibrant lifestyle. But it also means dealing with humidity, salt air, and environmental factors that can make keeping a clean home more challenging. Whether you're preparing for guests, tackling spring cleaning, or simply want a fresh start, this comprehensive guide will help you deep clean your Miami home like a professional.
+                            Living in San Diego means enjoying beautiful weather, stunning beaches, and a vibrant lifestyle. But it also means dealing with coastal conditions, ocean air, and environmental factors that can make keeping a clean home more challenging. Whether you're preparing for guests, tackling spring cleaning, or simply want a fresh start, this comprehensive guide will help you deep clean your San Diego home like a professional.
                         </p>
 
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
-                            Why Deep Cleaning Matters in Miami
+                            Why Deep Cleaning Matters in San Diego
                         </h2>
                         <p className="text-slate-600">
-                            Miami's tropical climate creates unique cleaning challenges. High humidity promotes buildup in bathrooms and closets. Salt air from the ocean can leave residue on windows and outdoor surfaces. And the year-round warm weather means more time spent with windows open, allowing dust and allergens inside.
+                            San Diego's coastal climate creates unique cleaning challenges. High coastal conditions promotes buildup in bathrooms and closets. Salt air from the ocean can leave residue on windows and outdoor surfaces. And the year-round warm weather means more time spent with windows open, allowing dust and allergens inside.
                         </p>
                         <p className="text-slate-600">
                             Regular deep cleaning—beyond your weekly tidying—addresses these issues before they become problems. It improves indoor air quality, extends the life of your furnishings, and creates a healthier living environment for your family.
@@ -204,9 +204,9 @@ const DeepCleaningGuidePage: React.FC = () => {
                             ))}
                         </div>
 
-                        {/* Miami-Specific Tips */}
+                        {/* San Diego-Specific Tips */}
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
-                            Miami-Specific Deep Cleaning Tips
+                            San Diego-Specific Deep Cleaning Tips
                         </h2>
 
                         <div className="grid gap-4 my-6">
@@ -296,13 +296,13 @@ const DeepCleaningGuidePage: React.FC = () => {
                             <h3 className="font-bold text-slate-900 mb-4">Deep Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
                                 <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Miami
+                                    <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
                                 <Link to="/location/brickell" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Brickell
+                                    <MapPin className="w-3 h-3" /> Downtown
                                 </Link>
                                 <Link to="/location/coral-gables" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Coral Gables
+                                    <MapPin className="w-3 h-3" /> La Mesa
                                 </Link>
                             </div>
                         </div>

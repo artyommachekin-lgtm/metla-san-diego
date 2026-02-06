@@ -30,8 +30,8 @@ const MoveOutChecklistPage: React.FC = () => {
             answer: "Landlords typically deduct professional cleaning costs from your security deposit. This often costs more than hiring cleaners yourself due to markups. Leaving a property dirty may also affect your rental references."
         },
         {
-            question: "How much does move-out cleaning cost in Miami?",
-            answer: "Professional move-out cleaning in Miami typically ranges from $200-$400 for apartments and $350-$600 for houses, depending on size and condition. This is usually less than what landlords charge from deposits."
+            question: "How much does move-out cleaning cost in San Diego?",
+            answer: "Professional move-out cleaning in San Diego typically ranges from $200-$400 for apartments and $350-$600 for houses, depending on size and condition. This is usually less than what landlords charge from deposits."
         },
         {
             question: "How far in advance should I schedule move-out cleaning?",
@@ -137,7 +137,7 @@ const MoveOutChecklistPage: React.FC = () => {
     useEffect(() => {
         updatePageSEO({
             title: `Complete Move-Out Cleaning Checklist | ${COMPANY_NAME}`,
-            description: 'Get your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for Miami renters.',
+            description: 'Get your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for San Diego renters.',
             path: location.pathname,
         });
         return () => {
@@ -198,7 +198,7 @@ const MoveOutChecklistPage: React.FC = () => {
                             Complete Move-Out Cleaning Checklist: Get Your Deposit Back
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Moving out of your Miami rental? Use this comprehensive checklist to ensure you get your full security deposit returned.
+                            Moving out of your San Diego rental? Use this comprehensive checklist to ensure you get your full security deposit returned.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -215,7 +215,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Moving is stressful enough without worrying about your security deposit. In Miami's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
+                            Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
                         </p>
                         <p className="text-slate-600 mt-4">
                             This comprehensive checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed.
@@ -226,7 +226,7 @@ const MoveOutChecklistPage: React.FC = () => {
                             <div className="bg-teal-50 p-4 rounded-xl text-center">
                                 <Key className="w-8 h-8 text-teal-600 mx-auto mb-2" />
                                 <div className="text-2xl font-bold text-slate-900">$1,500+</div>
-                                <div className="text-sm text-slate-600">Avg. Miami deposit</div>
+                                <div className="text-sm text-slate-600">Avg. San Diego deposit</div>
                             </div>
                             <div className="bg-teal-50 p-4 rounded-xl text-center">
                                 <Home className="w-8 h-8 text-teal-600 mx-auto mb-2" />
@@ -381,10 +381,10 @@ const MoveOutChecklistPage: React.FC = () => {
                             <h3 className="font-bold text-slate-900 mb-4">Move-Out Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
                                 <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Miami
+                                    <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
                                 <Link to="/location/brickell" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Brickell
+                                    <MapPin className="w-3 h-3" /> Downtown
                                 </Link>
                                 <Link to="/location/coconut-grove" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
                                     <MapPin className="w-3 h-3" /> Coconut Grove

@@ -1,20 +1,70 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2 } from 'lucide-react';
 import { COMPANY_NAME } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
 // Blog post data
 export const BLOG_POSTS = [
     {
-        slug: 'deep-cleaning-guide-miami',
-        title: 'The Ultimate Deep Cleaning Guide for Miami Homes',
-        excerpt: 'Learn how to deep clean your Miami home like a professional. Our step-by-step guide covers everything from tackling humidity-related issues to sanitizing every room.',
+        slug: 'deep-cleaning-guide-san-diego',
+        title: 'The Ultimate Deep Cleaning Guide for San Diego Homes',
+        excerpt: 'Learn how to deep clean your San Diego home like a professional. Our step-by-step guide covers everything from tackling coastal dust and allergens to sanitizing every room.',
         category: 'Cleaning Guides',
         readTime: '8 min read',
         datePublished: '2024-01-15',
         image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&fm=webp',
         icon: Sparkles
+    },
+    {
+        slug: 'how-to-deep-clean-the-kitchen',
+        title: 'How to Deep Clean the Kitchen: Complete Guide',
+        excerpt: 'Transform your San Diego kitchen with our expert deep cleaning guide. Step-by-step instructions for appliances, cabinets, and surfaces.',
+        category: 'Kitchen',
+        readTime: '10 min read',
+        datePublished: '2024-02-05',
+        image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&fm=webp',
+        icon: ChefHat
+    },
+    {
+        slug: 'bathroom-deep-cleaning-checklist',
+        title: 'Bathroom Deep Cleaning Checklist: The Ultimate Guide',
+        excerpt: 'Our comprehensive bathroom cleaning checklist ensures every surface sparkles. Perfect for San Diego homes dealing with hard water and humidity.',
+        category: 'Checklists',
+        readTime: '8 min read',
+        datePublished: '2024-02-04',
+        image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&fm=webp',
+        icon: Bath
+    },
+    {
+        slug: 'essential-post-construction-cleaning-checklist-for-homeowners',
+        title: 'Essential Post-Construction Cleaning Checklist for Homeowners',
+        excerpt: 'Just finished a renovation in San Diego? Use our detailed checklist to tackle construction dust and debris like a pro.',
+        category: 'Specialty Cleaning',
+        readTime: '9 min read',
+        datePublished: '2024-02-03',
+        image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&fm=webp',
+        icon: Hammer
+    },
+    {
+        slug: 'how-much-does-a-deep-house-cleaning-cost',
+        title: 'How Much Does a Deep House Cleaning Cost in San Diego?',
+        excerpt: 'Understanding deep cleaning costs in San Diego. Get transparent pricing info and learn what factors affect your cleaning quote.',
+        category: 'Pricing',
+        readTime: '7 min read',
+        datePublished: '2024-02-02',
+        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&fm=webp',
+        icon: DollarSign
+    },
+    {
+        slug: 'top-10-spring-deep-cleaning-tips',
+        title: 'Top 10 Spring Deep Cleaning Tips for San Diego Homes',
+        excerpt: 'Get your San Diego home ready for spring with our expert cleaning tips. Tackle seasonal allergens and refresh every room.',
+        category: 'Seasonal',
+        readTime: '8 min read',
+        datePublished: '2024-02-01',
+        image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=800&fm=webp',
+        icon: Flower2
     },
     {
         slug: 'move-out-cleaning-checklist',
@@ -48,7 +98,7 @@ export const BLOG_POSTS = [
     },
     {
         slug: 'post-construction-cleaning-guide',
-        title: 'Post-Construction Cleaning: Complete Guide for Miami Homes',
+        title: 'Post-Construction Cleaning: Complete Guide for San Diego Homes',
         excerpt: 'Just finished a renovation? Here\'s everything you need to know about getting construction dust out and your space move-in ready.',
         category: 'Specialty Cleaning',
         readTime: '7 min read',
@@ -64,7 +114,7 @@ const BlogPage: React.FC = () => {
     useEffect(() => {
         updatePageSEO({
             title: `Cleaning Tips & Guides | ${COMPANY_NAME} Blog`,
-            description: 'Expert cleaning tips, guides, and checklists from Miami\'s trusted house cleaning professionals. Learn how to maintain a pristine home.',
+            description: 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a pristine home.',
             path: location.pathname,
         });
         return () => {
@@ -81,7 +131,7 @@ const BlogPage: React.FC = () => {
                         Cleaning Tips & Expert Guides
                     </h1>
                     <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-                        Professional insights and practical advice for keeping your Miami home spotless.
+                        Professional insights and practical advice for keeping your San Diego home spotless.
                     </p>
                 </div>
             </section>

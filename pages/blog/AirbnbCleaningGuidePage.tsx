@@ -1,6 +1,6 @@
 /**
  * TODO: [GEO-SPECIFIC] Review this blog page for location-specific content:
- * - Check for Miami, Florida, neighborhood, or climate references
+ * - Check for San Diego, Florida, neighborhood, or climate references
  * - Update for each franchise location as needed.
  */
 import React, { useEffect } from 'react';
@@ -28,8 +28,8 @@ const AirbnbCleaningGuidePage: React.FC = () => {
 
     const faqs: FAQItem[] = [
         {
-            question: "How much should I pay for Airbnb cleaning in Miami?",
-            answer: "Airbnb turnover cleaning in Miami typically costs $80-150 for studios/1BR, $120-200 for 2BR, and $180-300+ for larger properties. Rates vary based on size, condition, and turnaround time needed."
+            question: "How much should I pay for Airbnb cleaning in San Diego?",
+            answer: "Airbnb turnover cleaning in San Diego typically costs $80-150 for studios/1BR, $120-200 for 2BR, and $180-300+ for larger properties. Rates vary based on size, condition, and turnaround time needed."
         },
         {
             question: "How fast can an Airbnb be cleaned between guests?",
@@ -204,7 +204,7 @@ const AirbnbCleaningGuidePage: React.FC = () => {
                         </div>
 
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
-                            Miami-Specific Vacation Rental Tips
+                            San Diego-Specific Vacation Rental Tips
                         </h2>
                         <ul className="text-slate-600 space-y-3 my-4">
                             <li className="flex items-start gap-2">
@@ -213,7 +213,7 @@ const AirbnbCleaningGuidePage: React.FC = () => {
                             </li>
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
-                                <span><strong>AC filters:</strong> Check and clean regularly. Miami's humidity means buildup happens fast.</span>
+                                <span><strong>AC filters:</strong> Check and clean regularly. San Diego's coastal conditions means buildup happens fast.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
@@ -285,10 +285,10 @@ const AirbnbCleaningGuidePage: React.FC = () => {
                             <h3 className="font-bold text-slate-900 mb-4">Vacation Rental Cleaning in Your Area</h3>
                             <div className="flex flex-wrap gap-2">
                                 <Link to="/location/miami-beach" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Miami Beach
+                                    <MapPin className="w-3 h-3" /> San Diego Beach
                                 </Link>
                                 <Link to="/location/brickell" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Brickell
+                                    <MapPin className="w-3 h-3" /> Downtown
                                 </Link>
                                 <Link to="/location/sunny-isles-beach" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
                                     <MapPin className="w-3 h-3" /> Sunny Isles Beach

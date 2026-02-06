@@ -55,7 +55,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
         {
             icon: Heart,
             title: "Better Health & Air Quality",
-            description: "Regular professional cleaning reduces allergens, dust mites, and bacteria. Essential in Miami's humid environment."
+            description: "Regular professional cleaning reduces allergens, dust mites, and bacteria. Essential in San Diego's humid environment."
         },
         {
             icon: DollarSign,
@@ -72,7 +72,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
     useEffect(() => {
         updatePageSEO({
             title: `Why Hire a Regular Cleaning Service? Benefits Explained | ${COMPANY_NAME}`,
-            description: 'Discover the benefits of recurring house cleaning services. Save time, improve health, and maintain your Miami home with professional standard cleaning.',
+            description: 'Discover the benefits of recurring house cleaning services. Save time, improve health, and maintain your San Diego home with professional standard cleaning.',
             path: location.pathname,
         });
         return () => {
@@ -110,7 +110,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             Why Hire a Regular Cleaning Service? The Benefits Explained
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Is recurring house cleaning worth the investment? Here's why Miami homeowners are making the switch to professional cleaning.
+                            Is recurring house cleaning worth the investment? Here's why San Diego homeowners are making the switch to professional cleaning.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -126,7 +126,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Between work, family, and trying to maintain some semblance of a social life, who has time to clean? If you've ever come home exhausted only to see dishes in the sink and dust bunnies gathering in corners, you're not alone. More Miami homeowners are discovering that professional cleaning isn't a luxury—it's a lifestyle upgrade that pays dividends in time, health, and happiness.
+                            Between work, family, and trying to maintain some semblance of a social life, who has time to clean? If you've ever come home exhausted only to see dishes in the sink and dust bunnies gathering in corners, you're not alone. More San Diego homeowners are discovering that professional cleaning isn't a luxury—it's a lifestyle upgrade that pays dividends in time, health, and happiness.
                         </p>
 
                         {/* Benefits Grid */}
@@ -152,7 +152,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             The Real Cost of DIY Cleaning
                         </h2>
                         <p className="text-slate-600">
-                            When you factor in the value of your time, professional cleaning often makes financial sense. Consider this: if you earn $30/hour at work and spend 5 hours weekly cleaning, that's $150 worth of your time. Professional weekly cleaning for a typical Miami home costs $100-150—meaning you break even while getting professional results and actual rest.
+                            When you factor in the value of your time, professional cleaning often makes financial sense. Consider this: if you earn $30/hour at work and spend 5 hours weekly cleaning, that's $150 worth of your time. Professional weekly cleaning for a typical San Diego home costs $100-150—meaning you break even while getting professional results and actual rest.
                         </p>
                         <p className="text-slate-600 mt-4">
                             Plus, professionals bring commercial-grade equipment and products that deliver deeper cleaning than most household supplies. They know which products work best on different surfaces, reducing the risk of damage to your finishes.
@@ -247,10 +247,10 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             <h3 className="font-bold text-slate-900 mb-4">Standard Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
                                 <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Miami
+                                    <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
                                 <Link to="/location/coral-gables" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Coral Gables
+                                    <MapPin className="w-3 h-3" /> La Mesa
                                 </Link>
                                 <Link to="/location/coconut-grove" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
                                     <MapPin className="w-3 h-3" /> Coconut Grove

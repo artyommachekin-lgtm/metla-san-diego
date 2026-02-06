@@ -30,8 +30,8 @@ const PostConstructionCleaningPage: React.FC = () => {
             answer: "Schedule post-construction cleaning once all construction work is complete and contractors have done their initial rough clean. Most homeowners book 1-2 weeks before moving in or listing the property."
         },
         {
-            question: "How much does post-construction cleaning cost in Miami?",
-            answer: "Post-construction cleaning in Miami typically costs $0.20-0.50 per square foot, or $400-1,200+ for most homes. Final pricing depends on construction scope, debris levels, and home size."
+            question: "How much does post-construction cleaning cost in San Diego?",
+            answer: "Post-construction cleaning in San Diego typically costs $0.20-0.50 per square foot, or $400-1,200+ for most homes. Final pricing depends on construction scope, debris levels, and home size."
         },
         {
             question: "How long does post-construction cleaning take?",
@@ -102,8 +102,8 @@ const PostConstructionCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Post-Construction Cleaning: Complete Guide for Miami Homes | ${COMPANY_NAME}`,
-            description: 'Everything you need to know about post-construction cleaning in Miami. Learn when to schedule, what to expect, and how to prepare your new space.',
+            title: `Post-Construction Cleaning: Complete Guide for San Diego Homes | ${COMPANY_NAME}`,
+            description: 'Everything you need to know about post-construction cleaning in San Diego. Learn when to schedule, what to expect, and how to prepare your new space.',
             path: location.pathname,
         });
         return () => {
@@ -114,7 +114,7 @@ const PostConstructionCleaningPage: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             <ArticleSchema
-                title="Post-Construction Cleaning: Complete Guide for Miami Homes"
+                title="Post-Construction Cleaning: Complete Guide for San Diego Homes"
                 description="A comprehensive guide to post-construction and post-renovation cleaning, including what to expect, costs, and professional tips."
                 slug="post-construction-cleaning-guide"
                 datePublished="2024-01-12"
@@ -161,7 +161,7 @@ const PostConstructionCleaningPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Post-Construction Cleaning: Complete Guide for Miami Homes
+                            Post-Construction Cleaning: Complete Guide for San Diego Homes
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Just finished a renovation? Here's everything you need to know about getting your space move-in ready.
@@ -316,13 +316,13 @@ const PostConstructionCleaningPage: React.FC = () => {
                             <h3 className="font-bold text-slate-900 mb-4">Post-Construction Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
                                 <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Miami
+                                    <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
                                 <Link to="/location/brickell" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Brickell
+                                    <MapPin className="w-3 h-3" /> Downtown
                                 </Link>
                                 <Link to="/location/coral-gables" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Coral Gables
+                                    <MapPin className="w-3 h-3" /> La Mesa
                                 </Link>
                             </div>
                         </div>

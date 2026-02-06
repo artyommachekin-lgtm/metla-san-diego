@@ -55,17 +55,17 @@ const App: React.FC = () => {
             <Route path="/house-cleaning" element={<HouseCleaningPage />} />
             <Route path="/same-day-cleaning" element={<SameDayCleaningPage />} />
             <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/deep-cleaning-guide-miami" element={<DeepCleaningGuidePage />} />
+            <Route path="/blog/deep-cleaning-guide-san-diego" element={<DeepCleaningGuidePage />} />
             <Route path="/blog/move-out-cleaning-checklist" element={<MoveOutChecklistPage />} />
             <Route path="/blog/benefits-of-regular-cleaning-service" element={<StandardCleaningBenefitsPage />} />
             <Route path="/blog/airbnb-turnover-cleaning-guide" element={<AirbnbCleaningGuidePage />} />
             <Route path="/blog/post-construction-cleaning-guide" element={<PostConstructionCleaningPage />} />
-            {/* Batch 1 Blog Routes - using exact existing slugs */}
-            <Route path="/how-to-deep-clean-the-kitchen" element={<KitchenDeepCleanPage />} />
-            <Route path="/bathroom-deep-cleaning-checklist" element={<BathroomChecklistPage />} />
-            <Route path="/essential-post-construction-cleaning-checklist-for-homeowners" element={<PostConstructionChecklistPage />} />
-            <Route path="/how-much-does-a-deep-house-cleaning-cost" element={<DeepCleaningCostPage />} />
-            <Route path="/top-10-spring-deep-cleaning-tips" element={<SpringCleaningTipsPage />} />
+            {/* Batch 1 Blog Routes */}
+            <Route path="/blog/how-to-deep-clean-the-kitchen" element={<KitchenDeepCleanPage />} />
+            <Route path="/blog/bathroom-deep-cleaning-checklist" element={<BathroomChecklistPage />} />
+            <Route path="/blog/essential-post-construction-cleaning-checklist-for-homeowners" element={<PostConstructionChecklistPage />} />
+            <Route path="/blog/how-much-does-a-deep-house-cleaning-cost" element={<DeepCleaningCostPage />} />
+            <Route path="/blog/top-10-spring-deep-cleaning-tips" element={<SpringCleaningTipsPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
