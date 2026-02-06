@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake, Key, WashingMachine, Columns, FolderOpen, PawPrint, Layers, Moon, Box, Leaf, Monitor } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake, Key, WashingMachine, Columns, FolderOpen, PawPrint, Layers, Moon, Box, Leaf, Monitor, SunMedium, RefrigeratorIcon, CalendarDays, Shield, Bed } from 'lucide-react';
 import { COMPANY_NAME } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
@@ -258,6 +258,57 @@ export const BLOG_POSTS = [
         datePublished: '2024-01-18',
         image: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?q=80&w=800&fm=webp',
         icon: Monitor
+    },
+    // Batch 5: Final Guides
+    {
+        slug: 'how-to-clean-your-outdoor-patio',
+        title: 'How to Clean Your Outdoor Patio',
+        excerpt: 'Keep your outdoor living space beautiful and inviting. Tips for San Diego\'s year-round patio season.',
+        category: 'How-To',
+        readTime: '8 min read',
+        datePublished: '2024-01-24',
+        image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&fm=webp',
+        icon: SunMedium
+    },
+    {
+        slug: 'how-to-clean-stainless-steel-appliances',
+        title: 'How to Clean Stainless Steel Appliances',
+        excerpt: 'Get streak-free, fingerprint-free stainless steel. The right technique makes all the difference.',
+        category: 'How-To',
+        readTime: '6 min read',
+        datePublished: '2024-01-23',
+        image: 'https://images.unsplash.com/photo-1556909114-44e3e70034e2?q=80&w=800&fm=webp',
+        icon: Sparkles
+    },
+    {
+        slug: 'weekly-cleaning-schedule-guide',
+        title: 'Weekly Cleaning Schedule Guide',
+        excerpt: 'A realistic routine that keeps your home consistently clean—without taking over your life.',
+        category: 'Guides',
+        readTime: '7 min read',
+        datePublished: '2024-01-22',
+        image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=800&fm=webp',
+        icon: CalendarDays
+    },
+    {
+        slug: 'allergy-proofing-your-home',
+        title: 'Allergy-Proofing Your Home',
+        excerpt: 'Reduce indoor allergens and breathe easier. Cleaning strategies that make a real difference.',
+        category: 'Health',
+        readTime: '8 min read',
+        datePublished: '2024-01-21',
+        image: 'https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?q=80&w=800&fm=webp',
+        icon: Shield
+    },
+    {
+        slug: 'how-to-prepare-your-guest-room',
+        title: 'How to Prepare Your Guest Room',
+        excerpt: 'Make your visitors feel truly welcome with a thoughtfully prepared space. It\'s the little details.',
+        category: 'Hospitality',
+        readTime: '7 min read',
+        datePublished: '2024-01-20',
+        image: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800&fm=webp',
+        icon: Bed
     }
 ];
 

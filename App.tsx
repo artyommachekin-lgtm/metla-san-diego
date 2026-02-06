@@ -50,6 +50,13 @@ const MoveInChecklistPage = lazy(() => import('./pages/blog/MoveInChecklistPage'
 const GreenCleaningPage = lazy(() => import('./pages/blog/GreenCleaningPage'));
 const HomeOfficeCleaningPage = lazy(() => import('./pages/blog/HomeOfficeCleaningPage'));
 
+// Batch 5 Blog Pages (FINAL)
+const PatioCleaningPage = lazy(() => import('./pages/blog/PatioCleaningPage'));
+const StainlessSteelPage = lazy(() => import('./pages/blog/StainlessSteelPage'));
+const CleaningSchedulePage = lazy(() => import('./pages/blog/CleaningSchedulePage'));
+const AllergyProofingPage = lazy(() => import('./pages/blog/AllergyProofingPage'));
+const GuestRoomPrepPage = lazy(() => import('./pages/blog/GuestRoomPrepPage'));
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
@@ -105,6 +112,12 @@ const App: React.FC = () => {
             <Route path="/blog/move-in-cleaning-checklist" element={<MoveInChecklistPage />} />
             <Route path="/blog/eco-friendly-cleaning-tips" element={<GreenCleaningPage />} />
             <Route path="/blog/how-to-clean-your-home-office" element={<HomeOfficeCleaningPage />} />
+            {/* Batch 5 Blog Routes (FINAL) */}
+            <Route path="/blog/how-to-clean-your-outdoor-patio" element={<PatioCleaningPage />} />
+            <Route path="/blog/how-to-clean-stainless-steel-appliances" element={<StainlessSteelPage />} />
+            <Route path="/blog/weekly-cleaning-schedule-guide" element={<CleaningSchedulePage />} />
+            <Route path="/blog/allergy-proofing-your-home" element={<AllergyProofingPage />} />
+            <Route path="/blog/how-to-prepare-your-guest-room" element={<GuestRoomPrepPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
