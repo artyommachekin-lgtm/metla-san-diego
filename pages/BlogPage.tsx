@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2 } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Sparkles, Home, Building2, Plane, Hammer, ChefHat, Bath, DollarSign, Flower2, Fan, Gem, Sofa, Bug, ThermometerSnowflake } from 'lucide-react';
 import { COMPANY_NAME } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
@@ -66,6 +66,57 @@ export const BLOG_POSTS = [
         image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=800&fm=webp',
         icon: Flower2
     },
+    // Batch 2: How-To Guides
+    {
+        slug: 'how-to-deep-clean-ceiling-fans',
+        title: 'How to Deep Clean Ceiling Fans: The Complete Guide',
+        excerpt: 'Master the pillowcase trick and keep your fans dust-free without making a mess. Essential tips for San Diego homes with year-round fan use.',
+        category: 'How-To',
+        readTime: '7 min read',
+        datePublished: '2024-01-18',
+        image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&fm=webp',
+        icon: Fan
+    },
+    {
+        slug: 'how-to-deep-clean-granite-counters',
+        title: 'How to Deep Clean Granite Countertops',
+        excerpt: 'Protect your investment with proper granite care. Learn safe cleaning methods and tackle San Diego hard water stains.',
+        category: 'How-To',
+        readTime: '8 min read',
+        datePublished: '2024-01-17',
+        image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&fm=webp',
+        icon: Gem
+    },
+    {
+        slug: 'how-to-deep-clean-and-sanitize-upholstered-furniture',
+        title: 'How to Deep Clean Upholstered Furniture',
+        excerpt: 'Breathe new life into your sofas and chairs. Fabric-safe techniques for every upholstery type, plus pet owner extras.',
+        category: 'How-To',
+        readTime: '9 min read',
+        datePublished: '2024-01-16',
+        image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&fm=webp',
+        icon: Sofa
+    },
+    {
+        slug: 'how-to-eliminate-mold-from-your-home',
+        title: 'How to Eliminate Mold From Your Home',
+        excerpt: 'Safe mold removal methods and prevention tips. Know when to DIY and when to call professionals in San Diego\'s coastal climate.',
+        category: 'How-To',
+        readTime: '10 min read',
+        datePublished: '2024-01-15',
+        image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&fm=webp',
+        icon: Bug
+    },
+    {
+        slug: 'how-to-get-rid-of-bad-smell-in-the-fridge',
+        title: 'How to Get Rid of Bad Smell in the Refrigerator',
+        excerpt: 'That mystery smell? We\'ll help you find it, eliminate it, and prevent it from coming back. Complete fridge cleaning guide.',
+        category: 'How-To',
+        readTime: '8 min read',
+        datePublished: '2024-01-14',
+        image: 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?q=80&w=800&fm=webp',
+        icon: ThermometerSnowflake
+    },
     {
         slug: 'move-out-cleaning-checklist',
         title: 'Complete Move-Out Cleaning Checklist: Get Your Deposit Back',
@@ -107,6 +158,7 @@ export const BLOG_POSTS = [
         icon: Hammer
     }
 ];
+
 
 const BlogPage: React.FC = () => {
     const location = useLocation();
