@@ -119,8 +119,8 @@ export const BLOG_POSTS = [
     },
     {
         slug: 'move-out-cleaning-checklist',
-        title: 'Complete Move-Out Cleaning Checklist: Get Your Deposit Back',
-        excerpt: 'Moving out? Use our comprehensive cleaning checklist to ensure you get your full security deposit back. Room-by-room guide with pro tips.',
+        title: 'Complete Move-Out Cleaning Checklist for San Diego Renters',
+        excerpt: 'Moving out? Use our comprehensive cleaning checklist to maximize your chances of getting your full security deposit back. Room-by-room guide with pro tips.',
         category: 'Checklists',
         readTime: '6 min read',
         datePublished: '2024-01-10',

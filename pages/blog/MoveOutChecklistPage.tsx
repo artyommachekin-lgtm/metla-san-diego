@@ -137,7 +137,7 @@ const MoveOutChecklistPage: React.FC = () => {
     useEffect(() => {
         updatePageSEO({
             title: `Complete Move-Out Cleaning Checklist | ${COMPANY_NAME}`,
-            description: 'Get your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for San Diego renters.',
+            description: 'Maximize your chances of getting your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for San Diego renters.',
             path: location.pathname,
         });
         return () => {
@@ -148,15 +148,15 @@ const MoveOutChecklistPage: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             <ArticleSchema
-                title="Complete Move-Out Cleaning Checklist: Get Your Deposit Back"
-                description="A comprehensive move-out cleaning checklist to ensure you get your full security deposit back. Room-by-room guide with professional tips."
+                title="Complete Move-Out Cleaning Checklist for San Diego Renters"
+                description="A comprehensive move-out cleaning checklist to help maximize your chances of getting your full security deposit back. Room-by-room guide with professional tips."
                 slug="move-out-cleaning-checklist"
                 datePublished="2024-01-10"
                 dateModified="2024-01-10"
             />
             <HowToSchema
                 name="How to Clean Your Apartment Before Moving Out"
-                description="Step-by-step guide to thoroughly clean your rental before moving out and get your full security deposit returned."
+                description="Step-by-step guide to thoroughly clean your rental before moving out and maximize your chances of a full security deposit return."
                 totalTime="PT8H"
                 supply={[
                     "All-purpose cleaner",
@@ -195,10 +195,10 @@ const MoveOutChecklistPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Complete Move-Out Cleaning Checklist: Get Your Deposit Back
+                            Complete Move-Out Cleaning Checklist for San Diego Renters
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Moving out of your San Diego rental? Use this comprehensive checklist to ensure you get your full security deposit returned.
+                            Moving out of your San Diego rental? Use this comprehensive checklist to maximize your chances of getting your full security deposit returned.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -215,7 +215,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
+                            Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to maximizing your chances of getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
                         </p>
                         <p className="text-slate-600 mt-4">
                             This comprehensive checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed.
@@ -326,7 +326,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
                         {/* Pro Tips */}
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
-                            Pro Tips for Getting Your Deposit Back
+                            Pro Tips for Maximizing Your Deposit Return
                         </h2>
                         <ul className="text-slate-600 space-y-3 my-4">
                             <li className="flex items-start gap-2">

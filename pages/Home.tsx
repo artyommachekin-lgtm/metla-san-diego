@@ -181,7 +181,7 @@ const Home: React.FC = () => {
               <div className="p-6">
                 <span className="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-2 py-1 rounded mb-3">Checklists</span>
                 <h3 className="font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2">Move-Out Cleaning Checklist</h3>
-                <p className="text-sm text-slate-600 line-clamp-2">Get your security deposit back with our complete room-by-room guide.</p>
+                <p className="text-sm text-slate-600 line-clamp-2">Maximize your chances of getting your security deposit back with our complete room-by-room guide.</p>
                 <div className="mt-4 flex items-center text-teal-700 text-sm font-medium">
                   <BookOpen className="w-4 h-4 mr-1" /> 6 min read
                 </div>

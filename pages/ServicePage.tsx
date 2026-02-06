@@ -38,7 +38,7 @@ const SERVICE_FAQS: Record<string, FAQItem[]> = {
   ],
   'move-in-out-cleaning': [
     { question: 'What areas are covered in move-in/move-out cleaning?', answer: 'This exhaustive cleaning covers every inch of an empty property: inside all cabinets, closets, and drawers; inside all appliances (oven, refrigerator, dishwasher); bathrooms sanitized top to bottom; light fixtures cleaned; baseboards and door frames; and all floors deep cleaned.' },
-    { question: 'Can move-out cleaning help get my deposit back?', answer: 'Yes! A professional move-out cleaning significantly increases your chances of getting your full security deposit returned. We meet or exceed property management cleaning standards and can provide a cleaning receipt for documentation.' },
+    { question: 'Can move-out cleaning help with my deposit?', answer: 'A professional move-out cleaning can significantly improve your chances of getting your full security deposit returned. We meet or exceed property management cleaning standards and can provide a cleaning receipt for documentation.' },
     { question: 'Should I clean before or after movers?', answer: 'For move-out: Schedule cleaning after all belongings are removed for the most thorough results. For move-in: Clean before your furniture arrives so we can reach all areas and you can move into a fresh, sanitized home.' },
   ],
 };
