@@ -520,13 +520,13 @@ Your renovation deserves a proper finishing touch. Let us reveal the beauty of y
     title: "Vacation Rental Cleaning",
     slug: "vacation-rental-cleaning-airbnb",
     shortDescription: "Seamless turnovers for high-performing hosts. We ensure your property is hotel-ready for every single guest check-in.",
-    fullDescription: `In the competitive Miami short-term rental market, cleanliness is the single biggest factor in your guest ratings. Our Vacation Rental service is not just a cleaning—it's a "hospitality turnover." We act as your eyes and ears on the ground, staging your property for maximum visual impact and ensuring that every guest feels they're the first person to stay there. We help hosts maintain their reputation with consistent, reliable quality on every turnover.
+    fullDescription: `In the competitive San Diego short-term rental market, cleanliness is the single biggest factor in your guest ratings. Our Vacation Rental service is not just a cleaning—it's a "hospitality turnover." We act as your eyes and ears on the ground, staging your property for maximum visual impact and ensuring that every guest feels they're the first person to stay there. We help hosts maintain their reputation with consistent, reliable quality on every turnover.
 
 ## Built for Airbnb, VRBO, and Short-Term Rental Hosts
 
 We understand the unique pressures of vacation rental management. Check-out at 11 AM, check-in at 3 PM—and everything needs to be perfect. Our turnover service is designed around these tight windows, combining efficiency with thoroughness to get your property guest-ready on schedule.
 
-We've cleaned hundreds of vacation rentals across Miami Beach, Brickell, Wynwood, and throughout South Florida. We know what guests expect in this market and what triggers negative reviews. Cleanliness complaints are the number one reason for rating downgrades—and the easiest to prevent with the right cleaning partner.
+We've cleaned hundreds of vacation rentals across Pacific Beach, La Jolla, Coronado, and throughout San Diego County. We know what guests expect in this market and what triggers negative reviews. Cleanliness complaints are the number one reason for rating downgrades—and the easiest to prevent with the right cleaning partner.
 
 ## Complete Transparency in Our Service
 
