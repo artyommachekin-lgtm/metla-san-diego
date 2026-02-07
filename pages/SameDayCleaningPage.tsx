@@ -1,11 +1,6 @@
 /**
- * TODO: [NEEDS LOCALIZATION] This page contains extensive Miami-specific content:
- * - FAQs mention "Miami", "Miami-Dade and Broward", "Gold Coast", "(786)" phone
- * - serviceSchema has hardcoded Miami URLs and "Miami" in areaServed
- * - Prose mentions "Miami" and "Gold Coast" in hero/body text
- * - Trust signals mention "Miami homeowners"
- * 
- * For franchise deployment, update FAQs, schema, and text references.
+ * Service Page: Same Day Cleaning - San Diego
+ * Localized for San Diego County service areas.
  */
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
@@ -17,12 +12,12 @@ import FAQSchema, { FAQItem } from '../components/FAQSchema';
 // Same Day Cleaning FAQs for rich snippets
 const SAME_DAY_FAQS: FAQItem[] = [
     {
-        question: 'Can I get same day house cleaning in Miami?',
-        answer: 'Yes! Metla House Cleaning offers same day cleaning services throughout Miami-Dade and Broward counties. While same day service requests are subject to availability, our team works hard to accommodate urgent cleaning needs. Call us at (786) 723-7533 for fastest scheduling.'
+        question: 'Can I get same day house cleaning in San Diego?',
+        answer: 'Yes! Metla House Cleaning offers same day cleaning services throughout San Diego County. While same day service requests are subject to availability, our team works hard to accommodate urgent cleaning needs. Call us at (707) 414-8930 for fastest scheduling.'
     },
     {
         question: 'How do I book a same day cleaning appointment?',
-        answer: 'For same day cleaning, we recommend calling us directly at (786) 723-7533 for the fastest response. You can also submit an online request, and we will contact you within 1-2 hours to confirm availability. Morning requests have the best chance of same-day accommodation.'
+        answer: 'For same day cleaning, we recommend calling us directly at (707) 414-8930 for the fastest response. You can also submit an online request, and we will contact you within 1-2 hours to confirm availability. Morning requests have the best chance of same-day accommodation.'
     },
     {
         question: 'What types of cleaning can be done same day?',
@@ -34,7 +29,7 @@ const SAME_DAY_FAQS: FAQItem[] = [
     },
     {
         question: 'What areas do you serve for same day cleaning?',
-        answer: 'We provide same day cleaning throughout Miami, Brickell, Coral Gables, Miami Beach, Fort Lauderdale, Hollywood, Aventura, and surrounding areas. Our team is strategically located to respond quickly to urgent requests across the Gold Coast.'
+        answer: 'We provide same day cleaning throughout San Diego County including La Jolla, Pacific Beach, Coronado, Hillcrest, North Park, Del Mar, Rancho Santa Fe, and surrounding neighborhoods. Our team is strategically located to respond quickly to urgent requests across the region.'
     },
 ];
 
@@ -44,8 +39,8 @@ const SameDayCleaningPage: React.FC = () => {
     // Set dynamic page title and meta description for SEO
     useEffect(() => {
         updatePageSEO({
-            title: `Same Day Cleaning Service Miami | Emergency House Cleaning | ${COMPANY_NAME}`,
-            description: 'Need cleaning today? Metla House Cleaning offers same day house cleaning in Miami, Brickell, Fort Lauderdale & the Gold Coast. Call (786) 723-7533 for urgent cleaning requests.',
+            title: `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${COMPANY_NAME}`,
+            description: 'Need cleaning today? Metla House Cleaning offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call (707) 414-8930 for urgent cleaning requests.',
             path: location.pathname,
         });
         return () => {
@@ -58,24 +53,24 @@ const SameDayCleaningPage: React.FC = () => {
         "@context": "https://schema.org",
         "@type": "Service",
         "serviceType": "Same Day House Cleaning",
-        "name": "Same Day Cleaning Service Miami",
-        "description": "Urgent same day house cleaning services in Miami and South Florida. Professional cleaners available for emergency and last-minute cleaning requests.",
+        "name": "Same Day Cleaning Service San Diego",
+        "description": "Urgent same day house cleaning services in San Diego County. Professional cleaners available for emergency and last-minute cleaning requests.",
         "provider": {
             "@type": "LocalBusiness",
             "name": "Metla House Cleaning",
-            "telephone": "+1-786-723-7533",
-            "url": "https://metlahousecleaningmiami.com"
+            "telephone": "+1-707-414-8930",
+            "url": "https://metlahousecleaningsandiego.com"
         },
         "areaServed": [
-            { "@type": "City", "name": "Miami" },
-            { "@type": "City", "name": "Fort Lauderdale" },
-            { "@type": "City", "name": "Brickell" },
-            { "@type": "City", "name": "Miami Beach" }
+            { "@type": "City", "name": "San Diego" },
+            { "@type": "City", "name": "La Jolla" },
+            { "@type": "City", "name": "Pacific Beach" },
+            { "@type": "City", "name": "Coronado" }
         ],
         "availableChannel": {
             "@type": "ServiceChannel",
-            "servicePhone": "+1-786-723-7533",
-            "serviceUrl": "https://metlahousecleaningmiami.com/same-day-cleaning"
+            "servicePhone": "+1-707-414-8930",
+            "serviceUrl": "https://metlahousecleaningsandiego.com/same-day-cleaning"
         }
     };
 
@@ -99,7 +94,7 @@ const SameDayCleaningPage: React.FC = () => {
                     <Clock className="w-16 h-16 text-teal-400 mx-auto mb-6" />
                     <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4">Same Day Cleaning Service</h1>
                     <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-8">
-                        Need your home cleaned today? Our team works hard to accommodate urgent requests throughout Miami and the Gold Coast.
+                        Need your home cleaned today? Our team works hard to accommodate urgent requests throughout San Diego County.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
@@ -201,7 +196,7 @@ const SameDayCleaningPage: React.FC = () => {
                             <div className="text-center">
                                 <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
                                 <h3 className="font-bold mb-2">Call or Request</h3>
-                                <p className="text-slate-300 text-sm">Call (786) 723-7533 directly for fastest response, or submit an online request.</p>
+                                <p className="text-slate-300 text-sm">Call (707) 414-8930 directly for fastest response, or submit an online request.</p>
                             </div>
                             <div className="text-center">
                                 <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
@@ -220,7 +215,7 @@ const SameDayCleaningPage: React.FC = () => {
                     <div className="mb-12">
                         <h2 className="text-3xl font-serif text-slate-900 mb-6">Same Day Cleaning Service Areas</h2>
                         <p className="text-slate-600 mb-6">
-                            We provide same day cleaning services throughout Miami-Dade and Broward counties:
+                            We provide same day cleaning services throughout San Diego County:
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {LOCATIONS.map((loc) => (
@@ -246,7 +241,7 @@ const SameDayCleaningPage: React.FC = () => {
                         <div className="text-center p-6 bg-slate-50 rounded-xl">
                             <Star className="w-10 h-10 text-yellow-500 mx-auto mb-4" />
                             <h3 className="font-bold text-slate-900 mb-2">4.9/5 Rating</h3>
-                            <p className="text-sm text-slate-600">Trusted by hundreds of Miami homeowners.</p>
+                            <p className="text-sm text-slate-600">Trusted by hundreds of San Diego homeowners.</p>
                         </div>
                         <div className="text-center p-6 bg-slate-50 rounded-xl">
                             <Check className="w-10 h-10 text-teal-600 mx-auto mb-4" />

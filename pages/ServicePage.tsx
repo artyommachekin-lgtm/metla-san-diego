@@ -1,8 +1,6 @@
 /**
- * TODO: [NEEDS LOCALIZATION] This page contains a Florida reference:
- * - Line 178: "throughout South Florida" in Available Locations section
- * 
- * Consider using SITE_CONFIG.regional.stateName or similar.
+ * Service Page - San Diego
+ * Displays service details, FAQs, and links to locations.
  */
 import React, { useEffect } from 'react';
 import { useParams, Navigate, Link, useLocation } from 'react-router-dom';
@@ -181,7 +179,7 @@ const ServicePage: React.FC = () => {
             {/* Available Locations Section for Internal Linking */}
             <div className="mt-12 pt-12 border-t border-slate-200">
               <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">Available In These Locations</h3>
-              <p className="text-slate-600 mb-6">We provide {service.title.toLowerCase()} services throughout South Florida:</p>
+              <p className="text-slate-600 mb-6">We provide {service.title.toLowerCase()} services throughout San Diego County:</p>
               <div className="flex flex-wrap gap-2 mb-8">
                 {LOCATIONS.map((loc) => (
                   <Link
