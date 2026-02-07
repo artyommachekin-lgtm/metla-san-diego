@@ -22,8 +22,10 @@ const Hero: React.FC = () => {
   };
 
   // Build origin story tagline from config
+  // For origin city (San Diego): emphasize local roots
+  // For expansion city (Miami): "brings [origin]'s protocol to [expansion]"
   const originTagline = SITE_CONFIG.originStory.enabled
-    ? `${SITE_CONFIG.companyName} brings our trusted 50-point cleaning protocol to ${SITE_CONFIG.regional.primaryCity}'s ${SITE_CONFIG.regional.marketingTagline}.`
+    ? `San Diego's most trusted 50-point cleaning protocol for homes across the county.`
     : `${SITE_CONFIG.companyName} delivers premium cleaning services across ${SITE_CONFIG.regional.primaryCity}.`;
 
   return (
