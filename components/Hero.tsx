@@ -23,8 +23,8 @@ const Hero: React.FC = () => {
 
   // Build origin story tagline from config
   const originTagline = SITE_CONFIG.originStory.enabled
-    ? `${SITE_CONFIG.companyName} brings ${SITE_CONFIG.originStory.originCity}'s most trusted 50-point cleaning protocol to the ${SITE_CONFIG.regional.primaryCity} ${SITE_CONFIG.regional.marketingTagline}.`
-    : `${SITE_CONFIG.companyName} delivers premium cleaning services across the ${SITE_CONFIG.regional.marketingTagline}.`;
+    ? `${SITE_CONFIG.companyName} brings our trusted 50-point cleaning protocol to ${SITE_CONFIG.regional.primaryCity}'s ${SITE_CONFIG.regional.marketingTagline}.`
+    : `${SITE_CONFIG.companyName} delivers premium cleaning services across ${SITE_CONFIG.regional.primaryCity}.`;
 
   return (
     <div className="relative min-h-[600px] bg-slate-900 text-white pb-24">

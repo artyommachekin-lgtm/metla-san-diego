@@ -61,7 +61,7 @@ export const SITE_CONFIG = {
         counties: ["San Diego County"],
 
         // Marketing tagline
-        marketingTagline: "San Diego Coastal and Inland",
+        marketingTagline: "Coastal & Inland Communities",
 
         // Local city nickname
         cityNickname: "America's Finest City",
