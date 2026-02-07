@@ -35,11 +35,11 @@ export const SERVICES: Service[] = [
     title: "Standard Cleaning",
     slug: "standard-cleaning",
     shortDescription: "Recurring maintenance to keep your home consistently pristine.",
-    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service is most effective on a weekly or bi-weekly schedule. We focus on maintaining the baseline of cleanliness and order that busy Miami families deserve.
+    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service is most effective on a weekly or bi-weekly schedule. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
 
 ## What to Expect From Your Standard Cleaning
 
-When you book a Standard Cleaning with Metla, you're not just getting a surface wipe-down—you're investing in a systematic approach to home maintenance developed over years of serving South Florida homeowners. Our trained cleaning professionals follow a detailed checklist that covers every room in your home, ensuring nothing is overlooked.
+When you book a Standard Cleaning with Metla, you're not just getting a surface wipe-down—you're investing in a systematic approach to home maintenance developed over years of serving San Diego homeowners. Our trained cleaning professionals follow a detailed checklist that covers every room in your home, ensuring nothing is overlooked.
 
 Before your first appointment, we'll discuss your specific needs and any areas that require extra attention. We believe in complete transparency: you'll know exactly what's included before we arrive, and our team will walk through the home with you afterward to ensure your complete satisfaction.
 
@@ -51,7 +51,7 @@ You'll receive a confirmation before each visit with your assigned cleaner's nam
 
 ## Customer Service That Sets Us Apart
 
-We're not just a cleaning company—we're your partners in maintaining a comfortable home. Our local Miami-based support team is available to answer questions, adjust schedules, and handle any concerns promptly. You'll never be transferred to an overseas call center or left waiting for days for a response.
+We're not just a cleaning company—we're your partners in maintaining a comfortable home. Our local San Diego-based support team is available to answer questions, adjust schedules, and handle any concerns promptly. You'll never be transferred to an overseas call center or left waiting for days for a response.
 
 Need to reschedule? Just give us 24 hours' notice and we'll find a new time that works for you. Have a last-minute request for extra attention in a particular room? Our team can accommodate most requests on the spot. We're flexible because we understand that life doesn't always go according to plan.
 
@@ -75,7 +75,7 @@ We understand that every home is different. That's why we listen carefully to yo
 
 ## The Metla Difference
 
-Choosing Metla means choosing a team that genuinely cares about your satisfaction. We're locally owned and operated right here in Miami, so our reputation in this community matters to us. We don't cut corners, we don't rush, and we don't disappear after the first few appointments. We show up, we do exceptional work, and we're here for the long term.
+Choosing Metla means choosing a team that genuinely cares about your satisfaction. We're locally owned and operated right here in San Diego, so our reputation in this community matters to us. We don't cut corners, we don't rush, and we don't disappear after the first few appointments. We show up, we do exceptional work, and we're here for the long term.
 
 We focus on maintaining the baseline of cleanliness and order:`,
     focusPoints: [
