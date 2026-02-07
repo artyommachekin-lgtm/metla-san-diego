@@ -176,7 +176,7 @@ We focus on maintaining the baseline of cleanliness and order:`,
   {
     id: 'deep',
     title: "Deep Cleaning",
-    slug: "deep-cleaning-miami",
+    slug: "deep-cleaning",
     shortDescription: "The ultimate home restoration. A top-to-bottom detail designed to eliminate heavy buildup and return your home to immaculate condition.",
     fullDescription: `Our Deep Cleaning is the foundational service for a truly healthy home. Recommended as an initial service for all new clients or as a quarterly refresh, this rigorous detail goes far beyond surface maintenance. We target the "invisible" layer of dirt—the grime that accumulates on baseboards, the dust clinging to ceiling fans, and the residue on cabinet fronts.
 
@@ -214,7 +214,7 @@ We recommend Deep Cleaning in several situations:
 
 **Before Starting Recurring Service:** If it's been more than a month since your last professional cleaning, we start with a Deep Clean to establish a proper baseline.
 
-**Seasonal Refresh:** Many Miami homeowners schedule quarterly deep cleans—particularly before the holidays, after hurricane season, or at the start of summer.
+**Seasonal Refresh:** Many San Diego homeowners schedule quarterly deep cleans—particularly before the holidays, after fire season, or at the start of summer.
 
 **Special Occasions:** Hosting a major event? A Deep Clean ensures your home makes the right impression on guests.
 
@@ -222,9 +222,9 @@ We recommend Deep Cleaning in several situations:
 
 ## The Metla Commitment
 
-We stand behind every Deep Cleaning with our satisfaction commitment. If something doesn't meet your expectations, contact us within 24 hours and we'll address the issue at no additional charge. Our reputation in Miami's neighborhoods matters to us—we succeed when you're genuinely delighted with our work.
+We stand behind every Deep Cleaning with our satisfaction commitment. If something doesn't meet your expectations, contact us within 24 hours and we'll address the issue at no additional charge. Our reputation in San Diego's neighborhoods matters to us—we succeed when you're genuinely delighted with our work.
 
-We're not here for just one cleaning. We're building lasting relationships with South Florida families who value a clean, healthy home. That's why we take the time to get it right.`,
+We're not here for just one cleaning. We're building lasting relationships with San Diego families who value a clean, healthy home. That's why we take the time to get it right.`,
     focusPoints: [
       {
         title: "Intensive Scrubbing",

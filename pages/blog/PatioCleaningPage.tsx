@@ -280,7 +280,7 @@ const PatioCleaningPage: React.FC = () => {
                                 While outdoor spaces are DIY territory, keep your indoor spaces professionally clean to match. Our deep cleaning service gets every corner so you can enjoy both spaces.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Deep Cleaning

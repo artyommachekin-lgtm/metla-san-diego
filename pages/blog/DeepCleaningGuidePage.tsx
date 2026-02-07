@@ -283,7 +283,7 @@ const DeepCleaningGuidePage: React.FC = () => {
                                 Let Metla House Cleaning handle your deep cleaning. Our trained professionals use hospital-grade products and follow a comprehensive 50-point checklist.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Our Deep Cleaning Service

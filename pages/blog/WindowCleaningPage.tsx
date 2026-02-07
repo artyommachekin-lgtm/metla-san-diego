@@ -262,7 +262,7 @@ const WindowCleaningPage: React.FC = () => {
                                 Interior window cleaning is available as an add-on to our deep cleaning and move-in/out services. Let us handle the hard-to-reach spots.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Explore Deep Cleaning Options

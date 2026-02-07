@@ -291,7 +291,7 @@ const FloorCleaningPage: React.FC = () => {
                                 Our deep cleaning service includes thorough floor cleaning—mopping, baseboard wiping, and attention to grout lines.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Deep Cleaning

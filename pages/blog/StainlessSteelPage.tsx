@@ -279,7 +279,7 @@ const StainlessSteelPage: React.FC = () => {
                                 Our deep cleaning service includes all appliance surfaces, inside and out. We'll get your entire kitchen sparkling, including hard-to-reach spots.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Deep Cleaning

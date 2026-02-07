@@ -19,7 +19,7 @@ const SERVICE_FAQS: Record<string, FAQItem[]> = {
     { question: 'How often should I schedule standard cleaning?', answer: 'Most clients choose weekly or bi-weekly cleanings to maintain their home. Weekly service is ideal for busy households, families with children or pets, while bi-weekly works well for smaller homes or individuals. We recommend starting with bi-weekly and adjusting based on your needs.' },
     { question: 'Do I need to be home during the cleaning?', answer: 'No, many of our clients provide a key, code, or smart lock access. All our cleaners are background-checked, insured, and bonded for your peace of mind. We will coordinate secure access arrangements during scheduling.' },
   ],
-  'deep-cleaning-miami': [
+  'deep-cleaning': [
     { question: 'What is the difference between deep cleaning and regular cleaning?', answer: 'Deep cleaning is more intensive and thorough than regular cleaning. It includes everything in a standard clean plus: cleaning inside appliances (oven, refrigerator, microwave), washing baseboards and door frames, cleaning inside cabinets, sanitizing light switches and fixtures, and addressing built-up grime in corners and hard-to-reach areas.' },
     { question: 'How long does a deep cleaning take?', answer: 'A typical deep cleaning takes 4-8 hours depending on your home\'s size and condition. A 2-bedroom home usually takes 4-5 hours, while larger homes or those that haven\'t been deep cleaned recently may take 6-8 hours.' },
     { question: 'How often should I get a deep cleaning?', answer: 'We recommend deep cleaning every 3-6 months, or before starting a recurring cleaning service. Seasonal deep cleans (spring and fall) help maintain a healthy home environment throughout the year.' },

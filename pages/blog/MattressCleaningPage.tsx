@@ -281,7 +281,7 @@ const MattressCleaningPage: React.FC = () => {
                                 While mattress cleaning is typically DIY, our deep cleaning service covers all the bedroom surfaces around it—floors, baseboards, blinds, and more.
                             </p>
                             <Link
-                                to="/service/deep-cleaning-miami"
+                                to="/service/deep-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Deep Cleaning

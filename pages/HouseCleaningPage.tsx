@@ -81,7 +81,7 @@ const HouseCleaningPage: React.FC = () => {
 
     const serviceIcons: { [key: string]: React.ElementType } = {
         'standard-cleaning': Sparkles,
-        'deep-cleaning-miami': Home,
+        'deep-cleaning': Home,
         'move-in-out-cleaning': Building2,
         'vacation-rental-cleaning-airbnb': Plane,
         'post-construction-cleaning-miami': Hammer,
