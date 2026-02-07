@@ -75,13 +75,12 @@ const Navigation: React.FC = () => {
           >
             Services
           </a>
-          <a
-            href="#locations"
-            onClick={(e) => handleNavClick(e, 'locations')}
-            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider cursor-pointer"
+          <Link
+            to="/locations"
+            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
           >
             Locations
-          </a>
+          </Link>
           <Link
             to="/about"
             className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
@@ -133,13 +132,9 @@ const Navigation: React.FC = () => {
           >
             Services
           </a>
-          <a
-            href="#locations"
-            onClick={(e) => handleNavClick(e, 'locations')}
-            className="text-lg font-medium"
-          >
+          <Link to="/locations" className="text-lg font-medium">
             Locations
-          </a>
+          </Link>
           <Link to="/about" className="text-lg font-medium">
             About
           </Link>
