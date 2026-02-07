@@ -84,7 +84,7 @@ const HouseCleaningPage: React.FC = () => {
         'deep-cleaning': Home,
         'move-in-out-cleaning': Building2,
         'vacation-rental-cleaning-airbnb': Plane,
-        'post-construction-cleaning-miami': Hammer,
+        'post-construction-cleaning': Hammer,
     };
 
     return (

@@ -357,7 +357,7 @@ We're not here for just one cleaning. We're building lasting relationships with 
   {
     id: 'post-construction',
     title: "Post-Construction Cleaning",
-    slug: "post-construction-cleaning-miami",
+    slug: "post-construction-cleaning",
     shortDescription: "The final step of your renovation. We remove fine dust and construction residue to reveal the true beauty of your new investment.",
     fullDescription: `Renovation creates a unique type of mess that standard cleaning cannot handle. "Fine particulate dust" settles into the pores of your new flooring, coats your walls, and hides inside air vents. Our Post-Construction Cleaning is a specialized detail designed to safely extract this dust without scratching your new luxury finishes. We use advanced dust-removal methods and microfiber technology to eliminate the "white haze" left behind by drywall and sanding, turning a construction site into a move-in ready home.
 
@@ -397,7 +397,7 @@ After completing the cleaning, we do a detailed walkthrough together. We want yo
 
 ## Our Commitment to Excellence
 
-Post-Construction Cleaning requires specialized skills that not every cleaning service possesses. Our team has extensive experience with renovation cleanups throughout Miami-Dade and Broward County, from condo renovations in Brickell to whole-house remodels in Coral Gables.
+Post-Construction Cleaning requires specialized skills that not every cleaning service possesses. Our team has extensive experience with renovation cleanups throughout San Diego County, from condo renovations in Downtown to whole-house remodels in La Jolla and Coronado.
 
 We're fully insured with coverage specifically designed for post-construction work. This protects your investment and gives you confidence that we stand behind our service completely.
 

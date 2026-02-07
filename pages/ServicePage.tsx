@@ -24,7 +24,7 @@ const SERVICE_FAQS: Record<string, FAQItem[]> = {
     { question: 'How long does a deep cleaning take?', answer: 'A typical deep cleaning takes 4-8 hours depending on your home\'s size and condition. A 2-bedroom home usually takes 4-5 hours, while larger homes or those that haven\'t been deep cleaned recently may take 6-8 hours.' },
     { question: 'How often should I get a deep cleaning?', answer: 'We recommend deep cleaning every 3-6 months, or before starting a recurring cleaning service. Seasonal deep cleans (spring and fall) help maintain a healthy home environment throughout the year.' },
   ],
-  'post-construction-cleaning-miami': [
+  'post-construction-cleaning': [
     { question: 'What does post-construction cleaning include?', answer: 'Post-construction cleaning removes all construction debris, fine dust from every surface, sticker residue from windows and fixtures, paint splatters, and sanitizes the entire space. We clean inside new cabinets and closets, wipe down all fixtures, and make your renovated space move-in ready.' },
     { question: 'When should I schedule post-construction cleaning?', answer: 'Schedule the cleaning after all construction work is complete, fixtures are installed, and contractors have finished their rough cleaning. We recommend waiting 24-48 hours after final construction to allow any remaining dust to settle.' },
     { question: 'Is post-construction cleaning safe for new surfaces?', answer: 'Yes, we use appropriate cleaning methods and products for new materials including hardwood floors, granite countertops, stainless steel appliances, and painted surfaces. Our team is trained in proper techniques to protect your investment.' },
