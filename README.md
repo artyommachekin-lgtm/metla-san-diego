@@ -1,11 +1,11 @@
-# Metla House Cleaning - Miami
+# Metla House Cleaning - San Diego
 
 A premium residential cleaning services website built with React, TypeScript, and Tailwind CSS.
 
 ## Features
 
 - **Service Pages**: Detailed pages for each cleaning service (Standard, Deep, Post-Construction, Vacation Rental, Move-In/Out)
-- **Location Pages**: SEO-optimized pages for each service area (Miami, Brickell, Coral Gables, etc.)
+- **Location Pages**: SEO-optimized pages for each service area (La Jolla, Pacific Beach, Coronado, etc.)
 - **Booking Integration**: Integrated Jobber booking form
 - **Responsive Design**: Fully responsive design for all device sizes
 - **Accessibility**: WCAG-compliant navigation and interactive elements

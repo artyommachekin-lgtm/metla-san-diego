@@ -230,7 +230,7 @@ export type FeaturedNeighborhood = typeof SITE_CONFIG.featuredNeighborhoods[numb
 // ============================================
 
 /**
- * Get the full location string (e.g., "Miami, FL")
+ * Get the full location string (e.g., "San Diego, CA")
  */
 export function getLocationString(): string {
     return `${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}`;
@@ -238,7 +238,7 @@ export function getLocationString(): string {
 
 /**
  * Get the regional service area description
- * e.g., "Miami-Dade and Broward County"
+ * e.g., "San Diego County"
  */
 export function getCountiesString(): string {
     const counties = SITE_CONFIG.regional.counties;
