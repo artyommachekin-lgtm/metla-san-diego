@@ -9,12 +9,12 @@
     "redirects": [
         {
             "source": "/areas-served/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/areas-served",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -29,7 +29,7 @@
         },
         {
             "source": "/services-4/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -324,47 +324,47 @@
         },
         {
             "source": "/top-quality-house-cleaning-services-in-el-cajon-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/expert-house-cleaning-services-in-bostonia-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/metla-best-rated-house-cleaning-services-in-lakeside-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/trusted-house-cleaning-services-in-santee-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/professional-house-cleaning-services-in-ramona-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/reliable-house-cleaning-services-in-escondido-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/house-cleaning-services-in-pacific-highlands-ranch-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-house-cleaning-services-in-sorrento-valley-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-house-cleaning-services-in-golden-hill-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -389,12 +389,12 @@
         },
         {
             "source": "/top-cleaning-services-in-solana-beach/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/cleaning-services-in-clairemont/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -404,12 +404,12 @@
         },
         {
             "source": "/professional-cleaning-services-in-carmel-valley/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/house-cleaning-services-in-miramar/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -879,122 +879,122 @@
         },
         {
             "source": "/best-breweries-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-farmers-markets-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-historical-sites-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-rooftop-bars-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-places-for-brunch-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-golf-courses-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/san-diego-trolley-system-a-convenient-transit-solution/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/shopping-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-kindergartens-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/discover-the-best-parks-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/san-diego-rapid-transit/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/top-five-interstate-highways-in-san-diego-a-guide-to-regional-travel/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-elementary-schools-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/top-tech-companies-in-san-diego-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/the-highest-paying-jobs-in-san-diego-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/the-best-biotech-companies-in-san-diego-ca/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-middle-schools-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-high-schools-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-neighborhoods-to-raise-a-family-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/top-best-trails-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-beaches-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/top-peaks-around-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-neighborhoods-to-live-in-the-san-diego-area/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/best-neighborhoods-for-young-professionals-in-san-diego/",
-            "destination": "/",
+            "destination": "/locations",
             "permanent": true
         }
     ]

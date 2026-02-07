@@ -8,6 +8,7 @@ import Home from './pages/Home';
 const Footer = lazy(() => import('./components/Footer'));
 const ServicePage = lazy(() => import('./pages/ServicePage'));
 const LocationPage = lazy(() => import('./pages/LocationPage'));
+const LocationsPage = lazy(() => import('./pages/LocationsPage'));
 const BookingPage = lazy(() => import('./pages/BookingPage'));
 const PoliciesPage = lazy(() => import('./pages/PoliciesPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
@@ -74,6 +75,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/service/:slug" element={<ServicePage />} />
+            <Route path="/locations" element={<LocationsPage />} />
             <Route path="/location/:slug" element={<LocationPage />} />
             <Route path="/booking" element={<BookingPage />} />
             <Route path="/policies" element={<PoliciesPage />} />
