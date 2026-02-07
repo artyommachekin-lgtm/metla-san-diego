@@ -1,11 +1,6 @@
 /**
- * TODO: [NEEDS LOCALIZATION] This page contains Miami-specific content:
- * - Line 15: meta description mentions "house cleaning in Miami"
- * - Line 59: testimonial says "Best cleaning service in Miami!"
- * - Line 61: "Sarah J., Coral Gables" testimonial attribution
- * - Lines 67-73: SEO section mentions Miami, Miami-Dade, Broward, Brickell, etc.
- * 
- * For franchise deployment, update description, testimonials, and SEO text.
+ * Booking Page - San Diego
+ * Fully localized for San Diego County
  */
 import React, { useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
@@ -21,7 +16,7 @@ const BookingPage: React.FC = () => {
   useEffect(() => {
     updatePageSEO({
       title: `Request a Quote | ${COMPANY_NAME}`,
-      description: 'Get a free quote for professional house cleaning in Miami. Book online in 60 seconds. No phone call required.',
+      description: 'Get a free quote for professional house cleaning in San Diego. Book online in 60 seconds. No phone call required.',
       path: location.pathname,
     });
     return () => {
@@ -65,20 +60,20 @@ const BookingPage: React.FC = () => {
             {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}
           </div>
           <p className="text-slate-600 italic text-lg">
-            "The booking process was seamless, and the team arrived exactly on time. Best cleaning service in Miami!"
+            "The booking process was seamless, and the team arrived exactly on time. Best cleaning service in San Diego!"
           </p>
-          <p className="mt-4 font-bold text-slate-900">- Sarah J., Coral Gables</p>
+          <p className="mt-4 font-bold text-slate-900">- Sarah J., La Jolla</p>
         </div>
 
         {/* SEO Content Section */}
         <div className="max-w-4xl mx-auto mt-16 space-y-8">
           <div className="bg-white rounded-xl shadow-md p-8 border border-slate-100">
-            <h2 className="text-2xl font-serif font-bold text-slate-900 mb-4">Book Your Professional House Cleaning in Miami</h2>
+            <h2 className="text-2xl font-serif font-bold text-slate-900 mb-4">Book Your Professional House Cleaning in San Diego</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
               Getting a quote from Metla House Cleaning is simple and takes less than 60 seconds. Our online booking form allows you to describe your cleaning needs, select your preferred date and time, and receive a personalized estimate—all without making a phone call.
             </p>
             <p className="text-slate-600 leading-relaxed mb-4">
-              We provide premium residential cleaning services throughout Miami-Dade and Broward counties, including Brickell, Coral Gables, Miami Beach, Fort Lauderdale, and surrounding areas. Whether you need a one-time deep clean, regular maintenance cleaning, or specialized services like move-in/move-out cleaning, our team is ready to help.
+              We provide premium residential cleaning services throughout San Diego County, including La Jolla, Pacific Beach, Coronado, Del Mar, Encinitas, and surrounding areas. Whether you need a one-time deep clean, regular maintenance cleaning, or specialized services like move-in/move-out cleaning, our team is ready to help.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               <div className="flex items-center space-x-2 text-slate-700">
@@ -101,7 +96,7 @@ const BookingPage: React.FC = () => {
             <div className="space-y-4">
               <div>
                 <h3 className="font-bold text-teal-400">How quickly will I receive my quote?</h3>
-                <p className="text-slate-300 mt-1">Most quotes are delivered within 2-4 hours during business hours. For urgent requests, call us directly at (786) 723-7533.</p>
+                <p className="text-slate-300 mt-1">Most quotes are delivered within 2-4 hours during business hours. For urgent requests, call us directly at (707) 414-8930.</p>
               </div>
               <div>
                 <h3 className="font-bold text-teal-400">What information do I need to provide?</h3>

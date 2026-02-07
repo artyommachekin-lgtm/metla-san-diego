@@ -1,19 +1,10 @@
 /**
- * TODO: [NEEDS LOCALIZATION] This page contains extensive Miami-specific content:
- * - SEO description mentions "Miami homes"
- * - Hero text: "San Diego...Miami" origin story
- * - "Bringing Our Standard to the Gold Coast" heading
- * - "Expanding to Miami" paragraph
- * - "Tailored for the Miami Lifestyle" section
- * - Neighborhood references: Coconut Grove, Coral Gables, Sunny Isles, Brickell, etc.
- * - Climate/environmental references: humidity, salt air, Atlantic
- * - "Miami-Dade and Broward County" in Areas Served
- * 
- * For franchise deployment, rewrite or template these sections per location.
+ * About Page - San Diego
+ * Origin story: Metla started in San Diego 3+ years ago, now expanding to Florida.
  */
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Droplets, Wind, Building2, ArrowRight, ShieldCheck, HeartHandshake, MapPin } from 'lucide-react';
+import { Sun, Waves, Building2, ArrowRight, ShieldCheck, HeartHandshake, MapPin } from 'lucide-react';
 import { COMPANY_NAME, LOCATIONS, COMPANY_ADDRESS, BUSINESS_HOURS, PHONE_NUMBER } from '../constants';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 
@@ -24,7 +15,7 @@ const AboutPage: React.FC = () => {
     useEffect(() => {
         updatePageSEO({
             title: `About Us | ${COMPANY_NAME}`,
-            description: 'Meet the team behind Metla House Cleaning. Former property managers bringing hospitality-grade cleaning standards to Miami homes.',
+            description: 'Meet the team behind Metla House Cleaning. Former property managers bringing hospitality-grade cleaning standards to San Diego homes for over 3 years.',
             path: location.pathname,
         });
         return () => {
@@ -54,10 +45,10 @@ const AboutPage: React.FC = () => {
                         <span>Our Story</span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
-                        The Owner’s Perspective
+                        The Owner's Perspective
                     </h1>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed">
-                        From Managing 70+ Vacation Rentals in San Diego to Cleaning Luxury Homes in Miami.
+                        3+ Years of Trusted Cleaning Excellence in San Diego.
                     </p>
                 </div>
             </div>
@@ -71,7 +62,7 @@ const AboutPage: React.FC = () => {
                             "We didn't start as a cleaning company. We started as frustrated clients, just like you."
                         </p>
                         <p className="mb-12">
-                            The Metla story began in San Diego, where our founders managed over 70 luxury vacation rental properties. We spent years—and thousands of dollars—hiring local cleaning services, only to be constantly disappointed. We saw corners cut, finishes damaged, and a "good enough" attitude that simply wasn't good enough for high-end investments. We realized that no one cleans a property like someone who understands the owner's perspective.
+                            The Metla story began right here in San Diego, where our founders managed over 70 luxury vacation rental properties. We spent years—and thousands of dollars—hiring local cleaning services, only to be constantly disappointed. We saw corners cut, finishes damaged, and a "good enough" attitude that simply wasn't good enough for high-end investments. We realized that no one cleans a property like someone who understands the owner's perspective.
                         </p>
 
                         <div className="py-8 text-center">
@@ -118,15 +109,15 @@ const AboutPage: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Miami Expansion */}
+                {/* San Diego Focus */}
                 <div className="max-w-4xl mx-auto mb-16">
                     <div className="text-center">
-                        <h2 className="text-3xl font-serif font-bold text-slate-900 mb-6">Bringing Our Standard to the Gold Coast</h2>
+                        <h2 className="text-3xl font-serif font-bold text-slate-900 mb-6">Built for the San Diego Lifestyle</h2>
                         <p className="text-lg text-slate-600 mb-12 leading-relaxed">
-                            Expanding to Miami wasn't just about moving locations; it was about adapting our expertise to a more demanding environment. While San Diego taught us precision, Miami demands resilience. We understand that maintaining a pristine residence in South Florida requires battling unique elements that standard maid services often overlook.
+                            After 3+ years serving San Diego homeowners, we understand the unique cleaning challenges of Southern California living. From coastal salt air to inland dust, we've perfected our techniques for every neighborhood in San Diego County.
                         </p>
 
-                        <h3 className="text-2xl font-bold text-slate-900 mb-8">Tailored for the Miami Lifestyle:</h3>
+                        <h3 className="text-2xl font-bold text-slate-900 mb-8">Tailored for San Diego:</h3>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -134,25 +125,25 @@ const AboutPage: React.FC = () => {
                         <div className="group">
                             <div className="flex items-center gap-3 mb-4">
                                 <div className="p-2 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
-                                    <Droplets className="w-6 h-6 text-blue-500" />
+                                    <Waves className="w-6 h-6 text-blue-500" />
                                 </div>
-                                <h4 className="font-bold text-slate-900 text-lg">Combating Humidity</h4>
+                                <h4 className="font-bold text-slate-900 text-lg">Coastal Salt Air</h4>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed">
-                                In lush neighborhoods like Coconut Grove and near the Venetian Pool in Coral Gables, tropical humidity is a constant. We don't just dust; we deep clean to address the heavy buildup that accumulates in this climate, keeping your bathrooms and vents clean and fresh.
+                                For our clients in La Jolla, Pacific Beach, and Coronado, ocean breezes bring salt residue that clouds windows and dulls finishes. Our team uses specialized techniques to cut through this grime, protecting your views and fixtures.
                             </p>
                         </div>
 
                         {/* Challenge 2 */}
                         <div className="group">
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="p-2 bg-teal-50 rounded-lg group-hover:bg-teal-100 transition-colors">
-                                    <Wind className="w-6 h-6 text-teal-500" />
+                                <div className="p-2 bg-yellow-50 rounded-lg group-hover:bg-yellow-100 transition-colors">
+                                    <Sun className="w-6 h-6 text-yellow-500" />
                                 </div>
-                                <h4 className="font-bold text-slate-900 text-lg">Salt Air & Clarity</h4>
+                                <h4 className="font-bold text-slate-900 text-lg">Year-Round Sun</h4>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed">
-                                For our clients in Sunny Isles Beach and Miami Beach, ocean breezes bring sticky salt residue that clouds views and dulls finishes. Our team uses specialized techniques to cut through this grime, protecting your windows and metal fixtures from the corrosive effects of the Atlantic air.
+                                San Diego's 266 sunny days per year mean dust accumulates faster and shows more clearly. Our thorough cleaning protocols address the fine dust that settles throughout your home, keeping surfaces pristine and allergens at bay.
                             </p>
                         </div>
 
@@ -165,7 +156,7 @@ const AboutPage: React.FC = () => {
                                 <h4 className="font-bold text-slate-900 text-lg">Urban Dust Control</h4>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed">
-                                The booming skyline of Brickell and Edgewater brings fine construction dust into even the most sealed high-rises. Using the same advanced dust-removal techniques we perfected for vacation rental turnovers, we capture the fine particulates that settle in your home, helping you breathe easier near the Miami Design District.
+                                From the high-rises of Downtown and Hillcrest to the growing developments in North Park, construction dust finds its way everywhere. We use advanced techniques to capture fine particulates, helping you breathe easier.
                             </p>
                         </div>
                     </div>
@@ -177,7 +168,7 @@ const AboutPage: React.FC = () => {
                         <span className="block text-teal-600 font-bold tracking-widest uppercase text-sm mb-3">Service Coverage</span>
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">Areas We Serve</h2>
                         <p className="text-lg text-slate-600">
-                            Proudly serving Miami-Dade and Broward County communities with professional cleaning services.
+                            Proudly serving San Diego County communities with professional cleaning services for over 3 years.
                         </p>
                     </div>
 
@@ -220,7 +211,7 @@ const AboutPage: React.FC = () => {
                     <div className="relative z-10 max-w-3xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Your Partners in Property Care</h2>
                         <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-                            Whether you need a weekly reset for your Brickell City Centre condo, a seasonal deep clean for your Aventura winter home, or a high-stakes turnover for your vacation rental, Metla brings a hospitality mindset to every job.
+                            Whether you need a weekly reset for your Downtown condo, a seasonal deep clean for your Del Mar beach house, or a high-stakes turnover for your vacation rental, Metla brings a hospitality mindset to every job.
                         </p>
                         <p className="text-lg text-slate-300 mb-10 leading-relaxed font-light">
                             We are not just a cleaning crew; we are a team of vetted professionals who treat your home with the same respect we demanded for our own properties. Experience the difference of a cleaning service born from the demands of luxury property management.

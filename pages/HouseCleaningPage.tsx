@@ -1,13 +1,6 @@
 /**
- * TODO: [NEEDS LOCALIZATION] This page contains extensive Miami-specific content:
- * - FAQs mention "Miami", "Brickell", "Miami-Dade", "Broward", "Gold Coast"
- * - Hero h1 says "Miami & South Florida"
- * - Quick Answer box mentions "House cleaning in Miami"
- * - Statistics box mentions "Miami averages 70% humidity"
- * - Prose mentions neighborhoods: Brickell, Coral Gables, Miami Beach, etc.
- * - Pricing table titled "House Cleaning Prices in Miami (2026)"
- * 
- * For franchise deployment, update FAQs, schema, all prose and headings.
+ * House Cleaning Page - San Diego
+ * Fully localized for San Diego County
  */
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
@@ -35,8 +28,8 @@ const HouseCleaningPage: React.FC = () => {
     // FAQ data for schema and display
     const faqs: FAQItem[] = [
         {
-            question: "How much does house cleaning cost in Miami?",
-            answer: "House cleaning prices in Miami typically range from $120 to $350 depending on home size, cleaning type, and frequency. Standard maintenance cleaning starts around $120-180 for a 2-bedroom home, while deep cleaning services range from $200-400. Metla House Cleaning provides free quotes tailored to your specific needs."
+            question: "How much does house cleaning cost in San Diego?",
+            answer: "House cleaning prices in San Diego typically range from $120 to $350 depending on home size, cleaning type, and frequency. Standard maintenance cleaning starts around $120-180 for a 2-bedroom home, while deep cleaning services range from $200-400. Metla House Cleaning provides free quotes tailored to your specific needs."
         },
         {
             question: "What's included in a standard house cleaning?",
@@ -55,8 +48,8 @@ const HouseCleaningPage: React.FC = () => {
             answer: "No, you don't need to be home. Many of our clients provide access through lockboxes, smart locks, or doormen. Our insured and background-checked cleaners can work independently. We'll update you when we arrive and when the cleaning is complete."
         },
         {
-            question: "What areas in Florida do you serve?",
-            answer: "Metla House Cleaning serves the Miami-Dade and Broward County areas including Miami, Brickell, Miami Beach, Coral Gables, Coconut Grove, Fort Lauderdale, Hollywood, Aventura, Sunny Isles, Bal Harbour, and surrounding communities along the Gold Coast."
+            question: "What areas in San Diego do you serve?",
+            answer: "Metla House Cleaning serves all of San Diego County including La Jolla, Pacific Beach, Coronado, Del Mar, Encinitas, Carlsbad, Downtown San Diego, Hillcrest, North Park, Mission Valley, and surrounding communities."
         },
         {
             question: "How do I book a house cleaning service?",
@@ -70,8 +63,8 @@ const HouseCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `House Cleaning Miami | ${COMPANY_NAME}`,
-            description: 'Premium house cleaning services in Miami, Fort Lauderdale & the Gold Coast. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!',
+            title: `House Cleaning San Diego | ${COMPANY_NAME}`,
+            description: 'Premium house cleaning services in San Diego, La Jolla, Pacific Beach & Coronado. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!',
             path: location.pathname,
         });
         return () => {
@@ -102,10 +95,10 @@ const HouseCleaningPage: React.FC = () => {
                             <span className="text-slate-300">4.9/5 Rating • 127+ Reviews</span>
                         </div>
                         <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
-                            Professional House Cleaning Services in Miami & South Florida
+                            Professional House Cleaning Services in San Diego
                         </h1>
                         <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
-                            From routine maintenance to deep cleaning, Metla House Cleaning delivers hospitality-grade service to homes across Miami-Dade and Broward County. Fully insured, background-checked professionals you can trust.
+                            From routine maintenance to deep cleaning, Metla House Cleaning delivers hospitality-grade service to homes across San Diego County. Fully insured, background-checked professionals you can trust.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link
@@ -136,10 +129,10 @@ const HouseCleaningPage: React.FC = () => {
                         <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
-                                <strong>House cleaning in Miami</strong> costs $120-$350 depending on home size and service type.
+                                <strong>House cleaning in San Diego</strong> costs $120-$350 depending on home size and service type.
                                 Standard maintenance cleaning runs $120-180 for a 2-bedroom home, while deep cleaning ranges from $200-400.
                                 Professional cleaning saves homeowners 5-7 hours weekly and reduces indoor allergens by up to 60%.
-                                Metla House Cleaning serves Miami-Dade and Broward County with fully insured, background-checked professionals.
+                                Metla House Cleaning serves all of San Diego County with fully insured, background-checked professionals.
                             </p>
                         </div>
 
@@ -168,7 +161,7 @@ const HouseCleaningPage: React.FC = () => {
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
-                                    <span>Miami averages <strong>70% humidity</strong>, creating conditions that require extra attention to bathrooms and closets</span>
+                                    <span>San Diego averages <strong>266 sunny days</strong> per year, meaning dust accumulates faster and shows more clearly</span>
                                 </li>
                             </ul>
                         </div>
@@ -177,7 +170,7 @@ const HouseCleaningPage: React.FC = () => {
                             At Metla House Cleaning, we understand that your home is your sanctuary. Founded by former property managers who spent years perfecting cleaning protocols for luxury vacation rentals and high-end residential properties, we bring hospitality-industry standards to every home we service. Our team doesn't just clean—we restore the pristine condition your living space deserves.
                         </p>
                         <p className="text-slate-600 leading-relaxed mb-6">
-                            Whether you're a busy professional in Brickell, a family in Coral Gables, or a vacation rental owner in Miami Beach, our comprehensive house cleaning services are designed to exceed your expectations. We serve clients throughout Miami-Dade and Broward County, bringing the same meticulous attention to detail to every home, every time.
+                            Whether you're a busy professional in Downtown San Diego, a family in Del Mar, or a vacation rental owner in Pacific Beach, our comprehensive house cleaning services are designed to exceed your expectations. We serve clients throughout San Diego County, bringing the same meticulous attention to detail to every home, every time.
                         </p>
                     </div>
                 </div>
@@ -188,7 +181,7 @@ const HouseCleaningPage: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl font-serif font-bold text-slate-900 mb-4 text-center">
-                            House Cleaning Prices in Miami (2026)
+                            House Cleaning Prices in San Diego (2026)
                         </h2>
                         <p className="text-slate-600 text-center mb-8 max-w-2xl mx-auto">
                             Transparent pricing for professional house cleaning services. Actual costs vary by home size, condition, and specific requirements.
@@ -430,7 +423,7 @@ const HouseCleaningPage: React.FC = () => {
                                 Trained Cleaning Professionals
                             </h3>
                             <p className="text-slate-600 leading-relaxed mb-6">
-                                Every Metla cleaner undergoes extensive training in our proprietary methods, eco-friendly product usage, and customer service standards. We don't just hire cleaners—we develop cleaning professionals who take pride in their craft. Our rigorous selection process means you're getting the top 2% of cleaning talent in South Florida.
+                                Every Metla cleaner undergoes extensive training in our proprietary methods, eco-friendly product usage, and customer service standards. We don't just hire cleaners—we develop cleaning professionals who take pride in their craft. Our rigorous selection process means you're getting the top 2% of cleaning talent in San Diego.
                             </p>
                             <p className="text-slate-600 leading-relaxed">
                                 We also invest in ongoing training, ensuring our team stays current with the latest cleaning techniques, products, and equipment. Whether it's properly caring for marble countertops, treating hardwood floors, or sanitizing high-touch surfaces, our cleaners have the expertise to handle any challenge your home presents.
@@ -448,7 +441,7 @@ const HouseCleaningPage: React.FC = () => {
                             House Cleaning Service Areas
                         </h2>
                         <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-                            We proudly serve homes throughout Miami-Dade and Broward County, from the luxury high-rises of Brickell to the beachfront estates of Fort Lauderdale.
+                            We proudly serve homes throughout San Diego County, from the coastal communities of La Jolla and Coronado to the inland neighborhoods of Poway and Rancho Bernardo.
                         </p>
 
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -469,10 +462,10 @@ const HouseCleaningPage: React.FC = () => {
                                 Local Expertise, Premium Service
                             </h3>
                             <p className="text-slate-600 leading-relaxed mb-6">
-                                Miami's diverse neighborhoods each have their own character—and their own cleaning challenges. The salt air in Miami Beach requires different care than the tropical humidity of Coconut Grove. The high-rise living of Brickell demands different logistics than single-family homes in Coral Gables. Our team understands these nuances because we're locals who've cleaned hundreds of homes across every community we serve.
+                                San Diego's diverse neighborhoods each have their own character—and their own cleaning challenges. The salt air in La Jolla and Pacific Beach requires different care than the inland dust of Poway and Rancho Bernardo. The high-rise living of Downtown demands different logistics than single-family homes in Del Mar. Our team understands these nuances because we're locals who've cleaned hundreds of homes across every community we serve.
                             </p>
                             <p className="text-slate-600 leading-relaxed">
-                                Whether you're in a waterfront condo in Sunny Isles, a historic home in Coral Gables, or a modern townhouse in Weston, we bring the same commitment to excellence. Our cleaners are familiar with building access procedures, parking requirements, and the specific needs of different property types throughout South Florida.
+                                Whether you're in a beachfront condo in Coronado, a historic home in Mission Hills, or a modern townhouse in Carmel Valley, we bring the same commitment to excellence. Our cleaners are familiar with building access procedures, parking requirements, and the specific needs of different property types throughout San Diego County.
                             </p>
                         </div>
                     </div>
@@ -510,7 +503,7 @@ const HouseCleaningPage: React.FC = () => {
                         Ready for a Cleaner Home?
                     </h2>
                     <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
-                        Join hundreds of Miami families who trust Metla House Cleaning. Get your free quote in 60 seconds.
+                        Join hundreds of San Diego families who trust Metla House Cleaning. Get your free quote in 60 seconds.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

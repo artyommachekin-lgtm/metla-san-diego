@@ -127,9 +127,9 @@ export const SITE_CONFIG = {
     // ============================================
     originStory: {
         enabled: true,
-        originCity: "Miami",
+        originCity: "San Diego",
         originDescription: "Founded by frustrated property managers who demanded perfection",
-        expansionNarrative: "Now bringing our hospitality-grade cleaning standards to San Diego's diverse neighborhoods.",
+        expansionNarrative: "3+ years of trusted cleaning excellence serving San Diego's diverse neighborhoods.",
     },
 
     // ============================================
