@@ -442,22 +442,25 @@ From Stonebridge Estates' massive newer homes to the eucalyptus-shaded Villages,
         propertyManagerContent: "Managing Lemon Grove rentals? We offer reliable turnover service."
     },
     {
-        name: "National City",
-        slug: "national-city",
-        type: "South Bay",
-        description: "Professional cleaning for National City homes and rentals.",
-        tagline: "South Bay pride, professional results.",
-        detailedContent: `National City serves as the heart of the South Bay. From Paradise Hills to Lincoln Acres, we provide reliable cleaning service for this working community.`,
-        keywords: ["House cleaning National City", "Maid service National City SD"],
-        popularServiceIds: ["standard", "move-in-out", "deep-cleaning"],
-        housingTypes: ["Single-Family Homes", "Multi-Family Units", "Newer Developments"],
-        landmarks: ["Westfield Plaza Bonita", "Sweetwater River", "Mile of Cars"],
-        neighborhoods: ["Paradise Hills", "Lincoln Acres", "Central National City", "Sweetwater area"],
-        zipCodes: ["91950", "91951"],
+        name: "Granite Hills",
+        slug: "granite-hills",
+        type: "East County",
+        description: "Rugged luxury cleaning for Granite Hills' custom estates and large lots.",
+        tagline: "East County's premier address, perfectly maintained.",
+        detailedContent: `Granite Hills represents a distinct step up in East County living. With home values often exceeding $1 million and large lots accommodating RVs, boats, and horses, this neighborhood demands a specific kind of detailed care.
+
+Our Granite Hills team understands the "rugged luxury" lifestyle. We know that larger properties accumulate more dust from unpaved areas, and that custom estates often feature high glass walls to capture the views. We bring the manpower and equipment to handle these substantial properties efficiently.`,
+        keywords: ["House cleaning Granite Hills", "Estate cleaning El Cajon", "Granite Hills maid service", "Singing Hills cleaning"],
+        popularServiceIds: ["deep-cleaning", "standard", "move-in-out"],
+        housingTypes: ["Custom Estates", "Ranch Properties", "Golf Course Homes", "Large Lot Homes"],
+        landmarks: ["Singing Hills Golf Resort", "Kennedy Park", "Valhalla High School"],
+        neighborhoods: ["Singing Hills", "Vista Grande", "Granite Hills Center"],
+        zipCodes: ["92019"],
         cleaningChallenges: [
-            { title: "Multi-Unit Properties", description: "We handle apartment turnovers efficiently." }
+            { title: "Rural Dust", description: "Large lots and unpaved areas mean higher dust accumulation. We recommend our 'Deep Dusting' protocols." },
+            { title: "High Glass Volume", description: "Many estates feature floor-to-ceiling windows to capture views. We offer interior glass detailing." }
         ],
-        propertyManagerContent: "Managing National City properties? We provide reliable, consistent service."
+        propertyManagerContent: "Managing Granite Hills estates? We provide the reliable, high-end service these unique properties require."
     },
     {
         name: "Allied Gardens",
@@ -515,22 +518,25 @@ From Stonebridge Estates' massive newer homes to the eucalyptus-shaded Villages,
         propertyManagerContent: "Managing Rolando rentals? We provide reliable, neighbor-recommended service."
     },
     {
-        name: "Valencia Park",
-        slug: "valencia-park",
-        type: "Urban Core",
-        description: "Reliable cleaning for Valencia Park and surrounding communities.",
-        tagline: "Community pride, clean homes.",
-        detailedContent: `Valencia Park and its surrounding neighborhoods deserve quality cleaning service at fair prices. We serve this diverse community with consistent reliability.`,
-        keywords: ["House cleaning Valencia Park", "Maid service Valencia Park SD"],
-        popularServiceIds: ["standard", "move-in-out", "deep-cleaning"],
-        housingTypes: ["Single-Family Homes", "Multi-Family Properties", "Newer Developments"],
-        landmarks: ["Chollas Lake", "Valencia Park Elementary", "Market Street"],
-        neighborhoods: ["Emerald Hills", "Chollas View", "Encanto", "Lincoln Park"],
-        zipCodes: ["92114"],
+        name: "Escondido",
+        slug: "escondido",
+        type: "North Inland",
+        description: "Estate cleaning for South Escondido's hidden luxury neighborhoods.",
+        tagline: "Hidden wealth, clearly clean.",
+        detailedContent: `Escondido is often underestimated, but areas like Felicita and the San Pasqual Valley hide some of San Diego's most impressive estates. These large, wooded lots offer privacy and space that rivals Rancho Santa Fe.
+
+We find that homeowners here often struggle to get reliable "San Diego" contractors to travel this far inland. Metla considers South Escondido a core territory. We bring consistent, high-quality service to your doorstep, whether you're near Lake Hodges or tucked into the San Pasqual Valley.`,
+        keywords: ["House cleaning Escondido", "Maid service Felicita", "San Pasqual Valley cleaning", "South Escondido cleaning"],
+        popularServiceIds: ["deep-cleaning", "standard", "move-in-out"],
+        housingTypes: ["Custom Estates", "Vineyard Properties", "Large Wooded Lots", "Ranch Homes"],
+        landmarks: ["San Diego Zoo Safari Park", "Lake Hodges", "Felicita County Park", "Orfila Vineyards"],
+        neighborhoods: ["Felicita", "San Pasqual Valley", "South Escondido", "Kit Carson"],
+        zipCodes: ["92025", "92029"],
         cleaningChallenges: [
-            { title: "Family Service", description: "Many families with children appreciate our thorough approach." }
+            { title: "Agricultural Dust", description: "Proximity to vineyards and orchards means specific dust control needs." },
+            { title: "Remote Access", description: "We plan our routes effectively to ensure on-time arrival for these tucked-away properties." }
         ],
-        propertyManagerContent: "Managing Valencia Park properties? We offer reliable, affordable service."
+        propertyManagerContent: "Managing Escondido estate rentals? We provide the reliability you've been missing."
     },
     {
         name: "La Presa",
@@ -549,5 +555,68 @@ From Stonebridge Estates' massive newer homes to the eucalyptus-shaded Villages,
             { title: "East County Conditions", description: "Warmer, drier climate means regular dust control." }
         ],
         propertyManagerContent: "Managing La Presa rentals? We provide reliable East County service."
+    },
+    {
+        name: "Del Mar",
+        slug: "del-mar",
+        type: "Coastal",
+        description: "Ultra-premium cleaning for Del Mar's beachfront estates and village homes.",
+        tagline: "Where luxury meets the marine layer.",
+        detailedContent: `Del Mar is San Diego's most exclusive coastal enclave. From the racetrack to the beach, homes here demand a level of service that goes beyond standard cleaning. We understand the specific needs of high-value coastal properties.
+
+Our team is trained in 'Salt Air Defense'—meticulously removing the sticky marine layer residue that dulls windows and corrodes tracks. We use specialized, non-abrasive techniques to protect your custom finishes.`,
+        keywords: ["House cleaning Del Mar", "Maid service Del Mar CA", "Luxury cleaning Del Mar"],
+        popularServiceIds: ["deep-cleaning", "standard", "vacation-rental"],
+        housingTypes: ["Oceanfront Estates", "Village Cottages", "Custom Homes"],
+        landmarks: ["Del Mar Racetrack", "Powerhouse Park", "Dog Beach", "Del Mar Plaza"],
+        neighborhoods: ["The Village", "Beach Colony", "Del Mar Heights", "Via De La Valle"],
+        zipCodes: ["92014"],
+        cleaningChallenges: [
+            { title: "Salt Air Corrosion", description: "Marine layer leaves sticky residue. We wipe down window tracks and exterior metals." },
+            { title: "High-Value Surfaces", description: "We use pH-neutral cleaners safe for marble, travertine, and custom wood." }
+        ],
+        propertyManagerContent: "Managing Del Mar vacation rentals? We provide the white-glove turnover service your guests expect."
+    },
+    {
+        name: "Solana Beach",
+        slug: "solana-beach",
+        type: "Coastal",
+        description: "Eco-conscious cleaning for Solana Beach's design district and coastal homes.",
+        tagline: "Natural beauty, naturally clean.",
+        detailedContent: `Solana Beach values sustainability and style. From the Cedros Design District to the bluffs, this community prioritizes health and environmental responsibility. Our eco-friendly cleaning service aligns perfectly with these values.
+
+We use non-toxic, organic products that are safe for your family, pets, and the ocean. Whether you have a modern condo or a beach cottage, we deliver a spotless home without harsh chemicals.`,
+        keywords: ["House cleaning Solana Beach", "Eco cleaning Solana Beach", "Green maid service Solana Beach"],
+        popularServiceIds: ["standard", "deep-cleaning", "vacation-rental"],
+        housingTypes: ["Beach Cottages", "Modern Condos", "Bluff Homes"],
+        landmarks: ["Fletcher Cove", "Cedros Design District", "Belly Up Tavern"],
+        neighborhoods: ["Cedros", "Solana Circle", "Lomas Santa Fe"],
+        zipCodes: ["92075"],
+        cleaningChallenges: [
+            { title: "Eco-Friendly Mandate", description: "We strictly use non-toxic, green cleaning products." },
+            { title: "Sand Management", description: "We focus on entryways and floors to keep the beach outside." }
+        ],
+        propertyManagerContent: "Managing Solana Beach rentals? We offer eco-friendly turnovers that attract health-conscious guests."
+    },
+    {
+        name: "Mt. Helix",
+        slug: "mt-helix",
+        type: "East County",
+        description: "Specialized estate cleaning for Mt. Helix's unique topography and custom homes.",
+        tagline: "Elevated living, elevated standards.",
+        detailedContent: `Mt. Helix is the crown jewel of East County, offering panoramic views and unique architectural masterpieces. We specialize in the logistical challenges of cleaning these hillside estates.
+
+Our teams are equipped with backpack vacuums and portable caddies to navigate steep driveways and stairs efficiently. We understand that your custom home requires a detailed, careful approach.`,
+        keywords: ["House cleaning Mt Helix", "Estate cleaning La Mesa", "Mt Helix maid service"],
+        popularServiceIds: ["deep-cleaning", "standard", "move-in-out"],
+        housingTypes: ["Custom Estates", "Mid-Century Modern", "Hillside Homes"],
+        landmarks: ["Mt. Helix Park", "Amphitheater", "Grossmont"],
+        neighborhoods: ["Mt. Helix", "Grossmont", "Calavo Gardens"],
+        zipCodes: ["91941"],
+        cleaningChallenges: [
+            { title: "Logistical Access", description: "Our teams are equipped for steep driveways and stairs." },
+            { title: "Custom Architecture", description: "We have experience cleaning unique, custom-built homes." }
+        ],
+        propertyManagerContent: "Managing Mt. Helix estates? We provide the specialized care these unique properties require."
     }
 ];
