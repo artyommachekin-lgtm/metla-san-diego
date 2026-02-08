@@ -1,5 +1,4 @@
 import React from 'react';
-import { COMPANY_NAME, PHONE_NUMBER_INTL, COMPANY_EMAIL, COMPANY_ADDRESS, BUSINESS_HOURS } from '../constants';
 import { SITE_CONFIG } from '../src/config/site-config';
 import { Location } from '../types';
 
@@ -13,16 +12,16 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
         "@type": "LocalBusiness",
         "@id": `${SITE_CONFIG.baseUrl}/location/${location.slug}`,
         "name": `${COMPANY_NAME} - ${location.name}`,
-        "image": `${SITE_CONFIG.baseUrl}/logo.png`,
-        "telephone": PHONE_NUMBER_INTL,
-        "email": COMPANY_EMAIL,
+        "image": `${SITE_CONFIG.baseUrl}${SITE_CONFIG.social.logoUrl}`,
+        "telephone": SITE_CONFIG.phoneIntl,
+        "email": SITE_CONFIG.email,
         "url": `${SITE_CONFIG.baseUrl}/location/${location.slug}`,
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": COMPANY_ADDRESS.street,
-            "addressLocality": COMPANY_ADDRESS.city,
-            "addressRegion": COMPANY_ADDRESS.state,
-            "postalCode": COMPANY_ADDRESS.zip,
+            "streetAddress": SITE_CONFIG.address.street,
+            "addressLocality": SITE_CONFIG.address.city,
+            "addressRegion": SITE_CONFIG.address.state,
+            "postalCode": SITE_CONFIG.address.zip,
             "addressCountry": "US"
         },
         "geo": {
@@ -64,7 +63,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
         ],
         "parentOrganization": {
             "@type": "Organization",
-            "name": COMPANY_NAME,
+            "name": SITE_CONFIG.companyName,
             "@id": `${SITE_CONFIG.baseUrl}/#organization`
         },
         "hasOfferCatalog": {

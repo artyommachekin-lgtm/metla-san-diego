@@ -4,7 +4,8 @@
  */
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { SERVICES, COMPANY_NAME, LOCATIONS, PHONE_NUMBER } from '../constants';
+import { SERVICES, LOCATIONS } from '../constants';
+import { SITE_CONFIG } from '../src/config/site-config';
 import { Clock, Phone, ArrowRight, Check, Star, Calendar, Zap, Shield, MapPin, CheckCircle } from 'lucide-react';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
@@ -13,11 +14,11 @@ import FAQSchema, { FAQItem } from '../components/FAQSchema';
 const SAME_DAY_FAQS: FAQItem[] = [
     {
         question: 'Can I get same day house cleaning in San Diego?',
-        answer: 'Yes! Metla House Cleaning offers same day cleaning services throughout San Diego County. While same day service requests are subject to availability, our team works hard to accommodate urgent cleaning needs. Call us at (707) 414-8930 for fastest scheduling.'
+        answer: `Yes! ${SITE_CONFIG.companyName} offers same day cleaning services throughout San Diego County. While same day service requests are subject to availability, our team works hard to accommodate urgent cleaning needs. Call us at ${SITE_CONFIG.phone} for fastest scheduling.`
     },
     {
         question: 'How do I book a same day cleaning appointment?',
-        answer: 'For same day cleaning, we recommend calling us directly at (707) 414-8930 for the fastest response. You can also submit an online request, and we will contact you within 1-2 hours to confirm availability. Morning requests have the best chance of same-day accommodation.'
+        answer: `For same day cleaning, we recommend calling us directly at ${SITE_CONFIG.phone} for the fastest response. You can also submit an online request, and we will contact you within 1-2 hours to confirm availability. Morning requests have the best chance of same-day accommodation.`
     },
     {
         question: 'What types of cleaning can be done same day?',
@@ -39,8 +40,8 @@ const SameDayCleaningPage: React.FC = () => {
     // Set dynamic page title and meta description for SEO
     useEffect(() => {
         updatePageSEO({
-            title: `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${COMPANY_NAME}`,
-            description: 'Need cleaning today? Metla House Cleaning offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call (707) 414-8930 for urgent cleaning requests.',
+            title: `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${SITE_CONFIG.companyName}`,
+            description: `Need cleaning today? ${SITE_CONFIG.companyName} offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call ${SITE_CONFIG.phone} for urgent cleaning requests.`,
             path: location.pathname,
         });
         return () => {
@@ -57,9 +58,9 @@ const SameDayCleaningPage: React.FC = () => {
         "description": "Urgent same day house cleaning services in San Diego County. Professional cleaners available for emergency and last-minute cleaning requests.",
         "provider": {
             "@type": "LocalBusiness",
-            "name": "Metla House Cleaning",
-            "telephone": "+1-707-414-8930",
-            "url": "https://metlahousecleaningsandiego.com"
+            "name": SITE_CONFIG.companyName,
+            "telephone": SITE_CONFIG.phoneIntl,
+            "url": SITE_CONFIG.baseUrl
         },
         "areaServed": [
             { "@type": "City", "name": "San Diego" },
@@ -69,8 +70,8 @@ const SameDayCleaningPage: React.FC = () => {
         ],
         "availableChannel": {
             "@type": "ServiceChannel",
-            "servicePhone": "+1-707-414-8930",
-            "serviceUrl": "https://metlahousecleaningsandiego.com/same-day-cleaning"
+            "servicePhone": SITE_CONFIG.phoneIntl,
+            "serviceUrl": `${SITE_CONFIG.baseUrl}/same-day-cleaning`
         }
     };
 
@@ -98,11 +99,11 @@ const SameDayCleaningPage: React.FC = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
-                            href={`tel:${PHONE_NUMBER}`}
+                            href={`tel:${SITE_CONFIG.phone}`}
                             className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-slate-900 bg-teal-400 hover:bg-teal-300 transition-all rounded-sm shadow-lg"
                         >
                             <Phone className="w-5 h-5 mr-2" />
-                            Call Now: {PHONE_NUMBER}
+                            Call Now: {SITE_CONFIG.phone}
                         </a>
                         <Link
                             to="/booking"
@@ -196,7 +197,7 @@ const SameDayCleaningPage: React.FC = () => {
                             <div className="text-center">
                                 <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
                                 <h3 className="font-bold mb-2">Call or Request</h3>
-                                <p className="text-slate-300 text-sm">Call (707) 414-8930 directly for fastest response, or submit an online request.</p>
+                                <p className="text-slate-300 text-sm">Call {SITE_CONFIG.phone} directly for fastest response, or submit an online request.</p>
                             </div>
                             <div className="text-center">
                                 <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
@@ -271,11 +272,11 @@ const SameDayCleaningPage: React.FC = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href={`tel:${PHONE_NUMBER}`}
+                                href={`tel:${SITE_CONFIG.phone}`}
                                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold bg-white text-teal-700 hover:bg-teal-50 transition-all rounded-sm shadow-lg"
                             >
                                 <Phone className="w-5 h-5 mr-2" />
-                                {PHONE_NUMBER}
+                                {SITE_CONFIG.phone}
                             </a>
                             <Link
                                 to="/booking"
