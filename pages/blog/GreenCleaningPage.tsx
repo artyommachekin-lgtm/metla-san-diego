@@ -77,7 +77,7 @@ const GreenCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Eco-Friendly Cleaning Tips | Green Cleaning Guide | ${COMPANY_NAME}`,
+            title: `Eco-Friendly Cleaning Tips for San Diego Homes | ${COMPANY_NAME}`,
             description: 'Make your own eco-friendly cleaning products and reduce your environmental footprint. Natural cleaning tips for environmentally-conscious San Diego homes.',
             path: location.pathname,
         });
@@ -113,7 +113,7 @@ const GreenCleaningPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Eco-Friendly Cleaning Tips
+                            Eco-Friendly Cleaning Tips for San Diego Homes
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Clean your home and protect the planet. Natural solutions that work just as well as harsh chemicals.

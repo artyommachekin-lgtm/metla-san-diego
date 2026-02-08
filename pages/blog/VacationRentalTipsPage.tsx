@@ -81,7 +81,7 @@ const VacationRentalTipsPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Vacation Rental Cleaning Tips for Hosts | ${COMPANY_NAME}`,
+            title: `Vacation Rental Cleaning Tips for San Diego Hosts | ${COMPANY_NAME}`,
             description: 'Expert vacation rental cleaning tips for San Diego Airbnb and VRBO hosts. Learn turnover best practices, cleaning checklists, and how to achieve 5-star cleanliness ratings.',
             path: location.pathname,
         });

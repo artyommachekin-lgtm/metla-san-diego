@@ -71,7 +71,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Why Hire a Regular Cleaning Service? Benefits Explained | ${COMPANY_NAME}`,
+            title: `Why Hire a Regular Cleaning Service in San Diego? Benefits Explained | ${COMPANY_NAME}`,
             description: 'Discover the benefits of recurring house cleaning services. Save time, improve health, and maintain your San Diego home with professional standard cleaning.',
             path: location.pathname,
         });
@@ -107,7 +107,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Why Hire a Regular Cleaning Service? The Benefits Explained
+                            Why Hire a Regular Cleaning Service? The Benefits for San Diego Homeowners
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Is recurring house cleaning worth the investment? Here's why San Diego homeowners are making the switch to professional cleaning.

@@ -83,7 +83,7 @@ const AllergyProofingPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Allergy-Proofing Your Home | ${COMPANY_NAME}`,
+            title: `Allergy-Proofing Your San Diego Home | ${COMPANY_NAME}`,
             description: 'Reduce allergens in your home with these cleaning strategies. Tips for managing dust mites, pollen, and pet dander in San Diego homes.',
             path: location.pathname,
         });
@@ -119,7 +119,7 @@ const AllergyProofingPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Allergy-Proofing Your Home
+                            Allergy-Proofing Your San Diego Home
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Reduce indoor allergens and breathe easier. Cleaning strategies that make a real difference.

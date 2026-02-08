@@ -80,7 +80,7 @@ const MoveInChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Move-In Cleaning Checklist | ${COMPANY_NAME}`,
+            title: `Move-In Cleaning Checklist for San Diego Residents | ${COMPANY_NAME}`,
             description: 'Complete move-in cleaning checklist for San Diego renters. Prepare your new apartment or home with our room-by-room guide.',
             path: location.pathname,
         });
@@ -136,7 +136,7 @@ const MoveInChecklistPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Move-In Cleaning Checklist
+                            Move-In Cleaning Checklist for San Diego Residents
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Start fresh in your new San Diego home. Clean before you unpack for the best results.

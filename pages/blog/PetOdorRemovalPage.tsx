@@ -81,7 +81,7 @@ const PetOdorRemovalPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Remove Pet Odors From Your Home | ${COMPANY_NAME}`,
+            title: `How to Remove Pet Odors From Your San Diego Home | ${COMPANY_NAME}`,
             description: 'Effective pet odor removal techniques that actually work. Enzymatic cleaners, DIY methods, and when to call professionals. Tips for San Diego pet owners.',
             path: location.pathname,
         });
@@ -136,7 +136,7 @@ const PetOdorRemovalPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            How to Remove Pet Odors From Your Home
+                            How to Remove Pet Odors From Your San Diego Home
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Effective techniques to find, treat, and prevent pet odors—because you love your pets, not their smell.

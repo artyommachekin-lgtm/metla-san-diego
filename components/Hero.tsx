@@ -97,8 +97,16 @@ const Hero: React.FC = () => {
             </span>
             <span className="w-1 h-1 bg-slate-600 rounded-full"></span>
             <span>Licensed & Bonded</span>
-            <span className="w-1 h-1 bg-slate-600 rounded-full"></span>
-            <span>Background Checked</span>
+            <span className="w-1 h-1 bg-slate-600 rounded-full hidden sm:block"></span>
+            <span className="hidden sm:inline">Background Checked</span>
+
+            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="ml-4 flex items-center transition-opacity hover:opacity-80">
+              <img
+                src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
+                alt="Metla House Cleaning San Diego BBB Business Review"
+                className="h-7 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>

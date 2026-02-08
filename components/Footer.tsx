@@ -111,6 +111,24 @@ const Footer: React.FC = () => {
           </div>
         </nav>
 
+        {/* BBB Seal - Centered Assurance */}
+        {
+          SITE_CONFIG.socialProfiles.bbb && (
+            <div className="flex justify-center mb-8">
+              <a href={SITE_CONFIG.socialProfiles.bbb} target="_blank" rel="noopener noreferrer" className="inline-block transition-transform hover:scale-105">
+                <img
+                  src="https://www.bbb.org/Content/Images/bbb-logo-vector.svg"
+                  alt="Metla House Cleaning San Diego BBB Accredited Business"
+                  className="h-10 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition-all bg-white p-1 rounded"
+                />
+                <div className="text-center text-[10px] text-slate-500 mt-1 uppercase tracking-widest font-semibold">
+                  Accredited • A+ Rating
+                </div>
+              </a>
+            </div>
+          )
+        }
+
         {/* Copyright */}
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left text-sm text-slate-400">
           <div>&copy; {new Date().getFullYear()} {COMPANY_NAME}. All rights reserved.</div>
@@ -127,8 +145,8 @@ const Footer: React.FC = () => {
             {COMPANY_NAME} is not the employer of the domestic worker referred to you. The domestic worker may be your employee or an independent contractor depending on the relationship you have with him or her. If you direct and control the manner and means by which the domestic worker performs his or her work you may have employer responsibilities, including employment taxes and workers' compensation.
           </p>
         </div>
-      </div>
-    </footer>
+      </div >
+    </footer >
   );
 };
 

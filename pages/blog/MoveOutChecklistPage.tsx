@@ -136,7 +136,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Complete Move-Out Cleaning Checklist | ${COMPANY_NAME}`,
+            title: `Complete Move-Out Cleaning Checklist for San Diego Homes | ${COMPANY_NAME}`,
             description: 'Maximize your chances of getting your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for San Diego renters.',
             path: location.pathname,
         });

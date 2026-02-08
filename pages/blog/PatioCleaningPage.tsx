@@ -80,7 +80,7 @@ const PatioCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Your Outdoor Patio | ${COMPANY_NAME}`,
+            title: `How to Clean Your Outdoor Patio in San Diego | ${COMPANY_NAME}`,
             description: 'Complete guide to cleaning patios, decks, and outdoor living spaces. Tips for San Diego homes to maintain beautiful outdoor areas year-round.',
             path: location.pathname,
         });
@@ -134,7 +134,7 @@ const PatioCleaningPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            How to Clean Your Outdoor Patio
+                            How to Clean Your Outdoor Patio in San Diego
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Keep your outdoor living space beautiful and inviting all year round—perfect for San Diego's indoor-outdoor lifestyle.

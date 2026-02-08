@@ -148,6 +148,18 @@ export const SITE_CONFIG = {
     },
 
     // ============================================
+    // SOCIAL PROFILES (Trust Signals)
+    // ============================================
+    socialProfiles: {
+        gmb: "https://maps.app.goo.gl/2ZCMBp8sQ15oC4YTA", // Verified metlahousecleaningsandiego.com
+        thumbtack: "https://www.thumbtack.com/ca/san-diego/house-cleaning/metla-house-cleaning/service/469431333977808900", // Verified 4.7 stars
+        bbb: "https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404", // Verified A+ Accredited
+        // facebook: "",
+        // yelp: "",
+        // instagram: "",
+    },
+
+    // ============================================
     // SOCIAL & OG IMAGES
     // ============================================
     social: {

@@ -128,7 +128,7 @@ const PostConstructionChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Post-Construction Cleaning Checklist for Homeowners | ${COMPANY_NAME}`,
+            title: `Post-Construction Cleaning Checklist for San Diego Homeowners | ${COMPANY_NAME}`,
             description: 'Essential post-construction cleaning checklist for San Diego homeowners. Learn what to clean after renovation, room-by-room guide, and when to hire professionals.',
             path: location.pathname,
         });
@@ -189,7 +189,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                             </span>
                         </div>
                         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-4">
-                            Essential Post-Construction Cleaning Checklist for Homeowners
+                            Essential Post-Construction Cleaning Checklist for San Diego Homeowners
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
                             Your complete guide to cleaning up after renovation or new construction—room by room, with San Diego-specific tips.
