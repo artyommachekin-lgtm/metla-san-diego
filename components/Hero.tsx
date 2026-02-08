@@ -100,13 +100,15 @@ const Hero: React.FC = () => {
             <span className="w-1 h-1 bg-slate-600 rounded-full hidden sm:block"></span>
             <span className="hidden sm:inline">Background Checked</span>
 
-            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="ml-4 flex items-center transition-all hover:scale-105">
-              <div className="bg-white/95 rounded-sm p-0.5 shadow-sm border border-slate-200/20">
-                <img
-                  src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
-                  alt="Metla House Cleaning San Diego BBB Business Review"
-                  className="h-7 w-auto"
-                />
+            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="ml-6 pl-6 border-l border-slate-700 flex items-center gap-3 group transition-all hover:opacity-100 opacity-80">
+              <img
+                src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
+                alt="Metla House Cleaning San Diego BBB Business Review"
+                className="h-8 w-auto filter grayscale invert brightness-200 contrast-200 group-hover:filter-none transition-all duration-300"
+              />
+              <div className="hidden md:flex flex-col leading-none">
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider group-hover:text-white">Accredited</span>
+                <span className="text-sm font-bold text-white group-hover:text-blue-300">A+ Rating</span>
               </div>
             </a>
           </div>

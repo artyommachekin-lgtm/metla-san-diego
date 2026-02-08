@@ -113,14 +113,16 @@ const Footer: React.FC = () => {
 
         {/* BBB Seal - Centered Assurance */}
         {SITE_CONFIG.socialProfiles.bbb && (
-          <div className="flex justify-center mb-8">
-            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="inline-block transition-transform hover:scale-105">
-              <div className="bg-white p-1.5 rounded-md flex items-center justify-center gap-2 opacity-95 hover:opacity-100 transition-opacity shadow-lg">
-                <img
-                  src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
-                  alt="Metla House Cleaning San Diego BBB Accredited Business"
-                  className="h-8 w-auto"
-                />
+          <div className="flex justify-start mb-8">
+            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="group flex items-center gap-3 transition-all hover:opacity-100 opacity-70">
+              <img
+                src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
+                alt="Metla House Cleaning San Diego BBB Accredited Business"
+                className="h-10 w-auto filter grayscale invert brightness-200 contrast-200 group-hover:filter-none transition-all duration-300"
+              />
+              <div className="flex flex-col text-left">
+                <span className="text-[10px] uppercase tracking-widest text-slate-400 font-bold group-hover:text-white transition-colors">BBB Accredited</span>
+                <span className="text-xs font-serif text-slate-300 group-hover:text-blue-300 transition-colors">A+ Rating</span>
               </div>
             </a>
           </div>
