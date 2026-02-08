@@ -64,17 +64,12 @@ const Home: React.FC = () => {
               <h3 className="font-bold text-xl mb-2 text-slate-900">Reliability Protocol</h3>
               <p className="text-slate-600">We never cancel. Our backup teams ensure your service happens, no matter what.</p>
             </div>
-            <div className="p-6 bg-slate-50 rounded-lg border border-slate-100 flex flex-col justify-between">
-              <div>
-                <Star className="w-10 h-10 text-teal-500 mb-4" />
-                <h3 className="font-bold text-xl mb-2 text-slate-900">Top Rated</h3>
-                <p className="text-slate-600 mb-4">4.9/5 Stars on Google. San Diego's preferred choice.</p>
-              </div>
-              <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="block mt-auto">
+            <div className="p-6 bg-slate-50 rounded-lg border border-slate-100 flex items-center justify-center hover:shadow-md transition-shadow">
+              <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="block w-full h-full flex items-center justify-center">
                 <img
-                  src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
+                  src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-153-100-bbb-1000113404.png"
                   alt="Metla House Cleaning San Diego BBB Accredited Business"
-                  className="h-10 w-auto"
+                  className="max-w-full h-auto"
                 />
               </a>
             </div>
