@@ -309,7 +309,7 @@ const HomeOfficeCleaningPage: React.FC = () => {
                                 Our standard cleaning service covers home offices as part of your whole-home clean. Focus on work while we handle the cleaning.
                             </p>
                             <Link
-                                to="/service/standard-cleaning-miami"
+                                to="/service/standard-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Standard Cleaning

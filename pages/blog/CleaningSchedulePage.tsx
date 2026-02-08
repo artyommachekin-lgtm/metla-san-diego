@@ -326,7 +326,7 @@ const CleaningSchedulePage: React.FC = () => {
                                 Prefer to spend your time on other priorities? Our recurring cleaning service handles the weekly work while you focus on what matters to you.
                             </p>
                             <Link
-                                to="/service/standard-cleaning-miami"
+                                to="/service/standard-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Recurring Cleaning

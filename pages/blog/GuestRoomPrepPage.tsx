@@ -332,7 +332,7 @@ const GuestRoomPrepPage: React.FC = () => {
                                 Expecting visitors? Let us deep clean your entire home before they arrive. You'll greet your guests stress-free with a spotless space.
                             </p>
                             <Link
-                                to="/service/standard-cleaning-miami"
+                                to="/service/standard-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Standard Cleaning

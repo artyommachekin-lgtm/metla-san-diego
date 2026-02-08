@@ -246,14 +246,14 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">
                             <h3 className="font-bold text-slate-900 mb-4">Standard Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
-                                <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                <Link to="/locations" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
                                     <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
-                                <Link to="/location/coral-gables" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> La Mesa
+                                <Link to="/location/coronado" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Coronado
                                 </Link>
-                                <Link to="/location/coconut-grove" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Coconut Grove
+                                <Link to="/location/hillcrest" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Hillcrest
                                 </Link>
                             </div>
                         </div>

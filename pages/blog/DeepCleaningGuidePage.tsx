@@ -97,7 +97,7 @@ const DeepCleaningGuidePage: React.FC = () => {
             <ArticleSchema
                 title="The Ultimate Deep Cleaning Guide for San Diego Homes"
                 description="Learn how to deep clean your San Diego home like a professional. Our comprehensive guide covers coastal conditions considerations, room-by-room techniques, and expert tips."
-                slug="deep-cleaning-guide-miami"
+                slug="deep-cleaning-guide-san-diego"
                 datePublished="2024-01-15"
                 dateModified="2024-01-15"
             />
@@ -295,14 +295,14 @@ const DeepCleaningGuidePage: React.FC = () => {
                         <div className="bg-slate-50 p-6 rounded-xl my-8">
                             <h3 className="font-bold text-slate-900 mb-4">Deep Cleaning Services Near You</h3>
                             <div className="flex flex-wrap gap-2">
-                                <Link to="/location/miami" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                <Link to="/locations" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
                                     <MapPin className="w-3 h-3" /> San Diego
                                 </Link>
-                                <Link to="/location/brickell" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> Downtown
+                                <Link to="/location/la-jolla" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> La Jolla
                                 </Link>
-                                <Link to="/location/coral-gables" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
-                                    <MapPin className="w-3 h-3" /> La Mesa
+                                <Link to="/location/hillcrest" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Hillcrest
                                 </Link>
                             </div>
                         </div>

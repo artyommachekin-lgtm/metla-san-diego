@@ -288,7 +288,7 @@ const GreenCleaningPage: React.FC = () => {
                                 We use environmentally responsible products and practices. Ask about our green cleaning options when you book.
                             </p>
                             <Link
-                                to="/service/standard-cleaning-miami"
+                                to="/service/standard-cleaning"
                                 className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Learn About Our Cleaning Services
