@@ -59,19 +59,42 @@ const AboutPage: React.FC = () => {
                 <div className="max-w-4xl mx-auto mb-20">
                     <div className="prose prose-lg text-slate-600 max-w-none">
                         <p className="text-2xl font-serif text-slate-900 italic mb-8 border-l-4 border-teal-500 pl-6">
-                            "We didn't start as a cleaning company. We started as frustrated clients, just like you."
+                            "We didn't start as a cleaning company. We started as frustrated hosts with just three units."
+                        </p>
+                        <p className="mb-8">
+                            The Metla story began in San Diego with just three vacation rental units. As hosts, my wife and I poured our hearts into creating perfect stays for our guests. But we constantly hit a wall with cleaning services. We spent years—and thousands of dollars—hiring local companies, only to find corners cut, finishes damaged, and a lack of consistency that put our Superhost status at risk.
                         </p>
                         <p className="mb-12">
-                            The Metla story began right here in San Diego, where our founders managed over 70 luxury vacation rental properties. We spent years—and thousands of dollars—hiring local cleaning services, only to be constantly disappointed. We saw corners cut, finishes damaged, and a "good enough" attitude that simply wasn't good enough for high-end investments. We realized that no one cleans a property like someone who understands the owner's perspective.
+                            We realized that no one cleans a property like someone who understands the owner's perspective. So, we started cleaning them ourselves.
                         </p>
 
                         <div className="py-8 text-center">
                             <span className="inline-block w-16 h-1 bg-teal-500 mb-6 rounded-full"></span>
                             <h3 className="text-3xl md:text-5xl font-serif font-bold text-slate-900 leading-tight">
-                                So, we built the cleaning company <br className="hidden md:block" />
-                                <span className="italic text-teal-600">we couldn't find.</span>
+                                From 3 units to <br className="hidden md:block" />
+                                <span className="italic text-teal-600">70+ properties.</span>
                             </h3>
                         </div>
+
+                        <p className="mb-8 p-6 bg-slate-50 rounded-xl border-l-4 border-teal-400 italic">
+                            "What began as a necessity for our own three units quickly grew. We developed rigorous checklists that didn't just 'clean' a space—they reset it. Other hosts noticed the difference in our reviews and property condition. Today, that commitment to excellence has expanded Metla to manage likely the most demanding cleaning schedules in the city: over 70 concurrent vacation properties."
+                        </p>
+
+                        <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-4">From Guests to Homeowners</h3>
+                        <p className="mb-8">
+                            But our story didn't stay in the rental market. Word traveled fast among our neighbors and friends. They saw our teams transforming chaotic turnovers into pristine sanctuaries in a matter of hours and asked, <em>"Can you do that for my house?"</em>
+                        </p>
+                        <p className="mb-12">
+                            It turns out, the same "hotel-ready" perfection required for a $5,000-a-week vacation rental is exactly what San Diego homeowners were missing. We brought our hospitality-grade standards—crisp linens, spotless bathrooms, and an obsessive eye for detail—into the residential market. Today, our residential cleaning service stands toe-to-toe with our commercial operations, giving busy families the daily luxury of coming home to a 5-star experience.
+                        </p>
+
+                        <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-4">Post-Construction Excellence</h3>
+                        <p className="mb-8">
+                            While we were perfecting the art of the turnover, we were also building a quiet reputation in the construction world. For nearly the entire existence of our company, we have been the trusted partner for a major custom home developer operating in San Diego's most exclusive communities.
+                        </p>
+                        <p>
+                            From the coastal estates of <strong>Del Mar</strong> and <strong>Encinitas</strong> to the sprawling ranch properties of <strong>Rancho Santa Fe</strong> and <strong>Rancho Peñasquitos</strong>, we have been the final step before the keys are handed over. We understand that after a multi-million dollar renovation, the final clean isn't just about dust—it's about revealing the craftsmanship. We handle delicate finishes, specialized surfaces, and massive square footage with the same precision we apply to a studio apartment.
+                        </p>
                     </div>
                 </div>
 
@@ -127,10 +150,10 @@ const AboutPage: React.FC = () => {
                                 <div className="p-2 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
                                     <Waves className="w-6 h-6 text-blue-500" />
                                 </div>
-                                <h4 className="font-bold text-slate-900 text-lg">Coastal Salt Air</h4>
+                                <h4 className="font-bold text-slate-900 text-lg">Coastal Marine Layer</h4>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed">
-                                For our clients in La Jolla, Pacific Beach, and Coronado, ocean breezes bring salt residue that clouds windows and dulls finishes. Our team uses specialized techniques to cut through this grime, protecting your views and fixtures.
+                                For our clients in La Jolla, Point Loma, and Coronado, the daily marine layer brings moisture that can cause mildew and salt residue on windows. Our team uses specialized techniques not just to clean, but to protect your finishes against the unique coastal environment.
                             </p>
                         </div>
 
@@ -140,10 +163,10 @@ const AboutPage: React.FC = () => {
                                 <div className="p-2 bg-yellow-50 rounded-lg group-hover:bg-yellow-100 transition-colors">
                                     <Sun className="w-6 h-6 text-yellow-500" />
                                 </div>
-                                <h4 className="font-bold text-slate-900 text-lg">Year-Round Sun</h4>
+                                <h4 className="font-bold text-slate-900 text-lg">Santa Ana Winds & Dust</h4>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed">
-                                San Diego's 266 sunny days per year mean dust accumulates faster and shows more clearly. Our thorough cleaning protocols address the fine dust that settles throughout your home, keeping surfaces pristine and allergens at bay.
+                                San Diego's famous Santa Ana winds drive fine, pervasive dust into even the tightest sealed homes, especially in inland areas like Rancho Bernardo and Poway. Our deep-cleaning protocols include detailed high-dusting of vents, ledges, and fans to combat this seasonal challenge.
                             </p>
                         </div>
 
@@ -227,7 +250,7 @@ const AboutPage: React.FC = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 
