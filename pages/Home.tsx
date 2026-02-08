@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Hero from '../components/Hero';
 import StatsPanel from '../components/StatsPanel';
+import HomeSchema from '../components/HomeSchema';
 import { SERVICES, LOCATIONS, TESTIMONIALS, PHONE_NUMBER } from '../constants';
 import { SITE_CONFIG, getRegionalHeading } from '../src/config/site-config';
 import { getIcon } from '../utils/icons';
@@ -38,6 +39,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen">
+      <HomeSchema />
       <Hero />
       <StatsPanel />
 
