@@ -112,22 +112,19 @@ const Footer: React.FC = () => {
         </nav>
 
         {/* BBB Seal - Centered Assurance */}
-        {
-          SITE_CONFIG.socialProfiles.bbb && (
-            <div className="flex justify-center mb-8">
-              <a href={SITE_CONFIG.socialProfiles.bbb} target="_blank" rel="noopener noreferrer" className="inline-block transition-transform hover:scale-105">
+        {SITE_CONFIG.socialProfiles.bbb && (
+          <div className="flex justify-center mb-8">
+            <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="inline-block transition-transform hover:scale-105">
+              <div className="bg-white p-1.5 rounded-md flex items-center justify-center gap-2 opacity-95 hover:opacity-100 transition-opacity shadow-lg">
                 <img
-                  src="https://www.bbb.org/Content/Images/bbb-logo-vector.svg"
+                  src="https://seal-central-northern-western-arizona.bbb.org/seals/blue-seal-200-42-bbb-1000113404.png"
                   alt="Metla House Cleaning San Diego BBB Accredited Business"
-                  className="h-10 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition-all bg-white p-1 rounded"
+                  className="h-8 w-auto"
                 />
-                <div className="text-center text-[10px] text-slate-500 mt-1 uppercase tracking-widest font-semibold">
-                  Accredited • A+ Rating
-                </div>
-              </a>
-            </div>
-          )
-        }
+              </div>
+            </a>
+          </div>
+        )}
 
         {/* Copyright */}
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left text-sm text-slate-400">

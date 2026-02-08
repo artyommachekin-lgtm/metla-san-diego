@@ -59,7 +59,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
             ...(SITE_CONFIG.socialProfiles.gmb ? [SITE_CONFIG.socialProfiles.gmb] : []),
             ...(SITE_CONFIG.socialProfiles.thumbtack ? [SITE_CONFIG.socialProfiles.thumbtack] : []),
             ...(SITE_CONFIG.socialProfiles.bbb ? [SITE_CONFIG.socialProfiles.bbb] : []),
-            // ...(SITE_CONFIG.socialProfiles.facebook ? [SITE_CONFIG.socialProfiles.facebook] : []),
+            ...(SITE_CONFIG.socialProfiles.facebook ? [SITE_CONFIG.socialProfiles.facebook] : []),
             // ...(SITE_CONFIG.socialProfiles.yelp ? [SITE_CONFIG.socialProfiles.yelp] : []),
         ],
         "parentOrganization": {
