@@ -68,7 +68,6 @@ const Home: React.FC = () => {
               <div>
                 <Star className="w-10 h-10 text-teal-500 mb-4" />
                 <h3 className="font-bold text-xl mb-2 text-slate-900">Top Rated</h3>
-                <p className="text-slate-600 mb-4">4.9/5 Stars on Google. San Diego's preferred choice.</p>
               </div>
               <a href="https://www.bbb.org/us/ca/san-diego/profile/house-cleaning/metla-house-cleaning-san-diego-1126-1000113404/#sealclick" target="_blank" rel="nofollow noreferrer" className="block mt-auto">
                 <img
