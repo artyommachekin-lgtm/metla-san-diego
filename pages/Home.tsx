@@ -48,7 +48,7 @@ const Home: React.FC = () => {
             We are not "strangers". We are professionals.
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
             <div className="p-6 bg-slate-50 rounded-lg border border-slate-100">
               <ShieldCheck className="w-10 h-10 text-teal-500 mb-4" />
               <h3 className="font-bold text-xl mb-2 text-slate-900">100% Insured</h3>
@@ -63,6 +63,11 @@ const Home: React.FC = () => {
               <Clock className="w-10 h-10 text-teal-500 mb-4" />
               <h3 className="font-bold text-xl mb-2 text-slate-900">Reliability Protocol</h3>
               <p className="text-slate-600">We never cancel. Our backup teams ensure your service happens, no matter what.</p>
+            </div>
+            <div className="p-6 bg-slate-50 rounded-lg border border-slate-100">
+              <Star className="w-10 h-10 text-teal-500 mb-4" />
+              <h3 className="font-bold text-xl mb-2 text-slate-900">Top Rated & Accredited</h3>
+              <p className="text-slate-600">BBB Accredited A+ Business. 4.9/5 Stars on Google. San Diego's preferred choice.</p>
             </div>
           </div>
         </div>
