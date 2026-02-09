@@ -11,7 +11,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": `${SITE_CONFIG.baseUrl}/location/${location.slug}`,
-        "name": `${COMPANY_NAME} - ${location.name}`,
+        "name": `${SITE_CONFIG.companyName} - ${location.name}`,
         "image": `${SITE_CONFIG.baseUrl}${SITE_CONFIG.social.logoUrl}`,
         "telephone": SITE_CONFIG.phoneIntl,
         "email": SITE_CONFIG.email,
