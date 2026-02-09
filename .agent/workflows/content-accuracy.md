@@ -1,5 +1,5 @@
 ---
-description: Ensure blog content matches company service definitions and policies
+description: MANDATORY TRUTH & LEGAL CHECK. Must be used to verify service inclusions, pricing, and strictly prevent liability risks (e.g., promising deposit returns) before generating any text.
 ---
 
 ## Content Accuracy Requirements
@@ -76,3 +76,30 @@ Before publishing any content:
 - ❌ Promising specific outcomes we can't control
 - ❌ Window cleaning is included (only sills, not glass, in deep clean)
 - ❌ Mixing up what's included in different service tiers
+
+
+---
+
+---
+
+## ⚠️ OPERATIONAL REALITY (The "1099 Constraint")
+**Context:** We utilize a network of independent domestic workers (1099 contractors). While vetted professionals, equipment varies between teams.
+
+### ❌ FORBIDDEN Equipment & Process Claims:
+* **NO HEPA Promises:** Do NOT say "We use HEPA filters" or "We use Dyson vacuums." Say: "Professional-grade vacuums."
+* **NO Chemical Promises:** Do NOT say "We spray anti-microbial solution" as a standard step.
+* **NO Grout Restoration:** Do NOT say "We scrub grout lines," "We whiten grout," or "We restore tile" in a standard description.
+
+### ✅ CORRECT "Add-On" Phrasing:
+* **Floors & Grout:**
+    * *Standard:* "We vacuum and mop all hard floors to remove surface dust and dirt."
+    * *Add-On:* "Deep grout scrubbing and tile restoration is available as a **specialized add-on** request."
+* **Mold/Mildew:**
+    * *Standard:* "We clean accessible surfaces."
+    * *Add-On:* "Treating deep-set mildew or humidity buildup requires a specific **Deep Clean Add-On**."
+* **Allergies:** Focus on *dust removal*, not *air purification*.
+    * *Say:* "Our detailed dusting protocols help reduce allergens in the home."
+
+### 🛑 The "Scope of Work" Rule:
+* If a task requires a ladder higher than 2 steps, it is **FORBIDDEN**.
+* If a task requires moving furniture heavier than 25lbs, it is **FORBIDDEN**.

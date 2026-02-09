@@ -1,21 +1,29 @@
 ---
-description: Rules for blog post images
+description: MANDATORY IMAGE PROTOCOL. Prevents irrelevant or repeated images. Forces the use of keyword-based search URLs so images always match the specific blog topic.
 ---
 
-## Image Requirements for Blog Posts
+# Blog Post Image Strategy
 
-1. **Unique Images**: Every blog post MUST have a unique hero/thumbnail image. Never reuse the same Unsplash URL across multiple posts.
+## 1. The "No Guessing" Rule (CRITICAL)
+* **Problem:** You (the AI) cannot see Unsplash images. Do NOT guess specific Photo IDs (e.g., `photo-1584627404`).
+* **Result:** Guessing leads to random, irrelevant images (e.g., a forest for an oven cleaning post).
+* **Rule:** NEVER output a direct `photo-ID` unless explicitly provided in the user prompt.
 
-2. **Relevant Images**: The image must directly relate to the blog post topic:
-   - Ceiling fans article → image of a ceiling fan
-   - Granite counters article → image of granite countertops
-   - Upholstery cleaning → image of a sofa/couch
-   - Mold removal → image related to cleaning/mold
-   - Refrigerator → image of a refrigerator
+## 2. The "Keyword Search" Solution
+Instead of a static ID, use the Unsplash Source URL with **specific keywords** from the H1 title.
+* **Format:** `https://source.unsplash.com/featured/800x600/?[keyword1],[keyword2]`
+* **Example for "Oven Cleaning":**
+    * `https://source.unsplash.com/featured/800x600/?oven,kitchen`
+* **Example for "San Diego Dust":**
+    * `https://source.unsplash.com/featured/800x600/?dust,living+room`
 
-3. **Image Source**: Use Unsplash for high-quality, free stock images. Format:
-   ```
-   https://images.unsplash.com/photo-ID?q=80&w=800&fm=webp
-   ```
+## 3. Uniqueness Enforcement
+* **Diversity:** Never use the exact same keyword combination twice in a row.
+* **Granularity:** Be specific.
+    * *Bad:* `?cleaning` (Too generic, will repeat).
+    * *Good:* `?granite+countertop,kitchen` (Specific, will be unique).
 
-4. **Before Adding New Blog Posts**: Verify that the image URL is not already used in the `BLOG_POSTS` array in `BlogPage.tsx`.
+## 4. Alt Text Requirement
+* Every image MUST have alt text that describes the *specific* subject, not just "cleaning."
+    * *Bad:* "Cleaning service"
+    * *Good:* "Staff member wiping down granite countertops in a San Diego kitchen."

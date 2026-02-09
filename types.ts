@@ -41,6 +41,10 @@ export interface Location {
   }[];
   propertyManagerContent?: string;
   zipCodes?: string[];
+  contentSections?: {
+    title: string;
+    content: string;
+  }[];
 }
 
 export interface Testimonial {
