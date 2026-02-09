@@ -162,7 +162,28 @@ const LocationPage: React.FC = () => {
                 </div>
               </div>
 
-              {/* Service Area */}
+              {/* Detailed Content Sections */}
+              {location.contentSections && location.contentSections.length > 0 && (
+                <div className="mb-12 space-y-12">
+                  {location.contentSections.map((section, index) => {
+                    if (!section || !section.title || !section.content) {
+                      console.warn(`Invalid content section at index ${index} for ${location.name}`, section);
+                      return null;
+                    }
+                    return (
+                      <div key={index} className="prose prose-lg max-w-none">
+                        <h2 className="text-2xl font-serif font-bold text-slate-900 mb-4">
+                          {section.title}
+                        </h2>
+                        <div className="text-slate-600 leading-relaxed whitespace-pre-line">
+                          {section.content}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
               {(location.landmarks || location.neighborhoods || location.housingTypes) && (
                 <div className="mb-12">
                   <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
