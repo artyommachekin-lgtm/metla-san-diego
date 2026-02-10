@@ -61,7 +61,7 @@ const DeepCleaningGuidePage: React.FC = () => {
         },
         {
             name: "Tackle the Kitchen",
-            text: "Clean inside the oven and microwave, degrease range hood, wipe down cabinet fronts, sanitize the refrigerator interior, and deep clean the dishwasher."
+            text: "Clean the microwave inside and out, degrease range hood, wipe down cabinet fronts and appliance exteriors, and deep clean the dishwasher. Inside the oven and refrigerator are available as add-on services or included with move-in/move-out cleaning."
         },
         {
             name: "Clean Floors Thoroughly",
@@ -283,11 +283,17 @@ const DeepCleaningGuidePage: React.FC = () => {
                                 Let Metla House Cleaning handle your deep cleaning. Our trained professionals use hospital-grade products and follow a comprehensive 50-point checklist.
                             </p>
                             <Link
+                                to="/booking"
+                                className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                            >
+                                Book a Cleaning
+                                <ArrowRight className="ml-2 w-5 h-5" />
+                            </Link>
+                            <Link
                                 to="/service/deep-cleaning"
-                                className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                                className="inline-flex items-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                             >
                                 Learn About Our Deep Cleaning Service
-                                <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </div>
 

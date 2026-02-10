@@ -304,11 +304,17 @@ const MoveInChecklistPage: React.FC = () => {
                                 Start your new chapter with a professionally cleaned home. Our move-in service includes inside cabinets, appliances, and thorough sanitization.
                             </p>
                             <Link
+                                to="/booking"
+                                className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                            >
+                                Book a Cleaning
+                                <ArrowRight className="ml-2 w-5 h-5" />
+                            </Link>
+                            <Link
                                 to="/service/move-in-out-cleaning"
-                                className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                                className="inline-flex items-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                             >
                                 Learn About Move-In Cleaning
-                                <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </div>
 

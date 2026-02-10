@@ -319,18 +319,18 @@ const SpringCleaningTipsPage: React.FC = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link
-                                    to="/service/deep-cleaning"
+                                    to="/booking"
                                     className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                                 >
-                                    Book Spring Cleaning
+                                    Book a Cleaning
                                     <ArrowRight className="ml-2 w-5 h-5" />
                                 </Link>
-                                <a
-                                    href={`tel:${PHONE_NUMBER}`}
-                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white rounded hover:bg-white/10 transition-colors"
+                                <Link
+                                    to="/service/deep-cleaning"
+                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                                 >
-                                    Call {PHONE_NUMBER}
-                                </a>
+                                    Book Spring Cleaning
+                                </Link>
                             </div>
                         </div>
 

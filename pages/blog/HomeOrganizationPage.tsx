@@ -279,11 +279,17 @@ const HomeOrganizationPage: React.FC = () => {
                                 Once you've decluttered, let us handle the deep cleaning. You'll be amazed at the difference when every surface is accessible.
                             </p>
                             <Link
+                                to="/booking"
+                                className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                            >
+                                Book a Cleaning
+                                <ArrowRight className="ml-2 w-5 h-5" />
+                            </Link>
+                            <Link
                                 to="/service/deep-cleaning"
-                                className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                                className="inline-flex items-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                             >
                                 Schedule Your Deep Clean
-                                <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </div>
 

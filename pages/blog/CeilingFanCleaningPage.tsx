@@ -31,7 +31,7 @@ const CeilingFanCleaningPage: React.FC = () => {
         },
         {
             question: "What's the best way to clean ceiling fan blades without making a mess?",
-            answer: "Use an old pillowcase! Slide it over each blade and wipe as you pull it off—the dust stays inside the pillowcase instead of falling on your floor and furniture. This trick is a game-changer for dusty fans."
+            answer: "Use an old pillowcase! Slide it over each blade and wipe as you pull it off—the dust stays inside the pillowcase instead of falling on your floor and furniture. This simple trick keeps all that dust contained instead of spreading it around the room."
         },
         {
             question: "Can dirty ceiling fans make you sick?",
@@ -310,18 +310,18 @@ const CeilingFanCleaningPage: React.FC = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link
-                                    to="/service/deep-cleaning"
+                                    to="/booking"
                                     className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                                 >
-                                    Learn About Deep Cleaning
+                                    Book a Cleaning
                                     <ArrowRight className="ml-2 w-5 h-5" />
                                 </Link>
-                                <a
-                                    href={`tel:${PHONE_NUMBER}`}
-                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white rounded hover:bg-white/10 transition-colors"
+                                <Link
+                                    to="/service/deep-cleaning"
+                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                                 >
-                                    Call {PHONE_NUMBER}
-                                </a>
+                                    Learn About Deep Cleaning
+                                </Link>
                             </div>
                         </div>
 

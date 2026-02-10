@@ -379,12 +379,12 @@ const DeepCleaningCostPage: React.FC = () => {
                                     Get a Free Quote
                                     <ArrowRight className="ml-2 w-5 h-5" />
                                 </Link>
-                                <a
-                                    href={`tel:${PHONE_NUMBER}`}
-                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white rounded hover:bg-white/10 transition-colors"
+                                <Link
+                                    to="/service/deep-cleaning"
+                                    className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                                 >
-                                    Call {PHONE_NUMBER}
-                                </a>
+                                    Learn About Deep Cleaning
+                                </Link>
                             </div>
                         </div>
 

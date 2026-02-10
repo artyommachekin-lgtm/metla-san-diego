@@ -292,11 +292,17 @@ const PetOdorRemovalPage: React.FC = () => {
                                 Our deep cleaning service addresses pet hair, dander, and surface odors. For severe stains and odors, we can assess whether specialized treatment is needed.
                             </p>
                             <Link
+                                to="/booking"
+                                className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                            >
+                                Book a Cleaning
+                                <ArrowRight className="ml-2 w-5 h-5" />
+                            </Link>
+                            <Link
                                 to="/service/deep-cleaning"
-                                className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                                className="inline-flex items-center px-6 py-3 border-2 border-white text-white rounded hover:bg-white/10 transition-colors"
                             >
                                 Learn About Deep Cleaning
-                                <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </div>
 
