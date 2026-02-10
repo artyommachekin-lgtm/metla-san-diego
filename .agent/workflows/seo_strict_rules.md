@@ -46,3 +46,30 @@ To prevent "Doorway Page" penalties, you MUST vary the structure of every page.
     * *Focus:* Maintenance, long-term value, protecting finishes.
 
 **Constraint:** You cannot use the same Hook for two consecutive pages.
+
+
+---
+
+## 7. Internal Link Audit Protocol (The "Spider Web" Strategy)
+**Objective:** Distribute PageRank authority and prevent "Orphan Pages."
+**Trigger:** When asked to "Audit Links" or "Build Internal Links," execute the following checks:
+
+### 1. The "Hub & Spoke" Check
+* **Rule:** Every Neighborhood Page (e.g., *North Park*) MUST link back to the Main City Hub (e.g., *San Diego Cleaning Services*).
+* **Format:** "Proudly serving the greater [Link: San Diego] area."
+
+### 2. The "Problem -> Solution" Service Link
+* **Rule:** Scan the text for specific cleaning problems and link to the matching Service Page.
+    * *Text:* "We remove deep-set dust..." -> *Link:* `/services/deep-cleaning`
+    * *Text:* "Getting your deposit back..." -> *Link:* `/services/move-in-out`
+    * *Text:* "Vacation rental turnover..." -> *Link:* `/services/airbnb-cleaning`
+
+### 3. The "Educational" Blog Link
+* **Rule:** If the content mentions a specific tip (e.g., "Mold prevention" or "Pet hair"), link to a relevant Blog Post if one exists in the project.
+    * *Example:* "For more tips on maintenance, read our guide on [Controlling Coastal Mold](/blog/mold-guide)."
+
+### 4. The "Orphan" Prevention Count
+* **Requirement:** Every single page MUST have at least **3 Internal Links**:
+    1.  **Up:** To the City Hub.
+    2.  **Sideways:** To a related Service or Blog.
+    3.  **Conversion:** To the `/booking` page (CTA).

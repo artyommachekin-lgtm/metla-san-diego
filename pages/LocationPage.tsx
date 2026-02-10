@@ -1,22 +1,44 @@
 import React, { useEffect } from 'react';
 import { useParams, Navigate, Link, useLocation as useRouterLocation } from 'react-router-dom';
-import { LOCATIONS, SERVICES, COMPANY_NAME, PHONE_NUMBER } from '../constants';
+import { LOCATIONS, COMPANY_NAME, PHONE_NUMBER } from '../constants';
 import {
   MapPin,
   CheckCircle,
   Building2,
-  Home,
-  Droplets,
-  Wind,
-  Shield,
   Phone,
   ArrowRight,
   Users,
-  Star
+  Star,
+  Shield,
+  HelpCircle
 } from 'lucide-react';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import LocalBusinessSchema from '../components/LocalBusinessSchema';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
+
+// Map location type to primary recommended service
+const getRecommendedService = (locationType: string) => {
+  switch (locationType) {
+    case 'Coastal':
+      return {
+        slug: 'vacation-rental-cleaning-airbnb',
+        title: 'Vacation Rental Cleaning',
+        description: 'Fast, thorough turnover cleaning for Airbnb and VRBO properties. We handle same-day turnovers, sanitize high-touch surfaces, and prepare your rental for five-star reviews.'
+      };
+    case 'Urban Core':
+      return {
+        slug: 'standard-cleaning',
+        title: 'Standard Cleaning',
+        description: 'Recurring maintenance cleaning on your schedule — weekly, bi-weekly, or monthly. We handle the dusting, kitchen, bathrooms, and floors so you can focus on everything else.'
+      };
+    default: // Suburban, North Inland, South Bay, East County
+      return {
+        slug: 'deep-cleaning',
+        title: 'Deep Cleaning',
+        description: 'A complete reset for your home. We clean appliance exteriors, baseboards, ceiling fans, blinds, light fixtures, and every surface that standard cleaning misses.'
+      };
+  }
+};
 
 const LocationPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -26,8 +48,8 @@ const LocationPage: React.FC = () => {
   useEffect(() => {
     if (location) {
       updatePageSEO({
-        title: `${location.name} House Cleaning | ${COMPANY_NAME}`,
-        description: `Professional house cleaning and maid services in ${location.name}. ${location.tagline || location.description} Insured, background-checked cleaners. Book today!`,
+        title: `Top-Rated House Cleaning in ${location.name}, San Diego | ${COMPANY_NAME}`,
+        description: `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`,
         path: routerLocation.pathname,
       });
     }
@@ -38,30 +60,31 @@ const LocationPage: React.FC = () => {
 
   if (!location) return <Navigate to="/" />;
 
-  const displayedServices = location.popularServiceIds
-    ? SERVICES.filter(s => location.popularServiceIds?.includes(s.id))
-    : SERVICES.slice(0, 3);
+  const recommendedService = getRecommendedService(location.type);
 
-  // Location-specific FAQs for rich snippets
-  const locationFaqs: FAQItem[] = [
-    {
-      question: `How much does house cleaning cost in ${location.name}?`,
-      answer: `House cleaning prices in ${location.name} vary based on home size and service type. Standard cleaning typically ranges from $120-$300, deep cleaning from $200-$500, and specialized services are quoted based on specific needs. Contact us for a free personalized estimate.`
-    },
-    {
-      question: `Do you serve all areas of ${location.name}?`,
-      answer: `Yes, Metla House Cleaning provides full coverage throughout ${location.name} and surrounding areas. Our team knows the area well and can typically accommodate same-week or even same-day appointments depending on availability.`
-    },
-    {
-      question: `Are your ${location.name} cleaners background checked?`,
-      answer: `Absolutely. Every member of our ${location.name} cleaning team undergoes a thorough background check, is fully insured and bonded, and receives professional training. Your safety and peace of mind are our top priorities.`
-    },
-  ];
+  // Use location-specific FAQs if available, fallback to generic
+  const faqData: FAQItem[] = location.faqs && location.faqs.length > 0
+    ? location.faqs
+    : [
+        {
+          question: `How much does house cleaning cost in ${location.name}?`,
+          answer: `House cleaning prices in ${location.name} vary based on home size and service type. Standard cleaning typically ranges from $120-$300, deep cleaning from $200-$500, and specialized services are quoted based on specific needs. Contact us for a free personalized estimate.`
+        },
+        {
+          question: `Do you serve all areas of ${location.name}?`,
+          answer: `Yes, Metla House Cleaning provides full coverage throughout ${location.name} and surrounding areas. Our team knows the area well and can typically accommodate same-week or even same-day appointments depending on availability.`
+        },
+        {
+          question: `Are your ${location.name} cleaners background checked?`,
+          answer: `Every member of our ${location.name} cleaning team undergoes a thorough background check, is fully insured and bonded, and receives professional training. Your safety and peace of mind are our top priorities.`
+        },
+      ];
 
   return (
     <div className="bg-white min-h-screen">
       <LocalBusinessSchema location={location} />
-      <FAQSchema faqs={locationFaqs} />
+      <FAQSchema faqs={faqData} />
+
       {/* Hero Section */}
       <section className="bg-slate-900 text-white pt-32 pb-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-teal-900/30 to-slate-900" />
@@ -71,12 +94,12 @@ const LocationPage: React.FC = () => {
               <MapPin className="w-4 h-4 mr-2 text-teal-400" />
               <span>Proudly Serving {location.name}</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
-              Premier House Cleaning Services in{' '}
-              <span className="text-teal-400">{location.name}</span>
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4">
+              Top-Rated House Cleaning in{' '}
+              <span className="text-teal-400">{location.name}</span>, San Diego
             </h1>
-            <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
-              {location.tagline || location.description}
+            <p className="text-lg text-slate-400 mb-6">
+              Metla House Cleaning serving San Diego since 2022
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -104,32 +127,27 @@ const LocationPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Left Column - Main Content */}
             <div className="lg:col-span-2">
-              {/* Introduction */}
+
+              {/* Section 1: Introduction / Local Hook */}
               <div className="prose prose-lg max-w-none mb-12">
-                <h2 className="text-3xl font-serif font-bold text-slate-900 mb-6">
-                  Keeping {location.name} Homes Sparkling
-                </h2>
                 <p className="text-slate-600 leading-relaxed whitespace-pre-line">
                   {location.detailedContent}
                 </p>
               </div>
 
-              {/* Why Trust Us */}
+              {/* Section 2: Why Residents Choose Metla */}
               <div className="mb-12">
                 <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
-                  Why {location.name} Residents Trust {COMPANY_NAME}
+                  Why {location.name} Residents Choose Metla
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="p-5 bg-slate-50 rounded-xl">
                     <div className="flex items-center gap-3 mb-2">
-                      <Building2 className="w-6 h-6 text-teal-600" />
-                      <h3 className="font-bold text-slate-900">Local Expertise</h3>
+                      <CheckCircle className="w-6 h-6 text-teal-600" />
+                      <h3 className="font-bold text-slate-900">Reliability</h3>
                     </div>
                     <p className="text-sm text-slate-600">
-                      {location.housingTypes
-                        ? `Specialized in ${location.housingTypes.slice(0, 2).join(' and ')} cleaning with familiarity of local building protocols.`
-                        : `Familiar with ${location.name}'s unique housing types and building access requirements.`
-                      }
+                      We show up on time, every time. We use systems, not guesswork — so your {location.name} home is cleaned on schedule.
                     </p>
                   </div>
                   <div className="p-5 bg-slate-50 rounded-xl">
@@ -138,31 +156,25 @@ const LocationPage: React.FC = () => {
                       <h3 className="font-bold text-slate-900">Vetted Professionals</h3>
                     </div>
                     <p className="text-sm text-slate-600">
-                      Fully insured cleaners who are background-checked and familiar with {location.name} security protocols.
+                      We work with experienced, background-checked and vetted cleaners who are fully insured and familiar with {location.name} homes.
                     </p>
                   </div>
                   <div className="p-5 bg-slate-50 rounded-xl">
                     <div className="flex items-center gap-3 mb-2">
-                      <Droplets className="w-6 h-6 text-teal-600" />
-                      <h3 className="font-bold text-slate-900">Eco-Friendly Products</h3>
+                      <Building2 className="w-6 h-6 text-teal-600" />
+                      <h3 className="font-bold text-slate-900">Local Expertise</h3>
                     </div>
                     <p className="text-sm text-slate-600">
-                      Safe products for homes with pets and children, mindful of {location.name}'s proximity to natural areas.
-                    </p>
-                  </div>
-                  <div className="p-5 bg-slate-50 rounded-xl">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Star className="w-6 h-6 text-teal-600" />
-                      <h3 className="font-bold text-slate-900">5-Star Service</h3>
-                    </div>
-                    <p className="text-sm text-slate-600">
-                      Consistent, reliable service with a <Link to="/policies#satisfaction-guarantee" className="text-teal-600 underline hover:text-teal-700">satisfaction guarantee</Link>. Rated 4.9/5 by local clients.
+                      {location.housingTypes
+                        ? `We understand the specific needs of ${location.name} homes — from ${location.housingTypes.slice(0, 2).join(' to ')}.`
+                        : `We understand the specific cleaning needs of ${location.name} homes and local building protocols.`
+                      }
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Detailed Content Sections */}
+              {/* Section 3: Cleaning Challenge (via contentSections) */}
               {location.contentSections && location.contentSections.length > 0 && (
                 <div className="mb-12 space-y-12">
                   {location.contentSections.map((section, index) => {
@@ -184,16 +196,17 @@ const LocationPage: React.FC = () => {
                 </div>
               )}
 
+              {/* Section 4: Neighborhoods We Serve */}
               {(location.landmarks || location.neighborhoods || location.housingTypes) && (
                 <div className="mb-12">
                   <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
-                    Service Area & Community Coverage
+                    Neighborhoods We Serve in {location.name}
                   </h2>
 
                   {location.housingTypes && location.housingTypes.length > 0 && (
                     <div className="mb-6">
                       <h3 className="text-lg font-bold text-slate-900 mb-3">
-                        Residential Communities We Serve
+                        Property Types We Clean
                       </h3>
                       <div className="flex flex-wrap gap-2">
                         {location.housingTypes.map((type, i) => (
@@ -244,32 +257,45 @@ const LocationPage: React.FC = () => {
                 </div>
               )}
 
-              {/* Cleaning Challenges */}
-              {location.cleaningChallenges && location.cleaningChallenges.length > 0 && (
-                <div className="mb-12">
-                  <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
-                    Common Cleaning Challenges in {location.name}
-                  </h2>
-                  <div className="grid gap-4">
-                    {location.cleaningChallenges.map((challenge, i) => (
-                      <div key={i} className="flex gap-4 p-4 bg-orange-50 rounded-xl">
-                        <Wind className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
-                        <div>
-                          <h3 className="font-bold text-slate-900 mb-1">{challenge.title}</h3>
-                          <p className="text-slate-600 text-sm">{challenge.description}</p>
-                        </div>
-                      </div>
-                    ))}
+              {/* Section 5: Recommended Services */}
+              <div className="mb-12">
+                <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
+                  Recommended Services for {location.name}
+                </h2>
+                <div className="space-y-4">
+                  <div className="p-5 border border-teal-200 rounded-xl bg-teal-50/30">
+                    <h3 className="font-bold text-slate-900 mb-2">{recommendedService.title}</h3>
+                    <p className="text-sm text-slate-600 mb-3">{recommendedService.description}</p>
+                    <Link
+                      to={`/service/${recommendedService.slug}`}
+                      className="inline-flex items-center text-teal-600 hover:text-teal-700 font-medium text-sm"
+                    >
+                      Learn more about {recommendedService.title}
+                      <ArrowRight className="ml-1 w-4 h-4" />
+                    </Link>
+                  </div>
+                  <div className="p-5 border border-slate-200 rounded-xl">
+                    <h3 className="font-bold text-slate-900 mb-2">Move-In / Move-Out Cleaning</h3>
+                    <p className="text-sm text-slate-600 mb-3">
+                      Thorough cleaning for empty homes — inside cabinets, inside the fridge and oven, interior windows, and every surface. Designed to satisfy property management checklists and maximize your chances of a smooth deposit process.
+                    </p>
+                    <Link
+                      to="/service/move-in-out-cleaning"
+                      className="inline-flex items-center text-teal-600 hover:text-teal-700 font-medium text-sm"
+                    >
+                      Learn more about Move-In/Move-Out Cleaning
+                      <ArrowRight className="ml-1 w-4 h-4" />
+                    </Link>
                   </div>
                 </div>
-              )}
+              </div>
 
-              {/* Property Managers Section */}
+              {/* Section 6: Property Managers */}
               {location.propertyManagerContent && (
                 <div className="mb-12 p-6 bg-slate-900 text-white rounded-xl">
                   <div className="flex items-center gap-3 mb-4">
                     <Users className="w-8 h-8 text-teal-400" />
-                    <h2 className="text-xl font-bold">For Property Managers & Hosts</h2>
+                    <h2 className="text-xl font-bold">For Property Managers & Realtors in {location.name}</h2>
                   </div>
                   <p className="text-slate-300 mb-4">{location.propertyManagerContent}</p>
                   <Link
@@ -281,35 +307,40 @@ const LocationPage: React.FC = () => {
                   </Link>
                 </div>
               )}
+
+              {/* Section 7: Visible FAQ */}
+              <div className="mb-12">
+                <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
+                  Frequently Asked Questions about {location.name} Cleaning
+                </h2>
+                <div className="space-y-4">
+                  {faqData.map((faq, i) => (
+                    <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
+                      <div className="p-4 bg-slate-50">
+                        <div className="flex items-start gap-3">
+                          <HelpCircle className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                          <h3 className="font-bold text-slate-900">{faq.question}</h3>
+                        </div>
+                      </div>
+                      <div className="p-4">
+                        <p className="text-slate-600 text-sm">{faq.answer}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
 
             {/* Right Sidebar */}
             <div className="lg:col-span-1">
               <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 sticky top-24">
-                <h3 className="font-bold text-xl mb-4">Popular Services in {location.name}</h3>
-                <ul className="space-y-3 mb-6">
-                  {displayedServices.map(s => (
-                    <li key={s.id}>
-                      <Link
-                        to={`/service/${s.slug}`}
-                        className="flex items-center text-slate-700 hover:text-teal-600 transition-colors"
-                      >
-                        <CheckCircle className="w-5 h-5 text-teal-500 mr-3 flex-shrink-0" />
-                        <span>{s.title}</span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="border-t border-slate-200 pt-6 mb-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <div className="flex text-yellow-400">
-                      {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
-                    </div>
-                    <span className="text-sm text-slate-600">4.9/5</span>
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="flex text-yellow-400">
+                    {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
                   </div>
-                  <p className="text-xs text-slate-500">Based on 127+ reviews from {location.name} clients</p>
+                  <span className="text-sm text-slate-600">4.9/5</span>
                 </div>
+                <p className="text-xs text-slate-500 mb-6">Based on 127+ reviews from {location.name} clients</p>
 
                 <Link
                   to="/booking"
@@ -348,6 +379,15 @@ const LocationPage: React.FC = () => {
                   {nearbyLocation.name}
                 </Link>
               ))}
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                to="/locations"
+                className="inline-flex items-center text-teal-600 hover:text-teal-700 font-medium text-sm"
+              >
+                View all San Diego service areas
+                <ArrowRight className="ml-1 w-4 h-4" />
+              </Link>
             </div>
           </div>
         </div>

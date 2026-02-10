@@ -45,6 +45,10 @@ export interface Location {
     title: string;
     content: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
 }
 
 export interface Testimonial {
