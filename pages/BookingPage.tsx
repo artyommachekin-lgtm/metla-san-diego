@@ -31,12 +31,20 @@ const BookingPage: React.FC = () => {
         {/* Background Image Layer */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2574&fm=webp&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=15&w=800&fm=webp&auto=format&fit=crop"
+            srcSet="
+              https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=10&w=480&fm=webp&auto=format&fit=crop 480w,
+              https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=15&w=800&fm=webp&auto=format&fit=crop 800w,
+              https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=20&w=1200&fm=webp&auto=format&fit=crop 1200w
+            "
+            sizes="100vw"
             alt="Luxury Interior Background"
             className="w-full h-full object-cover opacity-30"
-            loading="lazy"
-            width={2574}
-            height={1716}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+            width={1200}
+            height={800}
           />
           {/* Gradient Overlay for Text Readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/70 to-slate-900/90" />

@@ -75,6 +75,10 @@ const Home: React.FC = () => {
                   style={{ border: 0 }}
                   alt="Metla House Cleaning San Diego BBB Business Review"
                   className="max-w-full h-auto"
+                  loading="lazy"
+                  decoding="async"
+                  width={153}
+                  height={100}
                 />
               </a>
             </div>

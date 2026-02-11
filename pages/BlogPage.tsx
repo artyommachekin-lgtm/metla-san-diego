@@ -366,6 +366,7 @@ const BlogPage: React.FC = () => {
                                             alt={post.imageAlt || post.title}
                                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                             loading="lazy"
+                                            decoding="async"
                                             width={800}
                                             height={533}
                                         />
