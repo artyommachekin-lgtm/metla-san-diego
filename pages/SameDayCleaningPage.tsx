@@ -49,19 +49,23 @@ const SameDayCleaningPage: React.FC = () => {
         };
     }, [location.pathname]);
 
+    const baseUrl = SITE_CONFIG.baseUrl;
+
     // Structured data for same day service
     const serviceSchema = {
         "@context": "https://schema.org",
         "@type": "Service",
+        "@id": `${baseUrl}/same-day-cleaning#service`,
         "serviceType": "Same Day House Cleaning",
         "name": "Same Day Cleaning Service San Diego",
+        "url": `${baseUrl}/same-day-cleaning`,
         "description": "Urgent same day house cleaning services in San Diego County. Professional cleaners available for emergency and last-minute cleaning requests.",
         "provider": {
             "@type": "LocalBusiness",
             "name": SITE_CONFIG.companyName,
-            "@id": `${SITE_CONFIG.baseUrl}/#organization`,
+            "@id": `${baseUrl}/#organization`,
             "telephone": SITE_CONFIG.phoneIntl,
-            "url": SITE_CONFIG.baseUrl
+            "url": baseUrl
         },
         "areaServed": [
             { "@type": "City", "name": "San Diego" },
@@ -69,10 +73,35 @@ const SameDayCleaningPage: React.FC = () => {
             { "@type": "City", "name": "Pacific Beach" },
             { "@type": "City", "name": "Coronado" }
         ],
+        "category": "House Cleaning",
         "availableChannel": {
             "@type": "ServiceChannel",
             "servicePhone": SITE_CONFIG.phoneIntl,
-            "serviceUrl": `${SITE_CONFIG.baseUrl}/same-day-cleaning`
+            "serviceUrl": `${baseUrl}/same-day-cleaning`
+        },
+        "termsOfService": `${baseUrl}/policies`,
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD"
+            }
+        },
+        "potentialAction": {
+            "@type": "ReserveAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": `${baseUrl}/booking`,
+                "actionPlatform": [
+                    "https://schema.org/DesktopWebPlatform",
+                    "https://schema.org/MobileWebPlatform"
+                ]
+            },
+            "result": {
+                "@type": "Reservation",
+                "name": "Book Same Day Cleaning"
+            }
         }
     };
 

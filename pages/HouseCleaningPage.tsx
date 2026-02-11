@@ -19,6 +19,7 @@ import {
     Phone
 } from 'lucide-react';
 import { SERVICES, LOCATIONS, COMPANY_NAME, PHONE_NUMBER } from '../constants';
+import { SITE_CONFIG } from '../src/config/site-config';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
 
@@ -80,9 +81,85 @@ const HouseCleaningPage: React.FC = () => {
         'post-construction-cleaning': Hammer,
     };
 
+    const baseUrl = SITE_CONFIG.baseUrl;
+
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": `${baseUrl}/house-cleaning#service`,
+        "name": "House Cleaning Services in San Diego",
+        "description": "Premium house cleaning services in San Diego County. Standard cleaning, deep cleaning, move-in/out cleaning, vacation rental turnovers, and post-construction cleaning.",
+        "url": `${baseUrl}/house-cleaning`,
+        "provider": {
+            "@type": "LocalBusiness",
+            "@id": `${baseUrl}/#organization`,
+            "name": SITE_CONFIG.companyName
+        },
+        "areaServed": {
+            "@type": "State",
+            "name": SITE_CONFIG.address.stateFullName,
+            "containsPlace": [
+                { "@type": "City", "name": "San Diego" },
+                { "@type": "City", "name": "La Jolla" },
+                { "@type": "City", "name": "Pacific Beach" },
+                { "@type": "City", "name": "Coronado" }
+            ]
+        },
+        "serviceType": "House Cleaning",
+        "category": "House Cleaning",
+        "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": `${baseUrl}/booking`,
+            "servicePhone": SITE_CONFIG.phoneIntl,
+            "serviceSmsNumber": SITE_CONFIG.phoneIntl
+        },
+        "termsOfService": `${baseUrl}/policies`,
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "lowPrice": "120",
+            "highPrice": "600",
+            "offerCount": "5",
+            "availability": "https://schema.org/InStock"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "House Cleaning Services",
+            "itemListElement": SERVICES.map((service, index) => ({
+                "@type": "Offer",
+                "position": index + 1,
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": service.title,
+                    "url": `${baseUrl}/service/${service.slug}`,
+                    "description": service.shortDescription
+                }
+            }))
+        },
+        "potentialAction": {
+            "@type": "ReserveAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": `${baseUrl}/booking`,
+                "actionPlatform": [
+                    "https://schema.org/DesktopWebPlatform",
+                    "https://schema.org/MobileWebPlatform"
+                ]
+            },
+            "result": {
+                "@type": "Reservation",
+                "name": "Book a Cleaning"
+            }
+        }
+    };
+
     return (
         <div className="bg-white min-h-screen">
             <FAQSchema faqs={faqs} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema, null, 2) }}
+            />
 
             {/* Hero Section */}
             <section className="bg-slate-900 text-white pt-32 pb-20">
