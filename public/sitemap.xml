@@ -89,8 +89,11 @@
 
   <!-- ============================================ -->
   <!-- LOCATION PAGES (30) — Local SEO targets      -->
-  <!-- Zone 1: Coastal — Premium areas, 0.7         -->
+  <!-- Coastal: Premium high-value areas → 0.7      -->
+  <!-- Urban Core / Suburban / Others → 0.6         -->
   <!-- ============================================ -->
+
+  <!-- Coastal Locations (8) — Priority 0.7 -->
   <url>
     <loc>https://metlahousecleaningsandiego.com/location/la-jolla</loc>
     <lastmod>2026-02-10</lastmod>
@@ -140,7 +143,47 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Zone 2: Suburban — Family neighborhoods, 0.6 -->
+  <!-- Urban Core Locations (4) — Priority 0.6 -->
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/hillcrest</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/north-park</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/mission-hills</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/mission-valley</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Suburban Locations (2) — Priority 0.6 -->
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/university-city</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metlahousecleaningsandiego.com/location/bay-park</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- North Inland Locations (5) — Priority 0.6 -->
   <url>
     <loc>https://metlahousecleaningsandiego.com/location/poway</loc>
     <lastmod>2026-02-10</lastmod>
@@ -171,18 +214,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/university-city</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/bay-park</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+
+  <!-- South Bay Locations (3) — Priority 0.6 -->
   <url>
     <loc>https://metlahousecleaningsandiego.com/location/eastlake</loc>
     <lastmod>2026-02-10</lastmod>
@@ -201,6 +234,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- East County Locations (8) — Priority 0.6 -->
   <url>
     <loc>https://metlahousecleaningsandiego.com/location/la-mesa</loc>
     <lastmod>2026-02-10</lastmod>
@@ -250,36 +285,10 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Zone 3: Urban Core, 0.6 -->
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/hillcrest</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/north-park</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/mission-hills</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metlahousecleaningsandiego.com/location/mission-valley</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
   <!-- ============================================ -->
   <!-- BLOG POSTS (28) — Content marketing          -->
-  <!-- High-intent posts (cost, checklists): 0.6    -->
-  <!-- How-to guides: 0.5                           -->
+  <!-- High-intent (cost, checklists): 0.6          -->
+  <!-- How-to / informational guides: 0.5           -->
   <!-- ============================================ -->
 
   <!-- High-intent: Cost & decision-stage content -->

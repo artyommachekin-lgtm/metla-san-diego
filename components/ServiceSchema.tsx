@@ -21,7 +21,7 @@ const ServiceSchema: React.FC<ServiceSchemaProps> = ({ service }) => {
         "description": service.shortDescription,
         "url": `${baseUrl}/service/${service.slug}`,
         "provider": {
-            "@type": "HomeAndConstructionBusiness",
+            "@type": "LocalBusiness",
             "@id": `${baseUrl}/#organization`,
             "name": SITE_CONFIG.companyName
         },

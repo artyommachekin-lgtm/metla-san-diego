@@ -29,7 +29,7 @@
         },
         {
             "source": "/services-4/",
-            "destination": "/locations",
+            "destination": "/house-cleaning",
             "permanent": true
         },
         {
@@ -104,12 +104,12 @@
         },
         {
             "source": "/vacation-rental-clean/",
-            "destination": "/service/airbnb-cleaning",
+            "destination": "/service/vacation-rental-cleaning-airbnb",
             "permanent": true
         },
         {
             "source": "/vacation-rental-clean",
-            "destination": "/service/airbnb-cleaning",
+            "destination": "/service/vacation-rental-cleaning-airbnb",
             "permanent": true
         },
         {
@@ -254,12 +254,12 @@
         },
         {
             "source": "/national-city/",
-            "destination": "/location/national-city",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/national-city",
-            "destination": "/location/national-city",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -304,12 +304,12 @@
         },
         {
             "source": "/valencia-park/",
-            "destination": "/location/valencia-park",
+            "destination": "/locations",
             "permanent": true
         },
         {
             "source": "/valencia-park",
-            "destination": "/location/valencia-park",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -349,7 +349,7 @@
         },
         {
             "source": "/reliable-house-cleaning-services-in-escondido-ca/",
-            "destination": "/locations",
+            "destination": "/location/escondido",
             "permanent": true
         },
         {
@@ -389,7 +389,7 @@
         },
         {
             "source": "/top-cleaning-services-in-solana-beach/",
-            "destination": "/locations",
+            "destination": "/location/solana-beach",
             "permanent": true
         },
         {
@@ -414,7 +414,7 @@
         },
         {
             "source": "/lincoln-acres/",
-            "destination": "/location/national-city",
+            "destination": "/locations",
             "permanent": true
         },
         {
@@ -559,7 +559,7 @@
         },
         {
             "source": "/what-to-wear-when-deep-cleaning-the-house/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
@@ -579,7 +579,7 @@
         },
         {
             "source": "/how-to-fit-deep-cleaning-into-a-busy-schedule/",
-            "destination": "/blog",
+            "destination": "/blog/weekly-cleaning-schedule-guide",
             "permanent": true
         },
         {
@@ -589,7 +589,7 @@
         },
         {
             "source": "/what-is-the-fastest-way-to-deep-clean-a-house/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
@@ -744,22 +744,22 @@
         },
         {
             "source": "/how-to-safely-pressure-wash-your-house-before-painting/",
-            "destination": "/",
+            "destination": "/blog/how-to-clean-your-outdoor-patio",
             "permanent": true
         },
         {
             "source": "/tips-and-tricks-on-how-to-deep-clean-instant-pot/",
-            "destination": "/blog",
+            "destination": "/blog/how-to-deep-clean-the-kitchen",
             "permanent": true
         },
         {
             "source": "/how-to-deep-clean-a-toaster/",
-            "destination": "/blog",
+            "destination": "/blog/how-to-deep-clean-the-kitchen",
             "permanent": true
         },
         {
             "source": "/how-to-deep-clean-your-towels/",
-            "destination": "/blog",
+            "destination": "/blog/how-to-deep-clean-your-laundry-room",
             "permanent": true
         },
         {
@@ -799,12 +799,12 @@
         },
         {
             "source": "/deep-clean-basement/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
             "source": "/how-do-you-clean-heavy-dust/",
-            "destination": "/blog",
+            "destination": "/blog/declutter-before-deep-cleaning",
             "permanent": true
         },
         {
@@ -814,7 +814,7 @@
         },
         {
             "source": "/tips-on-how-to-clean-your-basement/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
@@ -824,12 +824,12 @@
         },
         {
             "source": "/top-cleaning-tips-tricks-for-a-bright-home/",
-            "destination": "/blog",
+            "destination": "/blog/top-10-spring-deep-cleaning-tips",
             "permanent": true
         },
         {
             "source": "/most-common-cleaning-mistakes-homeowners-make/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
@@ -844,7 +844,7 @@
         },
         {
             "source": "/effective-speed-cleaning-tips-for-everyone/",
-            "destination": "/blog",
+            "destination": "/blog/weekly-cleaning-schedule-guide",
             "permanent": true
         },
         {
@@ -859,7 +859,7 @@
         },
         {
             "source": "/tips-for-preventing-and-reducing-dust-in-the-house/",
-            "destination": "/blog",
+            "destination": "/blog/allergy-proofing-your-home",
             "permanent": true
         },
         {
@@ -869,12 +869,12 @@
         },
         {
             "source": "/what-tools-are-needed-for-a-deep-clean/",
-            "destination": "/blog",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
             "permanent": true
         },
         {
             "source": "/best-cleaning-products-to-deep-clean-the-house/",
-            "destination": "/blog",
+            "destination": "/blog/eco-friendly-cleaning-tips",
             "permanent": true
         },
         {

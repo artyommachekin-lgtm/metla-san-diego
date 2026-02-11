@@ -59,6 +59,7 @@ const SameDayCleaningPage: React.FC = () => {
         "provider": {
             "@type": "LocalBusiness",
             "name": SITE_CONFIG.companyName,
+            "@id": `${SITE_CONFIG.baseUrl}/#organization`,
             "telephone": SITE_CONFIG.phoneIntl,
             "url": SITE_CONFIG.baseUrl
         },
