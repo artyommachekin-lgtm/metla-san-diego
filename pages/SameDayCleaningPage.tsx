@@ -308,6 +308,19 @@ const SameDayCleaningPage: React.FC = () => {
                         </div>
                     </div>
 
+                    {/* Our Commitment to Transparency */}
+                    <div className="mb-12">
+                        <h2 className="text-3xl font-serif text-slate-900 mb-6">Our Commitment to Transparency</h2>
+                        <div className="prose prose-lg max-w-none">
+                            <p className="text-slate-600 leading-relaxed mb-4">
+                                When you need cleaning on short notice, the last thing you want is confusion about what to expect. That's why we're upfront from the very first call. We'll honestly communicate our availability, provide a clear quote before confirming your appointment, and explain exactly what's included so there are no surprises.
+                            </p>
+                            <p className="text-slate-600 leading-relaxed">
+                                Every cleaner who walks through your door is fully insured, background-checked, and trained in our 50-point cleaning protocol. We communicate when our team is en route, notify you upon arrival, and send a completion update when the job is done. If anything doesn't meet your expectations, our satisfaction guarantee means we'll come back and make it right—at no additional cost.
+                            </p>
+                        </div>
+                    </div>
+
                     {/* FAQ Section */}
                     <div className="mb-12">
                         <h2 className="text-3xl font-serif text-slate-900 mb-6">Same Day Cleaning FAQ</h2>

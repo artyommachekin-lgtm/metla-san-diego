@@ -45,7 +45,7 @@ const SERVICE_FAQS: Record<string, FAQItem[]> = {
 // SEO-optimized meta descriptions per service (replaces generic brand copy)
 const SERVICE_META_DESCRIPTIONS: Record<string, string> = {
   'standard-cleaning': 'Professional standard cleaning in San Diego. Weekly & bi-weekly house cleaning service. Dusting, mopping, sanitizing bathrooms & kitchen. Insured cleaners, 50-point checklist. Book online!',
-  'deep-cleaning': 'Deep cleaning services in San Diego, La Jolla & Coronado. Inside appliances, baseboards, ceiling fans, cabinet fronts. Starting at $200. Insured professionals. Book today!',
+  'deep-cleaning': 'Deep cleaning services in San Diego, La Jolla & Coronado. Inside appliances, baseboards, ceiling fans, cabinet fronts. Typically $200-$400. Insured professionals. Book today!',
   'post-construction-cleaning': 'Post-construction cleaning in San Diego. Fine dust removal, window cleaning, cabinet detailing after renovation. Insured professionals, surface-safe methods. Free quotes!',
   'vacation-rental-cleaning-airbnb': 'Vacation rental cleaning & Airbnb turnover in San Diego. Same-day turnovers, linen staging, damage reporting. Hotel-quality guest-ready results. Book now!',
   'move-in-out-cleaning': 'Move-in & move-out cleaning in San Diego. Inside cabinets, appliances, full sanitization. Meets property management standards. Insured team. Free quotes!',
@@ -185,6 +185,17 @@ const ServicePage: React.FC = () => {
                 </ul>
               </div>
             )}
+
+            {/* Transparency & Customer Service Section */}
+            <div className="bg-white rounded-2xl p-8 mb-12 border border-slate-200 shadow-sm">
+              <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">Transparent Service, No Surprises</h3>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                At Metla House Cleaning, we believe you deserve to know exactly what you're getting before we arrive. Every quote is personalized to your home's size, condition, and specific needs—with no hidden fees or surprise charges. We communicate clearly at every step, from scheduling through completion.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Our cleaning professionals are fully insured, background-checked, and trained in our proprietary 50-point protocol. If anything doesn't meet your standards, our satisfaction guarantee means we'll return and make it right at no extra cost. Your trust is what keeps us in business, and we work hard to earn it every visit.
+              </p>
+            </div>
 
             {/* Available Locations Section for Internal Linking */}
             <div className="mt-12 pt-12 border-t border-slate-200">
