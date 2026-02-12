@@ -30,7 +30,7 @@ const HouseCleaningPage: React.FC = () => {
     // FAQ data for schema and display
     const faqs: FAQItem[] = [
         {
-            question: "How much does house cleaning cost in San Diego?",
+            question: "What is the average cost of house cleaning in San Diego?",
             answer: "House cleaning prices in San Diego typically range from $120 to $350 depending on home size, cleaning type, and frequency. Standard maintenance cleaning starts around $120-180 for a 2-bedroom home, while deep cleaning services range from $200-400. Metla House Cleaning provides free quotes tailored to your specific needs."
         },
         {
@@ -46,8 +46,8 @@ const HouseCleaningPage: React.FC = () => {
             answer: "Yes, all Metla House Cleaning professionals are fully insured and undergo comprehensive background checks. We only hire 1 in 50 applicants, ensuring you receive service from vetted, trustworthy professionals."
         },
         {
-            question: "Do I need to be home during the cleaning?",
-            answer: "No, you don't need to be home. Many of our clients provide access through lockboxes, smart locks, or doormen. Our insured and background-checked cleaners can work independently. We'll update you when we arrive and when the cleaning is complete."
+            question: "Can I leave my house while the cleaners are working?",
+            answer: "Absolutely! Many of our clients provide access through lockboxes, smart locks, or doormen so they don't need to be present. Our insured and background-checked cleaners can work independently while you're at work, running errands, or simply relaxing elsewhere. We'll update you when we arrive and send a completion notification when finished."
         },
         {
             question: "What areas in San Diego do you serve?",
