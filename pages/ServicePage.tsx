@@ -106,7 +106,28 @@ const ServicePage: React.FC = () => {
 
           <div className="prose prose-lg max-w-none text-slate-600">
             <h2 className="text-3xl font-serif text-slate-900 mb-6">Service Overview</h2>
-            <p className="text-lg leading-relaxed mb-8 whitespace-pre-line">{service.fullDescription}</p>
+            {service.fullDescription.split('\n\n').map((block, idx) => {
+              const trimmed = block.trim();
+              if (!trimmed) return null;
+              if (trimmed.startsWith('## ')) {
+                return (
+                  <h3 key={idx} className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
+                    {trimmed.replace('## ', '')}
+                  </h3>
+                );
+              }
+              // Handle **bold** markdown within paragraphs
+              const parts = trimmed.split(/(\*\*[^*]+\*\*)/g);
+              return (
+                <p key={idx} className="text-lg leading-relaxed mb-4">
+                  {parts.map((part, pIdx) =>
+                    part.startsWith('**') && part.endsWith('**')
+                      ? <strong key={pIdx}>{part.slice(2, -2)}</strong>
+                      : part
+                  )}
+                </p>
+              );
+            })}
 
             {service.focusPoints && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
