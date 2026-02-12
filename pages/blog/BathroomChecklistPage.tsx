@@ -20,6 +20,7 @@ import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const BathroomChecklistPage: React.FC = () => {
     const location = useLocation();
@@ -334,6 +335,8 @@ const BathroomChecklistPage: React.FC = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <RelatedArticles currentSlug="bathroom-deep-cleaning-checklist" />
 
                         {/* Location Links */}
                         <div className="bg-slate-50 p-6 rounded-xl my-8">

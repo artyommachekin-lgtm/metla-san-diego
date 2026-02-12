@@ -20,6 +20,7 @@ import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const GraniteCounterCleaningPage: React.FC = () => {
     const location = useLocation();
@@ -351,6 +352,8 @@ const GraniteCounterCleaningPage: React.FC = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <RelatedArticles currentSlug="how-to-deep-clean-granite-counters" />
 
                         {/* Location Links */}
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">

@@ -9,6 +9,7 @@ import { SITE_CONFIG } from '../src/config/site-config';
 import { Clock, Phone, ArrowRight, Check, Star, Calendar, Zap, Shield, MapPin, CheckCircle } from 'lucide-react';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
+import { BLOG_POSTS } from './BlogPage';
 
 // Same Day Cleaning FAQs for rich snippets
 const SAME_DAY_FAQS: FAQItem[] = [
@@ -259,6 +260,32 @@ const SameDayCleaningPage: React.FC = () => {
                                     {loc.name}
                                 </Link>
                             ))}
+                        </div>
+                    </div>
+
+                    {/* Helpful Cleaning Guides */}
+                    <div className="mb-12">
+                        <h2 className="text-3xl font-serif text-slate-900 mb-6">Helpful Cleaning Guides</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            {[
+                                'deep-cleaning-guide-san-diego',
+                                'vacation-rental-cleaning-tips-for-hosts',
+                                'move-out-cleaning-checklist',
+                            ].map((blogSlug) => {
+                                const post = BLOG_POSTS.find(p => p.slug === blogSlug);
+                                if (!post) return null;
+                                return (
+                                    <Link
+                                        key={post.slug}
+                                        to={`/blog/${post.slug}`}
+                                        className="p-4 bg-slate-50 border border-slate-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-colors group"
+                                    >
+                                        <span className="inline-block bg-teal-100 text-teal-700 text-xs font-bold px-2 py-0.5 rounded mb-2">{post.category}</span>
+                                        <h3 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors text-sm mb-1">{post.title}</h3>
+                                        <p className="text-xs text-slate-500">{post.readTime}</p>
+                                    </Link>
+                                );
+                            })}
                         </div>
                     </div>
 

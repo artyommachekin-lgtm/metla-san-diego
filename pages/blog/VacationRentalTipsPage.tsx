@@ -21,6 +21,7 @@ import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const VacationRentalTipsPage: React.FC = () => {
     const location = useLocation();
@@ -320,6 +321,8 @@ const VacationRentalTipsPage: React.FC = () => {
                                 Learn About Our Vacation Rental Service
                             </Link>
                         </div>
+
+                        <RelatedArticles currentSlug="vacation-rental-cleaning-tips-for-hosts" />
 
                         {/* Location Links */}
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">

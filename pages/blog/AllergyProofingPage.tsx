@@ -19,6 +19,7 @@ import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const AllergyProofingPage: React.FC = () => {
     const location = useLocation();
@@ -283,7 +284,9 @@ const AllergyProofingPage: React.FC = () => {
                                     <p className="text-slate-600 text-sm">{faq.answer}</p>
                                 </div>
                             ))}
-                        </div>
+                        </div>                        <RelatedArticles currentSlug="allergy-proofing-your-home" />
+
+
 
                         {/* CTA */}
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">

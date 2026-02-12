@@ -22,6 +22,7 @@ import { SERVICES, LOCATIONS, COMPANY_NAME, PHONE_NUMBER } from '../constants';
 import { SITE_CONFIG } from '../src/config/site-config';
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
+import { BLOG_POSTS } from './BlogPage';
 
 const HouseCleaningPage: React.FC = () => {
     const location = useLocation();
@@ -568,6 +569,49 @@ const HouseCleaningPage: React.FC = () => {
                                     </p>
                                 </div>
                             ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Helpful Cleaning Guides */}
+            <section className="py-16 bg-slate-50">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-4xl mx-auto">
+                        <h2 className="text-3xl font-serif font-bold text-slate-900 mb-4 text-center">
+                            Helpful Cleaning Guides
+                        </h2>
+                        <p className="text-slate-600 text-center mb-8 max-w-2xl mx-auto">
+                            Expert tips and advice from our San Diego cleaning professionals.
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {[
+                                'deep-cleaning-guide-san-diego',
+                                'how-much-does-a-deep-house-cleaning-cost',
+                                'benefits-of-regular-cleaning-service',
+                                'weekly-cleaning-schedule-guide',
+                            ].map((blogSlug) => {
+                                const post = BLOG_POSTS.find(p => p.slug === blogSlug);
+                                if (!post) return null;
+                                return (
+                                    <Link
+                                        key={post.slug}
+                                        to={`/blog/${post.slug}`}
+                                        className="flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-colors group"
+                                    >
+                                        <ArrowRight className="w-4 h-4 text-teal-500 flex-shrink-0 mt-1" />
+                                        <div>
+                                            <h3 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors text-sm">{post.title}</h3>
+                                            <p className="text-xs text-slate-500 mt-0.5">{post.readTime}</p>
+                                        </div>
+                                    </Link>
+                                );
+                            })}
+                        </div>
+                        <div className="text-center mt-6">
+                            <Link to="/blog" className="inline-flex items-center text-teal-700 font-medium hover:text-teal-800 transition-colors">
+                                View All Cleaning Guides <ArrowRight className="ml-1 w-4 h-4" />
+                            </Link>
                         </div>
                     </div>
                 </div>

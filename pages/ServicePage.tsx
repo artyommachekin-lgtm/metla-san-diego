@@ -11,6 +11,7 @@ import { updatePageSEO, resetSEO } from '../utils/seo';
 import ServiceSchema from '../components/ServiceSchema';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
 import { BLOG_POSTS } from './BlogPage';
+import { getServiceBlogSlugs } from '../utils/internalLinks';
 
 // Service-specific FAQs for rich snippets
 const SERVICE_FAQS: Record<string, FAQItem[]> = {
@@ -198,21 +199,25 @@ const ServicePage: React.FC = () => {
             <div className="mt-8 pt-8 border-t border-slate-200">
               <h3 className="text-2xl font-serif font-bold text-slate-900 mb-6">Related Articles & Resources</h3>
               <div className="grid md:grid-cols-2 gap-4">
-                {BLOG_POSTS.slice(0, 2).map((post) => (
-                  <Link
-                    key={post.slug}
-                    to={`/blog/${post.slug}`}
-                    className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg hover:bg-teal-50 transition-colors group"
-                  >
-                    <BookOpen className="w-5 h-5 text-teal-600 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">
-                        {post.title}
-                      </h4>
-                      <p className="text-sm text-slate-600 mt-1">{post.readTime}</p>
-                    </div>
-                  </Link>
-                ))}
+                {getServiceBlogSlugs(service.slug).slice(0, 3).map((blogSlug) => {
+                  const post = BLOG_POSTS.find(p => p.slug === blogSlug);
+                  if (!post) return null;
+                  return (
+                    <Link
+                      key={post.slug}
+                      to={`/blog/${post.slug}`}
+                      className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg hover:bg-teal-50 transition-colors group"
+                    >
+                      <BookOpen className="w-5 h-5 text-teal-600 mt-1 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">
+                          {post.title}
+                        </h4>
+                        <p className="text-sm text-slate-600 mt-1">{post.readTime}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
 
               {/* Related Services */}

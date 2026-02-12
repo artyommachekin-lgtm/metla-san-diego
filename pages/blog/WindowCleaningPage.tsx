@@ -20,6 +20,7 @@ import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const WindowCleaningPage: React.FC = () => {
     const location = useLocation();
@@ -252,7 +253,9 @@ const WindowCleaningPage: React.FC = () => {
                                     <p className="text-slate-600 text-sm">{faq.answer}</p>
                                 </div>
                             ))}
-                        </div>
+                        </div>                        <RelatedArticles currentSlug="how-to-clean-windows-like-a-pro" />
+
+
 
                         {/* CTA */}
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">

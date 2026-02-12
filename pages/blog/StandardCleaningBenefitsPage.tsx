@@ -19,6 +19,7 @@ import { COMPANY_NAME } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const StandardCleaningBenefitsPage: React.FC = () => {
     const location = useLocation();
@@ -225,7 +226,9 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                                     <p className="text-slate-600 text-sm">{faq.answer}</p>
                                 </div>
                             ))}
-                        </div>
+                        </div>                        <RelatedArticles currentSlug="benefits-of-regular-cleaning-service" />
+
+
 
                         {/* CTA */}
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">

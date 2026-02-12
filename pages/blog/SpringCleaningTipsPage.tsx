@@ -20,6 +20,7 @@ import { COMPANY_NAME, PHONE_NUMBER, LOCATIONS } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
+import RelatedArticles from '../../components/RelatedArticles';
 
 const SpringCleaningTipsPage: React.FC = () => {
     const location = useLocation();
@@ -333,6 +334,8 @@ const SpringCleaningTipsPage: React.FC = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <RelatedArticles currentSlug="top-10-spring-deep-cleaning-tips" />
 
                         {/* Location Links */}
                         <div className="bg-slate-50 p-6 rounded-xl my-8">

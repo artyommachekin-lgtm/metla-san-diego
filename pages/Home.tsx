@@ -185,7 +185,7 @@ const Home: React.FC = () => {
           <h2 className="text-center text-3xl font-serif font-bold text-slate-900 mb-4">From Our Blog</h2>
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">Helpful guides and tips to keep your {SITE_CONFIG.regional.primaryCity} home spotless.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Link to="/blog/ultimate-deep-cleaning-guide" className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all">
+            <Link to="/blog/deep-cleaning-guide-san-diego" className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all">
               <div className="p-6">
                 <span className="inline-block bg-teal-100 text-teal-700 text-xs font-bold px-2 py-1 rounded mb-3">How-To Guide</span>
                 <h3 className="font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2">The Ultimate Deep Cleaning Guide</h3>
@@ -205,7 +205,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </Link>
-            <Link to="/blog/airbnb-turnover-cleaning-guide" className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all">
+            <Link to="/blog/vacation-rental-cleaning-tips-for-hosts" className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all">
               <div className="p-6">
                 <span className="inline-block bg-pink-100 text-pink-700 text-xs font-bold px-2 py-1 rounded mb-3">Vacation Rentals</span>
                 <h3 className="font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2">Airbnb Cleaning for Superhosts</h3>

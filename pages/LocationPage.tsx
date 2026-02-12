@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Navigate, Link, useLocation as useRouterLocation } from 'react-router-dom';
-import { LOCATIONS, COMPANY_NAME, PHONE_NUMBER } from '../constants';
+import { LOCATIONS, COMPANY_NAME, PHONE_NUMBER, SERVICES } from '../constants';
 import {
   MapPin,
   CheckCircle,
@@ -15,6 +15,8 @@ import {
 import { updatePageSEO, resetSEO } from '../utils/seo';
 import LocalBusinessSchema from '../components/LocalBusinessSchema';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
+import { BLOG_POSTS } from './BlogPage';
+import { getLocationBlogSlugs } from '../utils/internalLinks';
 
 // Map location type to primary recommended service
 const getRecommendedService = (locationType: string) => {
@@ -66,19 +68,19 @@ const LocationPage: React.FC = () => {
   const faqData: FAQItem[] = location.faqs && location.faqs.length > 0
     ? location.faqs
     : [
-        {
-          question: `How much does house cleaning cost in ${location.name}?`,
-          answer: `House cleaning prices in ${location.name} vary based on home size and service type. Standard cleaning typically ranges from $120-$300, deep cleaning from $200-$500, and specialized services are quoted based on specific needs. Contact us for a free personalized estimate.`
-        },
-        {
-          question: `Do you serve all areas of ${location.name}?`,
-          answer: `Yes, Metla House Cleaning provides full coverage throughout ${location.name} and surrounding areas. Our team knows the area well and can typically accommodate same-week or even same-day appointments depending on availability.`
-        },
-        {
-          question: `Are your ${location.name} cleaners background checked?`,
-          answer: `Every member of our ${location.name} cleaning team undergoes a thorough background check, is fully insured and bonded, and receives professional training. Your safety and peace of mind are our top priorities.`
-        },
-      ];
+      {
+        question: `How much does house cleaning cost in ${location.name}?`,
+        answer: `House cleaning prices in ${location.name} vary based on home size and service type. Standard cleaning typically ranges from $120-$300, deep cleaning from $200-$500, and specialized services are quoted based on specific needs. Contact us for a free personalized estimate.`
+      },
+      {
+        question: `Do you serve all areas of ${location.name}?`,
+        answer: `Yes, Metla House Cleaning provides full coverage throughout ${location.name} and surrounding areas. Our team knows the area well and can typically accommodate same-week or even same-day appointments depending on availability.`
+      },
+      {
+        question: `Are your ${location.name} cleaners background checked?`,
+        answer: `Every member of our ${location.name} cleaning team undergoes a thorough background check, is fully insured and bonded, and receives professional training. Your safety and peace of mind are our top priorities.`
+      },
+    ];
 
   return (
     <div className="bg-white min-h-screen">
@@ -356,6 +358,60 @@ const LocationPage: React.FC = () => {
                   Call Now
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* All Services Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6 text-center">
+              All Services Available in {location.name}
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {SERVICES.map((svc) => (
+                <Link
+                  key={svc.slug}
+                  to={`/service/${svc.slug}`}
+                  className="flex items-center gap-3 p-4 bg-slate-50 border border-slate-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-colors group"
+                >
+                  <ArrowRight className="w-4 h-4 text-teal-500 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors text-sm">{svc.title}</h3>
+                    <p className="text-xs text-slate-500 mt-0.5 line-clamp-1">{svc.shortDescription}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Helpful Cleaning Guides */}
+      <section className="py-12 bg-white border-t border-slate-100">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6 text-center">
+              Cleaning Guides for {location.name} Homes
+            </h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {getLocationBlogSlugs(location.type).map((blogSlug) => {
+                const post = BLOG_POSTS.find(p => p.slug === blogSlug);
+                if (!post) return null;
+                return (
+                  <Link
+                    key={post.slug}
+                    to={`/blog/${post.slug}`}
+                    className="p-4 bg-slate-50 border border-slate-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-colors group"
+                  >
+                    <span className="inline-block bg-teal-100 text-teal-700 text-xs font-bold px-2 py-0.5 rounded mb-2">{post.category}</span>
+                    <h3 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors text-sm mb-1">{post.title}</h3>
+                    <p className="text-xs text-slate-500">{post.readTime}</p>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>
