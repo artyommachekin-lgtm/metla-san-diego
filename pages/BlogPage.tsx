@@ -13,8 +13,8 @@ export const BLOG_POSTS = [
         category: 'Cleaning Guides',
         readTime: '8 min read',
         datePublished: '2024-01-15',
-        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Professional deep cleaning supplies arranged in a bright San Diego home',
+        image: 'https://images.unsplash.com/photo-1749214317455-efbdd57df844?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Cleaning powder being added to a mop bucket for deep house cleaning',
         icon: Sparkles
     },
     {
@@ -24,8 +24,8 @@ export const BLOG_POSTS = [
         category: 'Kitchen',
         readTime: '10 min read',
         datePublished: '2024-02-05',
-        image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Sparkling clean kitchen with gleaming countertops and polished appliances',
+        image: 'https://images.unsplash.com/photo-1690310588533-6043216b0b5f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Clean modern kitchen with marble countertop and white cabinets',
         icon: ChefHat
     },
     {
@@ -35,8 +35,8 @@ export const BLOG_POSTS = [
         category: 'Checklists',
         readTime: '8 min read',
         datePublished: '2024-02-04',
-        image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Freshly cleaned bathroom with spotless white tile and shining fixtures',
+        image: 'https://images.unsplash.com/photo-1721564130821-5ac091ee399c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Spacious bathroom with bathtub, sink, and walk-in shower ready for deep cleaning',
         icon: Bath
     },
     {
@@ -46,8 +46,8 @@ export const BLOG_POSTS = [
         category: 'Specialty Cleaning',
         readTime: '9 min read',
         datePublished: '2024-02-03',
-        image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Home renovation site with construction debris ready for professional cleanup',
+        image: 'https://images.unsplash.com/photo-1768321914688-86ff62032d47?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Interior room under construction with exposed framing and unfinished walls',
         icon: Hammer
     },
     {
@@ -57,8 +57,8 @@ export const BLOG_POSTS = [
         category: 'Pricing',
         readTime: '7 min read',
         datePublished: '2024-02-02',
-        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Homeowner reviewing cleaning service pricing and budget on a notepad',
+        image: 'https://images.unsplash.com/photo-1746221331496-a87689fc8eb9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Calculator and office supplies on a desk for estimating cleaning costs',
         icon: DollarSign
     },
     {
@@ -68,8 +68,8 @@ export const BLOG_POSTS = [
         category: 'Seasonal',
         readTime: '8 min read',
         datePublished: '2024-02-01',
-        image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Bright living room with open windows letting in fresh spring air',
+        image: 'https://images.unsplash.com/photo-1763412050485-d7e1688f8858?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Open door in a bright room with plants letting in fresh spring air',
         icon: Flower2
     },
     // Batch 2: How-To Guides
@@ -80,8 +80,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
-        image: 'https://images.unsplash.com/photo-1592150621744-aca64f48394a?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Dusty ceiling fan blades in need of deep cleaning',
+        image: 'https://images.unsplash.com/photo-1680703261560-11c234762abe?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bedroom with ceiling fan mounted above a bed with wooden accents',
         icon: Fan
     },
     {
@@ -91,8 +91,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-17',
-        image: 'https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Close-up of polished granite countertop in a modern San Diego kitchen',
+        image: 'https://images.unsplash.com/photo-1636628751643-2a8c9fd001d4?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Kitchen with marble countertops and bar stools in a modern home',
         icon: Gem
     },
     {
@@ -102,8 +102,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '9 min read',
         datePublished: '2024-01-16',
-        image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Plush upholstered sofa ready for professional fabric cleaning',
+        image: 'https://images.unsplash.com/photo-1759722667224-a5a7143fcbcf?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Close-up of light grey upholstered fabric sofa ready for deep cleaning',
         icon: Sofa
     },
     {
@@ -113,8 +113,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '10 min read',
         datePublished: '2024-01-15',
-        image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Mold growth on a damp bathroom wall requiring professional treatment',
+        image: 'https://images.unsplash.com/photo-1692911436905-ec0f5a6cf910?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Damaged bathroom wall showing moisture and mold issues needing treatment',
         icon: Bug
     },
     {
@@ -124,8 +124,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-14',
-        image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Open refrigerator with organized shelves being cleaned out',
+        image: 'https://images.unsplash.com/photo-1536854704214-f489b6693769?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Open refrigerator showing shelves ready for deep cleaning and organizing',
         icon: ThermometerSnowflake
     },
     {
@@ -135,8 +135,8 @@ export const BLOG_POSTS = [
         category: 'Checklists',
         readTime: '6 min read',
         datePublished: '2024-01-10',
-        image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Empty apartment room with moving boxes ready for move-out cleaning',
+        image: 'https://images.unsplash.com/photo-1757742690834-aa581b9f53b2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Empty room with wooden floor and large window ready for move-out cleaning',
         icon: Building2
     },
     {
@@ -146,8 +146,8 @@ export const BLOG_POSTS = [
         category: 'Cleaning Tips',
         readTime: '5 min read',
         datePublished: '2024-01-20',
-        image: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Spotless and well-maintained family living room after professional cleaning',
+        image: 'https://images.unsplash.com/photo-1749705319317-f9a2bf24fe3d?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Cozy living room with large white sofa and bookshelf maintained by regular cleaning',
         icon: Home
     },
     // Batch 3: Specialty Guides
@@ -158,8 +158,8 @@ export const BLOG_POSTS = [
         category: 'For Hosts',
         readTime: '8 min read',
         datePublished: '2024-01-20',
-        image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Bright vacation rental bedroom prepared for incoming guests near the coast',
+        image: 'https://images.unsplash.com/photo-1770414173168-f6c666501225?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bright coastal-themed vacation rental bedroom with a large bed prepared for guests',
         icon: Key
     },
     {
@@ -169,8 +169,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-19',
-        image: 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Clean laundry room with modern washer and dryer units',
+        image: 'https://images.unsplash.com/photo-1655041448985-f6666cba2d6c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Laundry room with washer and dryer ready for deep cleaning',
         icon: WashingMachine
     },
     {
@@ -180,8 +180,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
-        image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Crystal-clear window with sunlight streaming through after professional cleaning',
+        image: 'https://images.unsplash.com/photo-1596063323819-0334f21e996c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Clean white wooden framed glass window letting in natural sunlight',
         icon: Columns
     },
     {
@@ -191,8 +191,8 @@ export const BLOG_POSTS = [
         category: 'Organization',
         readTime: '6 min read',
         datePublished: '2024-01-17',
-        image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Neatly organized shelves and clutter-free minimalist living space',
+        image: 'https://images.unsplash.com/photo-1668911491507-be365acf69ee?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'White kitchen with neatly organized open shelves and clutter-free counters',
         icon: FolderOpen
     },
     {
@@ -202,8 +202,8 @@ export const BLOG_POSTS = [
         category: 'Pet Owners',
         readTime: '9 min read',
         datePublished: '2024-01-16',
-        image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Friendly dog lounging on a freshly cleaned living room carpet',
+        image: 'https://images.unsplash.com/photo-1663551385059-24dbfc8fe575?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Dog sitting on a living room rug that needs pet odor treatment',
         icon: PawPrint
     },
     // Batch 4: Specialty Guides
@@ -214,8 +214,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-22',
-        image: 'https://images.unsplash.com/photo-1622015663319-e97e697503ee?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Gleaming hardwood floors catching sunlight in a San Diego dining room',
+        image: 'https://images.unsplash.com/photo-1769736436809-eab3de70b175?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Modern living room with herringbone hardwood floor and contemporary artwork',
         icon: Layers
     },
     {
@@ -225,8 +225,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-21',
-        image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Fresh white mattress with clean linens in a bright bedroom',
+        image: 'https://images.unsplash.com/photo-1762199904077-1c83cebbd205?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Neatly made bed with white linens and pillows after mattress deep cleaning',
         icon: Moon
     },
     {
@@ -236,8 +236,8 @@ export const BLOG_POSTS = [
         category: 'Checklists',
         readTime: '7 min read',
         datePublished: '2024-01-20',
-        image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'New homeowner holding keys at the front door of their San Diego home',
+        image: 'https://images.unsplash.com/photo-1741156386380-0236c72eb6f9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Person holding house keys in front of the entrance to their new home',
         icon: Box
     },
     {
@@ -247,8 +247,8 @@ export const BLOG_POSTS = [
         category: 'Green Living',
         readTime: '8 min read',
         datePublished: '2024-01-19',
-        image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Eco-friendly cleaning products arranged alongside fresh green houseplants',
+        image: 'https://images.unsplash.com/photo-1601389784093-1086062cb290?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Person holding eco-friendly spray bottle for natural household cleaning',
         icon: Leaf
     },
     {
@@ -258,8 +258,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
-        image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Clean and organized home office with a tidy desk and monitor setup',
+        image: 'https://images.unsplash.com/photo-1760278042149-bbed9b84ba81?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Clean home office desk setup with computer monitor and indoor plant',
         icon: Monitor
     },
     // Batch 5: Final Guides
@@ -270,8 +270,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-24',
-        image: 'https://images.unsplash.com/photo-1600210491369-e753d80a41f3?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Inviting outdoor patio with clean furniture and potted plants in the sun',
+        image: 'https://images.unsplash.com/photo-1714296972268-1022b221d415?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Wooden table and chairs on an outdoor patio ready for cleaning',
         icon: SunMedium
     },
     {
@@ -281,8 +281,8 @@ export const BLOG_POSTS = [
         category: 'How-To',
         readTime: '6 min read',
         datePublished: '2024-01-23',
-        image: 'https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Streak-free stainless steel refrigerator gleaming in a modern kitchen',
+        image: 'https://images.unsplash.com/photo-1707255280298-e540809f4c01?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Kitchen filled with stainless steel appliances including a refrigerator and range',
         icon: Sparkles
     },
     {
@@ -292,8 +292,8 @@ export const BLOG_POSTS = [
         category: 'Guides',
         readTime: '7 min read',
         datePublished: '2024-01-22',
-        image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Weekly cleaning schedule written out in a planner notebook with a pen',
+        image: 'https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'White weekly planner with pen on top for scheduling cleaning tasks',
         icon: CalendarDays
     },
     {
@@ -303,8 +303,8 @@ export const BLOG_POSTS = [
         category: 'Health',
         readTime: '8 min read',
         datePublished: '2024-01-21',
-        image: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Dust-free bedroom with clean air, fresh linens, and bright natural light',
+        image: 'https://images.unsplash.com/photo-1593030019566-d681b01e877f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Clean bedroom with white bed linen near window allowing fresh air circulation',
         icon: Shield
     },
     {
@@ -314,8 +314,8 @@ export const BLOG_POSTS = [
         category: 'Hospitality',
         readTime: '7 min read',
         datePublished: '2024-01-20',
-        image: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-        imageAlt: 'Welcoming guest bedroom with crisp hotel-style bedding and plush pillows',
+        image: 'https://images.unsplash.com/photo-1742821855639-476d4e1b5cea?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Inviting hotel-style guest room with natural light and welcoming bedding',
         icon: Bed
     }
 ];
