@@ -75,14 +75,21 @@ const JobberEmbed: React.FC = () => {
     script.async = false;
 
     // Poll for form appearance (faster than waiting for onload)
+    let rafId: number;
+    let attempts = 0;
     const pollForForm = () => {
+      attempts++;
       const formContainer = document.getElementById('d33a529a-72ba-403d-bd83-811fe4abb0e2-641111');
       if (formContainer && formContainer.children.length > 0) {
         setIsLoading(false);
         setIsFormReady(true);
         scriptLoadedRef.current = true;
+      } else if (attempts < 300) {
+        // ~5 seconds at 60fps, then stop polling
+        rafId = requestAnimationFrame(pollForForm);
       } else {
-        requestAnimationFrame(pollForForm);
+        // Give up after ~5s — form likely failed to load
+        setIsLoading(false);
       }
     };
 
@@ -99,7 +106,7 @@ const JobberEmbed: React.FC = () => {
 
     // Cleanup on unmount
     return () => {
-      // Don't remove the script on unmount - keep it cached
+      if (rafId) cancelAnimationFrame(rafId);
     };
   }, []);
 

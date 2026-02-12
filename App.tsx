@@ -71,7 +71,7 @@ const App: React.FC = () => {
       <div className="font-sans text-slate-900 antialiased selection:bg-teal-100 selection:text-teal-900">
         <Navigation />
         <Breadcrumbs />
-        <Suspense fallback={null}>
+        <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/service/:slug" element={<ServicePage />} />

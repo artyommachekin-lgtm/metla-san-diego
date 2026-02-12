@@ -42,6 +42,8 @@ const Hero: React.FC = () => {
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 800px, 1200px"
           alt="Pristine Living Room"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
+          width={1200}
+          height={800}
           loading="eager"
           fetchPriority="high"
           decoding="async"

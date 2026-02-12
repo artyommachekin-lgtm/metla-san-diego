@@ -363,6 +363,8 @@ const BlogPage: React.FC = () => {
                                     <div className="md:w-1/3 h-48 md:h-auto relative overflow-hidden">
                                         <img
                                             src={post.image}
+                                            srcSet={`${post.image.split('?')[0]}?w=400&h=300&fit=crop&fm=webp&q=60 400w, ${post.image.split('?')[0]}?w=800&h=600&fit=crop&fm=webp&q=70 800w`}
+                                            sizes="(max-width: 768px) 100vw, 33vw"
                                             alt={post.imageAlt || post.title}
                                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                             loading="lazy"

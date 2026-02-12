@@ -124,24 +124,24 @@ const Navigation: React.FC = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-white text-slate-900 shadow-xl p-6 flex flex-col gap-6 md:hidden">
-          <Link to="/" className="text-lg font-medium">Home</Link>
+          <Link to="/" className="text-lg font-medium py-2 block">Home</Link>
           <a
             href="#services"
             onClick={(e) => handleNavClick(e, 'services')}
-            className="text-lg font-medium"
+            className="text-lg font-medium py-2 block"
           >
             Services
           </a>
-          <Link to="/locations" className="text-lg font-medium">
+          <Link to="/locations" className="text-lg font-medium py-2 block">
             Locations
           </Link>
-          <Link to="/about" className="text-lg font-medium">
+          <Link to="/about" className="text-lg font-medium py-2 block">
             About
           </Link>
-          <Link to="/blog" className="text-lg font-medium">
+          <Link to="/blog" className="text-lg font-medium py-2 block">
             Blog
           </Link>
-          <a href={`tel:${PHONE_NUMBER}`} className="text-lg font-medium text-teal-600">{PHONE_NUMBER}</a>
+          <a href={`tel:${PHONE_NUMBER}`} className="text-lg font-medium text-teal-600 py-2 block">{PHONE_NUMBER}</a>
           <Link
             to="/booking"
             className="bg-slate-900 text-white text-center py-3 rounded-sm font-bold"
