@@ -21,10 +21,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    // Optimize chunk size
+    cssCodeSplit: false,
     rollupOptions: {
       output: {
-        manualChunks: undefined,
+        // Code-split vendors for parallel downloads + better caching
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+          'vendor-icons': ['lucide-react'],
+        },
       },
     },
   },
