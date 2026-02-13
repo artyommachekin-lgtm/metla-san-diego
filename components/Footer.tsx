@@ -15,6 +15,9 @@ const Footer: React.FC = () => {
           {/* Brand & Contact Info */}
           <div style={{ flex: '1 1 250px', minWidth: '250px' }} itemScope itemType="https://schema.org/LocalBusiness">
             <meta itemProp="name" content={COMPANY_NAME} />
+            <meta itemProp="telephone" content={SITE_CONFIG.phoneIntl} />
+            <meta itemProp="priceRange" content="$$" />
+            <meta itemProp="image" content={`${SITE_CONFIG.baseUrl}${SITE_CONFIG.social.logoUrl}`} />
             <h3 className="text-2xl font-serif font-bold text-white mb-6 tracking-tighter">
               METLA<span className="text-teal-500">.</span>
             </h3>
@@ -23,7 +26,7 @@ const Footer: React.FC = () => {
               Hospitality-grade service for your home.
             </p>
             <address className="space-y-3 not-italic">
-              <a href={`tel:${PHONE_NUMBER}`} className="flex items-center gap-3 text-white font-medium hover:text-teal-400 transition-colors" itemProp="telephone">
+              <a href={`tel:${PHONE_NUMBER}`} className="flex items-center gap-3 text-white font-medium hover:text-teal-400 transition-colors">
                 <Phone size={16} className="text-teal-500" aria-hidden="true" />
                 {PHONE_NUMBER}
               </a>
@@ -33,7 +36,13 @@ const Footer: React.FC = () => {
               </a>
               <div className="flex items-start gap-3 text-sm" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
                 <MapPin size={16} className="text-teal-500 flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span itemProp="streetAddress">{COMPANY_ADDRESS.full}</span>
+                <span>
+                  <span itemProp="streetAddress">{SITE_CONFIG.address.street}</span>,{' '}
+                  <span itemProp="addressLocality">{SITE_CONFIG.address.city}</span>,{' '}
+                  <span itemProp="addressRegion">{SITE_CONFIG.address.state}</span>{' '}
+                  <span itemProp="postalCode">{SITE_CONFIG.address.zip}</span>
+                </span>
+                <meta itemProp="addressCountry" content="US" />
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Clock size={16} className="text-teal-500" aria-hidden="true" />
