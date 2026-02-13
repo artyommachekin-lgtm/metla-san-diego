@@ -1093,6 +1093,41 @@
             "source": "/wp-admin/:path*",
             "destination": "/",
             "permanent": true
+        },
+        {
+            "source": "/cleaning-policies/",
+            "destination": "/policies",
+            "permanent": true
+        },
+        {
+            "source": "/cleaning-policies",
+            "destination": "/policies",
+            "permanent": true
+        },
+        {
+            "source": "/metla-quick-quote/",
+            "destination": "/booking",
+            "permanent": true
+        },
+        {
+            "source": "/metla-quick-quote",
+            "destination": "/booking",
+            "permanent": true
+        },
+        {
+            "source": "/wp-login.php",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/wp-cron.php",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/xmlrpc.php",
+            "destination": "/",
+            "permanent": true
         }
     ]
 }
