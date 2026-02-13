@@ -38,6 +38,16 @@ export const updateCanonicalUrl = (path: string): void => {
     if (ogUrl) {
         ogUrl.setAttribute('content', fullUrl);
     }
+
+    // Also update hreflang tags to absolute URLs
+    const hreflangEnUS = document.querySelector('link[hreflang="en-US"]');
+    if (hreflangEnUS) {
+        hreflangEnUS.setAttribute('href', fullUrl);
+    }
+    const hreflangDefault = document.querySelector('link[hreflang="x-default"]');
+    if (hreflangDefault) {
+        hreflangDefault.setAttribute('href', fullUrl);
+    }
 };
 
 /**

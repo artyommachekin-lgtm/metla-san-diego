@@ -2,13 +2,18 @@
 export default {
     content: [
         "./index.html",
-        "./**/*.{js,ts,jsx,tsx}",
+        "./App.tsx",
+        "./index.tsx",
+        "./pages/**/*.{ts,tsx}",
+        "./components/**/*.{ts,tsx}",
+        "./utils/**/*.{ts,tsx}",
+        "./src/**/*.{ts,tsx}",
     ],
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-                serif: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
+                serif: ['Playfair Display', 'Playfair Display Fallback', 'ui-serif', 'Georgia', 'serif'],
             },
             colors: {
                 teal: {
