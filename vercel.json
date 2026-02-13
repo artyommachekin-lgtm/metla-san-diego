@@ -1016,6 +1016,83 @@
             "source": "/best-neighborhoods-for-young-professionals-in-san-diego/",
             "destination": "/locations",
             "permanent": true
+        },
+
+        {
+            "source": "/8-reasons-getting-a-recurring-house-cleaning-is-worth-it/",
+            "destination": "/service/standard-cleaning",
+            "permanent": true
+        },
+        {
+            "source": "/8-reasons-getting-a-recurring-house-cleaning-is-worth-it",
+            "destination": "/service/standard-cleaning",
+            "permanent": true
+        },
+        {
+            "source": "/best-way-to-deep-clean-hardwood-floors/",
+            "destination": "/blog/how-to-clean-hardwood-and-tile-floors",
+            "permanent": true
+        },
+        {
+            "source": "/best-way-to-deep-clean-hardwood-floors",
+            "destination": "/blog/how-to-clean-hardwood-and-tile-floors",
+            "permanent": true
+        },
+        {
+            "source": "/what-to-wear-when-cleaning-the-house/",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
+            "permanent": true
+        },
+        {
+            "source": "/what-to-wear-when-cleaning-the-house",
+            "destination": "/blog/deep-cleaning-guide-san-diego",
+            "permanent": true
+        },
+        {
+            "source": "/milands-village-san-diego/",
+            "destination": "/locations",
+            "permanent": true
+        },
+        {
+            "source": "/milands-village-san-diego",
+            "destination": "/locations",
+            "permanent": true
+        },
+
+        {
+            "source": "/:path*/feed/",
+            "destination": "/blog",
+            "permanent": true
+        },
+        {
+            "source": "/:path*/feed",
+            "destination": "/blog",
+            "permanent": true
+        },
+        {
+            "source": "/category/:path*",
+            "destination": "/blog",
+            "permanent": true
+        },
+        {
+            "source": "/post/:path*",
+            "destination": "/blog",
+            "permanent": true
+        },
+        {
+            "source": "/wp-includes/:path*",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/wp-content/:path*",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/wp-admin/:path*",
+            "destination": "/",
+            "permanent": true
         }
     ]
 }
