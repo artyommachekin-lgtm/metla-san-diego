@@ -192,8 +192,8 @@ export const SITE_CONFIG = {
     // ============================================
     socialProof: {
         aggregateRating: {
-            ratingValue: "5.0",
-            ratingCount: "47",
+            ratingValue: "4.9",
+            ratingCount: "228",
         },
         foundingDate: "2023",
         employeeCount: {
