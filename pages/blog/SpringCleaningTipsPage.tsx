@@ -119,7 +119,7 @@ const SpringCleaningTipsPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Top 10 Spring Deep Cleaning Tips for San Diego Homes | ${COMPANY_NAME}`,
+            title: `Top 10 Spring Deep Cleaning Tips for San Diego Homes | Expert Cleaning Tips`,
             description: 'Spring cleaning tips tailored for San Diego homeowners. Tackle pollen season, hard water, and outdoor spaces with our expert checklist.',
             path: location.pathname,
         });

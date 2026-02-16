@@ -15,7 +15,7 @@ import {
     Shield,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
@@ -84,7 +84,7 @@ const AllergyProofingPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Allergy-Proofing Your San Diego Home | ${COMPANY_NAME}`,
+            title: `Allergy-Proofing Your San Diego Home | Expert Cleaning Tips`,
             description: 'Reduce allergens in your home with these cleaning strategies. Tips for managing dust mites, pollen, and pet dander in San Diego homes.',
             path: location.pathname,
         });

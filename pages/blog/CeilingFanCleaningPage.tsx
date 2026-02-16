@@ -77,7 +77,7 @@ const CeilingFanCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Deep Clean Ceiling Fans | San Diego Guide | ${COMPANY_NAME}`,
+            title: `How to Deep Clean Ceiling Fans | San Diego Guide | Expert Cleaning Tips`,
             description: 'Step-by-step guide to deep cleaning ceiling fans. Learn the pillowcase trick, when to clean, and pro tips for San Diego homes. Keep your air clean and fans efficient.',
             path: location.pathname,
         });

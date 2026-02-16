@@ -15,7 +15,7 @@ import {
     Wind,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const PatioCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Your Outdoor Patio in San Diego | ${COMPANY_NAME}`,
+            title: `How to Clean Your Outdoor Patio in San Diego | Expert Cleaning Tips`,
             description: 'Complete guide to cleaning patios, decks, and outdoor living spaces. Tips for San Diego homes to maintain beautiful outdoor areas year-round.',
             path: location.pathname,
         });

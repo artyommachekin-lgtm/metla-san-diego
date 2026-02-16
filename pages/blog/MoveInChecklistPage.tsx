@@ -15,7 +15,7 @@ import {
     ClipboardCheck,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const MoveInChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Move-In Cleaning Checklist for San Diego Residents | ${COMPANY_NAME}`,
+            title: `Move-In Cleaning Checklist for San Diego Residents | Expert Cleaning Tips`,
             description: 'Complete move-in cleaning checklist for San Diego renters. Prepare your new apartment or home with our room-by-room guide.',
             path: location.pathname,
         });

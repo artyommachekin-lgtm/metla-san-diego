@@ -15,7 +15,7 @@ import {
     Wifi,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const HomeOfficeCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Your Home Office | ${COMPANY_NAME}`,
+            title: `How to Clean Your Home Office | Expert Cleaning Tips`,
             description: 'Keep your home office clean and productive with our complete guide. Tips for electronics, ergonomics, and maintaining a healthy workspace.',
             path: location.pathname,
         });

@@ -16,7 +16,7 @@ import {
     Sparkles,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -82,7 +82,7 @@ const VacationRentalTipsPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Vacation Rental Cleaning Tips for San Diego Hosts | ${COMPANY_NAME}`,
+            title: `Vacation Rental Cleaning Tips for San Diego Hosts | Expert Cleaning Tips`,
             description: 'Expert vacation rental cleaning tips for San Diego Airbnb and VRBO hosts. Learn turnover best practices, cleaning checklists, and how to achieve 5-star cleanliness ratings.',
             path: location.pathname,
         });

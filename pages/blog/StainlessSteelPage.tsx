@@ -14,7 +14,7 @@ import {
     AlertTriangle,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -80,7 +80,7 @@ const StainlessSteelPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Stainless Steel Appliances | ${COMPANY_NAME}`,
+            title: `How to Clean Stainless Steel Appliances | Expert Cleaning Tips`,
             description: 'Streak-free stainless steel cleaning guide. Remove fingerprints, water spots, and grease from your appliances. Tips for San Diego hard water.',
             path: location.pathname,
         });

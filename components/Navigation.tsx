@@ -93,6 +93,12 @@ const Navigation: React.FC = () => {
           >
             Blog
           </Link>
+          <Link
+            to="/faq"
+            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
+          >
+            FAQ
+          </Link>
 
           <div className="flex items-center gap-4 border-l border-current pl-6">
             <a href={`tel:${PHONE_NUMBER}`} className="flex items-center gap-2 font-medium">
@@ -140,6 +146,9 @@ const Navigation: React.FC = () => {
           </Link>
           <Link to="/blog" className="text-lg font-medium py-2 block">
             Blog
+          </Link>
+          <Link to="/faq" className="text-lg font-medium py-2 block">
+            FAQ
           </Link>
           <a href={`tel:${PHONE_NUMBER}`} className="text-lg font-medium text-teal-600 py-2 block">{PHONE_NUMBER}</a>
           <Link

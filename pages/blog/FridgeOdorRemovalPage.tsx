@@ -86,7 +86,7 @@ const FridgeOdorRemovalPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Get Rid of Bad Smell in the Fridge | ${COMPANY_NAME}`,
+            title: `How to Get Rid of Bad Smell in the Fridge | Expert Cleaning Tips`,
             description: 'Step-by-step guide to eliminating refrigerator odors. Learn what causes fridge smells, how to deep clean, and prevention tips for San Diego homes.',
             path: location.pathname,
         });

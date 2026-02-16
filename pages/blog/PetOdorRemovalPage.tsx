@@ -16,7 +16,7 @@ import {
     Droplets,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -82,7 +82,7 @@ const PetOdorRemovalPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Remove Pet Odors From Your San Diego Home | ${COMPANY_NAME}`,
+            title: `How to Remove Pet Odors From Your San Diego Home | Expert Cleaning Tips`,
             description: 'Effective pet odor removal techniques that actually work. Enzymatic cleaners, DIY methods, and when to call professionals. Tips for San Diego pet owners.',
             path: location.pathname,
         });

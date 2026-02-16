@@ -6,7 +6,7 @@ import HomeSchema from '../components/HomeSchema';
 import { SERVICES, LOCATIONS, TESTIMONIALS, PHONE_NUMBER } from '../constants';
 import { SITE_CONFIG, getRegionalHeading } from '../src/config/site-config';
 import { getIcon } from '../utils/icons';
-import { ShieldCheck, UserCheck, Clock, ArrowRight, Check, Star, Phone, BookOpen, MapPin } from 'lucide-react';
+import { ShieldCheck, UserCheck, Clock, ArrowRight, Check, Star, Phone, BookOpen, MapPin, HelpCircle, Users } from 'lucide-react';
 import GoogleMap from '../components/GoogleMap';
 
 const Home: React.FC = () => {
@@ -269,6 +269,35 @@ const Home: React.FC = () => {
               <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
               Share Your Experience on Google
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Helpful Resources — Cross-links for orphaned pages */}
+      <section className="py-16 bg-slate-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-center text-2xl font-serif font-bold text-slate-900 mb-8">Helpful Resources</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            <Link to="/faq" className="bg-white p-5 rounded-lg text-center hover:shadow-md transition-shadow border border-slate-200 group">
+              <HelpCircle className="w-6 h-6 text-teal-500 mx-auto mb-2" />
+              <span className="text-sm font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">FAQ</span>
+              <p className="text-xs text-slate-500 mt-1">Common questions answered</p>
+            </Link>
+            <Link to="/same-day-cleaning" className="bg-white p-5 rounded-lg text-center hover:shadow-md transition-shadow border border-slate-200 group">
+              <Clock className="w-6 h-6 text-teal-500 mx-auto mb-2" />
+              <span className="text-sm font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">Same Day Cleaning</span>
+              <p className="text-xs text-slate-500 mt-1">Need it cleaned today?</p>
+            </Link>
+            <Link to="/house-cleaning" className="bg-white p-5 rounded-lg text-center hover:shadow-md transition-shadow border border-slate-200 group">
+              <ShieldCheck className="w-6 h-6 text-teal-500 mx-auto mb-2" />
+              <span className="text-sm font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">House Cleaning Guide</span>
+              <p className="text-xs text-slate-500 mt-1">Our complete approach</p>
+            </Link>
+            <Link to="/about" className="bg-white p-5 rounded-lg text-center hover:shadow-md transition-shadow border border-slate-200 group">
+              <Users className="w-6 h-6 text-teal-500 mx-auto mb-2" />
+              <span className="text-sm font-semibold text-slate-900 group-hover:text-teal-600 transition-colors">About Us</span>
+              <p className="text-xs text-slate-500 mt-1">Meet the team</p>
+            </Link>
           </div>
         </div>
       </section>

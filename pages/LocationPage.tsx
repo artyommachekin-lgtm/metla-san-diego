@@ -52,7 +52,7 @@ const LocationPage: React.FC = () => {
   useEffect(() => {
     if (location) {
       updatePageSEO({
-        title: `Top-Rated House Cleaning in ${location.name}, San Diego | ${COMPANY_NAME}`,
+        title: `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`,
         description: `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`,
         path: routerLocation.pathname,
       });

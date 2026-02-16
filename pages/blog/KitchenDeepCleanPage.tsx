@@ -81,7 +81,7 @@ const KitchenDeepCleanPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Deep Clean the Kitchen | San Diego Guide | ${COMPANY_NAME}`,
+            title: `How to Deep Clean the Kitchen | San Diego Guide | Expert Cleaning Tips`,
             description: 'Complete step-by-step guide to deep cleaning your San Diego kitchen. Learn professional techniques for stovetops, ovens, refrigerators, and more. Expert tips for coastal homes.',
             path: location.pathname,
         });

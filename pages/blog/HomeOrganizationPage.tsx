@@ -15,7 +15,7 @@ import {
     FolderOpen,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const HomeOrganizationPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Declutter Before Deep Cleaning: Organization Tips | ${COMPANY_NAME}`,
+            title: `Declutter Before Deep Cleaning: Organization Tips | Expert Cleaning Tips`,
             description: 'How to declutter and organize before a deep clean for best results. Room-by-room tips for San Diego homes, from condos to beach houses.',
             path: location.pathname,
         });

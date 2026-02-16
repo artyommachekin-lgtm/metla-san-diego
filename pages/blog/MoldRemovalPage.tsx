@@ -84,7 +84,7 @@ const MoldRemovalPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Eliminate Mold From Your Home | San Diego Guide | ${COMPANY_NAME}`,
+            title: `How to Eliminate Mold From Your Home | San Diego Guide | Expert Cleaning Tips`,
             description: 'Learn how to safely remove mold from your home. Step-by-step guide with San Diego coastal humidity tips. When to DIY vs. call professionals.',
             path: location.pathname,
         });

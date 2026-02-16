@@ -15,7 +15,7 @@ import {
     Wind,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const WindowCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Windows Like a Pro | ${COMPANY_NAME}`,
+            title: `How to Clean Windows Like a Pro | Expert Cleaning Tips`,
             description: 'Professional window cleaning techniques for streak-free results. Tips for San Diego homes dealing with salt spray, hard water spots, and pollen.',
             path: location.pathname,
         });

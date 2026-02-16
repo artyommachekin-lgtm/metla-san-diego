@@ -14,7 +14,7 @@ import {
     AlertTriangle,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -80,7 +80,7 @@ const FloorCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Clean Hardwood and Tile Floors | ${COMPANY_NAME}`,
+            title: `How to Clean Hardwood and Tile Floors | Expert Cleaning Tips`,
             description: 'Complete guide to cleaning hardwood and tile floors. Tips for San Diego homes dealing with sand, hard water, and high-traffic areas.',
             path: location.pathname,
         });

@@ -15,7 +15,7 @@ import {
     Users,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const GuestRoomPrepPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Prepare Your Guest Room | ${COMPANY_NAME}`,
+            title: `How to Prepare Your Guest Room | Expert Cleaning Tips`,
             description: 'Make your guests feel at home with our complete guest room preparation guide. Cleaning checklist and hospitality tips for San Diego hosts.',
             path: location.pathname,
         });

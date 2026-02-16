@@ -82,7 +82,7 @@ const UpholsteryCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Deep Clean Upholstered Furniture | San Diego Guide | ${COMPANY_NAME}`,
+            title: `How to Deep Clean Upholstered Furniture | San Diego Guide | Expert Cleaning Tips`,
             description: 'Learn how to deep clean and sanitize sofas, chairs, and upholstered furniture. Step-by-step guide with pet owner tips for San Diego homes.',
             path: location.pathname,
         });

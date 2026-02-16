@@ -15,7 +15,7 @@ import {
     Recycle,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
@@ -78,7 +78,7 @@ const GreenCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Eco-Friendly Cleaning Tips for San Diego Homes | ${COMPANY_NAME}`,
+            title: `Eco-Friendly Cleaning Tips for San Diego Homes | Expert Cleaning Tips`,
             description: 'Make your own eco-friendly cleaning products and reduce your environmental footprint. Natural cleaning tips for environmentally-conscious San Diego homes.',
             path: location.pathname,
         });

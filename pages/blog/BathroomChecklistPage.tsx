@@ -89,7 +89,7 @@ const BathroomChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Bathroom Deep Cleaning Checklist | San Diego Guide | ${COMPANY_NAME}`,
+            title: `Bathroom Deep Cleaning Checklist | San Diego Guide | Expert Cleaning Tips`,
             description: 'Complete bathroom deep cleaning checklist for San Diego homes. Step-by-step guide to tackle hard water stains, mold prevention, and coastal humidity challenges.',
             path: location.pathname,
         });

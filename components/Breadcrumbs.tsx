@@ -41,6 +41,12 @@ const Breadcrumbs: React.FC = () => {
             breadcrumbItems.push({ label: 'Policies' });
         } else if (type === 'house-cleaning') {
             breadcrumbItems.push({ label: 'House Cleaning' });
+        } else if (type === 'faq') {
+            breadcrumbItems.push({ label: 'FAQ' });
+        } else if (type === 'same-day-cleaning') {
+            breadcrumbItems.push({ label: 'Same Day Cleaning' });
+        } else if (type === 'locations') {
+            breadcrumbItems.push({ label: 'Locations' });
         } else if (type === 'blog') {
             breadcrumbItems.push({ label: 'Blog', href: slug ? '/blog' : undefined });
             if (slug) {

@@ -92,7 +92,7 @@ const DeepCleaningCostPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How Much Does Deep House Cleaning Cost? | San Diego 2024 Prices | ${COMPANY_NAME}`,
+            title: `How Much Does Deep House Cleaning Cost? | San Diego 2024 Prices | Expert Cleaning Tips`,
             description: 'San Diego deep cleaning costs $200-$400 for a typical home. See our complete pricing guide with costs by home size, what affects price, and how to get the best value.',
             path: location.pathname,
         });

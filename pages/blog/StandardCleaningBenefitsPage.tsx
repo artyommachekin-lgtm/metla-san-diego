@@ -15,7 +15,6 @@ import {
     Clock4,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
@@ -72,7 +71,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Why Hire a Regular Cleaning Service in San Diego? Benefits Explained | ${COMPANY_NAME}`,
+            title: `Why Hire a Regular Cleaning Service in San Diego? Benefits Explained | Expert Cleaning Tips`,
             description: 'Discover the benefits of recurring house cleaning services. Save time, improve health, and maintain your San Diego home with professional standard cleaning.',
             path: location.pathname,
         });

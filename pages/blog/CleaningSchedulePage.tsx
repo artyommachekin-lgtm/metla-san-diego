@@ -15,7 +15,7 @@ import {
     RotateCcw,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
@@ -92,7 +92,7 @@ const CleaningSchedulePage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Weekly Cleaning Schedule Guide | ${COMPANY_NAME}`,
+            title: `Weekly Cleaning Schedule Guide | Expert Cleaning Tips`,
             description: 'Create a realistic weekly cleaning schedule that actually works. Daily, weekly, and monthly cleaning checklists for busy San Diego households.',
             path: location.pathname,
         });

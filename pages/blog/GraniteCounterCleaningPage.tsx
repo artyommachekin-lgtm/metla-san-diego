@@ -77,7 +77,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Deep Clean Granite Countertops | San Diego Guide | ${COMPANY_NAME}`,
+            title: `How to Deep Clean Granite Countertops | San Diego Guide | Expert Cleaning Tips`,
             description: 'Learn how to clean and protect granite countertops properly. Step-by-step guide with tips for San Diego hard water stains. Keep your stone beautiful for years.',
             path: location.pathname,
         });

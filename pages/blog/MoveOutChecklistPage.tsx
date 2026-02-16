@@ -15,7 +15,7 @@ import {
     Key,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -137,7 +137,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Complete Move-Out Cleaning Checklist for San Diego Homes | ${COMPANY_NAME}`,
+            title: `Complete Move-Out Cleaning Checklist for San Diego Homes | Expert Cleaning Tips`,
             description: 'Maximize your chances of getting your full security deposit back with our comprehensive move-out cleaning checklist. Room-by-room guide with pro tips for San Diego renters.',
             path: location.pathname,
         });

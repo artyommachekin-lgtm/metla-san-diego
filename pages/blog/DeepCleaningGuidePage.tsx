@@ -18,7 +18,7 @@ import {
     SprayCan,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -84,7 +84,7 @@ const DeepCleaningGuidePage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `Ultimate Deep Cleaning Guide for San Diego Homes | ${COMPANY_NAME}`,
+            title: `Ultimate Deep Cleaning Guide for San Diego Homes | Expert Cleaning Tips`,
             description: 'Learn how to deep clean your San Diego home like a professional. Step-by-step guide covering coastal conditions challenges, room-by-room cleaning, and pro tips for lasting results.',
             path: location.pathname,
         });

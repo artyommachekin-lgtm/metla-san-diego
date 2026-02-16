@@ -15,7 +15,7 @@ import {
     Wind,
     MapPin
 } from 'lucide-react';
-import { COMPANY_NAME, PHONE_NUMBER } from '../../constants';
+import { PHONE_NUMBER } from '../../constants';
 import { updatePageSEO, resetSEO } from '../../utils/seo';
 import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
@@ -81,7 +81,7 @@ const LaundryRoomCleaningPage: React.FC = () => {
 
     useEffect(() => {
         updatePageSEO({
-            title: `How to Deep Clean Your Laundry Room | ${COMPANY_NAME}`,
+            title: `How to Deep Clean Your Laundry Room | Expert Cleaning Tips`,
             description: 'Complete guide to deep cleaning your laundry room. Learn how to clean your washer, dryer, vents, and tackle San Diego hard water buildup.',
             path: location.pathname,
         });
