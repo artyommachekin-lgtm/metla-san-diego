@@ -6,7 +6,8 @@ import HomeSchema from '../components/HomeSchema';
 import { SERVICES, LOCATIONS, TESTIMONIALS, PHONE_NUMBER } from '../constants';
 import { SITE_CONFIG, getRegionalHeading } from '../src/config/site-config';
 import { getIcon } from '../utils/icons';
-import { ShieldCheck, UserCheck, Clock, ArrowRight, Check, Star, Phone, BookOpen } from 'lucide-react';
+import { ShieldCheck, UserCheck, Clock, ArrowRight, Check, Star, Phone, BookOpen, MapPin } from 'lucide-react';
+import GoogleMap from '../components/GoogleMap';
 
 const Home: React.FC = () => {
   const location = useLocation();
@@ -176,6 +177,22 @@ const Home: React.FC = () => {
               </Link>
             ))}
           </div>
+
+          {/* Google Map Embed for Local SEO */}
+          <div className="mt-12 max-w-4xl mx-auto">
+            <GoogleMap height="350" className="border-white/10" />
+            <div className="flex justify-center mt-4">
+              <a
+                href={SITE_CONFIG.socialProfiles.gmb}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-sm font-medium"
+              >
+                <MapPin className="w-4 h-4" />
+                Get Directions to Our Office
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -241,6 +258,17 @@ const Home: React.FC = () => {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <a
+              href={SITE_CONFIG.socialProfiles.gmb}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium transition-colors"
+            >
+              <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+              Share Your Experience on Google
+            </a>
           </div>
         </div>
       </section>

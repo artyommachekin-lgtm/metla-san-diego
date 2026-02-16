@@ -170,7 +170,7 @@ const HouseCleaningPage: React.FC = () => {
                             <div className="flex text-yellow-400">
                                 {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-current" />)}
                             </div>
-                            <span className="text-slate-300">4.9/5 Rating • 127+ Reviews</span>
+                            <span className="text-slate-300">{SITE_CONFIG.socialProof.aggregateRating.ratingValue}/5 Rating • {SITE_CONFIG.socialProof.aggregateRating.ratingCount}+ Reviews</span>
                         </div>
                         <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">
                             Professional House Cleaning Services in San Diego

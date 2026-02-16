@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Star } from 'lucide-react';
 import { LOCATIONS, SERVICES, COMPANY_NAME, PHONE_NUMBER, COMPANY_EMAIL, COMPANY_ADDRESS, BUSINESS_HOURS } from '../constants';
 import { SITE_CONFIG, getCountiesString } from '../src/config/site-config';
 
@@ -48,7 +48,35 @@ const Footer: React.FC = () => {
                 <Clock size={16} className="text-teal-500" aria-hidden="true" />
                 <time itemProp="openingHours">{BUSINESS_HOURS.display}</time>
               </div>
+              <a
+                href={SITE_CONFIG.socialProfiles.gmb}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-teal-400 hover:text-teal-300 transition-colors text-sm font-medium"
+              >
+                <MapPin size={16} className="text-teal-500" aria-hidden="true" />
+                Get Directions
+              </a>
             </address>
+
+            {/* Social Profiles */}
+            <div className="flex items-center gap-3 mt-5">
+              <a href={SITE_CONFIG.socialProfiles.gmb} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-teal-400 transition-colors border border-slate-700 rounded px-2 py-1">Google</a>
+              <a href={SITE_CONFIG.socialProfiles.facebook} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-teal-400 transition-colors border border-slate-700 rounded px-2 py-1">Facebook</a>
+              <a href={SITE_CONFIG.socialProfiles.bbb} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-teal-400 transition-colors border border-slate-700 rounded px-2 py-1">BBB</a>
+              <a href={SITE_CONFIG.socialProfiles.thumbtack} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-teal-400 transition-colors border border-slate-700 rounded px-2 py-1">Thumbtack</a>
+            </div>
+
+            {/* Leave a Review CTA */}
+            <a
+              href={SITE_CONFIG.socialProfiles.gmb}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-3 text-xs text-teal-400 hover:text-teal-300 transition-colors"
+            >
+              <Star size={14} className="fill-current" />
+              Leave Us a Review on Google
+            </a>
           </div>
 
           {/* Services */}

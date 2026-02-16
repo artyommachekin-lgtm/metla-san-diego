@@ -13,6 +13,8 @@ import {
   HelpCircle
 } from 'lucide-react';
 import { updatePageSEO, resetSEO } from '../utils/seo';
+import { SITE_CONFIG } from '../src/config/site-config';
+import GoogleMap from '../components/GoogleMap';
 import LocalBusinessSchema from '../components/LocalBusinessSchema';
 import FAQSchema, { FAQItem } from '../components/FAQSchema';
 import { BLOG_POSTS } from './BlogPage';
@@ -342,7 +344,7 @@ const LocationPage: React.FC = () => {
                   </div>
                   <span className="text-sm text-slate-600">4.9/5</span>
                 </div>
-                <p className="text-xs text-slate-500 mb-6">Based on 127+ reviews from {location.name} clients</p>
+                <p className="text-xs text-slate-500 mb-6">Based on {SITE_CONFIG.socialProof.aggregateRating.ratingCount}+ reviews</p>
 
                 <Link
                   to="/booking"
@@ -356,6 +358,33 @@ const LocationPage: React.FC = () => {
                 >
                   <Phone className="w-4 h-4 inline mr-2" />
                   Call Now
+                </a>
+
+                {/* Google Map */}
+                <div className="mt-4">
+                  <GoogleMap height="200" />
+                </div>
+
+                {/* Get Directions */}
+                <a
+                  href={SITE_CONFIG.socialProfiles.gmb}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 w-full text-center text-teal-600 hover:text-teal-700 text-sm font-medium mt-3 py-2"
+                >
+                  <MapPin className="w-4 h-4" />
+                  Get Directions
+                </a>
+
+                {/* Leave a Review */}
+                <a
+                  href={SITE_CONFIG.socialProfiles.gmb}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 w-full text-center text-sm text-slate-500 hover:text-teal-600 mt-1 py-2 border-t border-slate-100"
+                >
+                  <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  Leave Us a Google Review
                 </a>
               </div>
             </div>

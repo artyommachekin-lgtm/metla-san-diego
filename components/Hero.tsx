@@ -58,9 +58,12 @@ const Hero: React.FC = () => {
             <span className="text-sm font-medium text-slate-300 tracking-wide">#1 Trusted Luxury Cleaning</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-serif font-medium leading-tight mb-6">
-            Restoring the <span className="text-teal-400 italic">Pristine</span> Condition of Your Home.
+          <h1 className="text-5xl md:text-7xl font-serif font-medium leading-tight mb-3">
+            Professional House Cleaning in <span className="text-teal-400 italic">San Diego</span>
           </h1>
+          <p className="text-xl md:text-2xl font-serif text-slate-200 mb-6">
+            Restoring the pristine condition of your home.
+          </p>
 
           <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
             {originTagline}
