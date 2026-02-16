@@ -253,7 +253,7 @@ export default function HomeContent() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {TESTIMONIALS.map((t, i) => (
               <div key={i} className="bg-slate-50 p-8 rounded-xl relative">
-                <div className="flex text-yellow-400 mb-4">
+                <div className="flex text-yellow-400 mb-4" aria-hidden="true">
                   {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
                 </div>
                 <p className="text-slate-700 italic mb-6">&quot;{t.text}&quot;</p>
@@ -269,7 +269,7 @@ export default function HomeContent() {
               href={SITE_CONFIG.socialProfiles.gmb}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium transition-colors"
+              className="inline-flex items-center gap-2 text-teal-700 hover:text-teal-800 font-medium transition-colors"
             >
               <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
               Share Your Experience on Google
