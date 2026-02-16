@@ -41,7 +41,6 @@ const Hero: React.FC = () => {
           alt="Pristine Living Room"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
           loading="eager"
-          fetchPriority="high"
           decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-transparent" />
