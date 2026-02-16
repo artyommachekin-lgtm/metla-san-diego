@@ -135,7 +135,7 @@ export const SITE_CONFIG = {
     // ============================================
     // URLS & LINKS
     // ============================================
-    baseUrl: "https://metlahousecleaningsandiego.com",
+    baseUrl: "https://www.metlahousecleaningsandiego.com",
     bookingLink: "/booking",
 
     // ============================================

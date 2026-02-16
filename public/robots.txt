@@ -1,11 +1,11 @@
 # Metla House Cleaning San Diego - Robots.txt
-# https://metlahousecleaningsandiego.com
+# https://www.metlahousecleaningsandiego.com
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://metlahousecleaningsandiego.com/sitemap.xml
+Sitemap: https://www.metlahousecleaningsandiego.com/sitemap.xml
 
 # Crawl-delay (optional, helps server load)
 Crawl-delay: 1
