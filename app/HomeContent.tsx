@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
@@ -42,7 +42,9 @@ function ScrollHandler() {
 export default function HomeContent() {
   return (
     <div className="bg-slate-50 min-h-screen">
-      <ScrollHandler />
+      <Suspense fallback={null}>
+        <ScrollHandler />
+      </Suspense>
       <HomeSchema />
       <Hero />
       <StatsPanel />
