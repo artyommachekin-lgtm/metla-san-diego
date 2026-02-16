@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useState, useRef } from 'react';
 
 // Global flag to track if Jobber assets have been preloaded

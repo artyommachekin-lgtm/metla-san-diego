@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
 import { ArrowRight, Star } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { SITE_CONFIG } from '../src/config/site-config';
 
 const Hero: React.FC = () => {
@@ -21,16 +23,12 @@ const Hero: React.FC = () => {
     }
   };
 
-  // Build origin story tagline from config
-  // For origin city (San Diego): emphasize local roots
-  // For expansion city (Miami): "brings [origin]'s protocol to [expansion]"
   const originTagline = SITE_CONFIG.originStory.enabled
     ? `San Diego's most trusted 50-point cleaning protocol for your home.`
     : `${SITE_CONFIG.companyName} delivers premium cleaning services across ${SITE_CONFIG.regional.primaryCity}.`;
 
   return (
     <div className="relative min-h-[600px] bg-slate-900 text-white pb-24">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=10&w=480&fm=webp&auto=format&fit=crop"
@@ -70,10 +68,9 @@ const Hero: React.FC = () => {
             {' '}Fully vetted, insured, and detail-obsessed.
           </p>
 
-          {/* CTA buttons - use inline style for reliable CLS fix (Tailwind CDN doesn't support arbitrary values) */}
           <div className="flex flex-col sm:flex-row gap-4" style={{ minHeight: 'var(--cta-min-height, 112px)' }}>
             <Link
-              to="/booking"
+              href="/booking"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-900 bg-teal-400 hover:bg-teal-300 transition-all rounded-sm shadow-[0_0_20px_rgba(45,212,191,0.3)] cursor-pointer"
             >
               Book Now
@@ -99,7 +96,7 @@ const Hero: React.FC = () => {
               4.9/5 Rating
             </span>
             <span className="w-1 h-1 bg-slate-600 rounded-full"></span>
-            <span>Licensed & Bonded</span>
+            <span>Licensed &amp; Bonded</span>
             <span className="w-1 h-1 bg-slate-600 rounded-full hidden sm:block"></span>
             <span className="hidden sm:inline">Background Checked</span>
           </div>

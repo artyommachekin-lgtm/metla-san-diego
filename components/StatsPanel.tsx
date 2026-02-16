@@ -1,17 +1,18 @@
+'use client';
+
 import React from 'react';
 import { CheckCircle2, Users, FolderCheck, Award } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 import { SITE_CONFIG } from '../src/config/site-config';
 
 const StatsPanel: React.FC = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
 
   return (
     <div className="relative z-20 -mt-16 mx-4 md:mx-auto max-w-6xl" style={{ minHeight: '120px' }}>
       <div className="bg-slate-900/80 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl overflow-hidden text-white">
         <div className="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-white/20">
 
-          {/* Stat 1 */}
           <div className="p-6 flex flex-col items-center md:items-start group hover:bg-white/5 transition-colors duration-300">
             <div className="flex items-center space-x-3 mb-2">
               <div className="p-2 bg-teal-500/20 rounded-full">
@@ -23,7 +24,6 @@ const StatsPanel: React.FC = () => {
             <p className="text-xs text-gray-300 mt-1">Standardized Excellence</p>
           </div>
 
-          {/* Stat 2 */}
           <div className="p-6 flex flex-col items-center md:items-start group hover:bg-white/5 transition-colors duration-300">
             <div className="flex items-center space-x-3 mb-2">
               <div className="p-2 bg-blue-500/20 rounded-full">
@@ -35,7 +35,6 @@ const StatsPanel: React.FC = () => {
             <p className="text-xs text-gray-300 mt-1">{SITE_CONFIG.originStory.enabled ? `Trusted since ${SITE_CONFIG.originStory.originCity}` : 'Trusted partners'}</p>
           </div>
 
-          {/* Stat 3 */}
           <div className="p-6 flex flex-col items-center md:items-start group hover:bg-white/5 transition-colors duration-300">
             <div className="flex items-center space-x-3 mb-2">
               <div className="p-2 bg-purple-500/20 rounded-full">
@@ -44,12 +43,11 @@ const StatsPanel: React.FC = () => {
               <span className="text-4xl font-light font-serif">5000+</span>
             </div>
             <p className="text-sm uppercase tracking-widest text-gray-300 font-semibold">Projects Done</p>
-            <p className="text-xs text-gray-300 mt-1">Residential & Commercial</p>
+            <p className="text-xs text-gray-300 mt-1">Residential &amp; Commercial</p>
           </div>
 
-          {/* Stat 4 - CTA style */}
           <div
-            onClick={() => navigate('/policies#satisfaction-guarantee')}
+            onClick={() => router.push('/policies#satisfaction-guarantee')}
             className="p-6 flex flex-col items-center justify-center bg-teal-700 hover:bg-teal-600 transition-colors cursor-pointer text-center md:text-left"
           >
             <div className="flex items-center space-x-2 mb-1">

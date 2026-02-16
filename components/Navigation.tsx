@@ -1,14 +1,17 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 import { PHONE_NUMBER } from '../constants';
 import { preloadJobberAssets } from './JobberEmbed';
 
 const Navigation: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
-  const navigate = useNavigate();
+  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -18,11 +21,11 @@ const Navigation: React.FC = () => {
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
-  }, [location]);
+  }, [pathname]);
 
   const handleNavClick = (e: React.MouseEvent, targetId: string) => {
     e.preventDefault();
-    if (location.pathname === '/') {
+    if (pathname === '/') {
       const element = document.getElementById(targetId);
       if (element) {
         const offset = 80;
@@ -30,24 +33,20 @@ const Navigation: React.FC = () => {
         window.scrollTo({ top: elementTop - offset, behavior: 'smooth' });
       }
     } else {
-      navigate('/', { state: { targetId } });
+      router.push('/?scrollTo=' + targetId);
     }
     setIsMobileMenuOpen(false);
   };
 
-  // Check if we're on the homepage (hero has dark background)
-  const isHomePage = location.pathname === '/';
+  const isHomePage = pathname === '/';
 
-  // Determine nav styling based on page and scroll state
   const getNavClasses = () => {
     if (isScrolled) {
       return 'bg-white shadow-md py-3 text-slate-900';
     }
-    // On homepage, use transparent with white text
     if (isHomePage) {
       return 'bg-transparent py-6 text-white';
     }
-    // On other pages, use white background from the start
     return 'bg-white shadow-sm py-3 text-slate-900';
   };
 
@@ -61,13 +60,12 @@ const Navigation: React.FC = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${getNavClasses()}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-serif font-bold tracking-tighter">
+        <Link href="/" className="text-2xl font-serif font-bold tracking-tighter">
           METLA<span className="text-teal-500">.</span>
         </Link>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">Home</Link>
+          <Link href="/" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">Home</Link>
           <a
             href="#services"
             onClick={(e) => handleNavClick(e, 'services')}
@@ -75,28 +73,16 @@ const Navigation: React.FC = () => {
           >
             Services
           </a>
-          <Link
-            to="/locations"
-            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
-          >
+          <Link href="/locations" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">
             Locations
           </Link>
-          <Link
-            to="/about"
-            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
-          >
+          <Link href="/about" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">
             About
           </Link>
-          <Link
-            to="/blog"
-            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
-          >
+          <Link href="/blog" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">
             Blog
           </Link>
-          <Link
-            to="/faq"
-            className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider"
-          >
+          <Link href="/faq" className="hover:text-teal-500 transition-colors text-sm font-medium uppercase tracking-wider">
             FAQ
           </Link>
 
@@ -106,7 +92,7 @@ const Navigation: React.FC = () => {
               {PHONE_NUMBER}
             </a>
             <Link
-              to="/booking"
+              href="/booking"
               onMouseEnter={preloadJobberAssets}
               onTouchStart={preloadJobberAssets}
               className={`px-5 py-2 rounded-sm font-bold text-sm transition-all shadow-lg ${getButtonClasses()}`}
@@ -116,7 +102,6 @@ const Navigation: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile Toggle */}
         <button
           className="md:hidden"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -127,10 +112,9 @@ const Navigation: React.FC = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-white text-slate-900 shadow-xl p-6 flex flex-col gap-6 md:hidden">
-          <Link to="/" className="text-lg font-medium py-2 block">Home</Link>
+          <Link href="/" className="text-lg font-medium py-2 block">Home</Link>
           <a
             href="#services"
             onClick={(e) => handleNavClick(e, 'services')}
@@ -138,23 +122,12 @@ const Navigation: React.FC = () => {
           >
             Services
           </a>
-          <Link to="/locations" className="text-lg font-medium py-2 block">
-            Locations
-          </Link>
-          <Link to="/about" className="text-lg font-medium py-2 block">
-            About
-          </Link>
-          <Link to="/blog" className="text-lg font-medium py-2 block">
-            Blog
-          </Link>
-          <Link to="/faq" className="text-lg font-medium py-2 block">
-            FAQ
-          </Link>
+          <Link href="/locations" className="text-lg font-medium py-2 block">Locations</Link>
+          <Link href="/about" className="text-lg font-medium py-2 block">About</Link>
+          <Link href="/blog" className="text-lg font-medium py-2 block">Blog</Link>
+          <Link href="/faq" className="text-lg font-medium py-2 block">FAQ</Link>
           <a href={`tel:${PHONE_NUMBER}`} className="text-lg font-medium text-teal-600 py-2 block">{PHONE_NUMBER}</a>
-          <Link
-            to="/booking"
-            className="bg-slate-900 text-white text-center py-3 rounded-sm font-bold"
-          >
+          <Link href="/booking" className="bg-slate-900 text-white text-center py-3 rounded-sm font-bold">
             Book Now
           </Link>
         </div>

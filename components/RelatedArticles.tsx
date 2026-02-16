@@ -1,11 +1,7 @@
-/**
- * RelatedArticles - Reusable cross-linking component for blog posts.
- * Shows 3 related articles based on the RELATED_POSTS_MAP.
- */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, BookOpen } from 'lucide-react';
-import { BLOG_POSTS } from '../pages/BlogPage';
+import { BLOG_POSTS } from '@/data/blog-posts';
 import { getRelatedPostSlugs } from '../utils/internalLinks';
 
 interface RelatedArticlesProps {
@@ -30,7 +26,7 @@ const RelatedArticles: React.FC<RelatedArticlesProps> = ({ currentSlug }) => {
                 {relatedPosts.map((post) => (
                     <Link
                         key={post!.slug}
-                        to={`/blog/${post!.slug}`}
+                        href={`/blog/${post!.slug}`}
                         className="flex items-start gap-3 p-3 bg-white rounded-lg border border-slate-200 hover:border-teal-300 hover:bg-teal-50 transition-colors group"
                     >
                         <div className="flex-1">

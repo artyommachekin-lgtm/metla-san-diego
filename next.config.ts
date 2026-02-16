@@ -1,0 +1,1142 @@
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
+
+  async headers() {
+    return [
+      {
+        source: '/assets/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/(.*\\.(?:js|css|woff2|woff|ttf|eot))',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ];
+  },
+
+  async redirects() {
+    return [
+      {
+        source: '/areas-served/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/areas-served',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/contact-us/',
+        destination: '/booking',
+        permanent: true,
+      },
+      {
+        source: '/contact-us',
+        destination: '/booking',
+        permanent: true,
+      },
+      {
+        source: '/services-4/',
+        destination: '/house-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/blog/',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/company-policies/',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/company-policies',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/privacy-policy/',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/faq/',
+        destination: '/faq',
+        permanent: true,
+      },
+      {
+        source: '/about/',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/deep-clean/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/deep-clean',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/standard-clean/',
+        destination: '/service/standard-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/standard-clean',
+        destination: '/service/standard-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/post-construction-clean/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/post-construction-clean',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/moving-clean/',
+        destination: '/service/move-in-out-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/moving-clean',
+        destination: '/service/move-in-out-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/vacation-rental-clean/',
+        destination: '/service/vacation-rental-cleaning-airbnb',
+        permanent: true,
+      },
+      {
+        source: '/vacation-rental-clean',
+        destination: '/service/vacation-rental-cleaning-airbnb',
+        permanent: true,
+      },
+      {
+        source: '/carpet-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/flooring-cleaning-services/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/window-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/magic-floor-treatment/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/la-jolla/',
+        destination: '/location/la-jolla',
+        permanent: true,
+      },
+      {
+        source: '/la-jolla',
+        destination: '/location/la-jolla',
+        permanent: true,
+      },
+      {
+        source: '/pacific-beach/',
+        destination: '/location/pacific-beach',
+        permanent: true,
+      },
+      {
+        source: '/pacific-beach',
+        destination: '/location/pacific-beach',
+        permanent: true,
+      },
+      {
+        source: '/hillcrest/',
+        destination: '/location/hillcrest',
+        permanent: true,
+      },
+      {
+        source: '/hillcrest',
+        destination: '/location/hillcrest',
+        permanent: true,
+      },
+      {
+        source: '/north-park/',
+        destination: '/location/north-park',
+        permanent: true,
+      },
+      {
+        source: '/north-park',
+        destination: '/location/north-park',
+        permanent: true,
+      },
+      {
+        source: '/coronado/',
+        destination: '/location/coronado',
+        permanent: true,
+      },
+      {
+        source: '/coronado',
+        destination: '/location/coronado',
+        permanent: true,
+      },
+      {
+        source: '/mission-hills/',
+        destination: '/location/mission-hills',
+        permanent: true,
+      },
+      {
+        source: '/mission-hills',
+        destination: '/location/mission-hills',
+        permanent: true,
+      },
+      {
+        source: '/mission-valley/',
+        destination: '/location/mission-valley',
+        permanent: true,
+      },
+      {
+        source: '/mission-valley',
+        destination: '/location/mission-valley',
+        permanent: true,
+      },
+      {
+        source: '/ocean-beach/',
+        destination: '/location/ocean-beach',
+        permanent: true,
+      },
+      {
+        source: '/ocean-beach',
+        destination: '/location/ocean-beach',
+        permanent: true,
+      },
+      {
+        source: '/university-city/',
+        destination: '/location/university-city',
+        permanent: true,
+      },
+      {
+        source: '/university-city',
+        destination: '/location/university-city',
+        permanent: true,
+      },
+      {
+        source: '/bay-park/',
+        destination: '/location/bay-park',
+        permanent: true,
+      },
+      {
+        source: '/bay-park',
+        destination: '/location/bay-park',
+        permanent: true,
+      },
+      {
+        source: '/bonita/',
+        destination: '/location/bonita',
+        permanent: true,
+      },
+      {
+        source: '/bonita',
+        destination: '/location/bonita',
+        permanent: true,
+      },
+      {
+        source: '/rancho-santa-fe/',
+        destination: '/location/rancho-santa-fe',
+        permanent: true,
+      },
+      {
+        source: '/rancho-santa-fe',
+        destination: '/location/rancho-santa-fe',
+        permanent: true,
+      },
+      {
+        source: '/national-city/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/national-city',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/lemon-grove/',
+        destination: '/location/lemon-grove',
+        permanent: true,
+      },
+      {
+        source: '/lemon-grove',
+        destination: '/location/lemon-grove',
+        permanent: true,
+      },
+      {
+        source: '/allied-gardens/',
+        destination: '/location/allied-gardens',
+        permanent: true,
+      },
+      {
+        source: '/allied-gardens',
+        destination: '/location/allied-gardens',
+        permanent: true,
+      },
+      {
+        source: '/college-area-sd/',
+        destination: '/location/college-area-sd',
+        permanent: true,
+      },
+      {
+        source: '/college-area-sd',
+        destination: '/location/college-area-sd',
+        permanent: true,
+      },
+      {
+        source: '/rolando-village-san-diego/',
+        destination: '/location/rolando-village-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/rolando-village-san-diego',
+        destination: '/location/rolando-village-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/valencia-park/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/valencia-park',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/la-presa/',
+        destination: '/location/la-presa',
+        permanent: true,
+      },
+      {
+        source: '/la-presa',
+        destination: '/location/la-presa',
+        permanent: true,
+      },
+      {
+        source: '/top-quality-house-cleaning-services-in-el-cajon-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/expert-house-cleaning-services-in-bostonia-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/metla-best-rated-house-cleaning-services-in-lakeside-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/trusted-house-cleaning-services-in-santee-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/professional-house-cleaning-services-in-ramona-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/reliable-house-cleaning-services-in-escondido-ca/',
+        destination: '/location/escondido',
+        permanent: true,
+      },
+      {
+        source: '/house-cleaning-services-in-pacific-highlands-ranch-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-house-cleaning-services-in-sorrento-valley-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-house-cleaning-services-in-golden-hill-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-notch-house-cleaning-services-in-rancho-bernardo-san-diego/',
+        destination: '/location/rancho-bernardo',
+        permanent: true,
+      },
+      {
+        source: '/house-cleaning-services-in-fairbanks-ranch/',
+        destination: '/location/rancho-santa-fe',
+        permanent: true,
+      },
+      {
+        source: '/best-house-cleaning-services-in-poway-ca/',
+        destination: '/location/poway',
+        permanent: true,
+      },
+      {
+        source: '/best-cleaning-services-in-la-mesa/',
+        destination: '/location/la-mesa',
+        permanent: true,
+      },
+      {
+        source: '/top-cleaning-services-in-solana-beach/',
+        destination: '/location/solana-beach',
+        permanent: true,
+      },
+      {
+        source: '/cleaning-services-in-clairemont/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-cleaning-services-in-torrey-pines/',
+        destination: '/location/la-jolla',
+        permanent: true,
+      },
+      {
+        source: '/professional-cleaning-services-in-carmel-valley/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/house-cleaning-services-in-miramar/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/lincoln-acres/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-the-kitchen/',
+        destination: '/blog/how-to-deep-clean-the-kitchen',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-the-kitchen',
+        destination: '/blog/how-to-deep-clean-the-kitchen',
+        permanent: true,
+      },
+      {
+        source: '/bathroom-deep-cleaning-checklist/',
+        destination: '/blog/bathroom-deep-cleaning-checklist',
+        permanent: true,
+      },
+      {
+        source: '/bathroom-deep-cleaning-checklist',
+        destination: '/blog/bathroom-deep-cleaning-checklist',
+        permanent: true,
+      },
+      {
+        source: '/essential-post-construction-cleaning-checklist-for-homeowners/',
+        destination: '/blog/essential-post-construction-cleaning-checklist-for-homeowners',
+        permanent: true,
+      },
+      {
+        source: '/essential-post-construction-cleaning-checklist-for-homeowners',
+        destination: '/blog/essential-post-construction-cleaning-checklist-for-homeowners',
+        permanent: true,
+      },
+      {
+        source: '/how-much-does-a-deep-house-cleaning-cost/',
+        destination: '/blog/how-much-does-a-deep-house-cleaning-cost',
+        permanent: true,
+      },
+      {
+        source: '/how-much-does-a-deep-house-cleaning-cost',
+        destination: '/blog/how-much-does-a-deep-house-cleaning-cost',
+        permanent: true,
+      },
+      {
+        source: '/top-10-spring-deep-cleaning-tips/',
+        destination: '/blog/top-10-spring-deep-cleaning-tips',
+        permanent: true,
+      },
+      {
+        source: '/top-10-spring-deep-cleaning-tips',
+        destination: '/blog/top-10-spring-deep-cleaning-tips',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-ceiling-fans/',
+        destination: '/blog/how-to-deep-clean-ceiling-fans',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-ceiling-fans',
+        destination: '/blog/how-to-deep-clean-ceiling-fans',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-granite-counters/',
+        destination: '/blog/how-to-deep-clean-granite-counters',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-granite-counters',
+        destination: '/blog/how-to-deep-clean-granite-counters',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-and-sanitize-upholstered-furniture/',
+        destination: '/blog/how-to-deep-clean-and-sanitize-upholstered-furniture',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-and-sanitize-upholstered-furniture',
+        destination: '/blog/how-to-deep-clean-and-sanitize-upholstered-furniture',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-and-sanitize-upholstered-furniture-2/',
+        destination: '/blog/how-to-deep-clean-and-sanitize-upholstered-furniture',
+        permanent: true,
+      },
+      {
+        source: '/how-to-eliminate-mold-from-your-home/',
+        destination: '/blog/how-to-eliminate-mold-from-your-home',
+        permanent: true,
+      },
+      {
+        source: '/how-to-eliminate-mold-from-your-home',
+        destination: '/blog/how-to-eliminate-mold-from-your-home',
+        permanent: true,
+      },
+      {
+        source: '/how-to-get-rid-of-bad-smell-in-the-fridge/',
+        destination: '/blog/how-to-get-rid-of-bad-smell-in-the-fridge',
+        permanent: true,
+      },
+      {
+        source: '/how-to-get-rid-of-bad-smell-in-the-fridge',
+        destination: '/blog/how-to-get-rid-of-bad-smell-in-the-fridge',
+        permanent: true,
+      },
+      {
+        source: '/benefits-of-deep-cleaning-the-house/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-is-included-in-deep-house-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/whats-included-in-deep-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-are-a-deep-cleaning-steps/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-long-does-it-take-to-deep-clean-a-house/',
+        destination: '/faq',
+        permanent: true,
+      },
+      {
+        source: '/how-long-to-deep-clean-apartment/',
+        destination: '/faq',
+        permanent: true,
+      },
+      {
+        source: '/deep-cleaning-vs-regular-house-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-to-wear-when-deep-cleaning-the-house/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/benefits-of-deep-cleaning-for-improved-indoor-air/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-happens-if-you-never-deep-clean-your-house/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/holiday-deep-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-to-fit-deep-cleaning-into-a-busy-schedule/',
+        destination: '/blog/weekly-cleaning-schedule-guide',
+        permanent: true,
+      },
+      {
+        source: '/how-often-should-you-deep-clean-your-home/',
+        destination: '/faq',
+        permanent: true,
+      },
+      {
+        source: '/what-is-the-fastest-way-to-deep-clean-a-house/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/choosing-the-right-deep-cleaning-service/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/why-you-should-choose-a-certified-deep-cleaning-service/',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/4-reasons-getting-a-recurring-house-cleaning-is-worth-it/',
+        destination: '/service/standard-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/health-benefits-of-cleaning-the-house/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/top-techniques-for-removing-stubborn-construction-residue/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-to-clean-construction-dust-from-furniture/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-clean-concrete-tools-and-small-machinery/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/best-practices-for-post-construction-cleanup-and-dust-removal/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/best-post-construction-cleaning-equipment-tips-from-professionals/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/tips-and-tools-for-effective-post-construction-home-cleaning/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/the-complete-guide-to-scope-of-work-for-post-construction-cleaning/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-are-the-duties-of-a-post-construction-cleaner/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-is-a-practical-way-of-post-construction-cleaning/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-clean-windows-after-construction/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-remove-dried-cement-from-glass-windows/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-is-rough-cleaning/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-clean-post-construction-dust/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/best-way-to-dust-walls-after-construction/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-clean-up-after-concrete-work/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/determining-the-settling-time-frame-of-construction-dust/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-are-the-hazards-of-cleaning-after-construction/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/stages-of-post-construction-cleanup/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-is-post-renovation-cleaning/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/navigating-the-ventilation-process-in-a-newly-constructed-home/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/can-construction-dust-make-you-sick/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/should-contractors-clean-up-after-themselves/',
+        destination: '/service/post-construction-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-to-do-a-post-construction-cleanup/',
+        destination: '/blog/essential-post-construction-cleaning-checklist-for-homeowners',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-deep-clean-the-house-when-moving-out/',
+        destination: '/blog/move-out-cleaning-checklist',
+        permanent: true,
+      },
+      {
+        source: '/deep-clean-rental-property/',
+        destination: '/service/move-in-out-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/essential-deep-cleaning-new-house-checklist/',
+        destination: '/blog/move-in-cleaning-checklist',
+        permanent: true,
+      },
+      {
+        source: '/how-to-safely-pressure-wash-your-house-before-painting/',
+        destination: '/blog/how-to-clean-your-outdoor-patio',
+        permanent: true,
+      },
+      {
+        source: '/tips-and-tricks-on-how-to-deep-clean-instant-pot/',
+        destination: '/blog/how-to-deep-clean-the-kitchen',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-a-toaster/',
+        destination: '/blog/how-to-deep-clean-the-kitchen',
+        permanent: true,
+      },
+      {
+        source: '/how-to-deep-clean-your-towels/',
+        destination: '/blog/how-to-deep-clean-your-laundry-room',
+        permanent: true,
+      },
+      {
+        source: '/importance-of-deep-cleaning-of-industrial-facilities/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/deep-cleaning-in-emergency-situations/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/importance-of-deep-cleaning-in-retail/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/what-is-an-office-deep-clean/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/high-touch-surface-areas-deep-cleaning/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-deep-clean-a-commercial-kitchen/',
+        destination: '/blog/how-to-deep-clean-the-kitchen',
+        permanent: true,
+      },
+      {
+        source: '/how-much-does-it-cost-to-deep-clean-a-commercial-kitchen/',
+        destination: '/blog/how-much-does-a-deep-house-cleaning-cost',
+        permanent: true,
+      },
+      {
+        source: '/deep-clean-basement/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-clean-heavy-dust/',
+        destination: '/blog/declutter-before-deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/should-you-tip-for-deep-cleaning/',
+        destination: '/faq',
+        permanent: true,
+      },
+      {
+        source: '/tips-on-how-to-clean-your-basement/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/why-window-cleaning-is-important/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/top-cleaning-tips-tricks-for-a-bright-home/',
+        destination: '/blog/top-10-spring-deep-cleaning-tips',
+        permanent: true,
+      },
+      {
+        source: '/most-common-cleaning-mistakes-homeowners-make/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/what-is-the-most-effective-cleaning-method-for-removing-allergens/',
+        destination: '/blog/allergy-proofing-your-home',
+        permanent: true,
+      },
+      {
+        source: '/deep-cleaning-for-pet-owners/',
+        destination: '/blog/how-to-remove-pet-odors-from-your-home',
+        permanent: true,
+      },
+      {
+        source: '/effective-speed-cleaning-tips-for-everyone/',
+        destination: '/blog/weekly-cleaning-schedule-guide',
+        permanent: true,
+      },
+      {
+        source: '/how-do-you-deep-clean-a-neglected-house/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/how-can-i-deep-clean-my-house-without-chemicals/',
+        destination: '/blog/eco-friendly-cleaning-tips',
+        permanent: true,
+      },
+      {
+        source: '/tips-for-preventing-and-reducing-dust-in-the-house/',
+        destination: '/blog/allergy-proofing-your-home',
+        permanent: true,
+      },
+      {
+        source: '/best-way-to-deep-clean-linoleum-floors/',
+        destination: '/blog/how-to-clean-hardwood-and-tile-floors',
+        permanent: true,
+      },
+      {
+        source: '/what-tools-are-needed-for-a-deep-clean/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/best-cleaning-products-to-deep-clean-the-house/',
+        destination: '/blog/eco-friendly-cleaning-tips',
+        permanent: true,
+      },
+      {
+        source: '/best-breweries-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-farmers-markets-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-historical-sites-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-rooftop-bars-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-places-for-brunch-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-golf-courses-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/san-diego-trolley-system-a-convenient-transit-solution/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/shopping-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-kindergartens-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/discover-the-best-parks-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/san-diego-rapid-transit/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-five-interstate-highways-in-san-diego-a-guide-to-regional-travel/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-elementary-schools-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-tech-companies-in-san-diego-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/the-highest-paying-jobs-in-san-diego-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/the-best-biotech-companies-in-san-diego-ca/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-middle-schools-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-high-schools-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-neighborhoods-to-raise-a-family-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-best-trails-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-beaches-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/top-peaks-around-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-neighborhoods-to-live-in-the-san-diego-area/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-neighborhoods-for-young-professionals-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/8-reasons-getting-a-recurring-house-cleaning-is-worth-it/',
+        destination: '/service/standard-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/8-reasons-getting-a-recurring-house-cleaning-is-worth-it',
+        destination: '/service/standard-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/best-way-to-deep-clean-hardwood-floors/',
+        destination: '/blog/how-to-clean-hardwood-and-tile-floors',
+        permanent: true,
+      },
+      {
+        source: '/best-way-to-deep-clean-hardwood-floors',
+        destination: '/blog/how-to-clean-hardwood-and-tile-floors',
+        permanent: true,
+      },
+      {
+        source: '/what-to-wear-when-cleaning-the-house/',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/what-to-wear-when-cleaning-the-house',
+        destination: '/blog/deep-cleaning-guide-san-diego',
+        permanent: true,
+      },
+      {
+        source: '/milands-village-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/milands-village-san-diego',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/:path*/feed/',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/:path*/feed',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/category/:path*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/post/:path*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/wp-includes/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-content/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-admin/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/cleaning-policies/',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/cleaning-policies',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/metla-quick-quote/',
+        destination: '/booking',
+        permanent: true,
+      },
+      {
+        source: '/metla-quick-quote',
+        destination: '/booking',
+        permanent: true,
+      },
+      {
+        source: '/wp-login.php',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-cron.php',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/xmlrpc.php',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+export default nextConfig;
