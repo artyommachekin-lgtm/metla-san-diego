@@ -21,6 +21,7 @@ import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
 import RelatedArticles from '../../components/RelatedArticles';
+import AuthorBio from '../../components/AuthorBio';
 
 const GuestRoomPrepPage: React.FC = () => {
 
@@ -85,7 +86,10 @@ const GuestRoomPrepPage: React.FC = () => {
                 description="Complete guide to preparing a welcoming guest room. Cleaning checklist and hospitality tips for making visitors feel at home."
                 slug="how-to-prepare-your-guest-room"
                 datePublished="2024-01-20"
-                dateModified="2024-01-20"
+                dateModified="2026-02-17"
+                authorName="Art Machekin"
+                authorType="Person"
+                authorJobTitle="Founder"
             />
             <HowToSchema
                 name="How to Prepare a Guest Room"
@@ -131,6 +135,8 @@ const GuestRoomPrepPage: React.FC = () => {
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
                             <span>Published January 20, 2024</span>
+                            <span className="text-slate-600">&middot;</span>
+                            <span>Updated February 17, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -311,7 +317,14 @@ const GuestRoomPrepPage: React.FC = () => {
                                     <p className="text-slate-600 text-sm">{faq.answer}</p>
                                 </div>
                             ))}
-                        </div>                        <RelatedArticles currentSlug="how-to-prepare-your-guest-room" />
+                        </div>
+                        <AuthorBio
+                            name="Art Machekin"
+                            role="Founder"
+                            bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home."
+                        />
+
+                        <RelatedArticles currentSlug="how-to-prepare-your-guest-room" />
 
 
 

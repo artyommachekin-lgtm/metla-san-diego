@@ -1,3 +1,17 @@
+export interface BlogPostAuthor {
+    name: string;
+    slug: string;
+    role: string;
+    bio: string;
+}
+
+export const DEFAULT_AUTHOR: BlogPostAuthor = {
+    name: 'Art Machekin',
+    slug: 'art-machekin',
+    role: 'Founder',
+    bio: 'Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home.',
+};
+
 export interface BlogPost {
     slug: string;
     title: string;
@@ -5,9 +19,11 @@ export interface BlogPost {
     category: string;
     readTime: string;
     datePublished: string;
+    dateModified: string;
     image: string;
     imageAlt: string;
     iconName: string;
+    author: BlogPostAuthor;
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -18,9 +34,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Cleaning Guides',
         readTime: '8 min read',
         datePublished: '2024-01-15',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1749214317455-efbdd57df844?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Cleaning powder being added to a mop bucket for deep house cleaning',
-        iconName: 'Sparkles'
+        iconName: 'Sparkles',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-the-kitchen',
@@ -29,9 +47,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Kitchen',
         readTime: '10 min read',
         datePublished: '2024-02-05',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1690310588533-6043216b0b5f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Clean modern kitchen with marble countertop and white cabinets',
-        iconName: 'ChefHat'
+        iconName: 'ChefHat',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'bathroom-deep-cleaning-checklist',
@@ -40,20 +60,24 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Checklists',
         readTime: '8 min read',
         datePublished: '2024-02-04',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1721564130821-5ac091ee399c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Spacious bathroom with bathtub, sink, and walk-in shower ready for deep cleaning',
-        iconName: 'Bath'
+        iconName: 'Bath',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'essential-post-construction-cleaning-checklist-for-homeowners',
-        title: 'Essential Post-Construction Cleaning Checklist for Homeowners',
+        title: 'Post-Construction Cleaning Checklist for Homeowners',
         excerpt: 'Just finished a renovation in San Diego? Use our detailed checklist to tackle construction dust and debris like a pro.',
         category: 'Specialty Cleaning',
         readTime: '9 min read',
         datePublished: '2024-02-03',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1768321914688-86ff62032d47?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Interior room under construction with exposed framing and unfinished walls',
-        iconName: 'Hammer'
+        iconName: 'Hammer',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-much-does-a-deep-house-cleaning-cost',
@@ -62,9 +86,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Pricing',
         readTime: '7 min read',
         datePublished: '2024-02-02',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1746221331496-a87689fc8eb9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Calculator and office supplies on a desk for estimating cleaning costs',
-        iconName: 'DollarSign'
+        iconName: 'DollarSign',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'top-10-spring-deep-cleaning-tips',
@@ -73,9 +99,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Seasonal',
         readTime: '8 min read',
         datePublished: '2024-02-01',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1763412050485-d7e1688f8858?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Open door in a bright room with plants letting in fresh spring air',
-        iconName: 'Flower2'
+        iconName: 'Flower2',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-ceiling-fans',
@@ -84,9 +112,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1680703261560-11c234762abe?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Bedroom with ceiling fan mounted above a bed with wooden accents',
-        iconName: 'Fan'
+        iconName: 'Fan',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-granite-counters',
@@ -95,9 +125,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-17',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1636628751643-2a8c9fd001d4?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Kitchen with marble countertops and bar stools in a modern home',
-        iconName: 'Gem'
+        iconName: 'Gem',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-and-sanitize-upholstered-furniture',
@@ -106,9 +138,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '9 min read',
         datePublished: '2024-01-16',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1759722667224-a5a7143fcbcf?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Close-up of light grey upholstered fabric sofa ready for deep cleaning',
-        iconName: 'Sofa'
+        iconName: 'Sofa',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-eliminate-mold-from-your-home',
@@ -117,9 +151,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '10 min read',
         datePublished: '2024-01-15',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1692911436905-ec0f5a6cf910?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Damaged bathroom wall showing moisture and mold issues needing treatment',
-        iconName: 'Bug'
+        iconName: 'Bug',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-get-rid-of-bad-smell-in-the-fridge',
@@ -128,31 +164,37 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-14',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1536854704214-f489b6693769?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Open refrigerator showing shelves ready for deep cleaning and organizing',
-        iconName: 'ThermometerSnowflake'
+        iconName: 'ThermometerSnowflake',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'move-out-cleaning-checklist',
-        title: 'Complete Move-Out Cleaning Checklist for San Diego Renters',
+        title: 'Move-Out Cleaning Checklist: San Diego Renters',
         excerpt: 'Moving out? Use our comprehensive cleaning checklist to maximize your chances of getting your full security deposit back. Room-by-room guide with pro tips.',
         category: 'Checklists',
         readTime: '6 min read',
         datePublished: '2024-01-10',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1757742690834-aa581b9f53b2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Empty room with wooden floor and large window ready for move-out cleaning',
-        iconName: 'Building2'
+        iconName: 'Building2',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'benefits-of-regular-cleaning-service',
-        title: 'Why Hire a Regular Cleaning Service? The Benefits Explained',
+        title: 'Benefits of Hiring a Regular Cleaning Service',
         excerpt: 'Discover the many benefits of recurring house cleaning services—from saving time to improving your family\'s health and protecting your investment.',
         category: 'Cleaning Tips',
         readTime: '5 min read',
         datePublished: '2024-01-20',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1749705319317-f9a2bf24fe3d?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Cozy living room with large white sofa and bookshelf maintained by regular cleaning',
-        iconName: 'Home'
+        iconName: 'Home',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'vacation-rental-cleaning-tips-for-hosts',
@@ -161,9 +203,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'For Hosts',
         readTime: '8 min read',
         datePublished: '2024-01-20',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1770414173168-f6c666501225?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Bright coastal-themed vacation rental bedroom with a large bed prepared for guests',
-        iconName: 'Key'
+        iconName: 'Key',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-your-laundry-room',
@@ -172,9 +216,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-19',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1655041448985-f6666cba2d6c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Laundry room with washer and dryer ready for deep cleaning',
-        iconName: 'WashingMachine'
+        iconName: 'WashingMachine',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-clean-windows-like-a-pro',
@@ -183,9 +229,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1596063323819-0334f21e996c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Clean white wooden framed glass window letting in natural sunlight',
-        iconName: 'Columns'
+        iconName: 'Columns',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'declutter-before-deep-cleaning',
@@ -194,9 +242,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Organization',
         readTime: '6 min read',
         datePublished: '2024-01-17',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1668911491507-be365acf69ee?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'White kitchen with neatly organized open shelves and clutter-free counters',
-        iconName: 'FolderOpen'
+        iconName: 'FolderOpen',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-remove-pet-odors-from-your-home',
@@ -205,9 +255,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Pet Owners',
         readTime: '9 min read',
         datePublished: '2024-01-16',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1663551385059-24dbfc8fe575?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Dog sitting on a living room rug that needs pet odor treatment',
-        iconName: 'PawPrint'
+        iconName: 'PawPrint',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-clean-hardwood-and-tile-floors',
@@ -216,9 +268,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-22',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1769736436809-eab3de70b175?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Modern living room with herringbone hardwood floor and contemporary artwork',
-        iconName: 'Layers'
+        iconName: 'Layers',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-deep-clean-your-mattress',
@@ -227,9 +281,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-21',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1762199904077-1c83cebbd205?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Neatly made bed with white linens and pillows after mattress deep cleaning',
-        iconName: 'Moon'
+        iconName: 'Moon',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'move-in-cleaning-checklist',
@@ -238,9 +294,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Checklists',
         readTime: '7 min read',
         datePublished: '2024-01-20',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1741156386380-0236c72eb6f9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Person holding house keys in front of the entrance to their new home',
-        iconName: 'Box'
+        iconName: 'Box',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'eco-friendly-cleaning-tips',
@@ -249,9 +307,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Green Living',
         readTime: '8 min read',
         datePublished: '2024-01-19',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1601389784093-1086062cb290?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Person holding eco-friendly spray bottle for natural household cleaning',
-        iconName: 'Leaf'
+        iconName: 'Leaf',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-clean-your-home-office',
@@ -260,9 +320,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '7 min read',
         datePublished: '2024-01-18',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1760278042149-bbed9b84ba81?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Clean home office desk setup with computer monitor and indoor plant',
-        iconName: 'Monitor'
+        iconName: 'Monitor',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-clean-your-outdoor-patio',
@@ -271,9 +333,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '8 min read',
         datePublished: '2024-01-24',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1714296972268-1022b221d415?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Wooden table and chairs on an outdoor patio ready for cleaning',
-        iconName: 'SunMedium'
+        iconName: 'SunMedium',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-clean-stainless-steel-appliances',
@@ -282,9 +346,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'How-To',
         readTime: '6 min read',
         datePublished: '2024-01-23',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1707255280298-e540809f4c01?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Kitchen filled with stainless steel appliances including a refrigerator and range',
-        iconName: 'Sparkles'
+        iconName: 'Sparkles',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'weekly-cleaning-schedule-guide',
@@ -293,9 +359,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Guides',
         readTime: '7 min read',
         datePublished: '2024-01-22',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'White weekly planner with pen on top for scheduling cleaning tasks',
-        iconName: 'CalendarDays'
+        iconName: 'CalendarDays',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'allergy-proofing-your-home',
@@ -304,9 +372,11 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Health',
         readTime: '8 min read',
         datePublished: '2024-01-21',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1593030019566-d681b01e877f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Clean bedroom with white bed linen near window allowing fresh air circulation',
-        iconName: 'Shield'
+        iconName: 'Shield',
+        author: DEFAULT_AUTHOR
     },
     {
         slug: 'how-to-prepare-your-guest-room',
@@ -315,8 +385,10 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Hospitality',
         readTime: '7 min read',
         datePublished: '2024-01-20',
+        dateModified: '2026-02-17',
         image: 'https://images.unsplash.com/photo-1742821855639-476d4e1b5cea?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Inviting hotel-style guest room with natural light and welcoming bedding',
-        iconName: 'Bed'
+        iconName: 'Bed',
+        author: DEFAULT_AUTHOR
     }
 ];

@@ -21,6 +21,7 @@ import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
 import RelatedArticles from '../../components/RelatedArticles';
+import AuthorBio from '../../components/AuthorBio';
 
 const WindowCleaningPage: React.FC = () => {
 
@@ -85,7 +86,10 @@ const WindowCleaningPage: React.FC = () => {
                 description="Professional techniques for streak-free window cleaning. Perfect for San Diego homes with coastal salt spray and hard water challenges."
                 slug="how-to-clean-windows-like-a-pro"
                 datePublished="2024-01-18"
-                dateModified="2024-01-18"
+                dateModified="2026-02-17"
+                authorName="Art Machekin"
+                authorType="Person"
+                authorJobTitle="Founder"
             />
             <HowToSchema
                 name="How to Clean Windows Like a Professional"
@@ -132,6 +136,8 @@ const WindowCleaningPage: React.FC = () => {
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
                             <span>Published January 18, 2024</span>
+                            <span className="text-slate-600">&middot;</span>
+                            <span>Updated February 17, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -241,7 +247,14 @@ const WindowCleaningPage: React.FC = () => {
                                     <p className="text-slate-600 text-sm">{faq.answer}</p>
                                 </div>
                             ))}
-                        </div>                        <RelatedArticles currentSlug="how-to-clean-windows-like-a-pro" />
+                        </div>
+                        <AuthorBio
+                            name="Art Machekin"
+                            role="Founder"
+                            bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home."
+                        />
+
+                        <RelatedArticles currentSlug="how-to-clean-windows-like-a-pro" />
 
 
 

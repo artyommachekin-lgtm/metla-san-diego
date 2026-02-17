@@ -21,6 +21,7 @@ import { COMPANY_NAME, PHONE_NUMBER, LOCATIONS } from '../../constants';
 import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
 import RelatedArticles from '../../components/RelatedArticles';
+import AuthorBio from '../../components/AuthorBio';
 
 const SpringCleaningTipsPage: React.FC = () => {
 
@@ -125,7 +126,10 @@ const SpringCleaningTipsPage: React.FC = () => {
                 description="Expert spring cleaning tips for San Diego homeowners. From pollen season prep to outdoor living spaces, here's how to refresh your home."
                 slug="top-10-spring-deep-cleaning-tips"
                 datePublished="2024-02-20"
-                dateModified="2024-12-15"
+                dateModified="2026-02-17"
+                authorName="Art Machekin"
+                authorType="Person"
+                authorJobTitle="Founder"
             />
             <FAQSchema faqs={faqs} />
 
@@ -153,6 +157,8 @@ const SpringCleaningTipsPage: React.FC = () => {
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
                             <span>Updated December 15, 2024</span>
+                            <span className="text-slate-600">&middot;</span>
+                            <span>Updated February 17, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -322,6 +328,12 @@ const SpringCleaningTipsPage: React.FC = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <AuthorBio
+                            name="Art Machekin"
+                            role="Founder"
+                            bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home."
+                        />
 
                         <RelatedArticles currentSlug="top-10-spring-deep-cleaning-tips" />
 

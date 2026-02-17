@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS } from '@/data/blog-posts';
-import { COMPANY_NAME } from '@/constants';
 import BlogPostContent from './BlogPostContent';
 
 export function generateStaticParams() {
@@ -15,7 +14,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!post) return {};
 
   return {
-    title: `${post.title} | ${COMPANY_NAME}`,
+    title: post.title,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -23,6 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       images: [{ url: post.image, alt: post.imageAlt }],
       type: 'article',
       publishedTime: post.datePublished,
+      modifiedTime: post.dateModified,
     },
   };
 }

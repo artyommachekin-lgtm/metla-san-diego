@@ -21,6 +21,7 @@ import ArticleSchema from '../../components/ArticleSchema';
 import HowToSchema from '../../components/HowToSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
 import RelatedArticles from '../../components/RelatedArticles';
+import AuthorBio from '../../components/AuthorBio';
 
 const GraniteCounterCleaningPage: React.FC = () => {
 
@@ -83,7 +84,10 @@ const GraniteCounterCleaningPage: React.FC = () => {
                 description="Learn proper granite cleaning techniques to keep your countertops beautiful. Safe products, stain removal, and sealing tips."
                 slug="how-to-deep-clean-granite-counters"
                 datePublished="2024-01-17"
-                dateModified="2024-12-15"
+                dateModified="2026-02-17"
+                authorName="Art Machekin"
+                authorType="Person"
+                authorJobTitle="Founder"
             />
             <HowToSchema
                 name="How to Deep Clean Granite Countertops"
@@ -130,6 +134,8 @@ const GraniteCounterCleaningPage: React.FC = () => {
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
                             <span>Updated December 15, 2024</span>
+                            <span className="text-slate-600">&middot;</span>
+                            <span>Updated February 17, 2026</span>
                         </div>
                     </div>
                 </div>
@@ -340,6 +346,12 @@ const GraniteCounterCleaningPage: React.FC = () => {
                                 </Link>
                             </div>
                         </div>
+
+                        <AuthorBio
+                            name="Art Machekin"
+                            role="Founder"
+                            bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home."
+                        />
 
                         <RelatedArticles currentSlug="how-to-deep-clean-granite-counters" />
 

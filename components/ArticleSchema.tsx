@@ -36,8 +36,11 @@ const ArticleSchema: React.FC<ArticleSchemaProps> = ({
         "name": authorName,
     };
 
-    if (authorType === 'Person' && authorJobTitle) {
-        authorObject.jobTitle = authorJobTitle;
+    if (authorType === 'Person') {
+        if (authorJobTitle) {
+            authorObject.jobTitle = authorJobTitle;
+        }
+        authorObject.url = `${baseUrl}/about`;
     }
 
     if (authorType === 'Organization') {
