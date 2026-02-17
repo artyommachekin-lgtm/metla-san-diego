@@ -238,7 +238,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             </p>
                             <Link
                                 href="/booking"
-                                className="inline-flex items-center justify-center px-6 py-3 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
+                                className="inline-flex items-center justify-center px-6 py-3 mb-4 mr-4 bg-white text-teal-600 font-bold rounded hover:bg-teal-50 transition-colors"
                             >
                                 Book a Cleaning
                                 <ArrowRight className="ml-2 w-5 h-5" />

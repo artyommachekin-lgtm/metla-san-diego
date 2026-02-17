@@ -58,7 +58,7 @@ const Navigation: React.FC = () => {
   };
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${getNavClasses()}`}>
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${getNavClasses()}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-serif font-bold tracking-tighter">
           METLA<span className="text-teal-500">.</span>
