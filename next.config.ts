@@ -1082,7 +1082,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/post/:path*',
-        destination: '/blog',
+        destination: '/:path*',
         permanent: true,
       },
       {
@@ -1133,6 +1133,17 @@ const nextConfig: NextConfig = {
       {
         source: '/xmlrpc.php',
         destination: '/',
+        permanent: true,
+      },
+      // Case-sensitivity fix: GSC found /About/ as alternate page
+      {
+        source: '/About',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/About/',
+        destination: '/about',
         permanent: true,
       },
     ];
