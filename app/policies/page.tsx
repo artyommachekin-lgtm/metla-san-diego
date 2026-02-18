@@ -5,6 +5,7 @@ import { ShieldAlert, CreditCard, Clock, Ban, AlertTriangle, CheckCircle } from 
 export const metadata: Metadata = {
   title: `Company Policies | ${COMPANY_NAME}`,
   description: 'Transparent policies for Metla House Cleaning including pricing, cancellation, payment terms, and our satisfaction guarantee.',
+  alternates: { canonical: '/policies' },
 };
 
 export default function PoliciesPage() {

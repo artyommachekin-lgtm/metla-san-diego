@@ -33,6 +33,7 @@ const SAME_DAY_FAQS: FAQItem[] = [
 export const metadata: Metadata = {
   title: `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${SITE_CONFIG.companyName}`,
   description: `Need cleaning today? ${SITE_CONFIG.companyName} offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call ${SITE_CONFIG.phone} for urgent cleaning requests.`,
+  alternates: { canonical: '/same-day-cleaning' },
 };
 
 export default function SameDayCleaningPage() {

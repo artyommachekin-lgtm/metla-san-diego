@@ -16,6 +16,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`,
     description: `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`,
+    alternates: { canonical: `/location/${params.slug}` },
   };
 }
 

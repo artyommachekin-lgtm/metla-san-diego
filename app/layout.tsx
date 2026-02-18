@@ -22,6 +22,10 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_CONFIG.baseUrl),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: SITE_CONFIG.seo.siteTitle,
     template: '%s',

@@ -22,6 +22,7 @@ import { BLOG_POSTS } from '@/data/blog-posts';
 export const metadata: Metadata = {
   title: `House Cleaning San Diego | ${COMPANY_NAME}`,
   description: 'Premium house cleaning services in San Diego, La Jolla, Pacific Beach & Coronado. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!',
+  alternates: { canonical: '/house-cleaning' },
 };
 
 export default function HouseCleaningPage() {

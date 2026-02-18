@@ -7,6 +7,7 @@ import { BLOG_POSTS } from '@/data/blog-posts';
 export const metadata: Metadata = {
   title: `Cleaning Tips & Guides | ${COMPANY_NAME} Blog`,
   description: 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a pristine home.',
+  alternates: { canonical: '/blog' },
 };
 
 export default function BlogPage() {

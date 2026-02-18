@@ -6,6 +6,7 @@ import { COMPANY_NAME, LOCATIONS, COMPANY_ADDRESS, BUSINESS_HOURS, PHONE_NUMBER 
 export const metadata: Metadata = {
   title: `About Us | ${COMPANY_NAME}`,
   description: 'Meet the team behind Metla House Cleaning. Former property managers bringing hospitality-grade cleaning standards to San Diego homes for over 3 years.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {

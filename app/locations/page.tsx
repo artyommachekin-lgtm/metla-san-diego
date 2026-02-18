@@ -12,6 +12,7 @@ interface LocationsByType {
 export const metadata: Metadata = {
   title: `Areas We Serve | House Cleaning Services in San Diego County | ${COMPANY_NAME}`,
   description: `Professional house cleaning services across San Diego County. We serve ${LOCATIONS.length}+ neighborhoods including La Jolla, Pacific Beach, Hillcrest, Coronado, and more. Book online or call today!`,
+  alternates: { canonical: '/locations' },
 };
 
 export default function LocationsPage() {

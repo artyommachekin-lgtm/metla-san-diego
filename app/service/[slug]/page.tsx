@@ -25,6 +25,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${service.title} San Diego | ${COMPANY_NAME}`,
     description: SERVICE_META_DESCRIPTIONS[service.slug] || service.shortDescription,
+    alternates: { canonical: `/service/${params.slug}` },
   };
 }
 
