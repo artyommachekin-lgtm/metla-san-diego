@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-touch-icon.png',
   },
+  verification: {
+    google: 'bzN6eS27KQCQBXUokEtAcuTawDYSqm7FXLgQwBJPD-A',
+  },
   other: {
     'geo.region': 'US-CA',
     'geo.placename': 'San Diego',
