@@ -11,15 +11,11 @@ const Footer: React.FC = () => {
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', marginBottom: '4rem', borderBottom: '1px solid rgba(15, 23, 42, 0.5)', paddingBottom: '3rem' }}>
 
-          <div style={{ flex: '1 1 250px', minWidth: '250px' }} itemScope itemType="https://schema.org/LocalBusiness">
-            <meta itemProp="name" content={COMPANY_NAME} />
-            <meta itemProp="telephone" content={SITE_CONFIG.phoneIntl} />
-            <meta itemProp="priceRange" content="$$" />
-            <meta itemProp="image" content={`${SITE_CONFIG.baseUrl}${SITE_CONFIG.social.logoUrl}`} />
+          <div style={{ flex: '1 1 250px', minWidth: '250px' }}>
             <h3 className="text-2xl font-serif font-bold text-white mb-6 tracking-tighter">
               METLA<span className="text-teal-500">.</span>
             </h3>
-            <p className="mb-6 leading-relaxed text-sm" itemProp="description">
+            <p className="mb-6 leading-relaxed text-sm">
               Premium residential cleaning serving {getCountiesString()}.
               Hospitality-grade service for your home.
             </p>
@@ -28,23 +24,22 @@ const Footer: React.FC = () => {
                 <Phone size={16} className="text-teal-500" aria-hidden="true" />
                 {PHONE_NUMBER}
               </a>
-              <a href={`mailto:${COMPANY_EMAIL}`} className="flex items-center gap-3 hover:text-teal-400 transition-colors text-sm" itemProp="email">
+              <a href={`mailto:${COMPANY_EMAIL}`} className="flex items-center gap-3 hover:text-teal-400 transition-colors text-sm">
                 <Mail size={16} className="text-teal-500" aria-hidden="true" />
                 {COMPANY_EMAIL}
               </a>
-              <div className="flex items-start gap-3 text-sm" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+              <div className="flex items-start gap-3 text-sm">
                 <MapPin size={16} className="text-teal-500 flex-shrink-0 mt-0.5" aria-hidden="true" />
                 <span>
-                  <span itemProp="streetAddress">{SITE_CONFIG.address.street}</span>,{' '}
-                  <span itemProp="addressLocality">{SITE_CONFIG.address.city}</span>,{' '}
-                  <span itemProp="addressRegion">{SITE_CONFIG.address.state}</span>{' '}
-                  <span itemProp="postalCode">{SITE_CONFIG.address.zip}</span>
+                  {SITE_CONFIG.address.street},{' '}
+                  {SITE_CONFIG.address.city},{' '}
+                  {SITE_CONFIG.address.state}{' '}
+                  {SITE_CONFIG.address.zip}
                 </span>
-                <meta itemProp="addressCountry" content="US" />
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Clock size={16} className="text-teal-500" aria-hidden="true" />
-                <time itemProp="openingHours">{BUSINESS_HOURS.display}</time>
+                <time>{BUSINESS_HOURS.display}</time>
               </div>
               <a href={SITE_CONFIG.socialProfiles.gmb} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-teal-400 hover:text-teal-300 transition-colors text-sm font-medium">
                 <MapPin size={16} className="text-teal-500" aria-hidden="true" />
