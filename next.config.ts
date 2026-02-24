@@ -61,6 +61,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/services-4',
+        destination: '/house-cleaning',
+        permanent: true,
+      },
+      {
         source: '/blog/',
         destination: '/blog',
         permanent: true,
@@ -77,6 +82,11 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/privacy-policy/',
+        destination: '/policies',
+        permanent: true,
+      },
+      {
+        source: '/privacy-policy',
         destination: '/policies',
         permanent: true,
       },
@@ -146,7 +156,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/carpet-cleaning',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
         source: '/flooring-cleaning-services/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/flooring-cleaning-services',
         destination: '/service/deep-cleaning',
         permanent: true,
       },
@@ -156,7 +176,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/window-cleaning',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
         source: '/magic-floor-treatment/',
+        destination: '/service/deep-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/magic-floor-treatment',
         destination: '/service/deep-cleaning',
         permanent: true,
       },
@@ -906,6 +936,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/best-cleaning-products-to-deep-clean-the-house',
+        destination: '/blog/eco-friendly-cleaning-tips',
+        permanent: true,
+      },
+      {
         source: '/best-breweries-in-san-diego/',
         destination: '/locations',
         permanent: true,
@@ -992,6 +1027,11 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/best-high-schools-in-san-diego/',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/best-high-schools-in-san-diego',
         destination: '/locations',
         permanent: true,
       },
