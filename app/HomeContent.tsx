@@ -155,6 +155,7 @@ export default function HomeContent() {
                 </ul>
                 <Link
                   href={`/service/${service.slug}`}
+                  aria-label={`Learn more about ${service.title}`}
                   className="inline-flex items-center text-teal-700 font-bold hover:text-teal-800 mt-auto"
                 >
                   Learn More & Book <ArrowRight className="ml-2 w-4 h-4" />
@@ -221,7 +222,7 @@ export default function HomeContent() {
           <div className="text-center mt-8">
             <Link
               href="/booking"
-              className="inline-flex items-center justify-center px-8 py-4 bg-teal-600 text-white font-bold rounded-sm hover:bg-teal-500 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 bg-teal-700 text-white font-bold rounded-sm hover:bg-teal-600 transition-colors shadow-lg"
             >
               Schedule Your Cleaning <ArrowRight className="ml-2 w-5 h-5" />
             </Link>

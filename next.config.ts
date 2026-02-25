@@ -96,11 +96,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/about/',
-        destination: '/about',
-        permanent: true,
-      },
-      {
         source: '/deep-clean/',
         destination: '/service/deep-cleaning',
         permanent: true,
