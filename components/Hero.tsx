@@ -6,23 +6,6 @@ import Link from 'next/link';
 import { SITE_CONFIG } from '../src/config/site-config';
 
 const Hero: React.FC = () => {
-  const handleScroll = (e: React.MouseEvent, id: string) => {
-    e.preventDefault();
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = 80;
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = element.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
-      const offsetPosition = elementPosition - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   const originTagline = SITE_CONFIG.originStory.enabled
     ? `San Diego's most trusted 50-point cleaning protocol for your home.`
     : `${SITE_CONFIG.companyName} delivers premium cleaning services across ${SITE_CONFIG.regional.primaryCity}.`;
@@ -64,7 +47,7 @@ const Hero: React.FC = () => {
 
           <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
             {originTagline}
-            {' '}Fully vetted, insured, and detail-obsessed.
+            {' '}Whether you need a one-time deep clean or a recurring housekeeper, our <strong>house cleaning San Diego</strong> team handles every room—<strong>kitchen</strong>, <strong>bathroom</strong>, and beyond. Fully vetted, insured, and detail-obsessed.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4" style={{ minHeight: 'var(--cta-min-height, 112px)' }}>
@@ -77,7 +60,6 @@ const Hero: React.FC = () => {
             </Link>
             <a
               href="#services"
-              onClick={(e) => handleScroll(e, 'services')}
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white border border-white/20 hover:bg-white/10 transition-all rounded-sm backdrop-blur-sm cursor-pointer"
             >
               View Services

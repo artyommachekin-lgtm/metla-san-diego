@@ -14,9 +14,20 @@ const Navigation: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    const sentinel = document.createElement('div');
+    sentinel.style.cssText = 'position:absolute;top:0;left:0;height:20px;width:1px;pointer-events:none';
+    document.body.prepend(sentinel);
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsScrolled(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(sentinel);
+
+    return () => {
+      observer.disconnect();
+      sentinel.remove();
+    };
   }, []);
 
   useEffect(() => {
@@ -24,16 +35,9 @@ const Navigation: React.FC = () => {
   }, [pathname]);
 
   const handleNavClick = (e: React.MouseEvent, targetId: string) => {
-    e.preventDefault();
-    if (pathname === '/') {
-      const element = document.getElementById(targetId);
-      if (element) {
-        const offset = 80;
-        const elementTop = element.offsetTop;
-        window.scrollTo({ top: elementTop - offset, behavior: 'smooth' });
-      }
-    } else {
-      router.push('/?scrollTo=' + targetId);
+    if (pathname !== '/') {
+      e.preventDefault();
+      router.push('/#' + targetId);
     }
     setIsMobileMenuOpen(false);
   };

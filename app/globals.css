@@ -34,6 +34,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Offset for fixed navigation on anchor scroll */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
 /* Mobile optimizations */
 img {
   max-width: 100%;

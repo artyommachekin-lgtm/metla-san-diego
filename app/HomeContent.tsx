@@ -1,7 +1,6 @@
 'use client';
 
-import React, { Suspense, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
+import React from 'react';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
 import StatsPanel from '@/components/StatsPanel';
@@ -12,39 +11,9 @@ import { getIcon } from '@/utils/icons';
 import { ShieldCheck, UserCheck, Clock, ArrowRight, Check, Star, Phone, BookOpen, MapPin, HelpCircle, Users } from 'lucide-react';
 import GoogleMap from '@/components/GoogleMap';
 
-function ScrollHandler() {
-  const searchParams = useSearchParams();
-
-  useEffect(() => {
-    const scrollTo = searchParams.get('scrollTo');
-    if (scrollTo) {
-      setTimeout(() => {
-        const element = document.getElementById(scrollTo);
-        if (element) {
-          const offset = 80;
-          const bodyRect = document.body.getBoundingClientRect().top;
-          const elementRect = element.getBoundingClientRect().top;
-          const elementPosition = elementRect - bodyRect;
-          const offsetPosition = elementPosition - offset;
-
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth',
-          });
-        }
-      }, 100);
-    }
-  }, [searchParams]);
-
-  return null;
-}
-
 export default function HomeContent() {
   return (
     <div className="bg-slate-50 min-h-screen">
-      <Suspense fallback={null}>
-        <ScrollHandler />
-      </Suspense>
       <HomeSchema />
       <Hero />
       <StatsPanel />
@@ -92,8 +61,74 @@ export default function HomeContent() {
         </div>
       </section>
 
+      {/* What Our House Cleaning Covers */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4 text-center">
+            What Our San Diego House Cleaning Covers
+          </h2>
+          <p className="text-slate-600 text-center max-w-3xl mx-auto mb-12">
+            Every visit follows our <strong>50-point cleaning checklist</strong>, a room-by-room protocol that ensures nothing is overlooked—from <strong>kitchen countertops</strong> to <strong>bathroom fixtures</strong> and every surface in between.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Kitchen Cleaning</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Fridge exterior cleaned and polished</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Cooktop cleaned and polished, oven exterior wiped</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Microwave cleaned inside and out</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" /><strong>Countertops cleaned and disinfected</strong></li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Sink cleaned, dishwasher exterior polished</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Floors vacuumed and mopped</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Bathroom Cleaning &amp; Sanitization</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Mirrors cleaned</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Sinks and countertop cleaned</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" /><strong>Toilet cleaned inside and out</strong></li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" /><strong>Shower and bathtub cleaned</strong></li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Cobwebs removed, garbage disposed</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Floors vacuumed and mopped</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Bedrooms &amp; Living Areas</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" /><strong>Furniture dusted</strong>, mirrors cleaned</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Beds made, bedside tables cleaned</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Coffee tables cleaned, general straighten up</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Cobwebs removed throughout</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" /><strong>All floors vacuumed and mopped</strong></li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Offices, Laundry Rooms &amp; More</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Desks cleaned, furniture dusted</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Light dusting, cobwebs removed</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />All floors vacuumed and mopped</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-teal-500 mt-1 shrink-0" />Dining table cleaned, dining room maintained</li>
+              </ul>
+              <p className="mt-4 text-sm text-slate-600">We clean <strong>every room in your home</strong>—no area is left behind.</p>
+            </div>
+          </div>
+
+          <div className="text-center mt-10">
+            <Link href="/service/standard-cleaning" className="inline-flex items-center text-teal-700 font-bold hover:text-teal-800 transition-colors">
+              View Full Cleaning Checklist <ArrowRight className="w-4 h-4 ml-1" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Services Grid (Frictionless Speed) */}
-      <section id="services" className="py-20 bg-slate-50">
+      <section id="services" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-slate-900 mb-4">Select Your Service</h2>
@@ -102,7 +137,7 @@ export default function HomeContent() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {SERVICES.map((service) => (
-              <div key={service.id} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 group flex flex-col">
+              <div key={service.id} className="bg-slate-50 p-8 rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 group flex flex-col">
                 <div className="flex items-start justify-between mb-6">
                   <div className="p-3 bg-teal-50 rounded-lg group-hover:bg-teal-500 transition-colors">
                     {React.createElement(getIcon(service.iconName), { className: "w-8 h-8 text-teal-600 group-hover:text-white" })}
@@ -166,10 +201,70 @@ export default function HomeContent() {
         </div>
       </section>
 
+      {/* Maid Service & Housekeeper Section */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-6 text-center">
+            Trusted Maid Service &amp; Housekeeper in San Diego
+          </h2>
+          <div className="text-slate-700 space-y-4 text-lg leading-relaxed">
+            <p>
+              Whether you need a one-time <strong>maid service</strong> to tackle a messy home or a dedicated <strong>housekeeper</strong> on a recurring schedule, Metla House Cleaning delivers consistent, reliable results across San Diego County.
+            </p>
+            <p>
+              Our <strong>weekly</strong>, <strong>biweekly</strong>, and monthly scheduling options let you choose the cadence that fits your lifestyle. Many families start with a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> to reset their home, then transition to a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning</Link> plan to keep it spotless week after week.
+            </p>
+            <p>
+              From <strong>maid service in La Jolla</strong> and <strong>housekeeping in Pacific Beach</strong> to professional <strong>San Diego cleaning</strong> teams serving Coronado, Hillcrest, and beyond—we bring the same attention to detail to every neighborhood we serve. Each cleaner is background-checked, fully insured, and trained in our 50-point protocol.
+            </p>
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href="/booking"
+              className="inline-flex items-center justify-center px-8 py-4 bg-teal-600 text-white font-bold rounded-sm hover:bg-teal-500 transition-colors shadow-lg"
+            >
+              Schedule Your Cleaning <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Metla */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-10 text-center">
+            Why San Diego Homeowners Choose Metla House Cleaning
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>50-Point Cleaning Checklist</strong> — Every appointment follows a standardized protocol so nothing is missed, from ceiling fans to floor corners.</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>Insured &amp; Background-Checked</strong> — Every cleaner on our team is fully vetted, insured, and trained before entering your home.</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>Same-Day Availability</strong> — Need your home cleaned today? Check our <Link href="/same-day-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">same-day cleaning</Link> page for open slots.</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>Satisfaction Guarantee</strong> — If any area does not meet your expectations, we will reclean it at no extra charge.</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>No Contracts Required</strong> — Flexible scheduling with no long-term commitments. Cancel or reschedule anytime.</p>
+            </div>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <p className="text-slate-700"><strong>Locally Owned in San Diego</strong> — We are not a franchise. Metla is a local <strong>house cleaning San Diego</strong> company that takes pride in our community.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Locations SEO Silo */}
       <section id="locations" className="py-20 bg-slate-900 text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-serif font-bold mb-12 text-center">{getRegionalHeading()}</h2>
+          <h2 className="text-3xl font-serif font-bold mb-4 text-center">{getRegionalHeading()}</h2>
+          <p className="text-slate-300 text-center max-w-3xl mx-auto mb-12">
+            From <strong className="text-white">house cleaning in La Jolla</strong> to <strong className="text-white">maid service in Pacific Beach</strong>, and from <strong className="text-white">cleaning services in Hillcrest</strong> to professional <strong className="text-white">housekeepers in Coronado</strong>—we serve the entire San Diego coastal and inland corridor.
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {LOCATIONS.map((loc) => (
               <Link

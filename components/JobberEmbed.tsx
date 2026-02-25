@@ -76,28 +76,26 @@ const JobberEmbed: React.FC = () => {
     // Use sync loading for faster execution
     script.async = false;
 
-    // Poll for form appearance (faster than waiting for onload)
-    let rafId: number;
-    let attempts = 0;
-    const pollForForm = () => {
-      attempts++;
+    // Watch for form appearance via MutationObserver (zero main-thread overhead)
+    let formObserver: MutationObserver | null = null;
+
+    script.onload = () => {
       const formContainer = document.getElementById('d33a529a-72ba-403d-bd83-811fe4abb0e2-641111');
       if (formContainer && formContainer.children.length > 0) {
         setIsLoading(false);
         setIsFormReady(true);
         scriptLoadedRef.current = true;
-      } else if (attempts < 300) {
-        // ~5 seconds at 60fps, then stop polling
-        rafId = requestAnimationFrame(pollForForm);
-      } else {
-        // Give up after ~5s — form likely failed to load
-        setIsLoading(false);
+      } else if (formContainer) {
+        formObserver = new MutationObserver(() => {
+          if (formContainer.children.length > 0) {
+            setIsLoading(false);
+            setIsFormReady(true);
+            scriptLoadedRef.current = true;
+            formObserver?.disconnect();
+          }
+        });
+        formObserver.observe(formContainer, { childList: true });
       }
-    };
-
-    script.onload = () => {
-      // Start polling for form appearance
-      requestAnimationFrame(pollForForm);
     };
 
     script.onerror = () => {
@@ -108,7 +106,7 @@ const JobberEmbed: React.FC = () => {
 
     // Cleanup on unmount
     return () => {
-      if (rafId) cancelAnimationFrame(rafId);
+      formObserver?.disconnect();
     };
   }, []);
 
