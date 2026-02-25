@@ -50,7 +50,7 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
     // Batch 1: Core Guides
     'deep-cleaning-guide-san-diego': [
         'how-much-does-a-deep-house-cleaning-cost',
-        'top-10-spring-deep-cleaning-tips',
+        'house-cleaning-la-mesa-guide',
         'how-to-deep-clean-the-kitchen',
     ],
     'how-to-deep-clean-the-kitchen': [
@@ -75,7 +75,7 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
     ],
     'top-10-spring-deep-cleaning-tips': [
         'deep-cleaning-guide-san-diego',
-        'declutter-before-deep-cleaning',
+        'house-cleaning-la-mesa-guide',
         'allergy-proofing-your-home',
     ],
 
@@ -189,12 +189,19 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
     'allergy-proofing-your-home': [
         'how-to-deep-clean-ceiling-fans',
         'how-to-deep-clean-your-mattress',
-        'how-to-remove-pet-odors-from-your-home',
+        'house-cleaning-la-mesa-guide',
     ],
     'how-to-prepare-your-guest-room': [
         'vacation-rental-cleaning-tips-for-hosts',
         'bathroom-deep-cleaning-checklist',
         'how-to-deep-clean-your-mattress',
+    ],
+
+    // Batch 6: Local Neighborhood Guides
+    'house-cleaning-la-mesa-guide': [
+        'deep-cleaning-guide-san-diego',
+        'how-much-does-a-deep-house-cleaning-cost',
+        'allergy-proofing-your-home',
     ],
 };
 
@@ -229,9 +236,9 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'how-to-clean-hardwood-and-tile-floors',
     ],
     'East County': [
+        'house-cleaning-la-mesa-guide',
         'deep-cleaning-guide-san-diego',
-        'top-10-spring-deep-cleaning-tips',
-        'eco-friendly-cleaning-tips',
+        'allergy-proofing-your-home',
     ],
 };
 

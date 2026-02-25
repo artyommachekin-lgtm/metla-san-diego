@@ -33,6 +33,7 @@ const blogComponents: Record<string, React.ComponentType> = {
   'weekly-cleaning-schedule-guide': dynamic(() => import('@/content/blog/CleaningSchedulePage')),
   'allergy-proofing-your-home': dynamic(() => import('@/content/blog/AllergyProofingPage')),
   'how-to-prepare-your-guest-room': dynamic(() => import('@/content/blog/GuestRoomPrepPage')),
+  'house-cleaning-la-mesa-guide': dynamic(() => import('@/content/blog/LaMesaHouseCleaningPage')),
 };
 
 interface BlogPostContentProps {

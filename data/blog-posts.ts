@@ -390,5 +390,18 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Inviting hotel-style guest room with natural light and welcoming bedding',
         iconName: 'Bed',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'house-cleaning-la-mesa-guide',
+        title: 'House Cleaning in La Mesa: Your Complete Local Guide',
+        excerpt: 'Everything La Mesa homeowners need to know about professional house cleaning — from Village historic homes to Lake Murray, East County dust, hard water, and Santa Ana wind challenges.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-02-25',
+        dateModified: '2026-02-25',
+        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Charming residential street with mature trees and well-maintained homes in a hillside neighborhood',
+        iconName: 'MapPin',
+        author: DEFAULT_AUTHOR
     }
 ];
