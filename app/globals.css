@@ -95,10 +95,9 @@ textarea {
     text-rendering: optimizeSpeed;
   }
 
-  section:not(:first-child) {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 500px;
-  }
+  /* content-visibility: auto removed — caused Lighthouse to miscalculate
+     background colors for off-screen sections, leading to false contrast
+     failures on mobile. TBT is already 0ms so this optimization is unnecessary. */
 }
 
 /* Reduce motion for users who prefer it */
