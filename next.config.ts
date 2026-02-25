@@ -1170,17 +1170,9 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
-      // Case-sensitivity fix: GSC found /About/ as alternate page
-      {
-        source: '/About',
-        destination: '/about',
-        permanent: true,
-      },
-      {
-        source: '/About/',
-        destination: '/about',
-        permanent: true,
-      },
+      // /About → /about redirects REMOVED: Next.js redirect matching on
+      // Vercel is case-insensitive, so /About → /about also matched
+      // /about → /about, causing an infinite 308 redirect loop.
     ];
   },
 };
