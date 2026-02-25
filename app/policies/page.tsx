@@ -1,16 +1,49 @@
 import type { Metadata } from 'next';
 import { PHONE_NUMBER, COMPANY_NAME } from '@/constants';
 import { ShieldAlert, CreditCard, Clock, Ban, AlertTriangle, CheckCircle } from 'lucide-react';
+import { SITE_CONFIG } from '@/src/config/site-config';
+
+const pageTitle = `Company Policies | ${COMPANY_NAME}`;
+const pageDescription = 'Transparent policies for Metla House Cleaning including pricing, cancellation, payment terms, and our satisfaction guarantee.';
 
 export const metadata: Metadata = {
-  title: `Company Policies | ${COMPANY_NAME}`,
-  description: 'Transparent policies for Metla House Cleaning including pricing, cancellation, payment terms, and our satisfaction guarantee.',
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/policies' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/policies',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function PoliciesPage() {
+  const baseUrl = SITE_CONFIG.baseUrl;
+
+  const policySchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageTitle,
+    "url": `${baseUrl}/policies`,
+    "description": pageDescription,
+    "publisher": {
+      "@type": "LocalBusiness",
+      "@id": `${baseUrl}/#organization`,
+      "name": SITE_CONFIG.companyName,
+    },
+  };
+
   return (
     <div className="bg-white min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(policySchema) }}
+      />
       <div className="bg-slate-900 text-white pt-32 pb-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4">Company Policies</h1>

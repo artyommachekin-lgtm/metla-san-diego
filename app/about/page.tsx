@@ -2,16 +2,66 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Sun, Waves, Building2, ArrowRight, ShieldCheck, HeartHandshake, MapPin } from 'lucide-react';
 import { COMPANY_NAME, LOCATIONS, COMPANY_ADDRESS, BUSINESS_HOURS, PHONE_NUMBER } from '@/constants';
+import { SITE_CONFIG } from '@/src/config/site-config';
+
+const pageTitle = `About Us | ${COMPANY_NAME}`;
+const pageDescription = 'Meet the team behind Metla House Cleaning. Former property managers bringing hospitality-grade cleaning standards to San Diego homes for over 3 years.';
 
 export const metadata: Metadata = {
-  title: `About Us | ${COMPANY_NAME}`,
-  description: 'Meet the team behind Metla House Cleaning. Former property managers bringing hospitality-grade cleaning standards to San Diego homes for over 3 years.',
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/about' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/about',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function AboutPage() {
+  const baseUrl = SITE_CONFIG.baseUrl;
+
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Metla House Cleaning",
+    "url": `${baseUrl}/about`,
+    "description": pageDescription,
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "@id": `${baseUrl}/#organization`,
+      "name": SITE_CONFIG.companyName,
+      "foundingDate": SITE_CONFIG.socialProof.foundingDate,
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "San Diego, California",
+      },
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": SITE_CONFIG.socialProof.employeeCount.min,
+        "maxValue": SITE_CONFIG.socialProof.employeeCount.max,
+      },
+      "knowsAbout": [
+        "House Cleaning",
+        "Vacation Rental Cleaning",
+        "Post-Construction Cleaning",
+        "Deep Cleaning",
+        "Property Management",
+      ],
+    },
+  };
+
   return (
     <div className="bg-white min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       {/* Hero Section */}
       <div className="relative bg-slate-900 text-white pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-teal-900/20" />
@@ -24,7 +74,7 @@ export default function AboutPage() {
               https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=20&w=1200&fm=webp&auto=format&fit=crop 1200w
             "
             sizes="100vw"
-            alt="Luxury Interior"
+            alt="Professional house cleaning team transforming a San Diego home interior"
             className="w-full h-full object-cover opacity-20"
             loading="eager"
             fetchPriority="high"

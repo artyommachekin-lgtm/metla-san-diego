@@ -419,7 +419,10 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
               We Also Serve Nearby Areas
             </h2>
             <div className="flex flex-wrap justify-center gap-3">
-              {LOCATIONS.filter(l => l.slug !== location.slug).slice(0, 8).map((nearbyLocation) => (
+              {[
+                ...LOCATIONS.filter(l => l.slug !== location.slug && l.type === location.type),
+                ...LOCATIONS.filter(l => l.slug !== location.slug && l.type !== location.type),
+              ].slice(0, 10).map((nearbyLocation) => (
                 <Link
                   key={nearbyLocation.slug}
                   href={`/location/${nearbyLocation.slug}`}

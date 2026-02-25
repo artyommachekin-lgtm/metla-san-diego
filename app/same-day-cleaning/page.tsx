@@ -30,10 +30,23 @@ const SAME_DAY_FAQS: FAQItem[] = [
   },
 ];
 
+const pageTitle = `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${SITE_CONFIG.companyName}`;
+const pageDescription = `Need cleaning today? ${SITE_CONFIG.companyName} offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call ${SITE_CONFIG.phone} for urgent cleaning requests.`;
+
 export const metadata: Metadata = {
-  title: `Same Day Cleaning Service San Diego | Emergency House Cleaning | ${SITE_CONFIG.companyName}`,
-  description: `Need cleaning today? ${SITE_CONFIG.companyName} offers same day house cleaning in San Diego, La Jolla, Pacific Beach & surrounding areas. Call ${SITE_CONFIG.phone} for urgent cleaning requests.`,
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/same-day-cleaning' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/same-day-cleaning',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function SameDayCleaningPage() {

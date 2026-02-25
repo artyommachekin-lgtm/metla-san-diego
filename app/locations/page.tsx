@@ -9,10 +9,23 @@ interface LocationsByType {
   [key: string]: typeof LOCATIONS;
 }
 
+const pageTitle = `Areas We Serve | House Cleaning Services in San Diego County | ${COMPANY_NAME}`;
+const pageDescription = `Professional house cleaning services across San Diego County. We serve ${LOCATIONS.length}+ neighborhoods including La Jolla, Pacific Beach, Hillcrest, Coronado, and more. Book online or call today!`;
+
 export const metadata: Metadata = {
-  title: `Areas We Serve | House Cleaning Services in San Diego County | ${COMPANY_NAME}`,
-  description: `Professional house cleaning services across San Diego County. We serve ${LOCATIONS.length}+ neighborhoods including La Jolla, Pacific Beach, Hillcrest, Coronado, and more. Book online or call today!`,
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/locations' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/locations',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function LocationsPage() {

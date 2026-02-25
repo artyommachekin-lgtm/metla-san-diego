@@ -13,10 +13,23 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const location = LOCATIONS.find(l => l.slug === params.slug);
   if (!location) return {};
 
+  const title = `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`;
+  const description = `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`;
+
   return {
-    title: `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`,
-    description: `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`,
+    title,
+    description,
     alternates: { canonical: `/location/${params.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `/location/${params.slug}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 

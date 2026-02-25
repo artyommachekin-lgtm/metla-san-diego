@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS } from '@/data/blog-posts';
+import { COMPANY_NAME } from '@/constants';
 import BlogPostContent from './BlogPostContent';
 
 export function generateStaticParams() {
@@ -13,17 +14,25 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const post = BLOG_POSTS.find(p => p.slug === params.slug);
   if (!post) return {};
 
+  const title = `${post.title} | ${COMPANY_NAME}`;
+
   return {
-    title: post.title,
+    title,
     description: post.excerpt,
     alternates: { canonical: `/blog/${params.slug}` },
     openGraph: {
-      title: post.title,
+      title,
       description: post.excerpt,
+      url: `/blog/${params.slug}`,
       images: [{ url: post.image, alt: post.imageAlt }],
       type: 'article',
       publishedTime: post.datePublished,
       modifiedTime: post.dateModified,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: post.excerpt,
     },
   };
 }

@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=20&w=1200&fm=webp&auto=format&fit=crop 1200w
           "
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 800px, 1200px"
-          alt="Pristine Living Room"
+          alt="Pristine San Diego living room after professional house cleaning by Metla"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
           loading="eager"
           decoding="async"

@@ -22,10 +22,23 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const service = SERVICES.find(s => s.slug === params.slug);
   if (!service) return {};
 
+  const title = `${service.title} San Diego | ${COMPANY_NAME}`;
+  const description = SERVICE_META_DESCRIPTIONS[service.slug] || service.shortDescription;
+
   return {
-    title: `${service.title} San Diego | ${COMPANY_NAME}`,
-    description: SERVICE_META_DESCRIPTIONS[service.slug] || service.shortDescription,
+    title,
+    description,
     alternates: { canonical: `/service/${params.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `/service/${params.slug}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 

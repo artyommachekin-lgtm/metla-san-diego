@@ -75,6 +75,24 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_CONFIG.baseUrl}/#website`,
+    "name": SITE_CONFIG.companyName,
+    "url": SITE_CONFIG.baseUrl,
+    "publisher": {
+      "@type": "LocalBusiness",
+      "@id": `${SITE_CONFIG.baseUrl}/#organization`,
+      "name": SITE_CONFIG.companyName,
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": `${SITE_CONFIG.baseUrl}/blog?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <head>
@@ -83,6 +101,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://d3ey4dbjkt2f6s.cloudfront.net" />
         <link rel="dns-prefetch" href="https://clienthub.getjobber.com" />
         <link rel="dns-prefetch" href="https://maps.google.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
       </head>
       <body className="font-sans text-slate-900 antialiased selection:bg-teal-100 selection:text-teal-900">
         <Navigation />

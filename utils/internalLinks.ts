@@ -106,9 +106,9 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'deep-cleaning-guide-san-diego',
     ],
     'move-out-cleaning-checklist': [
+        'essential-post-construction-cleaning-checklist-for-homeowners',
         'move-in-cleaning-checklist',
         'how-to-clean-hardwood-and-tile-floors',
-        'bathroom-deep-cleaning-checklist',
     ],
 
     // Batch 3: Specialty Guides

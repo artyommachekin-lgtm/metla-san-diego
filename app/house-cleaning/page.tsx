@@ -19,10 +19,23 @@ import { SITE_CONFIG } from '@/src/config/site-config';
 import FAQSchema, { FAQItem } from '@/components/FAQSchema';
 import { BLOG_POSTS } from '@/data/blog-posts';
 
+const pageTitle = `House Cleaning San Diego | ${COMPANY_NAME}`;
+const pageDescription = 'Premium house cleaning services in San Diego, La Jolla, Pacific Beach & Coronado. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!';
+
 export const metadata: Metadata = {
-  title: `House Cleaning San Diego | ${COMPANY_NAME}`,
-  description: 'Premium house cleaning services in San Diego, La Jolla, Pacific Beach & Coronado. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!',
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/house-cleaning' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/house-cleaning',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function HouseCleaningPage() {

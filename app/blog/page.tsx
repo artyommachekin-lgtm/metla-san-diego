@@ -3,16 +3,59 @@ import Link from 'next/link';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import { COMPANY_NAME } from '@/constants';
 import { BLOG_POSTS } from '@/data/blog-posts';
+import { SITE_CONFIG } from '@/src/config/site-config';
+
+const pageTitle = `Cleaning Tips & Guides | ${COMPANY_NAME} Blog`;
+const pageDescription = 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a pristine home.';
 
 export const metadata: Metadata = {
-  title: `Cleaning Tips & Guides | ${COMPANY_NAME} Blog`,
-  description: 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a pristine home.',
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: '/blog' },
+  openGraph: {
+    title: pageTitle,
+    description: pageDescription,
+    url: '/blog',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: pageTitle,
+    description: pageDescription,
+  },
 };
 
 export default function BlogPage() {
+  const baseUrl = SITE_CONFIG.baseUrl;
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": pageTitle,
+    "url": `${baseUrl}/blog`,
+    "description": pageDescription,
+    "publisher": {
+      "@type": "LocalBusiness",
+      "@id": `${baseUrl}/#organization`,
+      "name": SITE_CONFIG.companyName,
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": BLOG_POSTS.length,
+      "itemListElement": BLOG_POSTS.map((post, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `${baseUrl}/blog/${post.slug}`,
+        "name": post.title,
+      })),
+    },
+  };
+
   return (
     <div className="bg-white min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       {/* Hero */}
       <section className="bg-slate-900 text-white pt-32 pb-16">
         <div className="container mx-auto px-4 text-center">

@@ -19,7 +19,7 @@ export default function BookingContent() {
               https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=20&w=1200&fm=webp&auto=format&fit=crop 1200w
             "
             sizes="100vw"
-            alt="Luxury Interior Background"
+            alt="Clean modern San Diego home interior ready for a professional cleaning quote"
             className="w-full h-full object-cover opacity-30"
             loading="eager"
             fetchPriority="high"
