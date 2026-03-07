@@ -403,5 +403,18 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Charming residential street with mature trees and well-maintained homes in a hillside neighborhood',
         iconName: 'MapPin',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'deep-cleaning-scripps-ranch-before-after',
+        title: 'Deep Cleaning a Scripps Ranch Home: Before & After Room by Room',
+        excerpt: 'Real before-and-after results from a professional deep clean in Scripps Ranch (92131). Room-by-room walkthrough of a Stonebridge Estates home — master bedroom, marble bathroom vanity, jetted tub, and breakfast nook.',
+        category: 'Before & After',
+        readTime: '8 min read',
+        datePublished: '2026-03-06',
+        dateModified: '2026-03-06',
+        image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Freshly deep cleaned master bedroom in a Scripps Ranch executive home with styled linens and dust-free surfaces',
+        iconName: 'Camera',
+        author: DEFAULT_AUTHOR
     }
 ];

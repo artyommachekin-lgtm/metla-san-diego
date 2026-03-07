@@ -20,7 +20,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'deep-cleaning-guide-san-diego',
         'how-much-does-a-deep-house-cleaning-cost',
         'top-10-spring-deep-cleaning-tips',
-        'how-to-deep-clean-the-kitchen',
+        'deep-cleaning-scripps-ranch-before-after',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -203,6 +203,13 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'how-much-does-a-deep-house-cleaning-cost',
         'allergy-proofing-your-home',
     ],
+
+    // Batch 7: Before & After Case Studies
+    'deep-cleaning-scripps-ranch-before-after': [
+        'deep-cleaning-guide-san-diego',
+        'how-much-does-a-deep-house-cleaning-cost',
+        'allergy-proofing-your-home',
+    ],
 };
 
 /**
@@ -226,8 +233,8 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'how-to-deep-clean-the-kitchen',
     ],
     'North Inland': [
+        'deep-cleaning-scripps-ranch-before-after',
         'deep-cleaning-guide-san-diego',
-        'how-to-remove-pet-odors-from-your-home',
         'allergy-proofing-your-home',
     ],
     'South Bay': [
