@@ -228,8 +228,11 @@ export default function PoliciesPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-teal-700 mb-2">Privacy & Photos</h3>
+                  <p className="text-sm mb-2">
+                    Our technicians take before and after pictures as a quality assurance report and proof of work completed. By booking with {COMPANY_NAME}, you acknowledge that we reserve the right to use these photographs as promotional material, including on our website, social media, and marketing channels.
+                  </p>
                   <p className="text-sm">
-                    Our technicians take before and after pictures to protect the integrity of the job. These are not shared externally. We respect your privacy regarding all personal information.
+                    Photos will never include personally identifiable information, sensitive areas, or private belongings, and we respect your privacy at all times. If you prefer that photos from your home not be used for promotional purposes, please notify us before the scheduled service.
                   </p>
                 </div>
               </div>
