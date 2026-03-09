@@ -50,7 +50,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
         },
         {
             question: "Do you clean executive-sized homes over 4,000 square feet?",
-            answer: "Yes. For larger homes in Stonebridge Estates and similar neighborhoods, we send multi-person teams to complete the deep clean efficiently. A 5,000 sq ft home typically requires a team of 3-4 cleaners working 6-8 hours to cover every room thoroughly."
+            answer: "Yes. For larger homes in Stonebridge Estates and similar neighborhoods, we allocate additional time so our team can work through every room systematically. A 5,000 sq ft home typically takes a full day depending on condition — we assess scope during booking and plan accordingly."
         },
         {
             question: "Are your Scripps Ranch cleaners background-checked and insured?",
@@ -100,7 +100,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
             <HowToSchema
                 name="How to Deep Clean an Executive Home in Scripps Ranch"
                 description="A professional room-by-room approach to deep cleaning a large Scripps Ranch home, including marble vanities, jetted tubs, and premium surfaces."
-                totalTime="PT6H"
+                totalTime="PT8H"
                 supply={[
                     "pH-neutral marble cleaner",
                     "Microfiber cloths",
@@ -194,7 +194,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                                 <Home className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Large Square Footage</h3>
-                                    <p className="text-slate-600 text-sm">A 5,000 sq ft home has more baseboards, more ceiling fans, more blinds, and more door frames than a 1,500 sq ft condo. Deep cleaning at this scale requires multi-person teams working systematically room by room.</p>
+                                    <p className="text-slate-600 text-sm">A 5,000 sq ft home has more baseboards, more ceiling fans, more blinds, and more door frames than a 1,500 sq ft condo. Deep cleaning at this scale takes significantly more time — our team works systematically room by room to cover every surface.</p>
                                 </div>
                             </div>
                         </div>

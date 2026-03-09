@@ -36,7 +36,7 @@ const MoveInChecklistPage: React.FC = () => {
         },
         {
             question: "How long does a move-in clean take?",
-            answer: "A thorough DIY move-in clean takes 4-8 hours depending on size and condition. Professional cleaners typically complete a standard apartment in 2-4 hours because they work in teams with commercial-grade products."
+            answer: "A thorough DIY move-in clean takes 4-8 hours depending on size and condition. Professional cleaners typically complete a standard apartment in 2-4 hours using efficient workflows and commercial-grade products."
         },
         {
             question: "Is move-in cleaning worth it for a 'new' apartment?",

@@ -28,7 +28,7 @@ const KitchenDeepCleanPage: React.FC = () => {
     const faqs: FAQItem[] = [
         {
             question: "How long does it take to deep clean a kitchen?",
-            answer: "A thorough kitchen deep clean takes 2-4 hours depending on size and condition. Professional cleaners typically complete a standard San Diego kitchen in 2-3 hours because they work in teams with commercial-grade products."
+            answer: "A thorough kitchen deep clean takes 2-4 hours depending on size and condition. Professional cleaners typically complete a standard San Diego kitchen in 2-3 hours using efficient workflows and commercial-grade products."
         },
         {
             question: "How often should you deep clean your kitchen?",

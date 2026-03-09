@@ -103,3 +103,28 @@ Before publishing any content:
 ### 🛑 The "Scope of Work" Rule:
 * If a task requires a ladder higher than 2 steps, it is **FORBIDDEN**.
 * If a task requires moving furniture heavier than 25lbs, it is **FORBIDDEN**.
+
+---
+
+## ⚠️ TEAM SIZE & STAFFING CLAIMS
+
+### Policy: 1-2 Cleaners Standard
+- Standard team is **1-2 cleaners**. NEVER promise or imply 3+ cleaners on the website.
+- Larger homes = more time allocated, NOT more people.
+- Additional cleaners beyond 2 are available only by negotiation — never mentioned in content.
+
+### ❌ FORBIDDEN:
+- "Team of 3-4 cleaners"
+- "We send 3+ person crews"
+- "Multi-person teams" (implies 3+)
+- "Work in teams" (ambiguous, implies 3+)
+- Any specific number above 2
+
+### ✅ SAFE:
+- "Our team" (generic)
+- "1-2 experienced cleaners"
+- "Teams of two" / "two-person team"
+- "We allocate the time your home needs"
+- "We send teams sized for your home" (vague, OK)
+- "Using efficient workflows and commercial-grade products"
+- "Depending on home size and condition"
