@@ -49,7 +49,7 @@ const SpringCleaningTipsPage: React.FC = () => {
             number: 1,
             title: "Prep for Pollen Season",
             icon: Flower2,
-            description: "San Diego's pollen season peaks March through May. Start spring cleaning by replacing HVAC filters, washing bedding in hot water, and vacuuming with a HEPA filter. If you have allergies, tackle one room at a time to avoid stirring up too much dust.",
+            description: "San Diego's pollen season peaks March through May. Start spring cleaning by replacing HVAC filters, washing bedding in hot water, and vacuuming thoroughly with a quality filter. If you have allergies, tackle one room at a time to avoid stirring up too much dust.",
             proTip: "Run air purifiers for 24 hours after deep cleaning to capture airborne allergens."
         },
         {

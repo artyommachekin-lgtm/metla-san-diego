@@ -31,11 +31,11 @@ const AllergyProofingPage: React.FC = () => {
         },
         {
             question: "How often should I change HVAC filters if I have allergies?",
-            answer: "Change standard filters monthly, or upgrade to HEPA or high-MERV filters (changed every 3 months). During high pollen periods or Santa Ana winds, check filters more frequently. A clogged filter can't trap allergens effectively."
+            answer: "Change standard filters monthly, or upgrade to high-MERV filters rated MERV 11 or higher (changed every 3 months). During high pollen periods or Santa Ana winds, check filters more frequently. A clogged filter can't trap allergens effectively."
         },
         {
             question: "Do air purifiers really help with allergies?",
-            answer: "Yes, particularly HEPA air purifiers which remove 99.97% of particles 0.3 microns and larger, including pollen, dust mites, and pet dander. Place one in your bedroom for best results—you spend 8 hours there nightly."
+            answer: "Yes, particularly air purifiers with high-efficiency filters that capture fine particles including pollen, dust mites, and pet dander. Place one in your bedroom for best results — you spend 8 hours there nightly."
         },
         {
             question: "Should I keep windows open or closed for allergies?",
@@ -56,7 +56,7 @@ const AllergyProofingPage: React.FC = () => {
         {
             category: "Flooring",
             tips: [
-                "Vacuum 2-3x weekly with HEPA filter vacuum",
+                "Vacuum 2-3x weekly with a high-quality filtered vacuum",
                 "Use washable rugs instead of wall-to-wall carpet",
                 "Mop hard floors weekly to capture settled allergens",
                 "Consider removing carpet in bedrooms"
@@ -66,7 +66,7 @@ const AllergyProofingPage: React.FC = () => {
             category: "Air Quality",
             tips: [
                 "Change HVAC filters monthly",
-                "Use HEPA air purifiers in bedrooms",
+                "Use quality air purifiers in bedrooms",
                 "Maintain indoor humidity 30-50%",
                 "Clean air ducts every 3-5 years"
             ]
@@ -136,7 +136,7 @@ const AllergyProofingPage: React.FC = () => {
                         <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-green-900 mb-2">Quick Answer</h2>
                             <p className="text-green-800">
-                                <strong>The 4 pillars of allergy-proofing:</strong> Control dust (vacuum 2-3x weekly with HEPA filter), protect bedding (allergen-proof covers, hot water washing), improve air quality (HEPA purifiers, fresh HVAC filters), and reduce humidity (30-50% prevents dust mites and mold).
+                                <strong>The 4 pillars of allergy-proofing:</strong> Control dust (vacuum 2-3x weekly with a quality filtered vacuum), protect bedding (allergen-proof covers, hot water washing), improve air quality (quality air purifiers, fresh HVAC filters), and reduce humidity (30-50% prevents dust mites and mold).
                             </p>
                         </div>
 
@@ -152,8 +152,8 @@ const AllergyProofingPage: React.FC = () => {
                         <div className="grid grid-cols-3 gap-4 my-8 not-prose">
                             <div className="bg-green-50 p-4 rounded-xl text-center">
                                 <Wind className="w-8 h-8 text-green-500 mx-auto mb-2" />
-                                <div className="text-2xl font-bold text-slate-900">99.97%</div>
-                                <div className="text-sm text-slate-600">HEPA filter capture</div>
+                                <div className="text-2xl font-bold text-slate-900">2-3x</div>
+                                <div className="text-sm text-slate-600">Weekly vacuuming</div>
                             </div>
                             <div className="bg-green-50 p-4 rounded-xl text-center">
                                 <Flower2 className="w-8 h-8 text-green-500 mx-auto mb-2" />
@@ -252,8 +252,8 @@ const AllergyProofingPage: React.FC = () => {
                         <div className="my-6 p-6 bg-slate-50 rounded-xl not-prose">
                             <ul className="space-y-2">
                                 {[
-                                    "HEPA vacuum cleaner (sealed system)",
-                                    "HEPA air purifier for bedroom",
+                                    "High-quality vacuum with strong filtration (sealed system)",
+                                    "Quality air purifier for bedroom",
                                     "Allergen-proof mattress and pillow encasements",
                                     "Microfiber cleaning cloths",
                                     "Hygrometer (to monitor humidity)",

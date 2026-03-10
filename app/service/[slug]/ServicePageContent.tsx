@@ -18,7 +18,7 @@ const SERVICE_FAQS: Record<string, FAQItem[]> = {
     { question: 'Do I need to be home during the cleaning?', answer: 'No, many of our clients provide a key, code, or smart lock access. All our cleaners are background-checked, insured, and bonded for your peace of mind. We will coordinate secure access arrangements during scheduling.' },
   ],
   'deep-cleaning': [
-    { question: 'What is the difference between deep cleaning and regular cleaning?', answer: 'A whole house deep clean in San Diego is more intensive and thorough than regular cleaning. It includes everything in a standard clean plus: cleaning inside appliances (oven, refrigerator, microwave), washing baseboards and door frames, cleaning inside cabinets, sanitizing light switches and fixtures, and addressing built-up grime in corners and hard-to-reach areas.' },
+    { question: 'What is the difference between deep cleaning and regular cleaning?', answer: 'A whole house deep clean in San Diego is more intensive and thorough than regular cleaning. It includes everything in a standard clean plus: washing baseboards and door frames, cleaning ceiling fans and light fixtures, dusting blinds and window sills, cleaning cabinet fronts, detailed bathroom sanitization, and addressing built-up grime in hard-to-reach areas. Inside oven, inside refrigerator, and inside cabinets are available as add-on services.' },
     { question: 'How long does a deep cleaning take?', answer: 'A typical deep cleaning takes 4-8 hours depending on your home\'s size and condition. A 2-bedroom home usually takes 4-5 hours, while larger homes or those that haven\'t been deep cleaned recently may take 6-8 hours.' },
     { question: 'How often should I get a deep cleaning?', answer: 'We recommend deep cleaning every 3-6 months, or as a first time deep cleaning before starting a recurring service in San Diego. Seasonal deep cleans (spring and fall) help maintain a healthy home environment throughout the year.' },
   ],
@@ -70,7 +70,7 @@ const ServicePageContent: React.FC<ServicePageContentProps> = ({ slug }) => {
             <p className="text-slate-700">
               <strong>{service.title}</strong> is a professional cleaning service that {service.shortDescription.toLowerCase()}
               {service.id === 'standard' && ' This recurring service maintains your home\'s cleanliness on a weekly, biweekly, or monthly schedule, covering all essential surfaces, bathrooms, kitchen, and living areas throughout San Diego.'}
-              {service.id === 'deep' && ' Unlike regular cleaning, deep cleaning addresses hidden grime, sanitizes inside appliances, cleans baseboards and light fixtures, and resets your home to pristine condition\u2014ideal as a one time deep cleaning or scheduled every 3-6 months before starting recurring service in San Diego.'}
+              {service.id === 'deep' && ' Unlike regular cleaning, deep cleaning addresses hidden grime, cleans baseboards, ceiling fans, blinds, light fixtures, and cabinet fronts, and resets your home to pristine condition\u2014ideal as a one time deep cleaning or scheduled every 3-6 months before starting recurring service in San Diego.'}
               {service.id === 'post-construction' && ' Specialized for newly renovated spaces, this service safely removes fine construction dust, cleans inside new cabinets, removes manufacturer labels, and makes your space move-in ready.'}
               {service.id === 'vacation-rental' && ' Designed for Airbnb and VRBO hosts in San Diego, this rapid vacation rental turnover cleaning ensures your property is guest-ready with hotel-style staging, fresh linens, and damage reporting between stays.'}
               {service.id === 'move-in-out' && ' This exhaustive cleaning for empty properties reaches inside every cabinet, drawer, and appliance\u2014meeting strict property management standards for apartment move out cleaning, lease turnovers, or new home preparation in San Diego.'}
@@ -186,7 +186,7 @@ const ServicePageContent: React.FC<ServicePageContentProps> = ({ slug }) => {
                 At Metla House Cleaning, we believe you deserve to know exactly what you&apos;re getting before we arrive. Every quote is personalized to your home&apos;s size, condition, and specific needs&mdash;with no hidden fees or surprise charges. We communicate clearly at every step, from scheduling through completion.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Our cleaning professionals are fully insured, background-checked, and trained in our proprietary 50-point protocol. If anything doesn&apos;t meet your standards, our satisfaction guarantee means we&apos;ll return and make it right at no extra cost. Your trust is what keeps us in business, and we work hard to earn it every visit.
+                Our cleaning professionals are fully insured, background-checked, and trained in our proprietary 50-point protocol. If anything doesn&apos;t meet your standards, our satisfaction commitment means we&apos;ll return and make it right at no extra cost. Your trust is what keeps us in business, and we work hard to earn it every visit.
               </p>
             </div>
 

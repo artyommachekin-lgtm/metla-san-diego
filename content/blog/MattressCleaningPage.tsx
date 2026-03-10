@@ -225,7 +225,7 @@ const MattressCleaningPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-indigo-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Allergy Season</h3>
-                                    <p className="text-slate-600 text-sm">San Diego has multiple pollen seasons. If you suffer from allergies, clean your mattress at the start of spring and fall. Consider HEPA-filtered vacuuming and hypoallergenic mattress covers.</p>
+                                    <p className="text-slate-600 text-sm">San Diego has multiple pollen seasons. If you suffer from allergies, clean your mattress at the start of spring and fall. Consider vacuuming with a high-quality filtered vacuum and using hypoallergenic mattress covers.</p>
                                 </div>
                             </div>
                         </div>

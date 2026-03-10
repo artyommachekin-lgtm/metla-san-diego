@@ -238,7 +238,7 @@ export default function HomeContent() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-              <p className="text-slate-700"><strong>50-Point Cleaning Checklist</strong> — Every appointment follows a standardized protocol so nothing is missed, from ceiling fans to floor corners.</p>
+              <p className="text-slate-700"><strong>50-Point Cleaning Checklist</strong> — Every appointment follows a standardized protocol so nothing is missed, from countertops to floor corners.</p>
             </div>
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
               <p className="text-slate-700"><strong>Insured &amp; Background-Checked</strong> — Every cleaner on our team is fully vetted, insured, and trained before entering your home.</p>

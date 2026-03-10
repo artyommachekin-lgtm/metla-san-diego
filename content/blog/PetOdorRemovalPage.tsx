@@ -76,7 +76,7 @@ const PetOdorRemovalPage: React.FC = () => {
         },
         {
             name: "Improve Air Quality",
-            text: "After cleaning, run an air purifier with a HEPA filter. Open windows when possible. Replace HVAC filters that may have absorbed odors. Add baking soda under rugs to absorb lingering smells."
+            text: "After cleaning, run a quality air purifier. Open windows when possible. Replace HVAC filters that may have absorbed odors. Add baking soda under rugs to absorb lingering smells."
         }
     ];
 

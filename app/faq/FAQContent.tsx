@@ -66,7 +66,7 @@ export default function FAQContent() {
         },
         {
           question: "How long should a full house clean take?",
-          answer: "A standard cleaning for a 2-3 bedroom home typically takes 2-3 hours with a two-person team. Deep cleaning takes 4-6 hours. Move-in/out cleaning can take 5-8 hours depending on home size and condition. We focus on quality over speed."
+          answer: "A standard cleaning for a 2-3 bedroom home typically takes 2-3 hours with our team of 1-2 cleaners. Deep cleaning takes 4-6 hours. Move-in/out cleaning can take 5-8 hours depending on home size and condition. We focus on quality over speed."
         },
         {
           question: "Do I need to be home during the clean?",
@@ -88,7 +88,7 @@ export default function FAQContent() {
         },
         {
           question: "What is a Deep Clean?",
-          answer: "Deep Cleaning is an intensive, top-to-bottom cleaning that tackles areas often missed in routine cleaning. This includes inside appliances, behind furniture, baseboards, ceiling fans, light fixtures, cabinet fronts, and detailed bathroom sanitization. Recommended for first-time clients or quarterly resets."
+          answer: "Deep Cleaning is an intensive, top-to-bottom cleaning that tackles areas often missed in routine cleaning. This includes baseboards, ceiling fans, light fixtures, blinds, window sills, cabinet fronts, wall spot-cleaning, and detailed bathroom sanitization. Inside oven, refrigerator, and cabinets are available as add-on services. Recommended for first-time clients or quarterly resets."
         },
         {
           question: "Can I have a partial Deep Clean?",
@@ -132,7 +132,7 @@ export default function FAQContent() {
       questions: [
         {
           question: "What is your satisfaction guarantee?",
-          answer: "We stand behind our work 100%. If you're not satisfied with any aspect of your cleaning, contact us within 24 hours and we'll return to re-clean the area at no charge. Our goal is your complete satisfaction\u2014we're not happy until you are."
+          answer: "We stand behind our work. If you're not satisfied with any aspect of your cleaning, contact us within 24 hours and we'll return to re-clean the area at no charge. Our goal is your complete satisfaction\u2014we're not happy until you are."
         }
       ]
     }

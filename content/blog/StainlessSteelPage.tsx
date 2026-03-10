@@ -280,7 +280,7 @@ const StainlessSteelPage: React.FC = () => {
                             <Sparkles className="w-12 h-12 mx-auto mb-4 opacity-80" />
                             <h3 className="text-2xl font-bold mb-3">Professional Kitchen Deep Clean</h3>
                             <p className="text-teal-100 mb-6">
-                                Our deep cleaning service includes all appliance surfaces, inside and out. We'll get your entire kitchen sparkling, including hard-to-reach spots.
+                                Our deep cleaning service covers all appliance exteriors and the microwave inside and out, plus baseboards, cabinet fronts, and hard-to-reach spots throughout your kitchen.
                             </p>
                             <Link
                                 href="/booking"

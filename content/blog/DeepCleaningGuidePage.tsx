@@ -39,7 +39,7 @@ const DeepCleaningGuidePage: React.FC = () => {
         },
         {
             question: "What's the difference between deep cleaning and regular cleaning?",
-            answer: "Regular cleaning maintains surface-level cleanliness. Deep cleaning tackles built-up grime, sanitizes hidden areas, cleans inside appliances, addresses baseboards, light fixtures, and areas typically missed during routine cleaning."
+            answer: "Regular cleaning maintains surface-level cleanliness. Deep cleaning tackles built-up grime, sanitizes hidden areas, addresses baseboards, ceiling fans, light fixtures, blinds, cabinet fronts, and areas typically missed during routine cleaning. Inside oven and refrigerator are available as add-on services."
         },
         {
             question: "Can I deep clean myself or should I hire professionals?",
@@ -70,7 +70,7 @@ const DeepCleaningGuidePage: React.FC = () => {
         },
         {
             name: "Address Windows and Mirrors",
-            text: "Clean windows inside and out, including tracks and sills. Polish all mirrors and glass surfaces. Replace window coverings if needed."
+            text: "Clean window sills, tracks, and the kitchen sink window. Polish all mirrors and glass surfaces. Full interior window cleaning is available as an add-on service."
         },
         {
             name: "Sanitize High-Touch Surfaces",
@@ -159,7 +159,7 @@ const DeepCleaningGuidePage: React.FC = () => {
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>How to deep clean your San Diego home:</strong> Start by decluttering, then dust from top to bottom (ceiling fans to baseboards).
-                                Deep clean bathrooms and kitchen, including inside appliances. Address floors, windows, and high-touch surfaces.
+                                Deep clean bathrooms and kitchen, including appliance exteriors and microwave inside and out. Address floors, windows, and high-touch surfaces.
                                 In San Diego's 70%+ coastal conditions climate, pay special attention to moisture-prone areas like bathroom fans, closets, and AC vents.
                                 A thorough deep clean takes 4-8 hours for a typical home, or you can hire professionals for $200-400.
                             </p>

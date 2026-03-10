@@ -359,7 +359,7 @@ const FridgeOdorRemovalPage: React.FC = () => {
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">
                             <h3 className="text-2xl font-bold mb-3">Need a Full Kitchen Deep Clean?</h3>
                             <p className="text-teal-100 mb-6">
-                                {COMPANY_NAME} kitchen deep cleaning includes refrigerators inside and out, plus all other appliances, cabinets, and surfaces. Start fresh with a professional clean.
+                                {COMPANY_NAME} kitchen deep cleaning covers appliance exteriors, microwave inside and out, countertops, and all surfaces. Inside refrigerator and inside cabinets are available as add-on services.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link
