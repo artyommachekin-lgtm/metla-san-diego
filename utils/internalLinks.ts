@@ -206,9 +206,16 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
 
     // Batch 7: Before & After Case Studies
     'deep-cleaning-scripps-ranch-before-after': [
-        'deep-cleaning-guide-san-diego',
+        'fire-season-eucalyptus-scripps-ranch',
         'how-much-does-a-deep-house-cleaning-cost',
         'allergy-proofing-your-home',
+    ],
+
+    // Batch 8: Scripps Ranch Content Cluster
+    'fire-season-eucalyptus-scripps-ranch': [
+        'deep-cleaning-scripps-ranch-before-after',
+        'allergy-proofing-your-home',
+        'how-to-deep-clean-ceiling-fans',
     ],
 };
 
@@ -234,8 +241,8 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
     ],
     'North Inland': [
         'deep-cleaning-scripps-ranch-before-after',
+        'fire-season-eucalyptus-scripps-ranch',
         'deep-cleaning-guide-san-diego',
-        'allergy-proofing-your-home',
     ],
     'South Bay': [
         'how-much-does-a-deep-house-cleaning-cost',

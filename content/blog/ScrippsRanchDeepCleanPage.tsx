@@ -173,7 +173,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                             Why Scripps Ranch Homes Need Specialized Cleaning
                         </h2>
                         <p className="text-slate-600">
-                            Scripps Ranch sits in San Diego's North Inland zone, surrounded by old-growth eucalyptus groves and the open spaces near Lake Miramar. That environment creates cleaning challenges you won't find in coastal neighborhoods like La Jolla or Pacific Beach.
+                            Scripps Ranch sits in San Diego's North Inland zone, surrounded by old-growth eucalyptus groves and the open spaces near Lake Miramar. That environment creates cleaning challenges you won't find in coastal neighborhoods like La Jolla or Pacific Beach. We break down exactly how eucalyptus debris, fire season ash, and Lake Miramar dust compound in our <Link href="/blog/fire-season-eucalyptus-scripps-ranch" className="text-teal-600 hover:text-teal-700 underline">fire season cleaning guide for Scripps Ranch</Link>.
                         </p>
                         <div className="space-y-4 my-6 not-prose">
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
@@ -429,6 +429,17 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                                 >
                                     Scripps Ranch Service Area
                                 </Link>
+                            </div>
+                        </div>
+
+                        {/* Follow Our Work */}
+                        <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">
+                            <h3 className="font-bold text-slate-900 mb-3">Follow Our Work</h3>
+                            <p className="text-slate-600 text-sm mb-4">See more before-and-after transformations and cleaning tips from the {COMPANY_NAME} team.</p>
+                            <div className="flex flex-wrap gap-3">
+                                <a href="https://www.facebook.com/metlacleanteam" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    Facebook
+                                </a>
                             </div>
                         </div>
 

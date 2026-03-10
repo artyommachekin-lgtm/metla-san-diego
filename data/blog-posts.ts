@@ -416,5 +416,18 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Freshly deep cleaned master bedroom in a Scripps Ranch executive home with styled linens and dust-free surfaces',
         iconName: 'Camera',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'fire-season-eucalyptus-scripps-ranch',
+        title: 'Fire Season and Eucalyptus: Why Scripps Ranch Homes Need Specialized Cleaning',
+        excerpt: 'How eucalyptus debris, fire season ash, and Lake Miramar dust create unique cleaning challenges for Scripps Ranch homes in the 92131 zip code — and a seasonal cleaning calendar to stay ahead of it.',
+        category: 'Environmental Guide',
+        readTime: '9 min read',
+        datePublished: '2026-03-11',
+        dateModified: '2026-03-11',
+        image: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Eucalyptus trees in a San Diego grove with dappled sunlight filtering through the canopy',
+        iconName: 'TreePine',
+        author: DEFAULT_AUTHOR
     }
 ];
