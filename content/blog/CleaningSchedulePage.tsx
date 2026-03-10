@@ -141,7 +141,7 @@ const CleaningSchedulePage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-purple-900 mb-2">Quick Answer</h2>
                             <p className="text-purple-800">
                                 <strong>The secret to a clean home:</strong> Do a little every day rather than marathon sessions. 15-30 minutes of daily maintenance + one focused task per day = a consistently clean home. Spread weekly tasks across the week so nothing feels overwhelming.
@@ -150,10 +150,10 @@ const CleaningSchedulePage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Most people fall into one of two patterns: either ignoring cleaning until it's overwhelming, or spending entire weekends catching up. Neither is sustainable. The secret to a consistently clean home is a schedule that spreads the work throughout the week.
+                            Most people fall into one of two patterns: either ignoring cleaning until it's overwhelming, or spending entire weekends catching up. Neither is sustainable. The secret to a consistently clean home is a schedule that spreads the work throughout the week -- or a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">recurring cleaning service</Link> that handles it for you.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The schedule below is designed for real life—busy careers, active social lives, and everything else San Diego has to offer. Customize it to fit your lifestyle, but the principle remains: small daily efforts prevent big cleaning emergencies.
+                            The schedule below is designed for real life -- busy careers, active social lives, and everything else San Diego has to offer. Whether you live in <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> or the suburbs, customize it to fit your lifestyle, but the principle remains: small daily efforts prevent big cleaning emergencies.
                         </p>
 
                         {/* Stats Box */}
@@ -252,7 +252,7 @@ const CleaningSchedulePage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Weekend Balance</h3>
-                                    <p className="text-slate-600 text-sm">With beaches, hiking, and perfect weather beckoning, you don't want to spend Saturdays scrubbing. The weekday spread in our schedule keeps weekends free for enjoying San Diego life.</p>
+                                    <p className="text-slate-600 text-sm">With beaches, hiking, and perfect weather beckoning, you don't want to spend Saturdays scrubbing. The weekday spread in our schedule keeps weekends free for enjoying San Diego life. Discover the <Link href="/blog/benefits-of-regular-cleaning-service" className="text-teal-700 font-medium hover:text-teal-800 underline">benefits of a regular cleaning service</Link> if you'd rather outsource entirely.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">

@@ -103,7 +103,7 @@ const LaMesaHouseCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>La Mesa house cleaning</strong> requires a different approach than coastal San Diego. East County dust, hard water mineral deposits, higher temperatures, and seasonal Santa Ana winds are the main challenges — not salt air and sand. Standard cleaning runs $120–$300 and deep cleaning $200–$500, depending on home size. Older Village homes with original hardwood and vintage tile need product-specific care to preserve their character.
@@ -112,13 +112,13 @@ const LaMesaHouseCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            La Mesa earns its nickname — "The Jewel of the Hills" — with tree-lined residential streets, a walkable Village core, and a sense of community that shows up every October when La Mesa Boulevard shuts down for Oktoberfest. But keeping a home clean here comes with its own set of challenges that most generic cleaning advice doesn't cover.
+                            <Link href="/location/la-mesa" className="text-teal-700 font-medium hover:text-teal-800 underline">La Mesa</Link> earns its nickname — "The Jewel of the Hills" — with tree-lined residential streets, a walkable Village core, and a sense of community that shows up every October when La Mesa Boulevard shuts down for Oktoberfest. But keeping a home clean here comes with its own set of challenges that most generic cleaning advice doesn't cover.
                         </p>
                         <p className="text-slate-600">
                             If you've lived on the coast and recently moved to La Mesa, you've probably noticed the difference. Instead of salt film on your windows, you're dealing with a fine layer of dust that reappears within days of cleaning. Your shower doors have white mineral spots that don't wipe off easily. And when the Santa Ana winds blow in from the east, every surface in the house seems to need attention.
                         </p>
                         <p className="text-slate-600">
-                            This guide covers everything La Mesa homeowners need to know — from the specific cleaning challenges in each neighborhood to how often you should schedule professional cleaning, what to look for in a cleaning service, and how to maintain your home between visits.
+                            This guide covers everything La Mesa homeowners need to know — from the specific cleaning challenges in each neighborhood to how often you should schedule professional cleaning, what to look for in a cleaning service, and how to maintain your home between visits. For a general overview of the process, see our <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">complete deep cleaning guide for San Diego</Link>.
                         </p>
 
                         {/* La Mesa Neighborhoods */}
@@ -233,7 +233,7 @@ const LaMesaHouseCleaningPage: React.FC = () => {
                                     <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
                                     <div>
                                         <span className="font-bold text-slate-900">Seasonal deep clean</span>
-                                        <span className="text-slate-600 text-sm block">Every La Mesa home benefits from a deep clean after Santa Ana season (typically November–January) and again after spring pollen season (March–May)</span>
+                                        <span className="text-slate-600 text-sm block">Every La Mesa home benefits from a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">professional deep clean</Link> after Santa Ana season (typically November–January) and again after spring pollen season (March–May)</span>
                                     </div>
                                 </div>
                             </div>

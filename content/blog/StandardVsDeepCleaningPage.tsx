@@ -104,7 +104,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>Standard cleaning</strong> is recurring maintenance — wiping surfaces, vacuuming, mopping, and keeping your home in good shape between visits. <strong>Deep cleaning</strong> is a full reset — a one-time, top-to-bottom scrub that reaches behind, under, and inside everything. Most San Diego homes benefit from a deep clean first, then switching to a recurring standard cleaning schedule to maintain the results.

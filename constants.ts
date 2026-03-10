@@ -35,7 +35,7 @@ export const SERVICES: Service[] = [
     title: "Standard Cleaning",
     slug: "standard-cleaning",
     shortDescription: "Recurring maintenance to keep your home consistently pristine.",
-    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service is most effective as a weekly cleaning service in San Diego, a biweekly maid service, or even monthly house cleaning in San Diego. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
+    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service works best on a recurring schedule—weekly, biweekly, or monthly—so your San Diego home stays consistently clean. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
 
 ## What to Expect From Your Standard Cleaning
 
@@ -104,7 +104,7 @@ We focus on maintaining the baseline of cleanliness and order:`,
       title: "Is the Maintenance Clean right for you?",
       text: "This service is designed exclusively for routine upkeep. It is the perfect match if your home has been professionally detailed within the last 30 days and you wish to maintain showroom condition effortlessly.",
       points: [
-        "You are looking for a reliable weekly, biweekly, or monthly cleaning service in San Diego.",
+        "You want a reliable recurring cleaning schedule—weekly, biweekly, or monthly.",
         "Your home is generally organized but requires professional surface management.",
         "You want to ensure a consistently pristine environment without the effort.",
         "You do not currently need deep tasks like inside-appliance cleaning (available as add-ons)."
@@ -178,7 +178,7 @@ We focus on maintaining the baseline of cleanliness and order:`,
     title: "Deep Cleaning",
     slug: "deep-cleaning",
     shortDescription: "The ultimate home restoration. A top-to-bottom detail designed to eliminate heavy buildup and return your home to immaculate condition.",
-    fullDescription: `Our Deep Cleaning is the foundational service for a truly healthy home. Whether you need a first time deep cleaning in San Diego or a quarterly whole house deep clean, this rigorous detail goes far beyond surface maintenance. We target the "invisible" layer of dirt—the grime that accumulates on baseboards, the dust clinging to ceiling fans, and the residue on cabinet fronts.
+    fullDescription: `Our Deep Cleaning is the foundational service for a truly healthy home. Whether it's your first professional deep clean or a quarterly reset, this rigorous detail goes far beyond surface maintenance. We target the "invisible" layer of dirt—the grime that accumulates on baseboards, the dust clinging to ceiling fans, and the residue on cabinet fronts.
 
 ## What Makes Deep Cleaning Different
 
@@ -212,7 +212,7 @@ We're fully insured and bonded, and every team member has passed thorough backgr
 
 We recommend Deep Cleaning in several situations:
 
-**Before Starting Recurring Service:** If it's been more than a month since your last professional cleaning, or you need a one time deep cleaning in San Diego before a special event, we start with a Deep Clean to establish a proper baseline.
+**Before Starting Recurring Service:** If it's been more than a month since your last professional cleaning, or you're preparing your home before a special event, we start with a Deep Clean to establish a proper baseline.
 
 **Seasonal Refresh:** Many San Diego homeowners schedule quarterly deep cleans—particularly before the holidays, after fire season, or at the start of summer.
 

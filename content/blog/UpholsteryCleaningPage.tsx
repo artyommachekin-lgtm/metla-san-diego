@@ -153,7 +153,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To deep clean upholstered furniture:</strong> First, check the care tag for cleaning codes (W, S, WS, or X). Vacuum thoroughly, then spot-treat stains. Clean with appropriate solution (water-based soap for W/WS, dry solvent for S fabrics). Rinse with damp cloth, deodorize with baking soda, and let dry completely. Deep clean every 6-12 months.
@@ -165,7 +165,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                             Your sofa is probably the most-used piece of furniture in your home. Between Netflix marathons, kid homework sessions, and that one spot where the dog always claims, upholstery takes a beating. Add in San Diego's beach-loving, dog-friendly, windows-open lifestyle, and your furniture collects everything from pet hair to beach sand to pollen.
                         </p>
                         <p className="text-slate-600">
-                            But before you rent a steam cleaner or hire professionals for every couch refresh, know this: most upholstery can be deep cleaned at home with the right techniques. The key is understanding your fabric type and using the appropriate method.
+                            But before you rent a steam cleaner or hire professionals for every couch refresh, know this: most upholstery can be deep cleaned at home with the right techniques. For stubborn issues, a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link> can handle delicate fabrics safely. The key is understanding your fabric type and using the appropriate method.
                         </p>
                         <p className="text-slate-600">
                             This guide walks you through the complete process—from decoding those mysterious care tags to tackling pet odors and everything in between.
@@ -274,7 +274,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                             Tips for Pet Owners
                         </h2>
                         <p className="text-slate-600">
-                            San Diego is one of the most dog-friendly cities in America, and our furniture shows it. Here's how to tackle pet-specific challenges:
+                            San Diego is one of the most dog-friendly cities in America, and our furniture shows it. If pet smells are your main concern, start with our dedicated guide on <Link href="/blog/how-to-remove-pet-odors-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">how to remove pet odors from your home</Link>. Here's how to tackle pet-specific challenges on upholstery:
                         </p>
 
                         <div className="grid gap-4 my-6 not-prose">
@@ -310,7 +310,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Beach Sand and Outdoor Dust</h4>
-                                    <p className="text-slate-600 text-sm">Living close to the beach or canyons means more outdoor particles work their way inside. Vacuum upholstery weekly, not just when it looks dirty. Pay special attention after beach days—sand is abrasive and can wear fabric over time.</p>
+                                    <p className="text-slate-600 text-sm">Living close to the beach or canyons—in neighborhoods like <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> and beyond—means more outdoor particles work their way inside. Vacuum upholstery weekly, not just when it looks dirty. Pay special attention after beach days—sand is abrasive and can wear fabric over time.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">

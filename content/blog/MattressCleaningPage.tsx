@@ -149,7 +149,7 @@ const MattressCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Deep clean your mattress in 8 steps:</strong> Strip bedding, vacuum thoroughly, spot treat stains, cover with baking soda, let it sit 4-8 hours, vacuum again, add a mattress protector, and remake with fresh linens. Do this every 6 months.
@@ -161,7 +161,7 @@ const MattressCleaningPage: React.FC = () => {
                             Your mattress accumulates dead skin cells, sweat, dust mites, and allergens every night. Over time, without cleaning, it can harbor millions of dust mites—a common trigger for allergies and asthma. Yet most people never clean their mattress beyond changing the sheets.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The good news? Deep cleaning a mattress is straightforward and requires no special equipment. The key is giving it enough time—plan for a full day since the baking soda treatment works best when left for several hours.
+                            The good news? Deep cleaning a mattress is straightforward and requires no special equipment. Pair it with a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">bedroom deep clean</Link> to tackle the floors, baseboards, and blinds at the same time. The key is giving the mattress enough time—plan for a full day since the baking soda treatment works best when left for several hours.
                         </p>
 
                         {/* Stats Box */}
@@ -218,14 +218,14 @@ const MattressCleaningPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-indigo-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Coastal Humidity</h3>
-                                    <p className="text-slate-600 text-sm">Near the coast, humidity can create mold-friendly conditions inside mattresses. Ensure complete drying after any wet cleaning. Use a fan or AC to accelerate drying on coastal fog days.</p>
+                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity can create mold-friendly conditions inside mattresses. Ensure complete drying after any wet cleaning. Use a fan or AC to accelerate drying on coastal fog days.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-indigo-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-indigo-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Allergy Season</h3>
-                                    <p className="text-slate-600 text-sm">San Diego has multiple pollen seasons. If you suffer from allergies, clean your mattress at the start of spring and fall. Consider vacuuming with a high-quality filtered vacuum and using hypoallergenic mattress covers.</p>
+                                    <p className="text-slate-600 text-sm">San Diego has multiple pollen seasons. If you suffer from allergies, clean your mattress at the start of spring and fall. For a whole-home approach, see our guide to <Link href="/blog/allergy-proofing-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">allergy-proofing your home</Link>. Consider vacuuming with a high-quality filtered vacuum and using hypoallergenic mattress covers.</p>
                                 </div>
                             </div>
                         </div>

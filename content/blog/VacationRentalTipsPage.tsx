@@ -151,7 +151,7 @@ const VacationRentalTipsPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 Successful vacation rental turnovers require a systematic approach: strip linens immediately, sanitize high-touch surfaces, deep clean bathrooms and kitchen, stage consistently, and document with photos. Allow at least 4 hours between guests for thorough cleaning.
@@ -160,10 +160,10 @@ const VacationRentalTipsPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            In San Diego's competitive vacation rental market, cleanliness can make or break your hosting success. With thousands of Airbnb and VRBO listings competing for guests in Pacific Beach, Ocean Beach, Mission Bay, and Downtown, your cleanliness rating directly impacts your bookings and income.
+                            In San Diego's competitive vacation rental market, cleanliness can make or break your hosting success. With thousands of Airbnb and VRBO listings competing for guests in <Link href="/location/pacific-beach" className="text-teal-700 font-medium hover:text-teal-800 underline">Pacific Beach</Link>, Ocean Beach, Mission Bay, and Downtown, your cleanliness rating directly impacts your bookings and income.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            This guide covers everything you need to know about turnover cleaning—from creating a bulletproof checklist to achieving the consistent 5-star cleanliness that turns first-time guests into repeat customers.
+                            This guide covers everything you need to know about turnover cleaning—from creating a bulletproof checklist to achieving the consistent 5-star cleanliness that turns first-time guests into repeat customers. If you'd rather leave turnovers to the pros, our <Link href="/service/vacation-rental-cleaning-airbnb" className="text-teal-700 font-medium hover:text-teal-800 underline">vacation rental cleaning service</Link> handles it all.
                         </p>
 
                         {/* Stats Box */}
@@ -227,7 +227,7 @@ const VacationRentalTipsPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">High Season Prep</h3>
-                                    <p className="text-slate-600 text-sm">Summer (June-August) means more turnovers. Book professional deep cleans at the start and end of summer to maintain quality during heavy use.</p>
+                                    <p className="text-slate-600 text-sm">Summer (June-August) means more turnovers. Book professional deep cleans at the start and end of summer to maintain quality during heavy use. Our guide on <Link href="/blog/how-to-prepare-your-guest-room" className="text-teal-700 font-medium hover:text-teal-800 underline">preparing your guest room</Link> covers the finishing touches that earn 5-star reviews.</p>
                                 </div>
                             </div>
                         </div>

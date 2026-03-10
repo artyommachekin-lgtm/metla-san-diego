@@ -147,7 +147,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To deep clean granite countertops:</strong> Use warm water with a few drops of dish soap—never vinegar or acidic cleaners. Wipe with a soft cloth, rinse with clean water, and dry immediately to prevent water spots. For stains, use a baking soda paste left overnight. Reseal every 1-2 years to maintain protection.
@@ -156,13 +156,13 @@ const GraniteCounterCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Granite countertops are a hallmark of San Diego's beautiful homes, from Rancho Santa Fe estates to renovated North Park bungalows. This natural stone adds elegance and value—but it requires specific care to maintain its beauty.
+                            Granite countertops are a hallmark of San Diego's beautiful homes, from Rancho Santa Fe estates to renovated North Park bungalows and <Link href="/location/del-mar" className="text-teal-700 font-medium hover:text-teal-800 underline">Del Mar</Link> beach houses. This natural stone adds elegance and value -- but it requires specific care to maintain its beauty.
                         </p>
                         <p className="text-slate-600">
                             The biggest mistake homeowners make? Using the wrong cleaning products. Those convenient all-purpose sprays, vinegar solutions, and disinfecting wipes can slowly but surely damage granite's surface and sealant. The good news is that proper granite care is simple once you know the rules.
                         </p>
                         <p className="text-slate-600">
-                            This guide covers daily maintenance, deep cleaning techniques, stain removal, and how to deal with San Diego's notoriously hard water—your granite's biggest local enemy.
+                            This guide covers daily maintenance, deep cleaning techniques, stain removal, and how to deal with San Diego's notoriously hard water -- your granite's biggest local enemy. For a broader kitchen refresh, check out our guide on <Link href="/blog/how-to-deep-clean-the-kitchen" className="text-teal-700 font-medium hover:text-teal-800 underline">how to deep clean the entire kitchen</Link>.
                         </p>
 
                         {/* Warning Box */}
@@ -290,7 +290,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
                             When to Reseal Your Granite
                         </h2>
                         <p className="text-slate-600">
-                            Sealant protects granite from stains and moisture absorption, but it wears down over time. Here's how to know if yours needs refreshing:
+                            Sealant protects granite from stains and moisture absorption, but it wears down over time. A <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">professional deep cleaning</Link> can address built-up grime before you reseal. Here's how to know if yours needs refreshing:
                         </p>
                         <div className="bg-slate-50 p-6 rounded-xl my-6 not-prose">
                             <h3 className="font-bold text-slate-900 mb-3">The Water Drop Test</h3>

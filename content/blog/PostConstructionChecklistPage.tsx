@@ -203,7 +203,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>Post-construction cleaning involves:</strong> (1) Removing all debris and leftover materials, (2) dusting from ceiling to floor, (3) detail cleaning all surfaces including inside cabinets, (4) deep cleaning windows, bathrooms, and kitchen, (5) thorough floor cleaning, and (6) replacing HVAC filters. Allow 1-2 days for a full home. Wait 24-48 hours after construction ends for dust to settle before cleaning.
@@ -215,7 +215,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                             Congratulations on completing your renovation or new home construction! Whether you've updated a 1950s Clairemont ranch house, added an ADU in North Park, or built your dream home in Carmel Valley, there's one final step before you can truly enjoy your new space: post-construction cleaning.
                         </p>
                         <p className="text-slate-600">
-                            Construction and renovation create a unique type of mess. Fine drywall dust coats every surface. Sawdust hides in corners. Grout haze films your new tile. Stickers and protective film cover appliances and fixtures. And everything is covered in a layer of that fine, powdery residue that regular cleaning simply can't address.
+                            Construction and renovation create a unique type of mess. Fine drywall dust coats every surface. Sawdust hides in corners. Grout haze films your new tile. Stickers and protective film cover appliances and fixtures. And everything is covered in a layer of that fine, powdery residue that regular cleaning simply can't address. That's why many homeowners opt for a professional <Link href="/service/post-construction-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">post-construction cleaning service</Link> to handle it all.
                         </p>
                         <p className="text-slate-600">
                             This guide walks you through the complete post-construction cleaning process, with specific guidance for San Diego homeowners navigating our local construction boom and unique climate considerations.
@@ -247,7 +247,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-bold text-slate-900 mb-1">{step.name}</h3>
-                                        <p className="text-slate-600 text-sm">{step.text}</p>
+                                        <p className="text-slate-600 text-sm">{step.text}{step.name === "Clean Windows and Glass" && <> For detailed technique tips, see our guide on <Link href="/blog/how-to-clean-windows-like-a-pro" className="text-teal-700 font-medium hover:text-teal-800 underline">how to clean windows like a pro</Link>.</>}</p>
                                     </div>
                                 </div>
                             ))}
@@ -287,7 +287,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Coastal Humidity Consideration</h4>
-                                    <p className="text-slate-600 text-sm">In beach communities like La Jolla, Pacific Beach, or Coronado, construction dust can combine with marine air humidity to create a sticky residue. Use slightly damp cloths for wiping and ensure good ventilation to prevent moisture issues in newly sealed surfaces.</p>
+                                    <p className="text-slate-600 text-sm">In beach communities like La Jolla, Pacific Beach, or <Link href="/location/del-mar" className="text-teal-700 font-medium hover:text-teal-800 underline">Del Mar</Link>, construction dust can combine with marine air humidity to create a sticky residue. Use slightly damp cloths for wiping and ensure good ventilation to prevent moisture issues in newly sealed surfaces.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">

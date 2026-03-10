@@ -164,7 +164,7 @@ const BathroomChecklistPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>Deep clean your bathroom in 8 steps:</strong> (1) Remove items and pre-soak fixtures, (2) apply cleaning products and let sit, (3) clean top to bottom, (4) scrub shower/tub and grout, (5) sanitize toilet inside and out, (6) clean sink and vanity, (7) polish mirrors and glass, (8) finish with floors. Allow 1.5-2 hours for a thorough deep clean. San Diego tip: Use vinegar for hard water stains—our water leaves mineral deposits on everything!
@@ -173,7 +173,7 @@ const BathroomChecklistPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Bathrooms take a beating. Between steam, soap scum, toothpaste splatter, and constant moisture, they need more than a quick wipe-down to stay truly clean. A proper deep clean every few weeks prevents mold growth, eliminates odors, and keeps your bathroom looking (and smelling) fresh.
+                            Bathrooms take a beating. Between steam, soap scum, toothpaste splatter, and constant moisture, they need more than a quick wipe-down to stay truly clean. A proper <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> every few weeks prevents mold growth, eliminates odors, and keeps your bathroom looking (and smelling) fresh.
                         </p>
                         <p className="text-slate-600">
                             If you live in San Diego, you face an extra challenge: our notoriously hard water. Those white, crusty deposits on your faucets, showerheads, and glass doors? That's calcium and magnesium from our water supply. This guide includes specific strategies for tackling San Diego's hard water stains alongside all your standard bathroom cleaning tasks.
@@ -269,7 +269,7 @@ const BathroomChecklistPage: React.FC = () => {
                             Mold Prevention for Coastal Homes
                         </h2>
                         <p className="text-slate-600">
-                            If you live near the coast—La Jolla, Pacific Beach, Ocean Beach, Coronado, or Point Loma—your bathroom faces higher humidity from marine air. Mold loves moisture, so prevention is key:
+                            If you live near the coast -- La Jolla, <Link href="/location/pacific-beach" className="text-teal-700 font-medium hover:text-teal-800 underline">Pacific Beach</Link>, Ocean Beach, Coronado, or Point Loma -- your bathroom faces higher humidity from marine air. Mold loves moisture, so prevention is key (see our full guide on <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">how to eliminate mold from your home</Link>):
                         </p>
                         <ul className="text-slate-600 space-y-2 my-4">
                             <li className="flex items-start gap-2">

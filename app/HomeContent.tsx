@@ -216,7 +216,7 @@ export default function HomeContent() {
               Our <strong>weekly</strong>, <strong>biweekly</strong>, and monthly scheduling options let you choose the cadence that fits your lifestyle. Many families start with a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> to reset their home, then transition to a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning</Link> plan to keep it spotless week after week.
             </p>
             <p>
-              From <strong>maid service in La Jolla</strong> and <strong>housekeeping in Pacific Beach</strong> to professional <strong>San Diego cleaning</strong> teams serving Coronado, Hillcrest, and beyond—we bring the same attention to detail to every neighborhood we serve. Each cleaner is background-checked, fully insured, and trained in our 50-point protocol.
+              From La Jolla to Pacific Beach, Coronado to Hillcrest—our cleaning professionals bring the same attention to detail to every San Diego neighborhood we serve. Each cleaner is background-checked, fully insured, and trained in our 50-point protocol.
             </p>
           </div>
           <div className="text-center mt-8">
@@ -264,7 +264,7 @@ export default function HomeContent() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-serif font-bold mb-4 text-center">{getRegionalHeading()}</h2>
           <p className="text-slate-300 text-center max-w-3xl mx-auto mb-12">
-            From <strong className="text-white">house cleaning in La Jolla</strong> to <strong className="text-white">maid service in Pacific Beach</strong>, and from <strong className="text-white">cleaning services in Hillcrest</strong> to professional <strong className="text-white">housekeepers in Coronado</strong>—we serve the entire San Diego coastal and inland corridor.
+            From La Jolla's oceanfront homes to Hillcrest's historic bungalows—we serve the entire San Diego coastal and inland corridor.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {LOCATIONS.map((loc) => (

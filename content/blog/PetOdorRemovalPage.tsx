@@ -150,7 +150,7 @@ const PetOdorRemovalPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>The secret to pet odor removal:</strong> Use a UV blacklight to find hidden stains, apply enzymatic cleaner (not regular cleaners) that must penetrate as deep as the urine did, keep the area moist while enzymes work, then extract and air dry. Repeat if needed—severe odors may require professional treatment.
@@ -172,10 +172,10 @@ const PetOdorRemovalPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            San Diego is one of the most dog-friendly cities in America, and we wouldn't have it any other way. But pet ownership comes with challenges—and lingering pet odors can make even the cleanest-looking home smell less than fresh. If regular cleaning isn't cutting it, you need a different approach.
+                            San Diego is one of the most dog-friendly cities in America, and we wouldn't have it any other way. From dog parks in <Link href="/location/north-park" className="text-teal-700 font-medium hover:text-teal-800 underline">North Park</Link> to beach runs in OB, pet ownership comes with challenges—and lingering pet odors can make even the cleanest-looking home smell less than fresh. If regular cleaning isn't cutting it, you need a different approach.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            This guide explains why standard cleaning fails for pet odors and walks you through the methods that actually work—from DIY enzymatic treatments to knowing when it's time to call professionals.
+                            This guide explains why standard cleaning fails for pet odors and walks you through the methods that actually work—from DIY enzymatic treatments to knowing when it's time to schedule a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link>.
                         </p>
 
                         {/* Stats Box */}
@@ -225,7 +225,7 @@ const PetOdorRemovalPage: React.FC = () => {
                                 <PawPrint className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Beach Dogs</h3>
-                                    <p className="text-slate-600 text-sm">Sandy, salty fur can leave residue on furniture and floors. Set up an outdoor rinse station and keep a dedicated towel by the door. Regular grooming helps prevent odor-causing bacteria from building up.</p>
+                                    <p className="text-slate-600 text-sm">Sandy, salty fur can leave residue on furniture and floors. Set up an outdoor rinse station and keep a dedicated towel by the door. Regular grooming helps prevent odor-causing bacteria from building up. If pet odors have settled into your sofa, our guide on <Link href="/blog/how-to-deep-clean-and-sanitize-upholstered-furniture" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning upholstered furniture</Link> covers fabric-safe techniques.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-orange-50 rounded-lg">

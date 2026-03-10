@@ -147,7 +147,7 @@ const FloorCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>For all floors:</strong> Always remove loose dirt first (sweep/vacuum), use appropriate pH-neutral cleaners, don't oversaturate (especially hardwood), and change mop water frequently. San Diego tip: hard water leaves residue, so rinse with clean water and dry hardwood immediately.
@@ -156,10 +156,10 @@ const FloorCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            San Diego homes often feature tile in kitchens, bathrooms, and entryways, with hardwood in living areas and bedrooms. Both floor types are popular for good reasons—they're durable, beautiful, and perfect for our climate. But they require different care to look their best.
+                            San Diego homes often feature tile in kitchens, bathrooms, and entryways, with hardwood in living areas and bedrooms. Both floor types are popular for good reasons -- they're durable, beautiful, and perfect for our climate. But they require different care to look their best, and a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> can restore floors that have built up grime over time.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The biggest mistake people make? Using too much water (damages hardwood) or too much cleaner (leaves residue on both). Here's how to clean your floors properly.
+                            The biggest mistake people make? Using too much water (damages hardwood) or too much cleaner (leaves residue on both). If you prefer <Link href="/blog/eco-friendly-cleaning-tips" className="text-teal-700 font-medium hover:text-teal-800 underline">eco-friendly cleaning products</Link>, there are great natural options for both floor types. Here's how to clean your floors properly.
                         </p>
 
                         {/* Warning */}
@@ -260,7 +260,7 @@ const FloorCleaningPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Tile Advantage</h3>
-                                    <p className="text-slate-600 text-sm">Tile stays cool in summer—a major benefit in San Diego. It's also more forgiving of humidity near the coast where hardwood may expand and contract seasonally.</p>
+                                    <p className="text-slate-600 text-sm">Tile stays cool in summer -- a major benefit in San Diego. It's also more forgiving of humidity near the coast in communities like <Link href="/location/coronado" className="text-teal-700 font-medium hover:text-teal-800 underline">Coronado</Link>, where hardwood may expand and contract seasonally.</p>
                                 </div>
                             </div>
                         </div>

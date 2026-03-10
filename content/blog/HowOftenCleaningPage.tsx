@@ -22,7 +22,7 @@ const HowOftenCleaningPage: React.FC = () => {
     ];
     return (
         <div className="bg-white min-h-screen">
-            <ArticleSchema title="How Often Should You Get Your House Cleaned in San Diego?" description="How Often Should You Get Your House Cleaned in San Diego?" slug="how-often-house-cleaning-san-diego" datePublished="2026-03-11" dateModified="2026-03-11" authorName="Metla Clean Team" authorType="Organization" authorJobTitle="Professional Cleaning Service" image="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" />
+            <ArticleSchema title="How Often Should You Get Your House Cleaned in San Diego?" description="How Often Should You Get Your House Cleaned in San Diego?" slug="how-often-house-cleaning-san-diego" datePublished="2026-03-11" dateModified="2026-03-11" authorName="Art Machekin" authorType="Person" authorJobTitle="Founder" image="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" />
             <FAQSchema faqs={faqs} />
             {/* Hero */}
             <section className="bg-slate-900 text-white pt-32 pb-16">
@@ -57,7 +57,7 @@ const HowOftenCleaningPage: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700"><strong>Biweekly is the sweet spot for most San Diego homes.</strong> Weekly works best for families with kids or pets. Monthly suits smaller condos or single occupants. No matter which frequency you choose, adding quarterly deep cleans fills the gaps that recurring service maintains but does not fully reset.</p>
                         </div>
@@ -127,7 +127,7 @@ const HowOftenCleaningPage: React.FC = () => {
                             </div>
                         </div>
 
-                        <AuthorBio name="Metla Clean Team" role="Professional Cleaning Service" bio="Metla Clean Team has been providing residential cleaning services across San Diego County. From La Jolla to Chula Vista, our insured and vetted cleaning professionals deliver consistent results for hundreds of local families." />
+                        <AuthorBio name="Art Machekin" role="Founder" bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home." />
                         <RelatedArticles currentSlug="how-often-house-cleaning-san-diego" />
 
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">

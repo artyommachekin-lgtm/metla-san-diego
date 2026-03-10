@@ -170,7 +170,7 @@ const SpringCleaningTipsPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>Spring cleaning in San Diego priorities:</strong> (1) Prep for pollen season by replacing HVAC filters, (2) deep clean windows after winter rain spots, (3) tackle hard water buildup, (4) prep AC for summer, (5) refresh outdoor living spaces, (6) organize closets, (7) deep clean kitchen, (8) refresh soft furnishings, (9) address garage/storage, (10) create an ongoing maintenance schedule. Best time: March-April after winter rains end.
@@ -179,13 +179,13 @@ const SpringCleaningTipsPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Spring in San Diego is special. Those perfect 70-degree days between winter rain and summer heat make it ideal for throwing open windows, airing out your home, and tackling the deep cleaning you've been putting off.
+                            Spring in San Diego is special. Those perfect 70-degree days between winter rain and summer heat make it ideal for throwing open windows, airing out your home, and tackling the <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> you've been putting off.
                         </p>
                         <p className="text-slate-600">
                             But spring cleaning in San Diego isn't quite the same as in other cities. We don't need to worry about salt from winter roads or snow boot mud tracked through the house. Instead, we're dealing with pollen season, hard water buildup from winter, and getting our outdoor living spaces ready for the months we'll spend outside.
                         </p>
                         <p className="text-slate-600">
-                            Here are our top 10 spring cleaning tips, tailored specifically for San Diego homes—whether you live in a Coronado beach cottage, a La Mesa ranch house, or a downtown high-rise.
+                            Here are our top 10 spring cleaning tips, tailored specifically for San Diego homes—whether you live in a Coronado beach cottage, a <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link> condo, or a downtown high-rise. For a more comprehensive walkthrough, check out our full <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning guide for San Diego homes</Link>.
                         </p>
 
                         {/* Tips List */}

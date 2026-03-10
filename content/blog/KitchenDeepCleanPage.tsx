@@ -156,7 +156,7 @@ const KitchenDeepCleanPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To deep clean your kitchen:</strong> Work top to bottom, starting with upper cabinets and range hood, then appliances (oven, fridge, dishwasher), countertops, sink, and finally floors. Pre-treat tough grease with baking soda paste. A thorough kitchen deep clean takes 2-4 hours DIY or 2-3 hours for a professional team. In San Diego's coastal neighborhoods, pay extra attention to salt air buildup on surfaces and appliances.
@@ -168,10 +168,10 @@ const KitchenDeepCleanPage: React.FC = () => {
                             The kitchen is the heart of every San Diego home—whether you're preparing fish tacos after a day at La Jolla Shores or hosting friends for craft beers and carne asada. But all that cooking creates grease, grime, and buildup that regular wiping can't handle. That's where deep cleaning comes in.
                         </p>
                         <p className="text-slate-600">
-                            A proper kitchen deep clean goes beyond the daily wipe-down. It tackles baked-on oven residue, refrigerator spills, cabinet grime, and the sticky film that builds up around stovetops. In San Diego's coastal communities—from Pacific Beach to Coronado—you'll also contend with salt air that leaves a residue on stainless steel and glass.
+                            A proper kitchen <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep clean</Link> goes beyond the daily wipe-down. It tackles baked-on oven residue, refrigerator spills, cabinet grime, and the sticky film that builds up around stovetops. In San Diego's coastal communities—from Pacific Beach to Coronado—you'll also contend with salt air that leaves a residue on stainless steel and glass.
                         </p>
                         <p className="text-slate-600">
-                            This guide walks you through every step, with pro tips from our cleaning team who've deep cleaned hundreds of San Diego kitchens, from cozy Normal Heights bungalows to expansive Rancho Santa Fe estates.
+                            This guide walks you through every step, with pro tips from our cleaning team who've deep cleaned hundreds of San Diego kitchens, from cozy <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> bungalows to expansive Rancho Santa Fe estates.
                         </p>
 
                         {/* Supplies Needed */}
@@ -274,7 +274,7 @@ const KitchenDeepCleanPage: React.FC = () => {
                             </li>
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
-                                <span><strong>Don't forget the dishwasher:</strong> Run an empty cycle with a cup of white vinegar to clean and deodorize. Wipe down the door edges and gasket where gunk hides.</span>
+                                <span><strong>Don't forget the dishwasher:</strong> Run an empty cycle with a cup of white vinegar to clean and deodorize. Wipe down the door edges and gasket where gunk hides. For stainless steel models, check our guide on <Link href="/blog/how-to-clean-stainless-steel-appliances" className="text-teal-700 font-medium hover:text-teal-800 underline">cleaning stainless steel appliances</Link>.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />

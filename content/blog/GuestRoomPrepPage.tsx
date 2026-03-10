@@ -148,7 +148,7 @@ const GuestRoomPrepPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-rose-50 border-l-4 border-rose-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-rose-50 border-l-4 border-rose-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-rose-900 mb-2">Quick Answer</h2>
                             <p className="text-rose-800">
                                 <strong>Guest room essentials:</strong> A deeply cleaned room, fresh linens (including extras), empty space for belongings, toiletries and towels, working lamps and accessible outlets, and thoughtful touches like snacks and WiFi password. Start preparing 1-2 days before arrival.
@@ -160,7 +160,7 @@ const GuestRoomPrepPage: React.FC = () => {
                             San Diego is one of the most-visited cities in America, and your guest room probably sees plenty of action—family visits, old friends, and out-of-town colleagues. Whether guests stay one night or one week, a well-prepared space makes all the difference in their experience and your stress levels.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The best hosts make hospitality look effortless, but there's actually a method behind the magic. Here's your complete guide to preparing a guest room that earns rave reviews and return visits.
+                            The best hosts make hospitality look effortless, but there's actually a method behind the magic. Scheduling a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning</Link> before guests arrive takes care of the heavy lifting so you can focus on the personal touches. Here's your complete guide to preparing a guest room that earns rave reviews and return visits.
                         </p>
 
                         {/* Stats Box */}
@@ -287,7 +287,7 @@ const GuestRoomPrepPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-rose-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Local Recommendations</h3>
-                                    <p className="text-slate-600 text-sm">Create a mini guide: your favorite coffee shops, restaurants, and beaches. Include less-touristy spots only locals know. Guests love insider tips, and it saves you from repeating yourself.</p>
+                                    <p className="text-slate-600 text-sm">Create a mini guide: your favorite coffee shops, restaurants, and beaches. Include less-touristy spots only locals know — neighborhoods like <Link href="/location/coronado" className="text-teal-700 font-medium hover:text-teal-800 underline">Coronado</Link> are always a hit with visitors. Guests love insider tips, and it saves you from repeating yourself.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-rose-50 rounded-lg">
@@ -301,7 +301,7 @@ const GuestRoomPrepPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-rose-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Temperature Notes</h3>
-                                    <p className="text-slate-600 text-sm">Coastal areas cool down significantly at night, surprising visitors expecting constant warmth. Provide an extra blanket and explain how to work the A/C or heating—especially for guests from different climates.</p>
+                                    <p className="text-slate-600 text-sm">Coastal areas cool down significantly at night, surprising visitors expecting constant warmth. Provide an extra blanket and explain how to work the A/C or heating—especially for guests from different climates. If you host frequently, our <Link href="/blog/vacation-rental-cleaning-tips-for-hosts" className="text-teal-700 font-medium hover:text-teal-800 underline">vacation rental cleaning tips</Link> can help streamline your turnover process.</p>
                                 </div>
                             </div>
                         </div>

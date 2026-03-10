@@ -148,7 +148,7 @@ const HomeOrganizationPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Declutter before cleaning:</strong> Clear countertops and tables, pick up items from floors, sort belongings into keep/donate/trash categories, and create a designated spot for everything. Even 30 minutes of decluttering dramatically improves deep cleaning results.
@@ -160,7 +160,7 @@ const HomeOrganizationPage: React.FC = () => {
                             Here's a truth professional cleaners wish more clients knew: a clean home and an organized home are two different things. You can't truly deep clean a cluttered space. When surfaces are covered with stuff, the best anyone can do is clean around obstructions.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            Whether you're preparing for a professional cleaning service or tackling a DIY deep clean, spending time decluttering first multiplies your results. In San Diego's smaller condos and beach cottages, this is especially true—every square foot counts.
+                            Whether you're preparing for a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link> or tackling a DIY deep clean, spending time decluttering first multiplies your results. In San Diego's smaller condos and beach cottages, this is especially true—every square foot counts.
                         </p>
 
                         {/* Stats Box */}
@@ -210,7 +210,7 @@ const HomeOrganizationPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-purple-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Small Space Living</h3>
-                                    <p className="text-slate-600 text-sm">Downtown condos and beach cottages demand creative storage. Use vertical space with wall organizers. Invest in furniture that doubles as storage—ottomans, bed frames with drawers.</p>
+                                    <p className="text-slate-600 text-sm">Downtown condos and beach cottages in neighborhoods like <Link href="/location/north-park" className="text-teal-700 font-medium hover:text-teal-800 underline">North Park</Link> demand creative storage. Use vertical space with wall organizers. Invest in furniture that doubles as storage—ottomans, bed frames with drawers.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-purple-50 rounded-lg">
@@ -224,7 +224,7 @@ const HomeOrganizationPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-purple-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Outdoor Living Spaces</h3>
-                                    <p className="text-slate-600 text-sm">San Diego's year-round outdoor lifestyle means patios and balconies need organization too. Weatherproof storage keeps cushions fresh and entertaining supplies accessible.</p>
+                                    <p className="text-slate-600 text-sm">San Diego's year-round outdoor lifestyle means patios and balconies need organization too. Weatherproof storage keeps cushions fresh and entertaining supplies accessible. Pair this with a seasonal reset using our <Link href="/blog/top-10-spring-deep-cleaning-tips" className="text-teal-700 font-medium hover:text-teal-800 underline">spring deep cleaning tips</Link> for a fully refreshed home.</p>
                                 </div>
                             </div>
                         </div>

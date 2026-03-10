@@ -127,7 +127,7 @@ const GreenCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-green-900 mb-2">Quick Answer</h2>
                             <p className="text-green-800">
                                 <strong>The three basics of green cleaning:</strong> White vinegar (cuts grease, kills bacteria), baking soda (deodorizes, gentle abrasive), and castile soap (safe all-purpose cleaner). With these three items, you can clean almost everything in your home without harsh chemicals.
@@ -136,10 +136,10 @@ const GreenCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            San Diego consistently ranks among America's most environmentally conscious cities. From our marine protected areas to our solar initiatives, sustainability is part of our culture. Why should our cleaning routines be any different?
+                            San Diego consistently ranks among America's most environmentally conscious cities. From our marine protected areas to our solar initiatives, sustainability is part of our culture -- especially in eco-minded communities like <Link href="/location/encinitas" className="text-teal-700 font-medium hover:text-teal-800 underline">Encinitas</Link>. Why should our cleaning routines be any different?
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The truth is, most household cleaning doesn't require harsh chemicals. Our grandparents cleaned effectively with simple, natural ingredients that are gentler on your health, your home, and the environment. Here's how to return to those roots while keeping your home spotless.
+                            The truth is, most household cleaning doesn't require harsh chemicals. Our grandparents cleaned effectively with simple, natural ingredients that are gentler on your health, your home, and the environment. This matters especially if you're working on <Link href="/blog/allergy-proofing-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">allergy-proofing your home</Link>, since chemical cleaners can trigger sensitivities. Here's how to return to those roots while keeping your home spotless.
                         </p>
 
                         {/* Stats Box */}
@@ -235,7 +235,7 @@ const GreenCleaningPage: React.FC = () => {
                                 <Recycle className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Protect Our Ocean</h3>
-                                    <p className="text-slate-600 text-sm">What goes down your drain eventually reaches the Pacific. Biodegradable cleaners break down safely. Avoid antibacterial products with triclosan and phosphate-heavy detergents.</p>
+                                    <p className="text-slate-600 text-sm">What goes down your drain eventually reaches the Pacific. Biodegradable cleaners break down safely. Avoid antibacterial products with triclosan and phosphate-heavy detergents. Our <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">recurring cleaning service</Link> uses environmentally responsible products throughout.</p>
                                 </div>
                             </div>
                         </div>

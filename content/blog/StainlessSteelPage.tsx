@@ -145,7 +145,7 @@ const StainlessSteelPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>The secret to streak-free stainless:</strong> Always wipe with the grain (not circles), use microfiber cloths, spray cleaner on the cloth (not the appliance), and dry immediately. For extra shine, buff with a tiny amount of olive oil. San Diego's hard water? Use vinegar to remove mineral spots.
@@ -154,7 +154,7 @@ const StainlessSteelPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Stainless steel appliances look stunning when clean—and frustratingly smudgy when they're not. Every fingerprint, water spot, and smear shows. But here's the good news: once you know the technique, stainless steel is actually easy to maintain.
+                            Stainless steel appliances look stunning when clean—and frustratingly smudgy when they're not. Every fingerprint, water spot, and smear shows. But here's the good news: once you know the technique, stainless steel is actually easy to maintain. If you want to tackle the whole room, pair this with our complete guide on <Link href="/blog/how-to-deep-clean-the-kitchen" className="text-teal-700 font-medium hover:text-teal-800 underline">how to deep clean the kitchen</Link>.
                         </p>
                         <p className="text-slate-600 mt-4">
                             The key is understanding that stainless steel has a "grain"—microscopic lines running in one direction. Working with this grain, not against it, is the difference between streaky frustration and professional-looking results.
@@ -241,7 +241,7 @@ const StainlessSteelPage: React.FC = () => {
                                 <Droplets className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Hard Water Challenge</h3>
-                                    <p className="text-slate-600 text-sm">SD's hard water leaves mineral deposits on everything, including appliances. Keep a vinegar solution handy and dry surfaces immediately after any water contact. Monthly vinegar treatment prevents buildup.</p>
+                                    <p className="text-slate-600 text-sm">SD's hard water leaves mineral deposits on everything, including appliances. Keep a vinegar solution handy and dry surfaces immediately after any water contact. Monthly vinegar treatment prevents buildup. Homeowners across neighborhoods like <Link href="/location/mission-hills" className="text-teal-700 font-medium hover:text-teal-800 underline">Mission Hills</Link> know this challenge well.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">
@@ -280,7 +280,7 @@ const StainlessSteelPage: React.FC = () => {
                             <Sparkles className="w-12 h-12 mx-auto mb-4 opacity-80" />
                             <h3 className="text-2xl font-bold mb-3">Professional Kitchen Deep Clean</h3>
                             <p className="text-teal-100 mb-6">
-                                Our deep cleaning service covers all appliance exteriors and the microwave inside and out, plus baseboards, cabinet fronts, and hard-to-reach spots throughout your kitchen.
+                                Our <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link> covers all appliance exteriors and the microwave inside and out, plus baseboards, cabinet fronts, and hard-to-reach spots throughout your kitchen.
                             </p>
                             <Link
                                 href="/booking"

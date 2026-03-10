@@ -147,7 +147,7 @@ const CeilingFanCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To deep clean ceiling fans:</strong> Turn off the fan and let it stop. Use an old pillowcase slid over each blade to capture dust without it falling everywhere. Then wipe blades with a damp microfiber cloth and mild soap. Clean the motor housing and light fixtures. Do this every 1-2 months for best results—more often during San Diego's spring pollen season.
@@ -156,7 +156,7 @@ const CeilingFanCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Ceiling fans are a San Diego essential. With our mild climate and high energy costs, fans provide an eco-friendly way to stay comfortable without running the AC all day. But those hardworking blades collect dust, pet hair, and allergens that get redistributed into your air every time the fan runs.
+                            Ceiling fans are a San Diego essential. With our mild climate and high energy costs, fans provide an eco-friendly way to stay comfortable without running the AC all day. But those hardworking blades collect dust, pet hair, and allergens that get redistributed into your air every time the fan runs. That's why ceiling fans are always included in our <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">professional deep cleaning service</Link>.
                         </p>
                         <p className="text-slate-600">
                             If you've ever turned on a ceiling fan after a long break and watched a cloud of dust descend, you know the problem. The good news? Cleaning ceiling fans is easier than you think, especially with the pillowcase trick that contains the mess entirely.
@@ -174,7 +174,7 @@ const CeilingFanCleaningPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Better Air Quality</h4>
-                                    <p className="text-slate-600 text-sm">Dirty fans circulate dust, allergens, and pet dander throughout your home. Clean fans mean cleaner air—especially important for allergy sufferers during San Diego's spring pollen season.</p>
+                                    <p className="text-slate-600 text-sm">Dirty fans circulate dust, allergens, and pet dander throughout your home. Clean fans mean cleaner air -- especially important for allergy sufferers during San Diego's spring pollen season. Learn more in our guide to <Link href="/blog/allergy-proofing-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">allergy-proofing your home</Link>.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
@@ -279,7 +279,7 @@ const CeilingFanCleaningPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Open-Window Living</h4>
-                                    <p className="text-slate-600 text-sm">San Diegans love keeping windows open. Great for fresh air, but it means more outdoor dust, pollen, and (near the coast) salt air on your fan blades. Coastal homes from La Jolla to Imperial Beach may need more frequent cleaning.</p>
+                                    <p className="text-slate-600 text-sm">San Diegans love keeping windows open. Great for fresh air, but it means more outdoor dust, pollen, and (near the coast) salt air on your fan blades. Inland areas like <Link href="/location/scripps-ranch" className="text-teal-700 font-medium hover:text-teal-800 underline">Scripps Ranch</Link> accumulate extra dust during dry seasons, while coastal homes from La Jolla to Imperial Beach may need more frequent cleaning.</p>
                                 </div>
                             </div>
                         </div>

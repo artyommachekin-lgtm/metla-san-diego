@@ -148,7 +148,7 @@ const HomeOfficeCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Clean your home office in 8 steps:</strong> Declutter the desk, dust top-to-bottom, clean electronics with appropriate products, disinfect high-touch surfaces, clean your chair, organize cables, clean windows and lights, and finish with floors. Weekly maintenance keeps it manageable.
@@ -157,10 +157,10 @@ const HomeOfficeCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Remote work has become the norm for many San Diego professionals. Tech workers, creatives, and entrepreneurs across the county now spend 40+ hours a week in their home offices. But unlike corporate spaces with janitorial services, your home office only gets cleaned when you do it.
+                            Remote work has become the norm for many San Diego professionals. Tech workers, creatives, and entrepreneurs across the county — from <Link href="/location/university-city" className="text-teal-700 font-medium hover:text-teal-800 underline">University City</Link> near UCSD to downtown — now spend 40+ hours a week in their home offices. But unlike corporate spaces with janitorial services, your home office only gets cleaned when you do it.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            A clean, organized workspace directly impacts your productivity, focus, and even your health. Dusty keyboards harbor bacteria, cluttered desks create mental clutter, and poor air quality causes fatigue. Here's how to maintain a workspace that helps you do your best work.
+                            A clean, organized workspace directly impacts your productivity, focus, and even your health. Dusty keyboards harbor bacteria, cluttered desks create mental clutter, and poor air quality causes fatigue. A recurring <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning service</Link> can help keep your workspace in shape alongside the rest of your home. Here's how to maintain it between visits.
                         </p>
 
                         {/* Stats Box */}
@@ -258,6 +258,9 @@ const HomeOfficeCleaningPage: React.FC = () => {
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
                             Cleaning Schedule
                         </h2>
+                        <p className="text-slate-600">
+                            Sticking to a routine is the key to keeping your office clean without it feeling like a chore. For a complete room-by-room breakdown, see our <Link href="/blog/weekly-cleaning-schedule-guide" className="text-teal-700 font-medium hover:text-teal-800 underline">weekly cleaning schedule guide</Link>.
+                        </p>
                         <div className="my-6 p-6 bg-slate-50 rounded-xl not-prose">
                             <div className="space-y-3">
                                 <div className="flex justify-between items-center p-3 bg-white rounded-lg">

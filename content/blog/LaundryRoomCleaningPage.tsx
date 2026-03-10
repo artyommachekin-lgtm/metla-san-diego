@@ -149,7 +149,7 @@ const LaundryRoomCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Deep clean your laundry room in 8 steps:</strong> Clear and organize, clean washer with vinegar cycle, wipe dryer interior, clean dryer vent (critical for safety), scrub the utility sink, wipe cabinets and shelves, clean walls and baseboards, and finish by mopping floors. Allow 1.5-2 hours.
@@ -171,7 +171,7 @@ const LaundryRoomCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Your laundry room works hard—processing loads of clothes, towels, and linens week after week. But when was the last time you gave it a proper deep clean? A neglected laundry room not only looks and smells worse over time, but can actually become a safety hazard and reduce your appliance efficiency.
+                            Your laundry room works hard—processing loads of clothes, towels, and linens week after week. But when was the last time you gave it a proper deep clean? A neglected laundry room not only looks and smells worse over time, but can actually become a safety hazard and reduce your appliance efficiency. Including it in your next <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">whole-home deep clean</Link> ensures nothing gets overlooked.
                         </p>
                         <p className="text-slate-600 mt-4">
                             This guide walks you through a complete laundry room deep clean, with special attention to the maintenance tasks that extend appliance life and keep your family safe.
@@ -212,14 +212,14 @@ const LaundryRoomCleaningPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Dry Climate Advantage</h3>
-                                    <p className="text-slate-600 text-sm">Our low humidity helps prevent washer mold, but you should still leave the washer door open between loads. Front-loaders are especially prone to gasket mold if sealed wet.</p>
+                                    <p className="text-slate-600 text-sm">Our low humidity helps prevent washer mold, but you should still leave the washer door open between loads. Front-loaders are especially prone to gasket mold if sealed wet. If you do spot mold growth, our guide on <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">eliminating mold from your home</Link> covers safe removal methods.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Beach Laundry Tips</h3>
-                                    <p className="text-slate-600 text-sm">Shake out sandy items before washing to protect your machine's pump. Rinse swimwear separately first—chlorine and salt can damage other fabrics over time.</p>
+                                    <p className="text-slate-600 text-sm">Shake out sandy items before washing to protect your machine's pump. Rinse swimwear separately first—chlorine and salt can damage other fabrics over time. Homeowners in areas like <Link href="/location/mission-valley" className="text-teal-700 font-medium hover:text-teal-800 underline">Mission Valley</Link> may deal less with sand but still face San Diego's hard water challenges.</p>
                                 </div>
                             </div>
                         </div>

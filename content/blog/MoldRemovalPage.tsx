@@ -169,7 +169,7 @@ const MoldRemovalPage: React.FC = () => {
                         </div>
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To eliminate mold:</strong> First identify and fix the moisture source (this is essential). For small areas on non-porous surfaces, clean with white vinegar or hydrogen peroxide, scrub, rinse, and dry completely. Wear an N95 mask and gloves. For areas over 10 square feet or mold on porous materials, call a professional mold remediation service.
@@ -181,7 +181,7 @@ const MoldRemovalPage: React.FC = () => {
                             Finding mold in your San Diego home can be alarming. While our region is generally drier than many parts of the country, mold can still thrive in bathrooms, kitchens, laundry rooms, and coastal homes where humidity is higher.
                         </p>
                         <p className="text-slate-600">
-                            The good news: small mold problems on hard surfaces can often be handled yourself with the right approach and precautions. The key is acting quickly, using proper protection, and—most importantly—fixing the moisture problem that allowed mold to grow in the first place.
+                            The good news: small mold problems on hard surfaces can often be handled yourself with the right approach and precautions. Once the mold is addressed, scheduling a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">professional deep clean</Link> removes lingering spores from surrounding surfaces. The key is acting quickly, using proper protection, and—most importantly—fixing the moisture problem that allowed mold to grow in the first place.
                         </p>
                         <p className="text-slate-600">
                             This guide covers safe DIY mold removal, when to call professionals, and how to prevent mold from returning.
@@ -203,14 +203,14 @@ const MoldRemovalPage: React.FC = () => {
                                 <Thermometer className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Coastal Humidity Factor</h4>
-                                    <p className="text-slate-600 text-sm">San Diego's coastal areas—La Jolla, Pacific Beach, Ocean Beach, Coronado, Imperial Beach—experience higher humidity, especially in summer months. Homes near the water need extra attention to ventilation and moisture control.</p>
+                                    <p className="text-slate-600 text-sm">San Diego's coastal areas—La Jolla, <Link href="/location/pacific-beach" className="text-teal-700 font-medium hover:text-teal-800 underline">Pacific Beach</Link>, Ocean Beach, Coronado, Imperial Beach—experience higher humidity, especially in summer months. Homes near the water need extra attention to ventilation and moisture control.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h4 className="font-bold text-slate-900">Common Problem Areas</h4>
-                                    <p className="text-slate-600 text-sm">Bathrooms (especially shower grout and ceilings), under kitchen sinks, around window frames with condensation, closets against exterior walls, and laundry rooms are the most common places to find mold in San Diego homes.</p>
+                                    <p className="text-slate-600 text-sm">Bathrooms (especially shower grout and ceilings), under kitchen sinks, around window frames with condensation, closets against exterior walls, and laundry rooms are the most common places to find mold in San Diego homes. Our <Link href="/blog/bathroom-deep-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">bathroom deep cleaning checklist</Link> covers how to tackle grout mold and prevent regrowth.</p>
                                 </div>
                             </div>
                         </div>

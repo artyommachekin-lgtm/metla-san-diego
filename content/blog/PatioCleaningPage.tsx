@@ -148,7 +148,7 @@ const PatioCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Deep clean your patio in 8 steps:</strong> Clear furniture, sweep debris, pre-treat stains, scrub or pressure wash, rinse thoroughly, clean furniture separately, wipe glass and railings, and let everything dry before reassembling. Do this 2-4 times per year.
@@ -160,7 +160,7 @@ const PatioCleaningPage: React.FC = () => {
                             San Diego's incredible weather means we live outdoors more than most cities. Our patios, decks, and balconies are true extensions of our homes—where we eat, entertain, work, and relax. But this heavy use means outdoor spaces need regular attention to stay beautiful and safe.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            Unlike interior spaces, patios face unique challenges: sun exposure, bird droppings, BBQ grease, pollen, and (near the coast) salt spray. A seasonal deep clean prevents buildup that becomes impossible to remove and extends the life of your outdoor surfaces.
+                            Unlike interior spaces, patios face unique challenges: sun exposure, bird droppings, BBQ grease, pollen, and (near the coast) salt spray. A seasonal <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep clean</Link> prevents buildup that becomes impossible to remove and extends the life of your outdoor surfaces.
                         </p>
 
                         {/* Stats Box */}
@@ -209,7 +209,7 @@ const PatioCleaningPage: React.FC = () => {
                             <div className="space-y-4">
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-2">Concrete/Pavers</h3>
-                                    <p className="text-slate-600 text-sm">Most forgiving surface. Use pressure washer at 2500-3000 PSI. Pre-treat oil stains with kitty litter overnight, then degrease. Seal annually to prevent staining.</p>
+                                    <p className="text-slate-600 text-sm">Most forgiving surface. Use pressure washer at 2500-3000 PSI. Pre-treat oil stains with kitty litter overnight, then degrease. Seal annually to prevent staining. For outdoor-safe product choices, see our guide to <Link href="/blog/eco-friendly-cleaning-tips" className="text-teal-700 font-medium hover:text-teal-800 underline">eco-friendly cleaning tips</Link>.</p>
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-2">Wood Deck</h3>
@@ -249,7 +249,7 @@ const PatioCleaningPage: React.FC = () => {
                                 <Droplets className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Coastal Salt</h3>
-                                    <p className="text-slate-600 text-sm">If you're within a few miles of the ocean, salt spray corrodes metal and leaves residue on all surfaces. Monthly fresh water rinses prevent buildup. Use marine-grade furniture near the beach.</p>
+                                    <p className="text-slate-600 text-sm">If you're within a few miles of the ocean—in neighborhoods like <Link href="/location/coronado" className="text-teal-700 font-medium hover:text-teal-800 underline">Coronado</Link>—salt spray corrodes metal and leaves residue on all surfaces. Monthly fresh water rinses prevent buildup. Use marine-grade furniture near the beach.</p>
                                 </div>
                             </div>
                         </div>

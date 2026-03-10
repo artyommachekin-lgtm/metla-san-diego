@@ -186,7 +186,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'benefits-of-regular-cleaning-service',
         title: 'Benefits of Hiring a Regular Cleaning Service',
-        excerpt: 'Discover the many benefits of recurring house cleaning services—from saving time to improving your family\'s health and protecting your investment.',
+        excerpt: 'Why recurring house cleaning pays for itself in San Diego. Health benefits, time savings, and long-term home value from consistent professional cleaning service.',
         category: 'Cleaning Tips',
         readTime: '5 min read',
         datePublished: '2024-01-20',
@@ -355,7 +355,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'weekly-cleaning-schedule-guide',
         title: 'Weekly Cleaning Schedule Guide',
-        excerpt: 'A realistic routine for busy San Diego lifestyles—keep your home consistently clean without stress.',
+        excerpt: 'A room-by-room weekly cleaning schedule to maintain your San Diego home between professional visits. Daily, weekly, and monthly task breakdowns to keep every room fresh.',
         category: 'Guides',
         readTime: '7 min read',
         datePublished: '2024-01-22',
@@ -433,7 +433,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'how-often-house-cleaning-san-diego',
         title: 'How Often Should You Get Your House Cleaned in San Diego?',
-        excerpt: 'Weekly, biweekly, or monthly? Here is how to pick the right recurring cleaning frequency for your household, budget, and lifestyle in San Diego.',
+        excerpt: 'How often should you schedule house cleaning in San Diego? Compare weekly, biweekly, and monthly cleaning frequencies based on home size, lifestyle, and budget to find your ideal schedule.',
         category: 'Guides',
         readTime: '7 min read',
         datePublished: '2026-03-11',

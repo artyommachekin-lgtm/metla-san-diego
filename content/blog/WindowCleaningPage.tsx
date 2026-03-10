@@ -149,7 +149,7 @@ const WindowCleaningPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>For streak-free windows:</strong> Clean on cloudy days, use a professional squeegee, work top-to-bottom, wipe the blade between strokes, and dry edges with microfiber. The secret is working quickly before the solution dries.
@@ -158,10 +158,10 @@ const WindowCleaningPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Living in San Diego means spectacular views—ocean panoramas, mountain vistas, and endless sunshine. But dirty windows can diminish all that natural beauty. Whether you're dealing with salt spray in La Jolla, pollen in the spring, or hard water spots from your sprinklers, clean windows make a dramatic difference in how your home looks and feels.
+                            Living in San Diego means spectacular views—ocean panoramas, mountain vistas, and endless sunshine. But dirty windows can diminish all that natural beauty. Whether you're dealing with salt spray in La Jolla, pollen in the spring, or hard water spots from your sprinklers, clean windows make a dramatic difference in how your home looks and feels. Homeowners in <Link href="/location/del-mar" className="text-teal-700 font-medium hover:text-teal-800 underline">Del Mar</Link> and other coastal neighborhoods know this firsthand.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            This guide teaches you the same techniques professional window cleaners use to achieve that crystal-clear, streak-free finish.
+                            This guide teaches you the same techniques professional window cleaners use to achieve that crystal-clear, streak-free finish. If you're cleaning windows after a renovation, our <Link href="/blog/essential-post-construction-cleaning-checklist-for-homeowners" className="text-teal-700 font-medium hover:text-teal-800 underline">post-construction cleaning checklist</Link> covers the full process.
                         </p>
 
                         {/* Step-by-Step Guide */}
@@ -263,7 +263,7 @@ const WindowCleaningPage: React.FC = () => {
                             <Sparkles className="w-12 h-12 mx-auto mb-4 opacity-80" />
                             <h3 className="text-2xl font-bold mb-3">Professional Window Cleaning</h3>
                             <p className="text-teal-100 mb-6">
-                                Interior window cleaning is available as an add-on to our deep cleaning and move-in/out services. Let us handle the hard-to-reach spots.
+                                Interior window cleaning is available as an add-on to our deep cleaning and move-in/out services, including our <Link href="/service/post-construction-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">post-construction cleaning</Link>. Let us handle the hard-to-reach spots.
                             </p>
                             <Link
                                 href="/booking"

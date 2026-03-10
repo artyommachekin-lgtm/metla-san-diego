@@ -156,7 +156,7 @@ const FridgeOdorRemovalPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
                                 <strong>To eliminate fridge odors:</strong> Empty the fridge and find the source (expired food, spills). Clean all surfaces with a baking soda and water solution. Don't forget door gaskets and the drip pan underneath. Leave an open box of baking soda inside to absorb lingering smells. For severe odors, leave baking soda or activated charcoal overnight before restocking.
@@ -168,10 +168,10 @@ const FridgeOdorRemovalPage: React.FC = () => {
                             You open the refrigerator for a quick snack and—whoa. Something is definitely off. That mysterious fridge smell happens to everyone, but it doesn't have to become a permanent resident.
                         </p>
                         <p className="text-slate-600">
-                            Whether it's a forgotten container of leftovers, produce past its prime, or just an accumulation of everyday food smells, refrigerator odors are completely fixable. Better yet, with a few habits, you can prevent them from developing in the first place.
+                            Whether it's a forgotten container of leftovers, produce past its prime, or just an accumulation of everyday food smells, refrigerator odors are completely fixable. If your fridge isn't the only thing that needs attention, our <Link href="/blog/how-to-deep-clean-the-kitchen" className="text-teal-700 font-medium hover:text-teal-800 underline">complete kitchen deep cleaning guide</Link> covers the rest. Better yet, with a few habits, you can prevent odors from developing in the first place.
                         </p>
                         <p className="text-slate-600">
-                            San Diegans face some unique challenges: after taco nights, beach barbecues, and entertaining season, fridges see a lot of action. Plus, during our warm months, food can spoil faster if the fridge isn't kept cold enough or is opened frequently.
+                            San Diegans face some unique challenges: after taco nights, beach barbecues, and entertaining season, fridges see a lot of action. Whether you're in <Link href="/location/la-mesa" className="text-teal-700 font-medium hover:text-teal-800 underline">La Mesa</Link> or by the coast, during our warm months food can spoil faster if the fridge isn't kept cold enough or is opened frequently.
                         </p>
 
                         {/* Common Causes */}
@@ -266,7 +266,7 @@ const FridgeOdorRemovalPage: React.FC = () => {
                             For Stubborn or Extreme Odors
                         </h2>
                         <p className="text-slate-600">
-                            Sometimes a regular cleaning isn't enough—like after a power outage or discovering something that's been "aging" for weeks. Here are heavy-duty solutions:
+                            Sometimes a regular cleaning isn't enough -- like after a power outage or discovering something that's been "aging" for weeks. In these cases, scheduling a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">professional deep cleaning</Link> for the whole kitchen may be worthwhile. Here are heavy-duty solutions for the fridge itself:
                         </p>
                         <div className="bg-teal-50 p-6 rounded-xl my-6 not-prose">
                             <ul className="space-y-4 text-slate-700">

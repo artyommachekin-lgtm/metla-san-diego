@@ -150,7 +150,7 @@ const MoveInChecklistPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-teal-900 mb-2">Quick Answer</h2>
                             <p className="text-teal-800">
                                 <strong>Clean your new place before moving in:</strong> Document existing condition with photos, clean top-to-bottom (ceilings to floors), focus on kitchen and bathrooms, clean inside all cabinets and appliances, and finish with floors. This is your only chance to clean an empty space!

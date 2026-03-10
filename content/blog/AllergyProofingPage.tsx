@@ -133,7 +133,7 @@ const AllergyProofingPage: React.FC = () => {
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
                         {/* Quick Answer Box */}
-                        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8 not-prose">
+                        <div className="quick-answer bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8 not-prose">
                             <h2 className="font-bold text-green-900 mb-2">Quick Answer</h2>
                             <p className="text-green-800">
                                 <strong>The 4 pillars of allergy-proofing:</strong> Control dust (vacuum 2-3x weekly with a quality filtered vacuum), protect bedding (allergen-proof covers, hot water washing), improve air quality (quality air purifiers, fresh HVAC filters), and reduce humidity (30-50% prevents dust mites and mold).
@@ -142,10 +142,10 @@ const AllergyProofingPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            San Diego's beautiful weather comes with a catch: our mild climate means plants release pollen nearly year-round. Add dust mites, pet dander, and mold to the mix, and allergy sufferers face challenges inside and out. The good news? Strategic cleaning can dramatically reduce indoor allergens.
+                            San Diego's beautiful weather comes with a catch: our mild climate means plants release pollen nearly year-round. Add dust mites, pet dander, and mold to the mix, and allergy sufferers face challenges inside and out. The good news? Strategic cleaning -- including often-overlooked tasks like <Link href="/blog/how-to-deep-clean-ceiling-fans" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning your ceiling fans</Link> -- can dramatically reduce indoor allergens.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The average home contains millions of dust mites, invisible to the naked eye but major allergy triggers. Their waste particles are what cause reactions, and these particles accumulate in bedding, upholstery, and carpet. Here's how to fight back.
+                            The average home contains millions of dust mites, invisible to the naked eye but major allergy triggers. Their waste particles are what cause reactions, and these particles accumulate in bedding, upholstery, and carpet. A thorough <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link> that targets dust with damp microfiber cloths and high-filtration vacuuming can make a dramatic difference. Here's how to fight back.
                         </p>
 
                         {/* Stats Box */}
@@ -211,7 +211,7 @@ const AllergyProofingPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Coastal Humidity</h3>
-                                    <p className="text-slate-600 text-sm">Near the coast, humidity supports dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold.</p>
+                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity supports dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold.</p>
                                 </div>
                             </div>
                         </div>
