@@ -429,5 +429,31 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Eucalyptus trees in a San Diego grove with dappled sunlight filtering through the canopy',
         iconName: 'TreePine',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'how-often-house-cleaning-san-diego',
+        title: 'How Often Should You Get Your House Cleaned in San Diego?',
+        excerpt: 'Weekly, biweekly, or monthly? Here is how to pick the right recurring cleaning frequency for your household, budget, and lifestyle in San Diego.',
+        category: 'Guides',
+        readTime: '7 min read',
+        datePublished: '2026-03-11',
+        dateModified: '2026-03-11',
+        image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bright and tidy living room in a San Diego home with natural light streaming through windows',
+        iconName: 'Calendar',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'standard-vs-deep-cleaning-san-diego',
+        title: 'Standard vs Deep Cleaning in San Diego: Which Do You Need?',
+        excerpt: 'A clear breakdown of what standard and deep cleaning each cover, what they cost, and how to decide which one your San Diego home needs right now.',
+        category: 'Guides',
+        readTime: '8 min read',
+        datePublished: '2026-03-11',
+        dateModified: '2026-03-11',
+        image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Professional house cleaner wiping down a kitchen counter in a bright San Diego home',
+        iconName: 'Scale',
+        author: DEFAULT_AUTHOR
     }
 ];

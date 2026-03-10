@@ -35,7 +35,7 @@ export const SERVICES: Service[] = [
     title: "Standard Cleaning",
     slug: "standard-cleaning",
     shortDescription: "Recurring maintenance to keep your home consistently pristine.",
-    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service is most effective on a weekly or bi-weekly schedule. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
+    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service is most effective as a weekly cleaning service in San Diego, a biweekly maid service, or even monthly house cleaning in San Diego. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
 
 ## What to Expect From Your Standard Cleaning
 
@@ -104,7 +104,7 @@ We focus on maintaining the baseline of cleanliness and order:`,
       title: "Is the Maintenance Clean right for you?",
       text: "This service is designed exclusively for routine upkeep. It is the perfect match if your home has been professionally detailed within the last 30 days and you wish to maintain showroom condition effortlessly.",
       points: [
-        "You are looking for reliable weekly or bi-weekly housekeeping.",
+        "You are looking for a reliable weekly, biweekly, or monthly cleaning service in San Diego.",
         "Your home is generally organized but requires professional surface management.",
         "You want to ensure a consistently pristine environment without the effort.",
         "You do not currently need deep tasks like inside-appliance cleaning (available as add-ons)."
@@ -178,7 +178,7 @@ We focus on maintaining the baseline of cleanliness and order:`,
     title: "Deep Cleaning",
     slug: "deep-cleaning",
     shortDescription: "The ultimate home restoration. A top-to-bottom detail designed to eliminate heavy buildup and return your home to immaculate condition.",
-    fullDescription: `Our Deep Cleaning is the foundational service for a truly healthy home. Recommended as an initial service for all new clients or as a quarterly refresh, this rigorous detail goes far beyond surface maintenance. We target the "invisible" layer of dirt—the grime that accumulates on baseboards, the dust clinging to ceiling fans, and the residue on cabinet fronts.
+    fullDescription: `Our Deep Cleaning is the foundational service for a truly healthy home. Whether you need a first time deep cleaning in San Diego or a quarterly whole house deep clean, this rigorous detail goes far beyond surface maintenance. We target the "invisible" layer of dirt—the grime that accumulates on baseboards, the dust clinging to ceiling fans, and the residue on cabinet fronts.
 
 ## What Makes Deep Cleaning Different
 
@@ -212,7 +212,7 @@ We're fully insured and bonded, and every team member has passed thorough backgr
 
 We recommend Deep Cleaning in several situations:
 
-**Before Starting Recurring Service:** If it's been more than a month since your last professional cleaning, we start with a Deep Clean to establish a proper baseline.
+**Before Starting Recurring Service:** If it's been more than a month since your last professional cleaning, or you need a one time deep cleaning in San Diego before a special event, we start with a Deep Clean to establish a proper baseline.
 
 **Seasonal Refresh:** Many San Diego homeowners schedule quarterly deep cleans—particularly before the holidays, after fire season, or at the start of summer.
 
@@ -357,8 +357,8 @@ We're not here for just one cleaning. We're building lasting relationships with 
     id: 'post-construction',
     title: "Post-Construction Cleaning",
     slug: "post-construction-cleaning",
-    shortDescription: "The final step of your renovation. We remove fine dust and construction residue to reveal the true beauty of your new investment.",
-    fullDescription: `Renovation creates a unique type of mess that standard cleaning cannot handle. "Fine particulate dust" settles into the pores of your new flooring, coats your walls, and hides inside air vents. Our Post-Construction Cleaning is a specialized detail designed to safely extract this dust without scratching your new luxury finishes. We use advanced dust-removal methods and microfiber technology to eliminate the "white haze" left behind by drywall and sanding, turning a construction site into a move-in ready home.
+    shortDescription: "The final step of your renovation or remodel. We remove fine dust and construction residue to reveal the true beauty of your new investment.",
+    fullDescription: `Renovation creates a unique type of mess that standard cleaning cannot handle. "Fine particulate dust" settles into the pores of your new flooring, coats your walls, and hides inside air vents. Also known as post-renovation cleaning or remodel cleaning, our Post-Construction Cleaning is a specialized detail designed to safely extract construction dust in San Diego homes without scratching your new luxury finishes. We use advanced dust-removal methods and microfiber technology to eliminate the "white haze" left behind by drywall and sanding, turning a construction site into a move-in ready home.
 
 ## Understanding Post-Construction Cleaning
 
@@ -518,14 +518,14 @@ Your renovation deserves a proper finishing touch. Let us reveal the beauty of y
     id: 'vacation-rental',
     title: "Vacation Rental Cleaning",
     slug: "vacation-rental-cleaning-airbnb",
-    shortDescription: "Seamless turnovers for high-performing hosts. We ensure your property is hotel-ready for every single guest check-in.",
-    fullDescription: `In the competitive San Diego short-term rental market, cleanliness is the single biggest factor in your guest ratings. Our Vacation Rental service is not just a cleaning—it's a "hospitality turnover." We act as your eyes and ears on the ground, staging your property for maximum visual impact and ensuring that every guest feels they're the first person to stay there. We help hosts maintain their reputation with consistent, reliable quality on every turnover.
+    shortDescription: "Seamless Airbnb and VRBO turnovers for high-performing hosts in San Diego. We ensure your vacation rental is hotel-ready for every single guest check-in.",
+    fullDescription: `In the competitive San Diego short-term rental market, cleanliness is the single biggest factor in your guest ratings. Our vacation rental turnover cleaning in San Diego is not just a cleaning—it's a "hospitality turnover." We act as your eyes and ears on the ground, staging your property for maximum visual impact and ensuring that every guest feels they're the first person to stay there. We help hosts maintain their reputation with consistent, reliable quality on every turnover.
 
-## Built for Airbnb, VRBO, and Short-Term Rental Hosts
+## Built for Airbnb, VRBO, and Short-Term Rental Hosts in San Diego
 
-We understand the unique pressures of vacation rental management. Check-out at 11 AM, check-in at 3 PM—and everything needs to be perfect. Our turnover service is designed around these tight windows, combining efficiency with thoroughness to get your property guest-ready on schedule.
+We understand the unique pressures of Airbnb turnover cleaning in San Diego and VRBO cleaning in San Diego. Check-out at 11 AM, check-in at 3 PM—and everything needs to be perfect. Our turnover service is designed around these tight windows, combining efficiency with thoroughness to get your property guest-ready on schedule.
 
-We've cleaned hundreds of vacation rentals across Pacific Beach, La Jolla, Coronado, and throughout San Diego County. We know what guests expect in this market and what triggers negative reviews. Cleanliness complaints are the number one reason for rating downgrades—and the easiest to prevent with the right cleaning partner.
+We've cleaned hundreds of vacation rentals across Pacific Beach, La Jolla, Coronado, and throughout San Diego County, providing cleaning for vacation rentals in San Diego that hosts rely on. We know what guests expect in this market and what triggers negative reviews. Cleanliness complaints are the number one reason for rating downgrades—and the easiest to prevent with the right cleaning partner.
 
 ## Complete Transparency in Our Service
 
@@ -565,11 +565,11 @@ Managing vacation rentals is demanding work. You deserve a cleaning partner who 
 
 Many of our clients have been with us since they started hosting. They trust us with their properties, their reviews, and their rental income. We take that responsibility seriously.
 
-Whether you manage one unit or a portfolio of properties, we bring the same level of care and professionalism to every turnover. Your guests' five-star reviews—and your peace of mind—are our ultimate goal.`,
+Whether you manage one Airbnb, a VRBO listing, or a portfolio of San Diego vacation rentals, we bring the same level of care and professionalism to every turnover. Your guests' five-star reviews—and your peace of mind—are our ultimate goal.`,
     focusPoints: [
       {
         title: "Rapid Turnover",
-        description: "Efficient, focused workflows designed to get your unit perfectly prepped and ready within standard check-out/check-in windows.",
+        description: "Efficient, focused Airbnb and VRBO cleaning workflows designed to get your San Diego rental perfectly prepped and ready within standard check-out/check-in windows.",
         iconName: 'Clock'
       },
       {
@@ -658,7 +658,7 @@ Whether you manage one unit or a portfolio of properties, we bring the same leve
     title: "Move-In / Move-Out Cleaning",
     slug: "move-in-out-cleaning",
     shortDescription: "A comprehensive reset for empty homes. Designed to meet strict property management standards and help you achieve a pristine fresh start for your new residence.",
-    fullDescription: `Our Move-In / Move-Out service is our most exhaustive cleaning package, engineered exclusively for empty properties. Whether you're handing the keys back to a landlord, preparing a newly purchased home for your family, or turning over a rental unit between tenants, this service leaves zero trace of the previous occupants. Unlike furnished home cleanings, this service reaches the areas usually blocked by furniture—we focus on "interior" detailing to ensure the property is truly turnkey ready.
+    fullDescription: `Our Move-In / Move-Out service is our most exhaustive cleaning package, engineered exclusively for empty properties. Whether you're handing the keys back to a landlord for an end of lease cleaning in San Diego, preparing a newly purchased home for your family, or turning over a rental unit between tenants, this service leaves zero trace of the previous occupants. Unlike furnished home cleanings, this service reaches the areas usually blocked by furniture—we focus on "interior" detailing to ensure the property is truly turnkey ready.
 
 ## What Makes Move-In/Move-Out Cleaning Different
 
@@ -676,7 +676,7 @@ Our comprehensive checklist (below) shows exactly what we include. You'll know w
 
 ## Meeting Property Management Standards
 
-If you're a renter fulfilling lease requirements, you need a cleaning that satisfies your landlord or property manager. Our service is designed to meet professional real estate standards for turnover cleanliness.
+If you're a renter fulfilling lease requirements—whether it's an apartment move out cleaning in San Diego or a house turnover—you need a cleaning that satisfies your landlord or property manager. Our service is designed to meet professional real estate standards for turnover cleanliness.
 
 We understand what property managers look for during walkthroughs: clean appliance interiors, spotless bathroom fixtures, dust-free blinds, and floors free of marks and residue. We address each of these systematically, helping you leave your rental in condition that meets—or exceeds—lease requirements.
 
@@ -731,7 +731,7 @@ Your new beginning—or your successful property turnover—starts with a truly 
       points: [
         "The home is empty of all furniture and personal items.",
         "You need a \"clean slate\" feeling before moving your family in.",
-        "You are a tenant looking to fulfill your lease's professional cleaning requirements.",
+        "You are a tenant or renter looking to fulfill your lease's professional cleaning requirements with move out cleaning for renters in San Diego.",
         "You are a landlord or realtor preparing a unit for listing photos."
       ],
       footer: "Still unsure if we cover a specific area? Go through the comprehensive checklist below to see exactly what we touch!"

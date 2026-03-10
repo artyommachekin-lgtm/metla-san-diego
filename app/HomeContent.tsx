@@ -132,7 +132,7 @@ export default function HomeContent() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-slate-900 mb-4">Select Your Service</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">Specific solutions for complex needs. From luxury condos in {SITE_CONFIG.featuredNeighborhoods[0]?.name || 'the city'} to family estates in {SITE_CONFIG.featuredNeighborhoods[1]?.name || 'the suburbs'}.</p>
+            <p className="text-slate-600 max-w-2xl mx-auto">Specific solutions for complex needs. From luxury house cleaning in {SITE_CONFIG.featuredNeighborhoods[0]?.name || 'the city'} to family estates in {SITE_CONFIG.featuredNeighborhoods[1]?.name || 'the suburbs'}.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -210,7 +210,7 @@ export default function HomeContent() {
           </h2>
           <div className="text-slate-700 space-y-4 text-lg leading-relaxed">
             <p>
-              Whether you need a one-time <strong>maid service</strong> to tackle a messy home or a dedicated <strong>housekeeper</strong> on a recurring schedule, Metla House Cleaning delivers consistent, reliable results across San Diego County.
+              Whether you need a one-time <strong>maid service</strong> to tackle a messy home or a dedicated <strong>housekeeper</strong> on a recurring schedule, our professional house cleaners deliver consistent, reliable <strong>residential cleaning</strong> results across San Diego County.
             </p>
             <p>
               Our <strong>weekly</strong>, <strong>biweekly</strong>, and monthly scheduling options let you choose the cadence that fits your lifestyle. Many families start with a <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> to reset their home, then transition to a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning</Link> plan to keep it spotless week after week.

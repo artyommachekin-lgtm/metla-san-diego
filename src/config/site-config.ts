@@ -174,7 +174,7 @@ export const SITE_CONFIG = {
     // ============================================
     seo: {
         siteTitle: "Metla House Cleaning San Diego | Premium House Cleaning Services",
-        metaDescription: "San Diego's trusted house cleaning service. From La Jolla to Chula Vista, we provide deep cleaning, standard cleaning, vacation rental turnovers, and move-in/out cleaning. Fully insured professionals.",
+        metaDescription: "San Diego's trusted house cleaning services. Professional house cleaners from La Jolla to Chula Vista — deep cleaning, standard cleaning, vacation rental turnovers, and move-in/out cleaning. Fully insured.",
         keywords: [
             "house cleaning San Diego",
             "maid service San Diego",

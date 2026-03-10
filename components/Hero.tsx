@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
 
           <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
             {originTagline}
-            {' '}Whether you need a one-time deep clean or a recurring housekeeper, our <strong>house cleaning San Diego</strong> team handles every room—<strong>kitchen</strong>, <strong>bathroom</strong>, and beyond. Fully vetted, insured, and detail-obsessed.
+            {' '}Whether you need a one-time deep clean or a recurring housekeeper, our professional house cleaners in San Diego handle every room—<strong>kitchen</strong>, <strong>bathroom</strong>, and beyond. Fully vetted, insured, and detail-obsessed.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4" style={{ minHeight: 'var(--cta-min-height, 112px)' }}>

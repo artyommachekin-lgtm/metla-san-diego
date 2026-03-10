@@ -13,13 +13,13 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
     'standard-cleaning': [
         'benefits-of-regular-cleaning-service',
         'weekly-cleaning-schedule-guide',
-        'declutter-before-deep-cleaning',
+        'standard-vs-deep-cleaning-san-diego',
         'allergy-proofing-your-home',
     ],
     'deep-cleaning': [
         'deep-cleaning-guide-san-diego',
         'how-much-does-a-deep-house-cleaning-cost',
-        'top-10-spring-deep-cleaning-tips',
+        'standard-vs-deep-cleaning-san-diego',
         'deep-cleaning-scripps-ranch-before-after',
     ],
     'post-construction-cleaning': [
@@ -216,6 +216,20 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'deep-cleaning-scripps-ranch-before-after',
         'allergy-proofing-your-home',
         'how-to-deep-clean-ceiling-fans',
+    ],
+
+    // Batch 9: Cleaning Frequency Guides
+    'how-often-house-cleaning-san-diego': [
+        'weekly-cleaning-schedule-guide',
+        'benefits-of-regular-cleaning-service',
+        'standard-vs-deep-cleaning-san-diego',
+    ],
+
+    // Batch 10: Standard vs Deep Comparison
+    'standard-vs-deep-cleaning-san-diego': [
+        'how-much-does-a-deep-house-cleaning-cost',
+        'weekly-cleaning-schedule-guide',
+        'deep-cleaning-guide-san-diego',
     ],
 };
 
