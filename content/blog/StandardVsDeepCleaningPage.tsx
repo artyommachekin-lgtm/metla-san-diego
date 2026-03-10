@@ -42,7 +42,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
         },
         {
             question: "What\u2019s included in deep cleaning that isn\u2019t in standard?",
-            answer: "Deep cleaning adds baseboards, ceiling fans, door frames, light switches, inside the microwave, window sills, blinds, behind toilets, and detailed grout scrubbing."
+            answer: "Deep cleaning adds baseboards, ceiling fans, door frames, light switches, window sills, blinds, cabinet faces, wall spot-cleaning, and soap scum removal in showers."
         },
         {
             question: "Can I switch between standard and deep cleaning?",
@@ -146,10 +146,12 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                             {[
                                 "Dusting all accessible surfaces (shelves, countertops, furniture)",
                                 "Vacuuming and mopping all floors",
-                                "Wiping down kitchen counters and sink",
+                                "Wiping down kitchen counters, sink, and appliance exteriors",
+                                "Cleaning inside the microwave",
                                 "Sanitizing bathrooms (toilet, shower, sink, mirrors)",
                                 "Making beds and straightening pillows",
-                                "Emptying trash cans and replacing liners"
+                                "Emptying trash cans and replacing liners",
+                                "Removing cobwebs"
                             ].map((task, idx) => (
                                 <div key={idx} className="flex items-start gap-2 p-2">
                                     <CheckCircle className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
@@ -159,7 +161,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                         </div>
 
                         <p className="text-slate-600">
-                            Standard cleaning focuses on the surfaces you see and touch daily. It doesn&apos;t go behind appliances, inside cabinets, or up to ceiling fans. The goal is to maintain a clean baseline — not to restore a home that has built up months of grime.
+                            Standard cleaning covers the surfaces you see and touch daily — including inside the microwave. It doesn&apos;t reach baseboards, ceiling fans, blinds, or door frames. The goal is to maintain a clean baseline — not to restore a home that has built up months of grime.
                         </p>
 
                         {/* What Deep Cleaning Covers */}
@@ -177,13 +179,13 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                             {[
                                 "Baseboards throughout the home",
                                 "Ceiling fans and light fixtures",
-                                "Door frames and light switches",
-                                "Inside the microwave and oven",
+                                "Door frames, handles, and light switches",
                                 "Window sills and tracks",
                                 "Blinds (dusted or wiped)",
-                                "Behind and around toilets",
                                 "Cabinet fronts and faces",
-                                "Detailed grout scrubbing in bathrooms"
+                                "Wall hangings and lamps dusted",
+                                "Walls spot-cleaned",
+                                "Soap scum removal in showers"
                             ].map((task, idx) => (
                                 <div key={idx} className="flex items-start gap-2 p-2 bg-slate-50 rounded-lg">
                                     <Sparkles className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
@@ -231,8 +233,8 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                                     </tr>
                                     <tr className="hover:bg-slate-50">
                                         <td className="px-4 py-3 font-medium text-slate-900">Covers</td>
-                                        <td className="px-4 py-3 text-slate-600">Surfaces, floors, bathrooms</td>
-                                        <td className="px-4 py-3 text-slate-600">Everything + baseboards, fans, inside appliances</td>
+                                        <td className="px-4 py-3 text-slate-600">Surfaces, floors, bathrooms, microwave</td>
+                                        <td className="px-4 py-3 text-slate-600">Everything + baseboards, fans, blinds, door frames, walls</td>
                                     </tr>
                                     <tr className="hover:bg-slate-50">
                                         <td className="px-4 py-3 font-medium text-slate-900">Starting price</td>
