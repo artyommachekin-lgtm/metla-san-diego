@@ -505,7 +505,7 @@ export default function HouseCleaningPage() {
                 Every Metla cleaner undergoes extensive training in our proprietary methods, eco-friendly product usage, and customer service standards. We don&apos;t just hire cleaners—we develop cleaning professionals who take pride in their craft. Our rigorous selection process means you&apos;re getting the top 2% of cleaning talent in San Diego.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                We also invest in ongoing training, ensuring our team stays current with the latest cleaning techniques, products, and equipment. Whether it&apos;s properly caring for marble countertops, treating hardwood floors, or sanitizing high-touch surfaces, our cleaners have the expertise to handle any challenge your home presents.
+                We also invest in ongoing training, ensuring our team stays current with the latest cleaning techniques, products, and equipment. Every home gets safe, tested all-purpose products that work on any surface. For specialized treatments — marble polishing, hardwood conditioning, natural stone care — just let us know when booking and we&apos;ll bring the right products for the job.
               </p>
             </div>
           </div>

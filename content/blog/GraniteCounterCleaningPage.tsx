@@ -328,7 +328,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">
                             <h3 className="text-2xl font-bold mb-3">Need Professional Deep Cleaning?</h3>
                             <p className="text-teal-100 mb-6">
-                                {COMPANY_NAME} uses stone-safe products and techniques to deep clean your kitchen without damaging granite, marble, or other natural stone surfaces.
+                                {COMPANY_NAME} uses safe all-purpose products on every clean. For kitchens with granite, marble, or other natural stone, specialized stone-safe treatments are available upon request.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link

@@ -40,7 +40,7 @@ const LaMesaHouseCleaningPage: React.FC = () => {
         },
         {
             question: "Do you clean historic homes in the La Mesa Village?",
-            answer: "Yes. Many Village homes date to the 1920s–1940s and feature original hardwood, vintage tile, and period hardware. Our teams use pH-neutral products on aged wood finishes and gentle techniques that preserve vintage tile glazes — we protect the character details that make these homes valuable."
+            answer: "Yes. Many Village homes date to the 1920s–1940s and feature original hardwood, vintage tile, and period hardware. We use safe all-purpose products that won't damage aged wood finishes or vintage tile. For specialized treatments on period surfaces, let us know when booking — we'll bring the right products."
         },
         {
             question: "What makes La Mesa different from cleaning coastal San Diego homes?",
@@ -249,7 +249,7 @@ const LaMesaHouseCleaningPage: React.FC = () => {
                         <ul className="text-slate-600 space-y-3 my-4">
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />
-                                <span><strong>Do you adjust products for older homes?</strong> Village-era hardwood and vintage tile need pH-neutral, non-abrasive products. A company using the same spray-and-scrub approach on a 1930s bungalow and a 2020 condo is cutting corners.</span>
+                                <span><strong>Do you adjust products for older homes?</strong> Village-era hardwood and vintage tile need pH-neutral, non-abrasive products. A company using the same spray-and-scrub approach on a 1930s bungalow and a 2020 condo is cutting corners. We use safe all-purpose products on every clean — gentle enough for vintage surfaces. Specialized treatments for period hardwood and tile are available upon request.</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <CheckCircle className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" />

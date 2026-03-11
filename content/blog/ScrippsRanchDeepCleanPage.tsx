@@ -42,7 +42,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
         },
         {
             question: "How do you handle marble and premium surfaces?",
-            answer: "Our teams use pH-neutral, marble-safe products that clean effectively without damaging natural stone finishes. Marble countertops, travertine tile, and granite surfaces each require different care — our cleaners are trained to identify surface types and select the right approach for each material."
+            answer: "We use safe, non-abrasive all-purpose products on every clean that won't damage natural stone finishes. For specialized marble, travertine, or granite treatments, let us know when booking — we'll bring surface-specific products."
         },
         {
             question: "How often should Scripps Ranch homes be deep cleaned?",
@@ -61,7 +61,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
     const howToSteps = [
         {
             name: "Assess Surfaces and Plan",
-            text: "Walk through the home identifying surface types — marble countertops, hardwood floors, tile, natural stone. Plan product selection for each material. In Scripps Ranch homes, marble vanities and premium flooring require pH-neutral, non-abrasive products to avoid damage."
+            text: "Walk through the home noting surface types — marble countertops, hardwood floors, tile, natural stone. Our standard all-purpose products are safe for all surfaces. For homes that request specialized surface care, we bring material-specific products."
         },
         {
             name: "Declutter and Prepare Rooms",
@@ -73,7 +73,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
         },
         {
             name: "Deep Clean Bathroom Vanity and Surfaces",
-            text: "Apply marble-safe cleaner to countertops and let it dwell. Clean the sink basin, faucet, and mirror. Wipe down cabinet fronts and sanitize all high-touch surfaces. Address water spots on fixtures with appropriate mineral-dissolving products."
+            text: "Apply cleaner to countertops and let it dwell. (For marble surfaces, we use pH-neutral products upon request.) Clean the sink basin, faucet, and mirror. Wipe down cabinet fronts and sanitize all high-touch surfaces. Address water spots on fixtures with appropriate mineral-dissolving products."
         },
         {
             name: "Deep Clean Bathtub and Tile Floors",
@@ -410,7 +410,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                         <div className="bg-teal-700 text-white p-8 rounded-xl my-10 text-center">
                             <h3 className="text-2xl font-bold mb-3">Book Your Scripps Ranch Deep Clean</h3>
                             <p className="text-teal-100 mb-2">
-                                {COMPANY_NAME} serves all of Scripps Ranch — Stonebridge Estates, the Villages, Old Scripps Ranch, and Highlands. Our trained teams know the difference between marble care and standard cleaning, and we send the right crew size for your home.
+                                {COMPANY_NAME} serves all of Scripps Ranch — Stonebridge Estates, the Villages, Old Scripps Ranch, and Highlands. Our trained teams use safe all-purpose products on every clean, with specialized marble and stone treatments available upon request. We send the right crew size for your home.
                             </p>
                             <p className="text-teal-200 mb-6">
                                 Call us at <strong>{PHONE_NUMBER}</strong> or book online.

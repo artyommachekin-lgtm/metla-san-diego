@@ -128,3 +128,33 @@ Before publishing any content:
 - "We send teams sized for your home" (vague, OK)
 - "Using efficient workflows and commercial-grade products"
 - "Depending on home size and condition"
+
+---
+
+## ⚠️ SURFACE CARE & PRODUCT CLAIMS
+
+### Policy: Safe All-Purpose Products Standard; Specialized Treatments Upon Request
+- Standard cleaning uses **safe, tested all-purpose products** on every visit
+- **Specialized surface treatments** (marble polishing, hardwood conditioning, granite sealing, travertine care, stone-specific cleaners) are **available upon request**, NOT standard on every clean
+- We DO have skilled cleaners who CAN clean any surface — but we cannot promise specialized care on every single visit
+- Customers must **request** specialized treatments when booking
+
+### ❌ FORBIDDEN (implies specialized care is standard):
+- "Trained in marble care" / "trained in the care of premium materials"
+- "We use pH-neutral products on your hardwood" (as standard practice)
+- "Product-specific care for each surface"
+- "We bring the right products for each surface" (as default)
+- "Stone-safe products on every visit"
+- "Hardwood-safe / marble-safe cleaning" (as standard service)
+
+### ✅ SAFE:
+- "Safe, proven all-purpose products on every clean"
+- "Specialized treatments for marble, hardwood, and granite available upon request"
+- "Let us know when booking if you need surface-specific care"
+- "We'll bring the right products for the job" (only when paired with "upon request")
+- Describing that homes HAVE these surfaces (area description, not service promise)
+- Educational content teaching readers how to clean their own surfaces (DIY guides)
+- Post-construction cleaning surface claims (this IS a specialized service)
+
+### Why This Matters:
+Standard all-purpose products are safe for all common surfaces. Specialized surface treatments require specific products that our cleaners may not carry by default. Promising specialized care on every visit creates expectations we may not meet, leading to customer disappointment and potential complaints.

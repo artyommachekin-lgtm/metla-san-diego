@@ -14,7 +14,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!location) return {};
 
   const title = `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`;
-  const description = `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`;
+  const description = location.metaDescription || `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`;
 
   return {
     title,

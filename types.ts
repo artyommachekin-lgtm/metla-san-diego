@@ -26,6 +26,7 @@ export interface Location {
   name: string;
   slug: string;
   description: string;
+  metaDescription?: string;
   detailedContent: string;
   keywords: string[];
   type: LocationType;
