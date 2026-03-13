@@ -455,5 +455,18 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Professional house cleaner wiping down a kitchen counter in a bright San Diego home',
         iconName: 'Scale',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'scripps-ranch-quarterly-cleaning-guide',
+        title: 'Scripps Ranch Quarterly Cleaning Guide: A Seasonal Deep Clean Calendar for 92131',
+        excerpt: 'A season-by-season deep cleaning calendar for Scripps Ranch homes covering eucalyptus debris, fire season ash, and Lake Miramar dust — with quarterly checklists for the 92131.',
+        category: 'Cleaning Guides',
+        readTime: '9 min read',
+        datePublished: '2026-03-17',
+        dateModified: '2026-03-17',
+        image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Calendar and planning notebook on a desk for scheduling quarterly house cleaning tasks',
+        iconName: 'Calendar',
+        author: DEFAULT_AUTHOR
     }
 ];

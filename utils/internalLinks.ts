@@ -20,7 +20,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'deep-cleaning-guide-san-diego',
         'how-much-does-a-deep-house-cleaning-cost',
         'standard-vs-deep-cleaning-san-diego',
-        'deep-cleaning-scripps-ranch-before-after',
+        'scripps-ranch-quarterly-cleaning-guide',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -231,6 +231,13 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'weekly-cleaning-schedule-guide',
         'deep-cleaning-guide-san-diego',
     ],
+
+    // Batch 11: Scripps Ranch Quarterly Guide
+    'scripps-ranch-quarterly-cleaning-guide': [
+        'deep-cleaning-scripps-ranch-before-after',
+        'fire-season-eucalyptus-scripps-ranch',
+        'weekly-cleaning-schedule-guide',
+    ],
 };
 
 /**
@@ -256,7 +263,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
     'North Inland': [
         'deep-cleaning-scripps-ranch-before-after',
         'fire-season-eucalyptus-scripps-ranch',
-        'deep-cleaning-guide-san-diego',
+        'scripps-ranch-quarterly-cleaning-guide',
     ],
     'South Bay': [
         'how-much-does-a-deep-house-cleaning-cost',

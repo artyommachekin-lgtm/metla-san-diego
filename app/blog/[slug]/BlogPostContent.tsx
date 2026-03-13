@@ -38,6 +38,7 @@ const blogComponents: Record<string, React.ComponentType> = {
   'fire-season-eucalyptus-scripps-ranch': dynamic(() => import('@/content/blog/ScrippsRanchFireSeasonPage')),
   'how-often-house-cleaning-san-diego': dynamic(() => import('@/content/blog/HowOftenCleaningPage')),
   'standard-vs-deep-cleaning-san-diego': dynamic(() => import('@/content/blog/StandardVsDeepCleaningPage')),
+  'scripps-ranch-quarterly-cleaning-guide': dynamic(() => import('@/content/blog/ScrippsRanchQuarterlyGuidePage')),
 };
 
 interface BlogPostContentProps {
