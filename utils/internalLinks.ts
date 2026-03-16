@@ -21,6 +21,8 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'how-much-does-a-deep-house-cleaning-cost',
         'standard-vs-deep-cleaning-san-diego',
         'scripps-ranch-quarterly-cleaning-guide',
+        'university-city-house-cleaning-guide',
+        'salt-air-la-jolla-home-cleaning',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -238,6 +240,18 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'fire-season-eucalyptus-scripps-ranch',
         'weekly-cleaning-schedule-guide',
     ],
+
+    // Batch 12: University City & La Jolla Neighborhood Guides
+    'university-city-house-cleaning-guide': [
+        'allergy-proofing-your-home',
+        'deep-cleaning-guide-san-diego',
+        'weekly-cleaning-schedule-guide',
+    ],
+    'salt-air-la-jolla-home-cleaning': [
+        'vacation-rental-cleaning-tips-for-hosts',
+        'how-to-eliminate-mold-from-your-home',
+        'how-to-clean-windows-like-a-pro',
+    ],
 };
 
 /**
@@ -249,6 +263,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'vacation-rental-cleaning-tips-for-hosts',
         'how-to-eliminate-mold-from-your-home',
         'how-to-clean-your-outdoor-patio',
+        'salt-air-la-jolla-home-cleaning',
     ],
     'Urban Core': [
         'benefits-of-regular-cleaning-service',
@@ -259,6 +274,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'deep-cleaning-guide-san-diego',
         'allergy-proofing-your-home',
         'how-to-deep-clean-the-kitchen',
+        'university-city-house-cleaning-guide',
     ],
     'North Inland': [
         'deep-cleaning-scripps-ranch-before-after',

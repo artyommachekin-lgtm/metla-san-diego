@@ -5,9 +5,10 @@ description: Strict guidelines for brand tone, style, and forbidden words. MUST 
 # Metla House Cleaning - Brand Voice & Tone
 
 ## 1. Core Identity
-* **Who We Are:** A versatile, high-performance cleaning partner for San Diego and Miami.
-* **Audience:** Residential homeowners (Trust/Health) & Property Managers (Speed/Reliability).
-* **Archetype:** "The Professional Solver." We don't just clean; we solve the turnover problem.
+* **Who We Are:** A versatile, high-performance cleaning partner for San Diego homeowners and property managers.
+* **Primary Audience:** Residential homeowners (Trust/Health/Convenience).
+* **Secondary Audience:** Property Managers & Vacation Rental hosts (Speed/Reliability/Turnover).
+* **Archetype:** "The Professional Solver." We don't just clean; we solve the problem you've been putting off.
 
 ## 2. Tone of Voice
 * **Direct & Active:** "We scrub the floors" (Good) vs "Floors are scrubbed by us" (Bad).

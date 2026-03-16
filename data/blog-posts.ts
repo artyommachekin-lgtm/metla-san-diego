@@ -468,5 +468,31 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Calendar and planning notebook on a desk for scheduling quarterly house cleaning tasks',
         iconName: 'Calendar',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'university-city-house-cleaning-guide',
+        title: 'UC Home Cleaning: What UTC Families Need to Know About House Cleaning in San Diego',
+        excerpt: 'A University City homeowner\'s guide to house cleaning in San Diego — covering canyon pollen, UTC construction dust, Santa Ana winds, ranch homes vs condos, and UCSD student housing turnover scheduling.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-03-27',
+        dateModified: '2026-03-27',
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Modern residential buildings in a San Diego neighborhood with canyon greenery in the background',
+        iconName: 'Building2',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'salt-air-la-jolla-home-cleaning',
+        title: 'How Salt Air Affects Your La Jolla Home — and What to Do About It',
+        excerpt: 'How salt air, sand tracking, and marine layer moisture affect La Jolla homes — and what professional house cleaning in San Diego addresses in coastal properties across Bird Rock, Shores, and the Village.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-03-29',
+        dateModified: '2026-03-29',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Ocean waves breaking along the La Jolla coastline with salt spray visible in the air',
+        iconName: 'Waves',
+        author: DEFAULT_AUTHOR
     }
 ];
