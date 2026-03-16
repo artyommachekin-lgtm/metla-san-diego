@@ -42,7 +42,7 @@ const LaJollaSaltAirPage: React.FC = () => {
         },
         {
             question: "Can salt air damage marble and travertine in my home?",
-            answer: "Yes. Salt is mildly acidite and can etch polished marble and travertine surfaces over time if residue sits on them. The combination of salt crystals and marine layer moisture accelerates this process. Standard cleaning products handle everyday maintenance. For homes with extensive natural stone — common in La Jolla Farms and Muirlands — specialized stone treatments are available upon request as an add-on service."
+            answer: "Yes. Salt is mildly acidic and can etch polished marble and travertine surfaces over time if residue sits on them. The combination of salt crystals and marine layer moisture accelerates this process. Safe all-purpose products handle everyday maintenance on most surfaces. For homes with extensive natural stone — common in La Jolla Farms and Muirlands — specialized stone treatments are available upon request as an add-on service."
         },
         {
             question: "How do you handle vacation rental turnovers in La Jolla?",
@@ -287,7 +287,7 @@ const LaJollaSaltAirPage: React.FC = () => {
                                 <MapPin className="w-5 h-5 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900 text-sm">La Jolla Farms</h3>
-                                    <p className="text-slate-600 text-sm">Premium estates near Torrey Pines. These properties often exceed 5,000 square feet with extensive custom finishes — marble floors, travertine bathrooms, imported tile, and custom woodwork. Salt exposure is moderate (elevated and slightly inland), but the value and sensitivity of the materials means cleaning requires more time and more careful product selection. We allocate additional time for larger homes to ensure full coverage.</p>
+                                    <p className="text-slate-600 text-sm">Premium estates near Torrey Pines. These properties often exceed 5,000 square feet with extensive custom finishes — marble floors, travertine bathrooms, imported tile, and custom woodwork. Salt exposure is moderate (elevated and slightly inland), but the value and sensitivity of the materials means cleaning requires more time. We allocate additional time for larger homes to ensure full coverage — and specialized treatments for natural stone and custom finishes are available upon request.</p>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +301,7 @@ const LaJollaSaltAirPage: React.FC = () => {
                         </p>
                         <div className="space-y-3 my-6 not-prose">
                             {[
-                                { material: "Marble and travertine", detail: "Natural stone is porous and sensitive to acidic and abrasive products. Salt residue left on marble can etch the polished surface over time. Standard cleaning with pH-neutral products handles everyday maintenance. Specialized stone treatments for deep restoration or sealing are available upon request as an add-on service." },
+                                { material: "Marble and travertine", detail: "Natural stone is porous and sensitive to acidic and abrasive products. Salt residue left on marble can etch the polished surface over time. Safe all-purpose products handle everyday surface cleaning. Specialized pH-neutral stone treatments for deep restoration or sealing are available upon request as an add-on service." },
                                 { material: "Custom woodwork", detail: "Salt and moisture are wood's worst enemies. Cabinetry, built-ins, and architectural woodwork in coastal homes need dry dusting before any wet product is applied — water mixed with salt residue creates a corrosive solution. We dust first, then clean, to prevent this." },
                                 { material: "Stainless steel and metal fixtures", detail: "Salt pitting on stainless steel and chrome is a common problem in coastal kitchens and bathrooms. Regular wiping prevents the oxidation process from starting. Once pitting begins, it cannot be reversed — only prevented from spreading." },
                                 { material: "Tile and grout", detail: "Grout absorbs salt and moisture, which leads to discoloration and mold growth over time. Standard cleaning addresses surface grout maintenance. Deep grout scrubbing for heavily affected areas is available as a specialized add-on." }
