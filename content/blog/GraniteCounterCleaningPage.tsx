@@ -133,7 +133,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 17, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -190,21 +190,21 @@ const GraniteCounterCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Shield className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">It's Porous (Despite Feeling Solid)</h4>
+                                    <h3 className="font-bold text-slate-900">It's Porous (Despite Feeling Solid)</h3>
                                     <p className="text-slate-600 text-sm">Granite has microscopic pores that can absorb liquids, oils, and stains. The sealant fills these pores, but harsh chemicals break down that protection over time.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">The Finish Can Dull</h4>
+                                    <h3 className="font-bold text-slate-900">The Finish Can Dull</h3>
                                     <p className="text-slate-600 text-sm">Acids (like vinegar and citrus) cause etching—microscopic damage that makes polished granite look cloudy or dull. This damage is permanent without professional repolishing.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Hard Water Compounds the Problem</h4>
+                                    <h3 className="font-bold text-slate-900">Hard Water Compounds the Problem</h3>
                                     <p className="text-slate-600 text-sm">San Diego's hard water leaves mineral deposits that build up on granite over time. If left unchecked, these can become difficult to remove and dull the stone's appearance.</p>
                                 </div>
                             </div>

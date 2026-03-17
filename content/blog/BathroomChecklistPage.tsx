@@ -150,7 +150,7 @@ const BathroomChecklistPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published February 10, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -237,28 +237,28 @@ const BathroomChecklistPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Showerheads & Faucets</h4>
+                                    <h3 className="font-bold text-slate-900">Showerheads & Faucets</h3>
                                     <p className="text-slate-600 text-sm">Fill a plastic bag with white vinegar, secure it around the showerhead with a rubber band, and let soak overnight. In the morning, scrub with an old toothbrush and run water to flush. Repeat monthly for ongoing prevention.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Glass Shower Doors</h4>
+                                    <h3 className="font-bold text-slate-900">Glass Shower Doors</h3>
                                     <p className="text-slate-600 text-sm">Those cloudy glass doors are coated with mineral deposits. Apply a paste of baking soda and dish soap, let sit 15 minutes, then scrub with a non-scratch pad. For stubborn spots, use a plastic razor scraper. Finish with Rain-X to repel future buildup.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Toilet Bowl Rings</h4>
+                                    <h3 className="font-bold text-slate-900">Toilet Bowl Rings</h3>
                                     <p className="text-slate-600 text-sm">That stubborn ring at the water line is mineral buildup, not stains. Turn off water, flush to drain, then apply a pumice stone (wet it first to avoid scratching). For ongoing prevention, drop a vinegar-baking soda "bomb" weekly.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
                                 <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Pro Tip: Consider a Water Softener</h4>
+                                    <h3 className="font-bold text-slate-900">Pro Tip: Consider a Water Softener</h3>
                                     <p className="text-slate-600 text-sm">If hard water is a constant battle, a whole-house water softener pays for itself in reduced cleaning time and longer appliance life. Local companies like Culligan San Diego or Kinetico can assess your home.</p>
                                 </div>
                             </div>

@@ -33,7 +33,7 @@ const VacationRentalTipsPage: React.FC = () => {
         },
         {
             question: "What's the difference between turnover cleaning and deep cleaning?",
-            answer: "Turnover cleaning focuses on guest-ready presentation: fresh linens, sanitized surfaces, restocked supplies. Deep cleaning addresses buildup over time—inside appliances, grout scrubbing, window tracks. Most hosts schedule deep cleans every 4-6 turnovers or monthly during high season."
+            answer: "Turnover cleaning focuses on guest-ready presentation: fresh linens, sanitized surfaces, restocked supplies. Deep cleaning addresses buildup over time—baseboards, ceiling fans, blinds, light fixtures, and detailed bathroom sanitization. Inside appliances and grout scrubbing are available as add-ons. Most hosts schedule deep cleans every 4-6 turnovers or monthly during high season."
         },
         {
             question: "How can I improve my Airbnb cleanliness rating?",
@@ -262,14 +262,14 @@ const VacationRentalTipsPage: React.FC = () => {
                                     <h3 className="font-bold text-slate-900 mb-3">Monthly Deep Clean</h3>
                                     <ul className="space-y-2">
                                         {[
-                                            "Inside oven and fridge",
+                                            "Inside oven and fridge (add-on)",
                                             "Window tracks and blinds",
                                             "Under furniture",
                                             "Baseboards throughout",
                                             "Light fixtures",
                                             "Outdoor furniture",
                                             "Mattress rotation",
-                                            "Grout scrubbing"
+                                            "Grout scrubbing (add-on)"
                                         ].map((item, i) => (
                                             <li key={i} className="flex items-center gap-2 text-slate-700 text-sm">
                                                 <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
@@ -328,11 +328,24 @@ const VacationRentalTipsPage: React.FC = () => {
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">
                             <h3 className="font-bold text-slate-900 mb-4">Popular San Diego Vacation Rental Areas</h3>
                             <div className="flex flex-wrap gap-2">
-                                {['Pacific Beach', 'Ocean Beach', 'Mission Bay', 'Downtown', 'North Park', 'La Jolla'].map((area) => (
-                                    <span key={area} className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700">
-                                        <MapPin className="w-3 h-3" /> {area}
-                                    </span>
-                                ))}
+                                <Link href="/location/pacific-beach" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Pacific Beach
+                                </Link>
+                                <Link href="/location/ocean-beach" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Ocean Beach
+                                </Link>
+                                <Link href="/location/north-park" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> North Park
+                                </Link>
+                                <Link href="/location/la-jolla" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> La Jolla
+                                </Link>
+                                <Link href="/location/coronado" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Coronado
+                                </Link>
+                                <Link href="/location/del-mar" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Del Mar
+                                </Link>
                             </div>
                         </div>
 

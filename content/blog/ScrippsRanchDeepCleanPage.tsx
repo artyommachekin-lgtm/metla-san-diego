@@ -102,7 +102,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                 description="A professional room-by-room approach to deep cleaning a large Scripps Ranch home, including marble vanities, jetted tubs, and premium surfaces."
                 totalTime="PT8H"
                 supply={[
-                    "pH-neutral marble cleaner",
+                    "All-purpose surface cleaner",
                     "Microfiber cloths",
                     "All-purpose cleaner",
                     "Bathroom sanitizer",
@@ -273,7 +273,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                             </div>
                         </div>
                         <p className="text-slate-600">
-                            <strong>What we addressed:</strong> We used pH-neutral, marble-safe products to clean the countertop without risking etching or discoloration. The sink basin, faucet fixtures, and mirror were all cleaned and polished. Cabinet fronts wiped down. Towels styled and a reed diffuser placed for that finished touch. If your Scripps Ranch home has marble surfaces, make sure any cleaning service you hire understands the difference between marble care and standard bathroom cleaning.
+                            <strong>What we addressed:</strong> We carefully cleaned the countertop, sink basin, faucet fixtures, and mirror. Cabinet fronts wiped down. Towels styled and a reed diffuser placed for that finished touch. If your Scripps Ranch home has marble or natural stone, specialized surface treatments are available upon request when you book.
                         </p>
                         <p className="text-slate-600 text-sm italic">
                             Want to learn more about caring for natural stone? Read our <Link href="/blog/how-to-deep-clean-granite-counters" className="text-teal-600 hover:text-teal-700 underline">guide to cleaning granite and stone countertops</Link>.

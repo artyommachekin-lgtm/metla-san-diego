@@ -133,7 +133,7 @@ const CeilingFanCleaningPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 18, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -173,21 +173,21 @@ const CeilingFanCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Better Air Quality</h4>
+                                    <h3 className="font-bold text-slate-900">Better Air Quality</h3>
                                     <p className="text-slate-600 text-sm">Dirty fans circulate dust, allergens, and pet dander throughout your home. Clean fans mean cleaner air -- especially important for allergy sufferers during San Diego's spring pollen season. Learn more in our guide to <Link href="/blog/allergy-proofing-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">allergy-proofing your home</Link>.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Zap className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Energy Efficiency</h4>
+                                    <h3 className="font-bold text-slate-900">Energy Efficiency</h3>
                                     <p className="text-slate-600 text-sm">Dust buildup makes fans work harder to move air. Clean blades spin more efficiently, moving more air with less energy. That adds up on your SDG&E bill over time.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <ThermometerSun className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Fan Longevity</h4>
+                                    <h3 className="font-bold text-slate-900">Fan Longevity</h3>
                                     <p className="text-slate-600 text-sm">Dust and grime can work their way into the motor housing, causing wear and wobbling. Regular cleaning extends your fan's lifespan and keeps it running smoothly.</p>
                                 </div>
                             </div>
@@ -264,21 +264,21 @@ const CeilingFanCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Year-Round Use = More Cleaning</h4>
+                                    <h3 className="font-bold text-slate-900">Year-Round Use = More Cleaning</h3>
                                     <p className="text-slate-600 text-sm">Unlike colder climates where fans collect dust in off-seasons, San Diego fans run year-round. Plan to clean every 4-6 weeks during heavy use periods. Set a monthly reminder on your phone.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <ThermometerSun className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Reverse Direction by Season</h4>
+                                    <h3 className="font-bold text-slate-900">Reverse Direction by Season</h3>
                                     <p className="text-slate-600 text-sm">While cleaning, check your fan's direction switch. Counterclockwise in summer pushes air down for cooling; clockwise in winter circulates warm air pooling near the ceiling. Even in San Diego, this helps during cooler evenings.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Open-Window Living</h4>
+                                    <h3 className="font-bold text-slate-900">Open-Window Living</h3>
                                     <p className="text-slate-600 text-sm">San Diegans love keeping windows open. Great for fresh air, but it means more outdoor dust, pollen, and (near the coast) salt air on your fan blades. Inland areas like <Link href="/location/scripps-ranch" className="text-teal-700 font-medium hover:text-teal-800 underline">Scripps Ranch</Link> accumulate extra dust during dry seasons, while coastal homes from La Jolla to Imperial Beach may need more frequent cleaning.</p>
                                 </div>
                             </div>

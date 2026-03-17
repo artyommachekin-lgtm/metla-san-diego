@@ -832,7 +832,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "David K.",
     location: "Scripps Ranch (Airbnb Host)",
     rating: 5,
-    text: "Managing Airbnbs in Scripps Ranch requires perfection. Metla hasn't missed a single turnover in 8 months, and my guests constantly mention how clean the place is. Game changer for my business."
+    text: "Managing Airbnbs in Scripps Ranch requires perfection. Metla hasn't missed a single turnover in 8 months, and my guests constantly mention how clean the place is. Total difference for my business."
   },
   {
     name: "Jennifer T.",

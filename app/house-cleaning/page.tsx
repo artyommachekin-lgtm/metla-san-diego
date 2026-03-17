@@ -71,7 +71,7 @@ export default function HouseCleaningPage() {
     },
     {
       question: "What's the difference between standard cleaning and deep cleaning?",
-      answer: "Standard cleaning maintains your home's cleanliness with regular surface cleaning. Deep cleaning is a comprehensive, intensive service that addresses areas often missed\u2014inside appliances, behind furniture, baseboards, light fixtures, and detailed sanitization. We recommend deep cleaning for first-time clients or homes that haven't been professionally cleaned recently."
+      answer: "Standard cleaning maintains your home's cleanliness with regular surface cleaning. Deep cleaning is a comprehensive, intensive service that addresses areas often missed\u2014appliance exteriors, behind furniture, baseboards, ceiling fans, blinds, light fixtures, and detailed sanitization. Inside oven and refrigerator are available as add-ons. We recommend deep cleaning for first-time clients or homes that haven't been professionally cleaned recently."
     }
   ];
 
@@ -219,7 +219,7 @@ export default function HouseCleaningPage() {
               Why Choose Professional House Cleaning?
             </h2>
             <p className="text-slate-600 leading-relaxed mb-6">
-              In today&apos;s busy world, maintaining a clean home can feel like an endless task. Between work, family, and personal commitments, finding time to deep clean your living space often falls to the bottom of the priority list. That&apos;s where professional house cleaning services make all the difference.
+              Between work, family, and everything else on your plate, finding time to deep clean your home often falls to the bottom of the list. That&apos;s where professional house cleaning services make all the difference.
             </p>
 
             {/* Statistics Box for AI/GEO */}
@@ -366,7 +366,7 @@ export default function HouseCleaningPage() {
                     <td className="px-6 py-3 text-center text-teal-600">&check;</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-3 font-medium text-slate-900">Inside microwave/oven</td>
+                    <td className="px-6 py-3 font-medium text-slate-900">Inside microwave</td>
                     <td className="px-6 py-3 text-center text-slate-400">&mdash;</td>
                     <td className="px-6 py-3 text-center text-teal-600">&check;</td>
                   </tr>

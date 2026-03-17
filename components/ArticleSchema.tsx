@@ -24,7 +24,7 @@ const ArticleSchema: React.FC<ArticleSchemaProps> = ({
     datePublished,
     dateModified,
     authorName = `${SITE_CONFIG.companyName} Team`,
-    authorType = "Organization",
+    authorType = "Person",
     authorJobTitle,
     image = SITE_CONFIG.social.ogImage
 }) => {

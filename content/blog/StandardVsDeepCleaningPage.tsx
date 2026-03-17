@@ -58,9 +58,9 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                 slug="standard-vs-deep-cleaning-san-diego"
                 datePublished="2026-03-11"
                 dateModified="2026-03-11"
-                authorName="Metla Clean Team"
-                authorType="Organization"
-                authorJobTitle="Professional Cleaning Service"
+                authorName="Art Machekin"
+                authorType="Person"
+                authorJobTitle="Founder"
                 image="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80"
             />
             <FAQSchema faqs={faqs} />
@@ -118,6 +118,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                                 alt="Professional house cleaner wiping down a kitchen counter in a bright San Diego home"
                                 className="w-full rounded-xl"
                                 loading="eager"
+                                decoding="async"
                                 width={1200}
                                 height={630}
                             />
@@ -371,9 +372,9 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                         </div>
 
                         <AuthorBio
-                            name="Metla Clean Team"
-                            role="Professional Cleaning Service"
-                            bio="Metla Clean Team has been providing residential cleaning services across San Diego County. From La Jolla to Chula Vista, our insured and vetted cleaning professionals deliver consistent results for hundreds of local families."
+                            name="Art Machekin"
+                            role="Founder"
+                            bio="Art Machekin is the founder of Metla House Cleaning. Before starting the company, Art worked as a professional cleaner — hands-on experience that gives him a deep understanding of the techniques and details that matter most in delivering a spotless home."
                         />
 
                         <RelatedArticles currentSlug="standard-vs-deep-cleaning-san-diego" />
@@ -382,10 +383,10 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                         <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">
                             <h3 className="font-bold text-slate-900 mb-4">Serving All of San Diego</h3>
                             <div className="flex flex-wrap gap-2">
-                                <Link href="/house-cleaning/la-jolla" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-700 transition-colors">
+                                <Link href="/location/la-jolla" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-700 transition-colors">
                                     <MapPin className="w-3 h-3" /> La Jolla
                                 </Link>
-                                <Link href="/house-cleaning/scripps-ranch" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-700 transition-colors">
+                                <Link href="/location/scripps-ranch" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-700 transition-colors">
                                     <MapPin className="w-3 h-3" /> Scripps Ranch
                                 </Link>
                                 <Link href="/locations" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-700 transition-colors">

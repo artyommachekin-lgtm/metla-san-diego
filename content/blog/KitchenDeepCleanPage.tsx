@@ -142,7 +142,7 @@ const KitchenDeepCleanPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 20, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -236,21 +236,21 @@ const KitchenDeepCleanPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Salt Air & Coastal Homes</h4>
+                                    <h3 className="font-bold text-slate-900">Salt Air & Coastal Homes</h3>
                                     <p className="text-slate-600 text-sm">If you live in La Jolla, Pacific Beach, Ocean Beach, or Coronado, salt air can leave a hazy film on stainless steel and glass. Use a vinegar-water solution weekly, and polish stainless appliances with a light coat of olive oil to create a protective barrier.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Flame className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Fire Season Ash</h4>
+                                    <h3 className="font-bold text-slate-900">Fire Season Ash</h3>
                                     <p className="text-slate-600 text-sm">During San Diego's fire season (typically June-October), ash can settle on outdoor kitchen surfaces and work its way indoors. After nearby fires, do a thorough wipe-down of countertops, appliances, and especially range hoods that may have circulated ash-laden air.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Hard Water Stains</h4>
+                                    <h3 className="font-bold text-slate-900">Hard Water Stains</h3>
                                     <p className="text-slate-600 text-sm">San Diego has notoriously hard water. Combat white mineral buildup on faucets and sinks with undiluted white vinegar—apply with a cloth, let sit 15 minutes, then scrub. For stubborn spots, a paste of baking soda and vinegar works wonders.</p>
                                 </div>
                             </div>
@@ -329,7 +329,7 @@ const KitchenDeepCleanPage: React.FC = () => {
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center">
                             <h3 className="text-2xl font-bold mb-3">Need Professional Kitchen Deep Cleaning?</h3>
                             <p className="text-teal-100 mb-6">
-                                Let {COMPANY_NAME} handle your kitchen deep clean. Our trained San Diego professionals use hospital-grade products and follow a comprehensive checklist.
+                                Let {COMPANY_NAME} handle your kitchen deep clean. Our trained San Diego professionals follow a comprehensive checklist to leave your kitchen spotless.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link

@@ -49,7 +49,7 @@ const HowOftenCleaningPage: React.FC = () => {
             {/* Featured Image */}
             <div className="container mx-auto px-4 -mt-8 relative z-10">
                 <div className="max-w-3xl mx-auto">
-                    <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" alt="Bright and tidy living room in a San Diego home with natural light streaming through windows" className="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg" loading="eager" />
+                    <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" alt="Bright and tidy living room in a San Diego home with natural light streaming through windows" className="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg" loading="eager" decoding="async" width={1200} height={630} />
                 </div>
             </div>
             {/* Article Content */}

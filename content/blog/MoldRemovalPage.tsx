@@ -142,7 +142,7 @@ const MoldRemovalPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 15, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -195,21 +195,21 @@ const MoldRemovalPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Mold Needs Moisture</h4>
+                                    <h3 className="font-bold text-slate-900">Mold Needs Moisture</h3>
                                     <p className="text-slate-600 text-sm">No moisture = no mold. Period. Whether from leaky pipes, condensation, poor ventilation, or high humidity, mold cannot grow without a consistent water source. Eliminating moisture is more important than any cleaning product.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Thermometer className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Coastal Humidity Factor</h4>
+                                    <h3 className="font-bold text-slate-900">Coastal Humidity Factor</h3>
                                     <p className="text-slate-600 text-sm">San Diego's coastal areas—La Jolla, <Link href="/location/pacific-beach" className="text-teal-700 font-medium hover:text-teal-800 underline">Pacific Beach</Link>, Ocean Beach, Coronado, Imperial Beach—experience higher humidity, especially in summer months. Homes near the water need extra attention to ventilation and moisture control.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Common Problem Areas</h4>
+                                    <h3 className="font-bold text-slate-900">Common Problem Areas</h3>
                                     <p className="text-slate-600 text-sm">Bathrooms (especially shower grout and ceilings), under kitchen sinks, around window frames with condensation, closets against exterior walls, and laundry rooms are the most common places to find mold in San Diego homes. Our <Link href="/blog/bathroom-deep-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">bathroom deep cleaning checklist</Link> covers how to tackle grout mold and prevent regrowth.</p>
                                 </div>
                             </div>
@@ -307,28 +307,28 @@ const MoldRemovalPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Ventilate Properly</h4>
+                                    <h3 className="font-bold text-slate-900">Ventilate Properly</h3>
                                     <p className="text-slate-600 text-sm">Run bathroom fans during and 30 minutes after showers. Use your range hood when cooking. Ensure your dryer vents outside, not into the garage or attic. Consider upgrading to a timer-controlled bathroom fan.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Fix Leaks Immediately</h4>
+                                    <h3 className="font-bold text-slate-900">Fix Leaks Immediately</h3>
                                     <p className="text-slate-600 text-sm">Don't ignore that slow drip under the sink or the water stain on the ceiling. Mold can start growing within 24-48 hours of water exposure. Quick repairs prevent expensive mold problems.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Thermometer className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Coastal Home Tips</h4>
+                                    <h3 className="font-bold text-slate-900">Coastal Home Tips</h3>
                                     <p className="text-slate-600 text-sm">In La Jolla, Pacific Beach, and other coastal areas, consider a dehumidifier for problem rooms. Keep closets slightly open for air circulation. Use mold-resistant paint in bathrooms and laundry rooms.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Regular Cleaning</h4>
+                                    <h3 className="font-bold text-slate-900">Regular Cleaning</h3>
                                     <p className="text-slate-600 text-sm">Weekly bathroom cleaning prevents soap scum and grime buildup that mold feeds on. Spray shower walls with daily shower cleaner. Squeegee glass doors after each use.</p>
                                 </div>
                             </div>

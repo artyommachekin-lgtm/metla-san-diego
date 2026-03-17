@@ -139,7 +139,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 16, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -281,21 +281,21 @@ const UpholsteryCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Dog className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Pet Hair Removal</h4>
+                                    <h3 className="font-bold text-slate-900">Pet Hair Removal</h3>
                                     <p className="text-slate-600 text-sm">Before vacuuming, use a rubber glove or lint roller to lift embedded hair. A slightly damp rubber squeegee also works wonders—the friction pulls hair out of fabric.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Pet Odor Elimination</h4>
+                                    <h3 className="font-bold text-slate-900">Pet Odor Elimination</h3>
                                     <p className="text-slate-600 text-sm">For general pet odors, baking soda left overnight works well. For urine accidents, you need an enzymatic cleaner (like Nature's Miracle) that breaks down the proteins causing the smell. These are available at local pet stores like Petco, PetSmart, or Mud Bay.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Sofa className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Protect Going Forward</h4>
+                                    <h3 className="font-bold text-slate-900">Protect Going Forward</h3>
                                     <p className="text-slate-600 text-sm">Consider washable slipcovers or throws for pet-favorite spots. Fabric protector sprays create a barrier that makes future cleaning easier. Vacuum weekly instead of waiting for visible issues.</p>
                                 </div>
                             </div>
@@ -309,14 +309,14 @@ const UpholsteryCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Beach Sand and Outdoor Dust</h4>
+                                    <h3 className="font-bold text-slate-900">Beach Sand and Outdoor Dust</h3>
                                     <p className="text-slate-600 text-sm">Living close to the beach or canyons—in neighborhoods like <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> and beyond—means more outdoor particles work their way inside. Vacuum upholstery weekly, not just when it looks dirty. Pay special attention after beach days—sand is abrasive and can wear fabric over time.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Perfect Drying Weather</h4>
+                                    <h3 className="font-bold text-slate-900">Perfect Drying Weather</h3>
                                     <p className="text-slate-600 text-sm">San Diego's low humidity is ideal for drying upholstery. On a typical day, your furniture can be completely dry in 4-6 hours with good airflow. Choose a cleaning day with open windows and low humidity for best results.</p>
                                 </div>
                             </div>
@@ -339,7 +339,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center not-prose">
                             <h3 className="text-2xl font-bold mb-3">Need Professional Upholstery Cleaning?</h3>
                             <p className="text-teal-100 mb-6">
-                                {COMPANY_NAME} deep cleaning includes upholstered furniture. We have the equipment and expertise to handle delicate fabrics, stubborn stains, and pet odors.
+                                A {COMPANY_NAME} deep cleaning includes vacuuming upholstered furniture surfaces. For stubborn stains or pet odors, ask about our specialized add-on options.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link

@@ -182,28 +182,28 @@ const FridgeOdorRemovalPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Package className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Forgotten Leftovers</h4>
+                                    <h3 className="font-bold text-slate-900">Forgotten Leftovers</h3>
                                     <p className="text-slate-600 text-sm">That takeout container from two weeks ago, pushed to the back of the shelf. Leftover pasta from last Sunday's dinner. The fish tacos from Tuesday. Check your fridge weekly before they become science experiments.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <AlertTriangle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Produce Past Its Prime</h4>
+                                    <h3 className="font-bold text-slate-900">Produce Past Its Prime</h3>
                                     <p className="text-slate-600 text-sm">Vegetables in the crisper drawer are often forgotten. Wilting lettuce does smell, but rotting onions, potatoes (stored nearby?), and old fruit create intense odors that spread throughout the fridge.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <Snowflake className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Hidden Spills</h4>
+                                    <h3 className="font-bold text-slate-900">Hidden Spills</h3>
                                     <p className="text-slate-600 text-sm">Liquids drip under drawers, into shelf cracks, and onto surfaces we don't see daily. Meat juices, milk drips, and condiment spills can dry into smelly residue that's easy to miss.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <ThermometerSun className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Temperature Issues</h4>
+                                    <h3 className="font-bold text-slate-900">Temperature Issues</h3>
                                     <p className="text-slate-600 text-sm">Your fridge should be at 37-40°F (3-4°C). Too warm and food spoils faster. During San Diego's heat waves, make sure your fridge isn't struggling—avoid keeping the door open and check that seals are tight.</p>
                                 </div>
                             </div>
@@ -297,28 +297,28 @@ const FridgeOdorRemovalPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <CheckCircle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Weekly Fridge Check</h4>
+                                    <h3 className="font-bold text-slate-900">Weekly Fridge Check</h3>
                                     <p className="text-slate-600 text-sm">Before grocery shopping, spend 5 minutes checking for expired items and leftover containers. This one habit prevents most fridge odor issues.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <CheckCircle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Keep Baking Soda Inside</h4>
+                                    <h3 className="font-bold text-slate-900">Keep Baking Soda Inside</h3>
                                     <p className="text-slate-600 text-sm">An open box of baking soda absorbs odors before they become problems. Replace it every 30 days. Some people use the old box for cleaning before opening a new one.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <CheckCircle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Store Strong-Smelling Foods Properly</h4>
+                                    <h3 className="font-bold text-slate-900">Store Strong-Smelling Foods Properly</h3>
                                     <p className="text-slate-600 text-sm">Onions, fish, garlic, and certain cheeses should be wrapped well or stored in airtight containers. Their smells can transfer to other foods, especially butter and milk.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg">
                                 <CheckCircle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Clean Spills Immediately</h4>
+                                    <h3 className="font-bold text-slate-900">Clean Spills Immediately</h3>
                                     <p className="text-slate-600 text-sm">Don't wait for cleaning day. Wipe up drips and spills right away before they dry, absorb into surfaces, or spread to other areas.</p>
                                 </div>
                             </div>

@@ -22,6 +22,7 @@ import ArticleSchema from '../../components/ArticleSchema';
 import FAQSchema, { FAQItem } from '../../components/FAQSchema';
 import RelatedArticles from '../../components/RelatedArticles';
 import AuthorBio from '../../components/AuthorBio';
+import HowToSchema from '../../components/HowToSchema';
 
 const SpringCleaningTipsPage: React.FC = () => {
 
@@ -132,6 +133,15 @@ const SpringCleaningTipsPage: React.FC = () => {
                 authorJobTitle="Founder"
             />
             <FAQSchema faqs={faqs} />
+            <HowToSchema
+                name="Top 10 Spring Deep Cleaning Tips for San Diego Homes"
+                description="Expert spring cleaning tips for San Diego homeowners. From pollen season prep to outdoor living spaces, here's how to refresh your home."
+                totalTime="P3D"
+                steps={springTips.map(tip => ({
+                    name: tip.title,
+                    text: tip.description
+                }))}
+            />
 
             {/* Hero */}
             <section className="bg-slate-900 text-white pt-32 pb-16">
@@ -156,7 +166,7 @@ const SpringCleaningTipsPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published February 20, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>

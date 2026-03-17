@@ -38,7 +38,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
         },
         {
             question: "Is standard cleaning the same as deep cleaning?",
-            answer: "No. Standard cleaning maintains overall cleanliness with regular surface cleaning. Deep cleaning is more intensive, addressing areas like inside appliances, behind furniture, baseboards, and built-up grime. We recommend starting with a deep clean, then maintaining with standard cleaning."
+            answer: "No. Standard cleaning maintains overall cleanliness with regular surface cleaning. Deep cleaning is more intensive, addressing areas like baseboards, ceiling fans, blinds, light fixtures, behind furniture, and built-up grime. Inside oven and refrigerator are available as add-ons. We recommend starting with a deep clean, then maintaining with standard cleaning."
         },
         {
             question: "Can I customize my standard cleaning service?",
@@ -119,8 +119,16 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
+                        {/* Quick Answer Box */}
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                            <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
+                            <p className="text-slate-700">
+                                Regular <Link href="/service/standard-cleaning" className="text-teal-600 hover:text-teal-700 underline">standard cleaning</Link> in San Diego saves you 5+ hours per week, reduces allergens and bacteria, protects your home's surfaces from buildup damage, and costs $100-150 weekly — roughly what your time is worth doing it yourself.
+                            </p>
+                        </div>
+
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Between work, family, and trying to maintain some semblance of a social life, who has time to clean? If you've ever come home exhausted only to see dishes in the sink and dust bunnies gathering in corners, you're not alone. More San Diego homeowners are discovering that professional cleaning isn't a luxury—it's a lifestyle upgrade that pays dividends in time, health, and happiness.
+                            Between work, family, and trying to maintain some semblance of a social life, who has time to clean? If you've ever come home exhausted only to see dishes in the sink and dust bunnies gathering in corners, you're not alone. More San Diego homeowners are discovering that professional cleaning isn't a luxury—it's a lifestyle upgrade that pays dividends in time, health, and happiness. For a deeper look at scheduling, see our guide on <Link href="/blog/how-often-house-cleaning-san-diego" className="text-teal-600 hover:text-teal-700 underline">how often to schedule house cleaning</Link>.
                         </p>
 
                         {/* Benefits Grid */}
@@ -171,7 +179,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                         </h2>
                         <div className="grid md:grid-cols-2 gap-4 my-6 not-prose">
                             <div className="p-4 bg-teal-50 rounded-lg">
-                                <h4 className="font-bold text-slate-900 mb-2">Every Room</h4>
+                                <h3 className="font-bold text-slate-900 mb-2">Every Room</h3>
                                 <ul className="text-sm text-slate-600 space-y-1">
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Dust all surfaces</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Vacuum/mop floors</li>
@@ -180,7 +188,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                                 </ul>
                             </div>
                             <div className="p-4 bg-teal-50 rounded-lg">
-                                <h4 className="font-bold text-slate-900 mb-2">Kitchen</h4>
+                                <h3 className="font-bold text-slate-900 mb-2">Kitchen</h3>
                                 <ul className="text-sm text-slate-600 space-y-1">
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Clean countertops</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Wipe appliance exteriors</li>
@@ -189,7 +197,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                                 </ul>
                             </div>
                             <div className="p-4 bg-teal-50 rounded-lg">
-                                <h4 className="font-bold text-slate-900 mb-2">Bathrooms</h4>
+                                <h3 className="font-bold text-slate-900 mb-2">Bathrooms</h3>
                                 <ul className="text-sm text-slate-600 space-y-1">
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Scrub toilet</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Clean shower/tub</li>
@@ -198,7 +206,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                                 </ul>
                             </div>
                             <div className="p-4 bg-teal-50 rounded-lg">
-                                <h4 className="font-bold text-slate-900 mb-2">Bedrooms</h4>
+                                <h3 className="font-bold text-slate-900 mb-2">Bedrooms</h3>
                                 <ul className="text-sm text-slate-600 space-y-1">
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Make beds</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" /> Dust furniture</li>

@@ -208,12 +208,20 @@ const MoveOutChecklistPage: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl mx-auto prose prose-lg prose-slate">
 
+                        {/* Quick Answer Box */}
+                        <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
+                            <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
+                            <p className="text-slate-700">
+                                A thorough move-out cleaning in San Diego covers the kitchen (inside appliances, cabinets), bathrooms (grout, fixtures), all floors, walls, and windows. Budget 6-8 hours for DIY or $200-400 for <Link href="/service/move-in-out-cleaning" className="text-teal-600 hover:text-teal-700 underline">professional move-out cleaning</Link>. Start with the kitchen, work room by room, and finish with floors.
+                            </p>
+                        </div>
+
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
                             Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to maximizing your chances of getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            This comprehensive checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed.
+                            This comprehensive checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed. For a complementary perspective, check out our <Link href="/blog/move-in-cleaning-checklist" className="text-teal-600 hover:text-teal-700 underline">move-in cleaning checklist</Link> if you're also moving into a new place.
                         </p>
 
                         {/* Quick Stats */}

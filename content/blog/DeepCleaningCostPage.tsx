@@ -95,7 +95,7 @@ const DeepCleaningCostPage: React.FC = () => {
     return (
         <div className="bg-white min-h-screen">
             <ArticleSchema
-                title="How Much Does Deep House Cleaning Cost in San Diego? (2024 Pricing Guide)"
+                title="How Much Does Deep House Cleaning Cost in San Diego? (2026 Pricing Guide)"
                 description="Complete guide to deep cleaning prices in San Diego. See costs by home size, factors that affect pricing, and how to get the best value."
                 slug="how-much-does-a-deep-house-cleaning-cost"
                 datePublished="2024-01-10"
@@ -125,11 +125,11 @@ const DeepCleaningCostPage: React.FC = () => {
                             How Much Does Deep House Cleaning Cost in San Diego?
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Complete 2024 pricing guide for San Diego homeowners. See what to expect, what affects cost, and how to get the best value.
+                            Complete 2026 pricing guide for San Diego homeowners. See what to expect, what affects cost, and how to get the best value.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published January 10, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -190,7 +190,7 @@ const DeepCleaningCostPage: React.FC = () => {
                         </div>
 
                         <p className="text-slate-500 text-sm">
-                            *Prices reflect 2024 San Diego market rates based on average home conditions. Actual quotes may vary.
+                            *Prices reflect 2026 San Diego market rates based on average home conditions. Actual quotes may vary.
                         </p>
 
                         {/* What Affects Price */}

@@ -189,7 +189,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
-                            <span>Updated December 15, 2024</span>
+                            <span>Published March 5, 2024</span>
                             <span className="text-slate-600">&middot;</span>
                             <span>Updated February 17, 2026</span>
                         </div>
@@ -286,21 +286,21 @@ const PostConstructionChecklistPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Coastal Humidity Consideration</h4>
+                                    <h3 className="font-bold text-slate-900">Coastal Humidity Consideration</h3>
                                     <p className="text-slate-600 text-sm">In beach communities like La Jolla, Pacific Beach, or <Link href="/location/del-mar" className="text-teal-700 font-medium hover:text-teal-800 underline">Del Mar</Link>, construction dust can combine with marine air humidity to create a sticky residue. Use slightly damp cloths for wiping and ensure good ventilation to prevent moisture issues in newly sealed surfaces.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Hammer className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">ADU Construction</h4>
+                                    <h3 className="font-bold text-slate-900">ADU Construction</h3>
                                     <p className="text-slate-600 text-sm">San Diego's ADU boom means many homeowners are dealing with backyard construction. Don't forget to clean outdoor areas affected by construction, including patios, driveways, and any outdoor furniture that was exposed to dust.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Shield className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">New Construction in Fire Zones</h4>
+                                    <h3 className="font-bold text-slate-900">New Construction in Fire Zones</h3>
                                     <p className="text-slate-600 text-sm">If you've built in areas like Rancho Santa Fe, Scripps Ranch, or East County, your new HVAC and fire-resistant materials need proper care. Have the HVAC system professionally cleaned, and ensure any fire-resistant coatings aren't damaged during cleanup.</p>
                                 </div>
                             </div>

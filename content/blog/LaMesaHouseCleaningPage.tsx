@@ -106,7 +106,7 @@ const LaMesaHouseCleaningPage: React.FC = () => {
                         <div className="quick-answer bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 not-prose">
                             <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
                             <p className="text-slate-700">
-                                <strong>La Mesa house cleaning</strong> requires a different approach than coastal San Diego. East County dust, hard water mineral deposits, higher temperatures, and seasonal Santa Ana winds are the main challenges — not salt air and sand. Standard cleaning runs $120–$300 and deep cleaning $200–$500, depending on home size. Older Village homes with original hardwood and vintage tile need product-specific care to preserve their character.
+                                <strong>La Mesa house cleaning</strong> requires a different approach than coastal San Diego. East County dust, hard water mineral deposits, higher temperatures, and seasonal Santa Ana winds are the main challenges — not salt air and sand. Standard cleaning runs $120–$300 and deep cleaning $200–$500, depending on home size. Older Village homes with original hardwood and vintage tile benefit from gentle cleaning approaches that preserve their character.
                             </p>
                         </div>
 
@@ -172,28 +172,28 @@ const LaMesaHouseCleaningPage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Persistent Dust</h4>
+                                    <h3 className="font-bold text-slate-900">Persistent Dust</h3>
                                     <p className="text-slate-600 text-sm">La Mesa's position near the Lake Murray watershed and surrounding hillsides means dust settles on surfaces noticeably faster than at the coast. Open a window on a breezy afternoon and you'll have a visible layer on your furniture by evening. This isn't a seasonal issue — it's year-round, and it intensifies during dry months and Santa Ana events. Regular dusting with microfiber cloths (which trap dust rather than push it around) makes a significant difference.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Thermometer className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Heat and Low Humidity</h4>
+                                    <h3 className="font-bold text-slate-900">Heat and Low Humidity</h3>
                                     <p className="text-slate-600 text-sm">Afternoon temperatures in La Mesa regularly run 10–15 degrees warmer than the coast. Lower humidity means surfaces dry faster after cleaning — which is good for preventing mold but bad for cleaning products that need dwell time. Work in smaller sections so products don't dry on surfaces before you can wipe them. This is especially important on windows, where dried cleaner leaves streaks.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Hard Water Mineral Deposits</h4>
+                                    <h3 className="font-bold text-slate-900">Hard Water Mineral Deposits</h3>
                                     <p className="text-slate-600 text-sm">San Diego has some of the hardest water in California, and La Mesa is no exception. White mineral spots on shower doors, faucets, and around sink drains are a constant battle. For glass shower doors, a squeegee after every shower prevents 80% of the buildup. For existing deposits, white vinegar applied and left for 15–20 minutes dissolves most mineral scale. Stubborn buildup on glass may need a commercial hard water remover like Bio-Clean or Bring It On.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Santa Ana Winds</h4>
+                                    <h3 className="font-bold text-slate-900">Santa Ana Winds</h3>
                                     <p className="text-slate-600 text-sm">Fall and winter bring Santa Ana winds that push hot, dry air — along with fine grit, pollen, and during fire season, ash — through East County with particular intensity. After a Santa Ana event, you may need a thorough wipe-down of all surfaces, window tracks, and air vents. If fires are burning nearby, replace your HVAC filters more frequently and consider a post-event deep clean to address ash residue.</p>
                                 </div>
                             </div>

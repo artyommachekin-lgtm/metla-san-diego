@@ -333,6 +333,22 @@ const MoveInChecklistPage: React.FC = () => {
                             </Link>
                         </div>
 
+                        {/* Location Links for SEO */}
+                        <div className="bg-slate-50 p-6 rounded-xl my-8 not-prose">
+                            <h3 className="font-bold text-slate-900 mb-4">Move-In Cleaning Services Near You</h3>
+                            <div className="flex flex-wrap gap-2">
+                                <Link href="/locations" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> San Diego
+                                </Link>
+                                <Link href="/location/mission-valley" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Mission Valley
+                                </Link>
+                                <Link href="/location/hillcrest" className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-full text-sm text-slate-700 hover:border-teal-300 hover:text-teal-600 transition-colors">
+                                    <MapPin className="w-3 h-3" /> Hillcrest
+                                </Link>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </article>

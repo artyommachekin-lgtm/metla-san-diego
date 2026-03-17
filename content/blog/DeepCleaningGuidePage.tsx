@@ -177,7 +177,7 @@ const DeepCleaningGuidePage: React.FC = () => {
                             San Diego's coastal climate creates unique cleaning challenges. High coastal conditions promotes buildup in bathrooms and closets. Salt air from the ocean can leave residue on windows and outdoor surfaces. And the year-round warm weather means more time spent with windows open, allowing dust and allergens inside.
                         </p>
                         <p className="text-slate-600">
-                            Regular deep cleaning—beyond your weekly tidying—addresses these issues before they become problems. It improves indoor air quality, extends the life of your furnishings, and creates a healthier living environment for your family.
+                            Regular deep cleaning—beyond your weekly tidying—addresses these issues before they become problems. It improves indoor air quality, extends the life of your furnishings, and creates a healthier living environment for your family. Not sure if you need a deep clean or a standard clean? Check out our <Link href="/blog/standard-vs-deep-cleaning-san-diego" className="text-teal-600 hover:text-teal-700 underline">standard vs. deep cleaning comparison</Link> to decide.
                         </p>
 
                         {/* Step-by-Step Guide */}
@@ -208,21 +208,21 @@ const DeepCleaningGuidePage: React.FC = () => {
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Combat Humidity</h4>
+                                    <h3 className="font-bold text-slate-900">Combat Humidity</h3>
                                     <p className="text-slate-600 text-sm">Use a dehumidifier during and after deep cleaning. Check behind furniture and in closets for hidden buildup. Leave bathroom doors open to promote airflow.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">AC System Care</h4>
+                                    <h3 className="font-bold text-slate-900">AC System Care</h3>
                                     <p className="text-slate-600 text-sm">Clean or replace AC filters during deep cleaning. Wipe down vents and returns. Consider professional duct cleaning annually.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg">
                                 <SprayCan className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
-                                    <h4 className="font-bold text-slate-900">Salt Air Solutions</h4>
+                                    <h3 className="font-bold text-slate-900">Salt Air Solutions</h3>
                                     <p className="text-slate-600 text-sm">Pay extra attention to balcony doors, window tracks, and outdoor furniture. Use rust-preventive treatments on metal fixtures.</p>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ const DeepCleaningGuidePage: React.FC = () => {
                         <div className="bg-teal-600 text-white p-8 rounded-xl my-10 text-center">
                             <h3 className="text-2xl font-bold mb-3">Need Professional Deep Cleaning?</h3>
                             <p className="text-teal-100 mb-6">
-                                Let Metla House Cleaning handle your deep cleaning. Our trained professionals use hospital-grade products and follow a comprehensive 50-point checklist.
+                                Let Metla House Cleaning handle your deep cleaning. Our trained professionals follow a comprehensive checklist to leave your home spotless.
                             </p>
                             <Link
                                 href="/booking"
