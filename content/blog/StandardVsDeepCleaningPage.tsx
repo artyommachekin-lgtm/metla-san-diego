@@ -54,7 +54,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
         <div className="bg-white min-h-screen">
             <ArticleSchema
                 title="Standard vs Deep Cleaning in San Diego: Which Do You Need?"
-                description="Standard vs Deep Cleaning in San Diego: Which Do You Need?"
+                description="Compare standard and deep cleaning services in San Diego. Learn what each includes, pricing differences, and which option fits your home."
                 slug="standard-vs-deep-cleaning-san-diego"
                 datePublished="2026-03-11"
                 dateModified="2026-03-11"

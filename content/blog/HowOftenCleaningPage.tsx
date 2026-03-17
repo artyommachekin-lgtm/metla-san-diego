@@ -22,7 +22,7 @@ const HowOftenCleaningPage: React.FC = () => {
     ];
     return (
         <div className="bg-white min-h-screen">
-            <ArticleSchema title="How Often Should You Get Your House Cleaned in San Diego?" description="How Often Should You Get Your House Cleaned in San Diego?" slug="how-often-house-cleaning-san-diego" datePublished="2026-03-11" dateModified="2026-03-11" authorName="Art Machekin" authorType="Person" authorJobTitle="Founder" image="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" />
+            <ArticleSchema title="How Often Should You Get Your House Cleaned in San Diego?" description="Find the right cleaning frequency for your San Diego home. Weekly, biweekly, or monthly — factors like pets, allergies, and lifestyle help decide." slug="how-often-house-cleaning-san-diego" datePublished="2026-03-11" dateModified="2026-03-11" authorName="Art Machekin" authorType="Person" authorJobTitle="Founder" image="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80" />
             <FAQSchema faqs={faqs} />
             {/* Hero */}
             <section className="bg-slate-900 text-white pt-32 pb-16">

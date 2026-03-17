@@ -292,7 +292,7 @@ const FloorCleaningPage: React.FC = () => {
                             <Sparkles className="w-12 h-12 mx-auto mb-4 opacity-80" />
                             <h3 className="text-2xl font-bold mb-3">Professional Floor Cleaning</h3>
                             <p className="text-teal-100 mb-6">
-                                Our deep cleaning service includes thorough floor cleaning—mopping, baseboard wiping, and attention to grout lines.
+                                Our deep cleaning service includes thorough floor cleaning — mopping, baseboard wiping, and detailed attention to every surface. Deep grout scrubbing available as an add-on.
                             </p>
                             <Link
                                 href="/booking"

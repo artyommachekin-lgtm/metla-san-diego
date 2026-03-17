@@ -9,7 +9,7 @@ Every blog post MUST render all three JSON-LD schemas at the top of the componen
 
 ### A. ArticleSchema
 - `title`: Post headline (matches H1)
-- `description`: Post summary (matches meta description)
+- `description`: Post summary (matches meta description). ⚠️ MUST NOT be identical to the `title` — write a unique 1-2 sentence summary.
 - `slug`: URL slug
 - `datePublished`: ISO date (YYYY-MM-DD)
 - `dateModified`: ISO date (YYYY-MM-DD) — update when content changes
@@ -43,7 +43,6 @@ Every blog post MUST render all three JSON-LD schemas at the top of the componen
   - "Updated [date]" (if different from published)
 - ⚠️ The label MUST say "Published" (not "Updated" for the published date). Common mistake: displaying "Updated December 15, 2024" when it should say "Published December 15, 2024"
 - ⚠️ The displayed date MUST match the `datePublished` value in the ArticleSchema component on that same page (NOT a generic date). Common mistake: all pages showing the same date (e.g., "December 15, 2024") instead of each page's actual datePublished. Cross-check the ArticleSchema `datePublished` prop against the `<span>Published ...</span>` text.
-- `datePublished` and `dateModified` in blog-posts.ts metadata
 - `datePublished` and `dateModified` in blog-posts.ts metadata
 - These flow to OG `article:published_time` and `article:modified_time` automatically
 
