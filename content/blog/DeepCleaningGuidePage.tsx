@@ -167,7 +167,7 @@ const DeepCleaningGuidePage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Living in San Diego means enjoying beautiful weather, stunning beaches, and a vibrant lifestyle. But it also means dealing with coastal conditions, ocean air, and environmental factors that can make keeping a clean home more challenging. Whether you're preparing for guests, tackling spring cleaning, or simply want a fresh start, this comprehensive guide will help you deep clean your San Diego home like a professional.
+                            Living in San Diego means enjoying beautiful weather, stunning beaches, and a vibrant lifestyle. But it also means dealing with coastal conditions, ocean air, and environmental factors that can make keeping a clean home more challenging. Whether you're preparing for guests, tackling spring cleaning, <Link href="/blog/move-out-cleaning-checklist" className="text-teal-600 hover:text-teal-700 underline">moving out of a rental</Link>, or simply want a fresh start, this comprehensive guide will help you deep clean your San Diego home like a professional.
                         </p>
 
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">

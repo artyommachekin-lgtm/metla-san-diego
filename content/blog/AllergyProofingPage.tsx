@@ -211,7 +211,7 @@ const AllergyProofingPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Coastal Humidity</h3>
-                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity supports dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold.</p>
+                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity supports dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold. If you already see signs of mold, our <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold removal guide</Link> covers safe remediation steps.</p>
                                 </div>
                             </div>
                         </div>

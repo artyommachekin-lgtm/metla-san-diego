@@ -238,7 +238,7 @@ const SpringCleaningTipsPage: React.FC = () => {
                         <div className="space-y-4 my-6">
                             <div className="p-4 bg-blue-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏖️ Coastal Communities (La Jolla, PB, OB, Coronado)</h3>
-                                <p className="text-slate-600 text-sm">Focus extra attention on salt air residue, especially on windows, outdoor furniture, and stainless appliances. Check for any moisture/mold issues in closets or under sinks from winter humidity.</p>
+                                <p className="text-slate-600 text-sm">Focus extra attention on salt air residue, especially on windows, outdoor furniture, and stainless appliances. Check for any moisture or <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold issues</Link> in closets or under sinks from winter humidity.</p>
                             </div>
                             <div className="p-4 bg-amber-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏔️ Fire-Prone Areas (Rancho Santa Fe, Scripps Ranch, East County)</h3>
