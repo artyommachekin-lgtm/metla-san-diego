@@ -399,7 +399,7 @@ export const BLOG_POSTS: BlogPost[] = [
         readTime: '9 min read',
         datePublished: '2026-02-25',
         dateModified: '2026-02-25',
-        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
         imageAlt: 'Charming residential street with mature trees and well-maintained homes in a hillside neighborhood',
         iconName: 'MapPin',
         author: DEFAULT_AUTHOR
