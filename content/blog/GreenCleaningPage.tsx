@@ -221,7 +221,7 @@ const GreenCleaningPage: React.FC = () => {
                                 <Droplet className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Water Conservation</h3>
-                                    <p className="text-slate-600 text-sm">Use spray bottles instead of running water. Collect rinse water for plants. Damp mop rather than wet mop. Every gallon saved matters in drought-prone Southern California.</p>
+                                    <p className="text-slate-600 text-sm">Use spray bottles instead of running water. Collect rinse water for plants. Damp mop rather than wet mop. Every gallon saved matters in drought-prone Southern California. These water-saving methods are especially important when you <Link href="/blog/how-to-clean-your-outdoor-patio" className="text-teal-700 font-medium hover:text-teal-800 underline">clean your outdoor patio</Link>, where water use can add up quickly.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">

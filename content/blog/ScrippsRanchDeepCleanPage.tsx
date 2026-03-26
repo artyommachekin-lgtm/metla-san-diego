@@ -199,7 +199,7 @@ const ScrippsRanchDeepCleanPage: React.FC = () => {
                             </div>
                         </div>
                         <p className="text-slate-600">
-                            For a full overview of what we offer in this community, visit our <Link href="/location/scripps-ranch" className="text-teal-600 hover:text-teal-700 underline">Scripps Ranch cleaning service</Link> page.
+                            For a full overview of what we offer in this community, visit our <Link href="/location/scripps-ranch" className="text-teal-600 hover:text-teal-700 underline">Scripps Ranch cleaning service</Link> page. For a seasonal maintenance plan tailored to Scripps Ranch, see our <Link href="/blog/scripps-ranch-quarterly-cleaning-guide" className="text-teal-600 hover:text-teal-700 underline">quarterly cleaning guide</Link>.
                         </p>
 
                         {/* Room 1: Master Bedroom */}

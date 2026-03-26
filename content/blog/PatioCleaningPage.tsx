@@ -235,14 +235,14 @@ const PatioCleaningPage: React.FC = () => {
                                 <Sun className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Sun Protection</h3>
-                                    <p className="text-slate-600 text-sm">Our intense sun fades and degrades outdoor furniture. Use UV-resistant covers when not in use. Clean early morning or evening when surfaces are cool—midday heat evaporates cleaners too fast.</p>
+                                    <p className="text-slate-600 text-sm">Our intense sun fades and degrades outdoor furniture. Use UV-resistant covers when not in use. Clean early morning or evening when surfaces are cool—midday heat evaporates cleaners too fast. Spring is the ideal time to tackle both your patio and your home's interior—check out our <Link href="/blog/top-10-spring-deep-cleaning-tips" className="text-teal-700 font-medium hover:text-teal-800 underline">top 10 spring deep cleaning tips</Link> for a full seasonal refresh.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-orange-50 rounded-lg">
                                 <Wind className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Santa Ana Cleanup</h3>
-                                    <p className="text-slate-600 text-sm">After Santa Ana wind events, patios get coated in fine dust. A quick hose-down prevents this dust from becoming embedded. Check during fire season for ash that needs immediate removal.</p>
+                                    <p className="text-slate-600 text-sm">After Santa Ana wind events, patios get coated in fine dust. A quick hose-down prevents this dust from becoming embedded. Check during fire season for ash that needs immediate removal. Dirt tracked indoors from the patio can damage interior flooring too—our guide on <Link href="/blog/how-to-clean-hardwood-and-tile-floors" className="text-teal-700 font-medium hover:text-teal-800 underline">how to clean hardwood and tile floors</Link> covers the best way to protect your surfaces.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-orange-50 rounded-lg">

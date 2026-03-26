@@ -89,7 +89,7 @@ const HomeSchema: React.FC = () => {
                                 "@type": "Service",
                                 "name": "Standard Cleaning",
                                 "url": `${baseUrl}/service/standard-cleaning`,
-                                "description": "Recurring maintenance cleaning to keep your home consistently pristine. Available weekly, bi-weekly, or monthly.",
+                                "description": "Recurring maintenance cleaning to keep your home consistently spotless. Available weekly, bi-weekly, or monthly.",
                                 "serviceType": "Standard House Cleaning",
                                 "provider": { "@id": `${baseUrl}/#organization` },
                                 "areaServed": { "@type": "City", "name": "San Diego" }
@@ -119,7 +119,7 @@ const HomeSchema: React.FC = () => {
                                 "@type": "Service",
                                 "name": "Move-In / Move-Out Cleaning",
                                 "url": `${baseUrl}/service/move-in-out-cleaning`,
-                                "description": "Comprehensive reset for empty homes designed to meet strict property management standards.",
+                                "description": "Thorough reset for empty homes designed to meet strict property management standards.",
                                 "serviceType": "Move In Move Out Cleaning",
                                 "provider": { "@id": `${baseUrl}/#organization` },
                                 "areaServed": { "@type": "City", "name": "San Diego" }
@@ -131,7 +131,7 @@ const HomeSchema: React.FC = () => {
                                 "@type": "Service",
                                 "name": "Vacation Rental Cleaning",
                                 "url": `${baseUrl}/service/vacation-rental-cleaning-airbnb`,
-                                "description": "Seamless turnovers for Airbnb and VRBO hosts. Hotel-ready results for every guest check-in.",
+                                "description": "Smooth turnovers for Airbnb and VRBO hosts. Hotel-ready results for every guest check-in.",
                                 "serviceType": "Vacation Rental Turnover Cleaning",
                                 "provider": { "@id": `${baseUrl}/#organization` },
                                 "areaServed": { "@type": "City", "name": "San Diego" }

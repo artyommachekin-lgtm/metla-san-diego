@@ -219,7 +219,7 @@ const LaundryRoomCleaningPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Beach Laundry Tips</h3>
-                                    <p className="text-slate-600 text-sm">Shake out sandy items before washing to protect your machine's pump. Rinse swimwear separately first—chlorine and salt can damage other fabrics over time. Homeowners in areas like <Link href="/location/mission-valley" className="text-teal-700 font-medium hover:text-teal-800 underline">Mission Valley</Link> may deal less with sand but still face San Diego's hard water challenges.</p>
+                                    <p className="text-slate-600 text-sm">Shake out sandy items before washing to protect your machine's pump. Rinse swimwear separately first—chlorine and salt can damage other fabrics over time. Pet owners should wash pet bedding separately to prevent odors from transferring to other loads—our guide on <Link href="/blog/how-to-remove-pet-odors-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">how to remove pet odors from your home</Link> covers laundry and beyond. Homeowners in areas like <Link href="/location/mission-valley" className="text-teal-700 font-medium hover:text-teal-800 underline">Mission Valley</Link> may deal less with sand but still face San Diego's hard water challenges.</p>
                                 </div>
                             </div>
                         </div>

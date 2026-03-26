@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=20&w=1200&fm=webp&auto=format&fit=crop 1200w
           "
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 800px, 1200px"
-          alt="Pristine San Diego living room after professional house cleaning by Metla"
+          alt="Spotless San Diego living room after professional house cleaning by Metla"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
           loading="eager"
           decoding="async"
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             Professional House Cleaning in <span className="text-teal-400 italic">San Diego</span>
           </h1>
           <p className="text-xl md:text-2xl font-serif text-slate-200 mb-6">
-            Restoring the pristine condition of your home.
+            Restoring the spotless condition of your home.
           </p>
 
           <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">

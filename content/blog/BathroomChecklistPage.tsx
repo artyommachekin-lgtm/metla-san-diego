@@ -93,7 +93,7 @@ const BathroomChecklistPage: React.FC = () => {
         <div className="bg-white min-h-screen">
             <ArticleSchema
                 title="Bathroom Deep Cleaning Checklist: The Complete San Diego Guide"
-                description="Comprehensive bathroom cleaning checklist with step-by-step instructions. Expert tips for San Diego's hard water and coastal humidity."
+                description="Detailed bathroom cleaning checklist with step-by-step instructions. Expert tips for San Diego's hard water and coastal humidity."
                 slug="bathroom-deep-cleaning-checklist"
                 datePublished="2024-02-10"
                 dateModified="2026-02-17"

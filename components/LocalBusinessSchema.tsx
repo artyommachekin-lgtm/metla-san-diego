@@ -90,7 +90,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
                         "@type": "Service",
                         "name": "Standard Cleaning",
                         "url": `${baseUrl}/service/standard-cleaning`,
-                        "description": "Recurring maintenance cleaning to keep your home consistently pristine."
+                        "description": "Recurring maintenance cleaning to keep your home consistently spotless."
                     }
                 },
                 {
@@ -108,7 +108,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
                         "@type": "Service",
                         "name": "Move-In / Move-Out Cleaning",
                         "url": `${baseUrl}/service/move-in-out-cleaning`,
-                        "description": "Comprehensive cleaning for property transitions that meets management standards."
+                        "description": "Thorough cleaning for property transitions that meets management standards."
                     }
                 },
                 {
@@ -117,7 +117,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
                         "@type": "Service",
                         "name": "Vacation Rental Cleaning",
                         "url": `${baseUrl}/service/vacation-rental-cleaning-airbnb`,
-                        "description": "Seamless turnovers for Airbnb and VRBO hosts."
+                        "description": "Smooth turnovers for Airbnb and VRBO hosts."
                     }
                 },
                 {

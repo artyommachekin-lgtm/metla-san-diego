@@ -246,7 +246,7 @@ const FloorCleaningPage: React.FC = () => {
                                 <Droplets className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Hard Water Issues</h3>
-                                    <p className="text-slate-600 text-sm">SD's hard water leaves mineral deposits. Use distilled water for final rinses on tile, and dry hardwood immediately. A monthly vinegar treatment can help remove buildup from tile.</p>
+                                    <p className="text-slate-600 text-sm">SD's hard water leaves mineral deposits — a particularly common issue in East County neighborhoods like <Link href="/blog/house-cleaning-la-mesa-guide" className="text-teal-700 font-medium hover:text-teal-800 underline">La Mesa</Link>. Use distilled water for final rinses on tile, and dry hardwood immediately. A monthly vinegar treatment can help remove buildup from tile.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">

@@ -70,7 +70,7 @@ const ServicePageContent: React.FC<ServicePageContentProps> = ({ slug }) => {
             <p className="text-slate-700">
               <strong>{service.title}</strong> is a professional cleaning service that {service.shortDescription.toLowerCase()}
               {service.id === 'standard' && ' This recurring service maintains your home\'s cleanliness on a weekly, biweekly, or monthly schedule, covering all essential surfaces, bathrooms, kitchen, and living areas throughout San Diego.'}
-              {service.id === 'deep' && ' Unlike regular cleaning, deep cleaning addresses hidden grime, cleans baseboards, ceiling fans, blinds, light fixtures, and cabinet fronts, and resets your home to pristine condition\u2014ideal as a one-time deep clean or scheduled every 3-6 months to maintain a healthy home.'}
+              {service.id === 'deep' && ' Unlike regular cleaning, deep cleaning addresses hidden grime, cleans baseboards, ceiling fans, blinds, light fixtures, and cabinet fronts, and resets your home to spotless condition\u2014ideal as a one-time deep clean or scheduled every 3-6 months to maintain a healthy home.'}
               {service.id === 'post-construction' && ' Specialized for newly renovated spaces, this service safely removes fine construction dust, cleans inside new cabinets, removes manufacturer labels, and makes your space move-in ready.'}
               {service.id === 'vacation-rental' && ' Built for Airbnb and VRBO hosts, this rapid turnover cleaning ensures your property is guest-ready between stays with hotel-style staging, fresh linens, and damage reporting.'}
               {service.id === 'move-in-out' && ' This exhaustive cleaning for empty properties reaches inside every cabinet, drawer, and appliance\u2014meeting strict property management standards for apartment turnovers, lease-end cleanings, and new home preparation.'}
@@ -146,7 +146,7 @@ const ServicePageContent: React.FC<ServicePageContentProps> = ({ slug }) => {
 
             {service.checklist ? (
               <div className="mb-12">
-                <h3 className="text-2xl font-bold mb-8 text-slate-900">Comprehensive Checklist</h3>
+                <h3 className="text-2xl font-bold mb-8 text-slate-900">Detailed Checklist</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   {Object.entries(service.checklist).map(([room, items]) => (
                     <div key={room} className="bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
@@ -256,6 +256,9 @@ const ServicePageContent: React.FC<ServicePageContentProps> = ({ slug }) => {
               >
                 Get a Quote for {service.title}
               </Link>
+              <p className="mt-3 text-sm opacity-90">
+                <Link href="/specials" className="underline hover:no-underline">View current specials</Link> — save on your first booking
+              </p>
             </div>
           </div>
         </div>

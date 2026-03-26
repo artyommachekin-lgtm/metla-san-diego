@@ -155,7 +155,7 @@ const DeepCleaningCostPage: React.FC = () => {
                             Whether you're preparing for guests, moving into a new home, or simply overdue for a thorough cleaning, knowing what deep cleaning costs in San Diego helps you budget appropriately and avoid sticker shock.
                         </p>
                         <p className="text-slate-600">
-                            <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">Deep cleaning</Link> costs more than regular maintenance cleaning because it's far more comprehensive. Where a standard clean takes 2-3 hours and focuses on visible surfaces, deep cleaning runs 4-8 hours and addresses baseboards, ceiling fans, blinds, light fixtures, and all those neglected nooks and crannies. Inside appliances like the oven and refrigerator are available as add-ons. For a full breakdown of what's involved, read our <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">complete deep cleaning guide for San Diego</Link>.
+                            <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">Deep cleaning</Link> costs more than regular maintenance cleaning because it's far more thorough. Where a standard clean takes 2-3 hours and focuses on visible surfaces, deep cleaning runs 4-8 hours and addresses baseboards, ceiling fans, blinds, light fixtures, and all those neglected nooks and crannies. Inside appliances like the oven and refrigerator are available as add-ons. For a full breakdown of what's involved, read our <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">complete deep cleaning guide for San Diego</Link>.
                         </p>
                         <p className="text-slate-600">
                             Let's break down what you can expect to pay in San Diego, what factors affect pricing, and how to get the best value for your money.
@@ -244,7 +244,7 @@ const DeepCleaningCostPage: React.FC = () => {
                         </div>
 
                         <p className="text-slate-600">
-                            Our relatively higher costs reflect San Diego's cost of living, labor market, and high demand for cleaning services -- especially in beach communities and affluent neighborhoods like La Jolla, Coronado, and Rancho Santa Fe. Even in more affordable neighborhoods like <Link href="/location/north-park" className="text-teal-700 font-medium hover:text-teal-800 underline">North Park</Link>, prices tend to be higher than national averages.
+                            Our relatively higher costs reflect San Diego's cost of living, labor market, and high demand for cleaning services -- especially in beach communities and affluent neighborhoods like La Jolla, Coronado, and Rancho Santa Fe. Even in more affordable neighborhoods like <Link href="/location/north-park" className="text-teal-700 font-medium hover:text-teal-800 underline">North Park</Link> or East County areas like <Link href="/blog/house-cleaning-la-mesa-guide" className="text-teal-700 font-medium hover:text-teal-800 underline">La Mesa</Link>, prices tend to be higher than national averages.
                         </p>
 
                         {/* What's Included */}

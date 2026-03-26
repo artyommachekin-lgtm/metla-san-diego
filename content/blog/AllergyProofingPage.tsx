@@ -86,7 +86,7 @@ const AllergyProofingPage: React.FC = () => {
         <div className="bg-white min-h-screen">
             <ArticleSchema
                 title="Allergy-Proofing Your Home Through Cleaning"
-                description="Comprehensive guide to reducing indoor allergens through smart cleaning practices. Tips for San Diego's year-round allergy seasons."
+                description="Detailed guide to reducing indoor allergens through smart cleaning practices. Tips for San Diego's year-round allergy seasons."
                 slug="allergy-proofing-your-home"
                 datePublished="2024-01-21"
                 dateModified="2026-02-17"
@@ -211,7 +211,7 @@ const AllergyProofingPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Coastal Humidity</h3>
-                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity supports dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold. If you already see signs of mold, our <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold removal guide</Link> covers safe remediation steps.</p>
+                                    <p className="text-slate-600 text-sm">Near the coast in areas like <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link>, humidity and <Link href="/blog/salt-air-la-jolla-home-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">salt air</Link> support dust mite and mold growth. Use a dehumidifier to maintain 30-50% humidity. Bathroom exhaust fans are essential to prevent mold. If you already see signs of mold, our <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold removal guide</Link> covers safe remediation steps.</p>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +239,7 @@ const AllergyProofingPage: React.FC = () => {
                                     <span className="text-green-600 font-bold">Monthly</span>
                                 </div>
                                 <div className="flex justify-between items-center p-3 bg-white rounded-lg">
-                                    <span className="font-medium text-slate-900">Deep clean mattress</span>
+                                    <span className="font-medium text-slate-900"><Link href="/blog/how-to-deep-clean-your-mattress" className="text-teal-700 font-medium hover:text-teal-800 underline">Deep clean mattress</Link></span>
                                     <span className="text-green-600 font-bold">Every 6 months</span>
                                 </div>
                             </div>

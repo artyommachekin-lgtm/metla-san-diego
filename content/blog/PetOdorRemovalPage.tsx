@@ -84,7 +84,7 @@ const PetOdorRemovalPage: React.FC = () => {
         <div className="bg-white min-h-screen">
             <ArticleSchema
                 title="How to Remove Pet Odors From Your Home"
-                description="Comprehensive guide to eliminating pet odors using enzymatic cleaners and professional techniques. Find hidden stains and prevent odors from returning."
+                description="Detailed guide to eliminating pet odors using enzymatic cleaners and professional techniques. Find hidden stains and prevent odors from returning."
                 slug="how-to-remove-pet-odors-from-your-home"
                 datePublished="2024-01-16"
                 dateModified="2026-02-17"

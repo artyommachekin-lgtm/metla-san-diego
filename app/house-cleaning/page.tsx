@@ -47,7 +47,7 @@ export default function HouseCleaningPage() {
     },
     {
       question: "What's included in a standard house cleaning?",
-      answer: "Our standard house cleaning includes dusting all surfaces, vacuuming and mopping floors, cleaning and sanitizing bathrooms, kitchen cleaning including countertops and appliances, making beds, and emptying trash. We follow a comprehensive 50-point checklist to ensure consistent quality."
+      answer: "Our standard house cleaning includes dusting all surfaces, vacuuming and mopping floors, cleaning and sanitizing bathrooms, kitchen cleaning including countertops and appliances, making beds, and emptying trash. We follow a detailed 50-point checklist to ensure consistent quality."
     },
     {
       question: "How often should I have my house professionally cleaned?",
@@ -55,7 +55,7 @@ export default function HouseCleaningPage() {
     },
     {
       question: "Are your house cleaners insured and background checked?",
-      answer: "Yes, all Metla House Cleaning professionals are fully insured and undergo comprehensive background checks. We only hire 1 in 50 applicants, ensuring you receive service from vetted, trustworthy professionals."
+      answer: "Yes, all Metla House Cleaning professionals are fully insured and undergo thorough background checks. We only hire 1 in 50 applicants, ensuring you receive service from vetted, trustworthy professionals."
     },
     {
       question: "Can I leave my house while the cleaners are working?",
@@ -71,7 +71,7 @@ export default function HouseCleaningPage() {
     },
     {
       question: "What's the difference between standard cleaning and deep cleaning?",
-      answer: "Standard cleaning maintains your home's cleanliness with regular surface cleaning. Deep cleaning is a comprehensive, intensive service that addresses areas often missed\u2014appliance exteriors, behind furniture, baseboards, ceiling fans, blinds, light fixtures, and detailed sanitization. Inside oven and refrigerator are available as add-ons. We recommend deep cleaning for first-time clients or homes that haven't been professionally cleaned recently."
+      answer: "Standard cleaning maintains your home's cleanliness with regular surface cleaning. Deep cleaning is a thorough, intensive service that addresses areas often missed\u2014appliance exteriors, behind furniture, baseboards, ceiling fans, blinds, light fixtures, and detailed sanitization. Inside oven and refrigerator are available as add-ons. We recommend deep cleaning for first-time clients or homes that haven't been professionally cleaned recently."
     }
   ];
 
@@ -246,10 +246,10 @@ export default function HouseCleaningPage() {
             </div>
 
             <p className="text-slate-600 leading-relaxed mb-6">
-              At Metla House Cleaning, we understand that your home is your sanctuary. Founded by former property managers who spent years perfecting cleaning protocols for luxury vacation rentals and high-end residential properties, we bring hospitality-industry standards to every home we service. Our team doesn&apos;t just clean—we restore the pristine condition your living space deserves.
+              At Metla House Cleaning, we understand that your home is your sanctuary. Founded by former property managers who spent years perfecting cleaning protocols for luxury vacation rentals and high-end residential properties, we bring hospitality-industry standards to every home we service. Our team doesn&apos;t just clean—we restore the spotless condition your living space deserves.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              Whether you&apos;re a busy professional in Downtown San Diego, a family in Del Mar, or a vacation rental owner in Pacific Beach, our comprehensive house cleaning services are designed to exceed your expectations. We serve clients throughout San Diego County, bringing the same meticulous attention to detail to every home, every time.
+              Whether you&apos;re a busy professional in Downtown San Diego, a family in Del Mar, or a vacation rental owner in Pacific Beach, our thorough house cleaning services are designed to exceed your expectations. We serve clients throughout San Diego County, bringing the same meticulous attention to detail to every home, every time.
             </p>
           </div>
         </div>
@@ -398,7 +398,7 @@ export default function HouseCleaningPage() {
               <h3 className="font-bold text-slate-900 mb-2">Our Recommendation</h3>
               <p className="text-slate-600">
                 If your home hasn&apos;t been professionally cleaned in the last 30 days, start with a <strong>Deep Cleaning</strong> to reset your baseline,
-                then switch to <strong>Standard Cleaning</strong> on a weekly or bi-weekly schedule to maintain pristine conditions effortlessly.
+                then switch to <strong>Standard Cleaning</strong> on a weekly or bi-weekly schedule to maintain spotless conditions effortlessly.
               </p>
             </div>
           </div>
@@ -473,7 +473,7 @@ export default function HouseCleaningPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Background Checked</h3>
                 <p className="text-slate-600">
-                  Every cleaner passes comprehensive background screening. Only 1 in 50 applicants joins our team.
+                  Every cleaner passes thorough background screening. Only 1 in 50 applicants joins our team.
                 </p>
               </div>
               <div className="text-center">
@@ -482,7 +482,7 @@ export default function HouseCleaningPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Reliable Service</h3>
                 <p className="text-slate-600">
-                  We never cancel. Our backup team protocol ensures your cleaning happens, no matter what.
+                  Backup protocols minimize disruptions. Our team protocol ensures your cleaning happens as scheduled.
                 </p>
               </div>
             </div>
@@ -492,10 +492,10 @@ export default function HouseCleaningPage() {
                 The 50-Point Cleaning Protocol
               </h3>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Unlike typical house cleaning services, Metla House Cleaning follows a comprehensive 50-point cleaning protocol developed from years of experience managing luxury vacation properties. This systematic approach ensures no detail is overlooked, from the obvious areas to the often-forgotten spots that accumulate dust and grime.
+                Unlike typical house cleaning services, Metla House Cleaning follows a detailed 50-point cleaning protocol developed from years of experience managing luxury vacation properties. This systematic approach ensures no detail is overlooked, from the obvious areas to the often-forgotten spots that accumulate dust and grime.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Our checklist covers everything: light switches, door handles, baseboards, ceiling fans, behind toilets, under furniture edges, inside microwave doors, refrigerator handles, and dozens of other touch points that standard cleaners miss. This attention to detail is what transforms a clean home into a truly pristine living environment.
+                Our checklist covers everything: light switches, door handles, baseboards, ceiling fans, behind toilets, under furniture edges, inside microwave doors, refrigerator handles, and dozens of other touch points that standard cleaners miss. This attention to detail is what transforms a clean home into a truly spotless living environment.
               </p>
 
               <h3 className="text-2xl font-serif font-bold text-slate-900 mb-4">

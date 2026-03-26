@@ -42,7 +42,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
         },
         {
             question: "Can I customize my standard cleaning service?",
-            answer: "Yes! While we follow a comprehensive checklist, you can request focus on specific areas or add services like interior windows, laundry, or refrigerator cleaning."
+            answer: "Yes! While we follow a thorough checklist, you can request focus on specific areas or add services like interior windows, laundry, or refrigerator cleaning."
         }
     ];
 
@@ -157,7 +157,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             When you factor in the value of your time, professional cleaning often makes financial sense. Consider this: if you earn $30/hour at work and spend 5 hours weekly cleaning, that's $150 worth of your time. Professional weekly cleaning for a typical San Diego home costs $100-150—meaning you break even while getting professional results and actual rest.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            Plus, professionals bring commercial-grade equipment and products that deliver deeper cleaning than most household supplies. They know which products work best on different surfaces, reducing the risk of damage to your finishes.
+                            Plus, professionals bring professional equipment and products that deliver deeper cleaning than most household supplies. They know which products work best on different surfaces, reducing the risk of damage to your finishes.
                         </p>
 
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
@@ -167,7 +167,7 @@ const StandardCleaningBenefitsPage: React.FC = () => {
                             The right frequency depends on your household:
                         </p>
                         <ul className="text-slate-600 space-y-2 my-4">
-                            <li><strong>Weekly cleaning</strong> is ideal for families with children, pet owners, those who entertain frequently, or anyone who wants a consistently pristine home.</li>
+                            <li><strong>Weekly cleaning</strong> is ideal for families with children, pet owners, those who entertain frequently, anyone who works from home and needs a <Link href="/blog/how-to-clean-your-home-office" className="text-teal-700 font-medium hover:text-teal-800 underline">clean home office</Link>, or anyone who wants a consistently spotless home.</li>
                             <li><strong>Bi-weekly cleaning</strong> works well for single occupants, couples without pets, or those who maintain daily tidying habits.</li>
                         </ul>
                         <p className="text-slate-600 mt-4">

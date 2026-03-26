@@ -161,7 +161,7 @@ const MattressCleaningPage: React.FC = () => {
                             Your mattress accumulates dead skin cells, sweat, dust mites, and allergens every night. Over time, without cleaning, it can harbor millions of dust mites—a common trigger for allergies and asthma. Yet most people never clean their mattress beyond changing the sheets.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The good news? Deep cleaning a mattress is straightforward and requires no special equipment. Pair it with a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">bedroom deep clean</Link> to tackle the floors, baseboards, and blinds at the same time. The key is giving the mattress enough time—plan for a full day since the baking soda treatment works best when left for several hours.
+                            The good news? Deep cleaning a mattress is straightforward and requires no special equipment. Pair it with a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">bedroom deep clean</Link> to tackle the floors, baseboards, and blinds at the same time. If you are <Link href="/blog/how-to-prepare-your-guest-room" className="text-teal-700 font-medium hover:text-teal-800 underline">preparing a guest room</Link>, cleaning the mattress is one of the most impactful steps. The key is giving the mattress enough time—plan for a full day since the baking soda treatment works best when left for several hours.
                         </p>
 
                         {/* Stats Box */}

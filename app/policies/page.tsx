@@ -4,7 +4,7 @@ import { ShieldAlert, CreditCard, Clock, Ban, AlertTriangle, CheckCircle } from 
 import { SITE_CONFIG } from '@/src/config/site-config';
 
 const pageTitle = `Company Policies | ${COMPANY_NAME}`;
-const pageDescription = 'Transparent policies for Metla House Cleaning including pricing, cancellation, payment terms, and our satisfaction guarantee.';
+const pageDescription = 'Transparent policies for Metla House Cleaning including pricing, cancellation, payment terms, and our satisfaction commitment.';
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -171,12 +171,12 @@ export default function PoliciesPage() {
             </section>
 
             {/* Guarantee & Satisfaction */}
-            <section id="satisfaction-guarantee">
-              <h2 className="text-2xl font-serif font-bold text-slate-900 border-b border-slate-200 pb-2 mb-6">Satisfaction Guarantee</h2>
+            <section id="satisfaction-commitment">
+              <h2 className="text-2xl font-serif font-bold text-slate-900 border-b border-slate-200 pb-2 mb-6">Satisfaction Commitment</h2>
 
               <div className="mb-6 bg-teal-50 border border-teal-100 p-6 rounded-lg">
                 <h3 className="font-bold text-lg text-teal-800 mb-2 flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5" /> 24 Hour Satisfaction Guarantee
+                  <CheckCircle className="w-5 h-5" /> 24 Hour Satisfaction Commitment
                 </h3>
                 <p className="text-teal-900 mb-4">
                   We want you to be completely satisfied. If you&apos;re not happy with the cleaning, please contact us <strong>within 24 hours</strong> and we&apos;ll send someone to fix the missed areas for free.
@@ -189,7 +189,7 @@ export default function PoliciesPage() {
               <div className="mb-6">
                 <h3 className="font-bold text-lg text-slate-900 mb-2">Post-Cleaning Walkthrough</h3>
                 <p className="mb-2">
-                  We cannot guarantee our work if you are not present to do a walkthrough at the conclusion of the cleaning. Failure to do a walkthrough while the technician is onsite voids our 24-hour guarantee.
+                  We cannot guarantee our work if you are not present to do a walkthrough at the conclusion of the cleaning. Failure to do a walkthrough while the technician is onsite voids our 24-hour commitment.
                 </p>
                 <p className="text-sm italic text-slate-500">
                   Exceptions can be made if requested before the cleaner begins (within 24 hours). If you leave during the clean, we can call with 20-minutes notice. Technicians will wait a maximum of 5 minutes.

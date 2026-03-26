@@ -210,7 +210,7 @@ const MoldRemovalPage: React.FC = () => {
                                 <Wind className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Common Problem Areas</h3>
-                                    <p className="text-slate-600 text-sm">Bathrooms (especially shower grout and ceilings), under kitchen sinks, around window frames with condensation, closets against exterior walls, and laundry rooms are the most common places to find mold in San Diego homes. Our <Link href="/blog/bathroom-deep-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">bathroom deep cleaning checklist</Link> covers how to tackle grout mold and prevent regrowth.</p>
+                                    <p className="text-slate-600 text-sm">Bathrooms (especially shower grout and ceilings), under kitchen sinks, around window frames with condensation, closets against exterior walls, and <Link href="/blog/how-to-deep-clean-your-laundry-room" className="text-teal-700 font-medium hover:text-teal-800 underline">laundry rooms</Link> are the most common places to find mold in San Diego homes. Our <Link href="/blog/bathroom-deep-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">bathroom deep cleaning checklist</Link> covers how to tackle grout mold and prevent regrowth.</p>
                                 </div>
                             </div>
                         </div>

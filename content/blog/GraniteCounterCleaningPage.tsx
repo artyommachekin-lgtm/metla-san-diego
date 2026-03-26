@@ -205,7 +205,7 @@ const GraniteCounterCleaningPage: React.FC = () => {
                                 <Droplets className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Hard Water Compounds the Problem</h3>
-                                    <p className="text-slate-600 text-sm">San Diego's hard water leaves mineral deposits that build up on granite over time. If left unchecked, these can become difficult to remove and dull the stone's appearance.</p>
+                                    <p className="text-slate-600 text-sm">San Diego's hard water leaves mineral deposits that build up on granite over time. In coastal homes, <Link href="/blog/salt-air-la-jolla-home-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">salt air compounds the damage</Link> by leaving corrosive residue that accelerates wear on stone sealant. If left unchecked, these deposits can become difficult to remove and dull the stone's appearance.</p>
                                 </div>
                             </div>
                         </div>

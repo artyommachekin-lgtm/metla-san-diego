@@ -6,7 +6,7 @@ import { BLOG_POSTS } from '@/data/blog-posts';
 import { SITE_CONFIG } from '@/src/config/site-config';
 
 const pageTitle = `Cleaning Tips & Guides | ${COMPANY_NAME} Blog`;
-const pageDescription = 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a pristine home.';
+const pageDescription = 'Expert cleaning tips, guides, and checklists from San Diego\'s trusted house cleaning professionals. Learn how to maintain a spotless home.';
 
 export const metadata: Metadata = {
   title: pageTitle,

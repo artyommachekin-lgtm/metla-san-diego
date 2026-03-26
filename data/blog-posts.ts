@@ -56,7 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'bathroom-deep-cleaning-checklist',
         title: 'Bathroom Deep Cleaning Checklist: The Ultimate Guide',
-        excerpt: 'Our comprehensive bathroom cleaning checklist ensures every surface sparkles. Perfect for San Diego homes dealing with hard water and humidity.',
+        excerpt: 'Our thorough bathroom cleaning checklist ensures every surface sparkles. Perfect for San Diego homes dealing with hard water and humidity.',
         category: 'Checklists',
         readTime: '8 min read',
         datePublished: '2024-02-04',
@@ -173,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'move-out-cleaning-checklist',
         title: 'Move-Out Cleaning Checklist: San Diego Renters',
-        excerpt: 'Moving out? Use our comprehensive cleaning checklist to maximize your chances of getting your full security deposit back. Room-by-room guide with pro tips.',
+        excerpt: 'Moving out? Use our thorough cleaning checklist to maximize your chances of getting your full security deposit back. Room-by-room guide with pro tips.',
         category: 'Checklists',
         readTime: '6 min read',
         datePublished: '2024-01-10',

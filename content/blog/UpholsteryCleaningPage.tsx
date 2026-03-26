@@ -135,7 +135,7 @@ const UpholsteryCleaningPage: React.FC = () => {
                             How to Deep Clean and Sanitize Upholstered Furniture
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Breathe new life into your sofas and chairs with this comprehensive guide. Techniques for every fabric type—plus pet owner extras.
+                            Breathe new life into your sofas and chairs with this detailed guide. Techniques for every fabric type—plus pet owner extras.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />

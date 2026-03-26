@@ -311,7 +311,7 @@ const PostConstructionChecklistPage: React.FC = () => {
                             Should You DIY or Hire Professionals?
                         </h2>
                         <p className="text-slate-600">
-                            Post-construction cleaning is one of the most demanding cleaning tasks. Here's when it makes sense to go DIY versus hiring help:
+                            Post-construction cleaning is one of the most demanding cleaning tasks. Once the heavy debris is cleared, you'll need to decide between a <Link href="/blog/standard-vs-deep-cleaning-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">standard cleaning and a deep cleaning</Link> for ongoing maintenance of your newly renovated space. Here's when it makes sense to go DIY versus hiring help:
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-6 my-6 not-prose">

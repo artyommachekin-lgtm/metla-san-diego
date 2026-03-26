@@ -1173,6 +1173,11 @@ const nextConfig: NextConfig = {
       // /About → /about redirects REMOVED: Next.js redirect matching on
       // Vercel is case-insensitive, so /About → /about also matched
       // /about → /about, causing an infinite 308 redirect loop.
+      { source: '/deals', destination: '/specials', permanent: true },
+      { source: '/promotions', destination: '/specials', permanent: true },
+      { source: '/coupons', destination: '/specials', permanent: true },
+      { source: '/discounts', destination: '/specials', permanent: true },
+      { source: '/offers', destination: '/specials', permanent: true },
     ];
   },
 };

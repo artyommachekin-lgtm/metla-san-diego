@@ -316,7 +316,7 @@ export default function SameDayCleaningPage() {
                 When you need cleaning on short notice, the last thing you want is confusion about what to expect. That&apos;s why we&apos;re upfront from the very first call. We&apos;ll honestly communicate our availability, provide a clear quote before confirming your appointment, and explain exactly what&apos;s included so there are no surprises.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Every cleaner who walks through your door is fully insured, background-checked, and trained in our 50-point cleaning protocol. We communicate when our team is en route, notify you upon arrival, and send a completion update when the job is done. If anything doesn&apos;t meet your expectations, our satisfaction guarantee means we&apos;ll come back and make it right—at no additional cost.
+                Every cleaner who walks through your door is fully insured, background-checked, and trained in our 50-point cleaning protocol. We communicate when our team is en route, notify you upon arrival, and send a completion update when the job is done. If anything doesn&apos;t meet your expectations, our satisfaction commitment means we&apos;ll come back and make it right—at no additional cost.
               </p>
             </div>
           </div>

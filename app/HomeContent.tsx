@@ -39,7 +39,7 @@ export default function HomeContent() {
             <div className="p-6 bg-slate-50 rounded-lg border border-slate-100">
               <Clock className="w-10 h-10 text-teal-500 mb-4" />
               <h3 className="font-bold text-xl mb-2 text-slate-900">Reliability Protocol</h3>
-              <p className="text-slate-600">We never cancel. Our backup teams ensure your service happens, no matter what.</p>
+              <p className="text-slate-600">Backup protocols minimize disruptions. Our backup teams ensure your service happens, no matter what.</p>
             </div>
             <div className="p-6 bg-slate-50 rounded-lg border border-slate-100">
               <Star className="w-10 h-10 text-teal-500 mb-4" />
@@ -247,7 +247,7 @@ export default function HomeContent() {
               <p className="text-slate-700"><strong>Same-Day Availability</strong> — Need your home cleaned today? Check our <Link href="/same-day-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">same-day cleaning</Link> page for open slots.</p>
             </div>
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-              <p className="text-slate-700"><strong>Satisfaction Guarantee</strong> — If any area does not meet your expectations, we will reclean it at no extra charge.</p>
+              <p className="text-slate-700"><strong>Satisfaction Commitment</strong> — If any area does not meet your expectations, we will reclean it at no extra charge.</p>
             </div>
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
               <p className="text-slate-700"><strong>No Contracts Required</strong> — Flexible scheduling with no long-term commitments. Cancel or reschedule anytime.</p>
@@ -412,6 +412,9 @@ export default function HomeContent() {
           <Link href="/booking" className="inline-block bg-white text-teal-900 px-10 py-5 rounded-sm font-bold text-lg shadow-2xl hover:bg-slate-100 transition-all transform hover:-translate-y-1">
             Book Now
           </Link>
+          <p className="mt-4 text-teal-200 text-sm">
+            First-time client? <Link href="/specials" className="text-white underline font-medium hover:text-teal-100">Get $40 off your first cleaning →</Link>
+          </p>
         </div>
       </section>
     </div>

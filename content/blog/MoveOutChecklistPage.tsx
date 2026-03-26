@@ -32,7 +32,7 @@ const MoveOutChecklistPage: React.FC = () => {
         },
         {
             question: "How much does move-out cleaning cost in San Diego?",
-            answer: "Professional move-out cleaning in San Diego typically ranges from $200-$400 for apartments and $350-$600 for houses, depending on size and condition. This is usually less than what landlords charge from deposits."
+            answer: "Professional move-out cleaning in San Diego typically ranges from $200-$400 for apartments and $350-$600 for houses, depending on size and condition. This is usually less than what landlords deduct for cleaning."
         },
         {
             question: "How far in advance should I schedule move-out cleaning?",
@@ -139,7 +139,7 @@ const MoveOutChecklistPage: React.FC = () => {
         <div className="bg-white min-h-screen">
             <ArticleSchema
                 title="Complete Move-Out Cleaning Checklist for San Diego Renters"
-                description="A comprehensive move-out cleaning checklist to help maximize your chances of getting your full security deposit back. Room-by-room guide with professional tips."
+                description="A detailed move-out cleaning checklist to help maximize your chances of a full security deposit return. Room-by-room guide with professional tips."
                 slug="move-out-cleaning-checklist"
                 datePublished="2024-01-10"
                 dateModified="2026-02-17"
@@ -191,7 +191,7 @@ const MoveOutChecklistPage: React.FC = () => {
                             Complete Move-Out Cleaning Checklist for San Diego Renters
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Moving out of your San Diego rental? Use this comprehensive checklist to maximize your chances of getting your full security deposit returned.
+                            Moving out of your San Diego rental? Use this detailed checklist to maximize your chances of a full security deposit return.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -218,10 +218,10 @@ const MoveOutChecklistPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money you'll want back. The key to maximizing your chances of getting your full deposit returned? A thorough move-out cleaning that leaves your unit in pristine condition.
+                            Moving is stressful enough without worrying about your security deposit. In San Diego's competitive rental market, deposits often equal one to two months' rent—money at stake. The key to maximizing your chances of a full deposit return? A thorough move-out cleaning that leaves your unit in spotless condition.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            This comprehensive checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed. For a complementary perspective, check out our <Link href="/blog/move-in-cleaning-checklist" className="text-teal-600 hover:text-teal-700 underline">move-in cleaning checklist</Link> if you're also moving into a new place.
+                            This detailed checklist covers every area your landlord will inspect. Whether you're DIY cleaning or hiring professionals, use this guide to ensure nothing is missed. For a complementary perspective, check out our <Link href="/blog/move-in-cleaning-checklist" className="text-teal-600 hover:text-teal-700 underline">move-in cleaning checklist</Link> if you're also moving into a new place.
                         </p>
 
                         {/* Quick Stats */}
@@ -329,7 +329,7 @@ const MoveOutChecklistPage: React.FC = () => {
 
                         {/* Pro Tips */}
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">
-                            Pro Tips for Maximizing Your Deposit Return
+                            Tips for Your Deposit Return
                         </h2>
                         <ul className="text-slate-600 space-y-3 my-4">
                             <li className="flex items-start gap-2">

@@ -83,13 +83,14 @@ const Footer: React.FC = () => {
               <li><Link href="/blog" className="hover:text-teal-400 transition-colors text-sm">Cleaning Tips &amp; Blog</Link></li>
               <li><Link href="/faq" className="hover:text-teal-400 transition-colors text-sm">FAQ</Link></li>
               <li><Link href="/same-day-cleaning" className="hover:text-teal-400 transition-colors text-sm">Same Day Cleaning</Link></li>
+              <li><Link href="/specials" className="hover:text-teal-400 transition-colors text-sm text-teal-400 font-medium">Current Specials</Link></li>
               <li><Link href="/booking" className="hover:text-teal-400 transition-colors text-sm font-medium text-teal-400">Book Now →</Link></li>
               <li><Link href="/policies" className="hover:text-teal-400 transition-colors text-sm">Policies &amp; Terms</Link></li>
             </ul>
           </nav>
 
           <div style={{ flex: '1 1 250px', minWidth: '250px' }}>
-            <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">The Guarantee</h4>
+            <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Our Commitment</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm group">
                 <div className="w-1.5 h-1.5 bg-teal-500 rounded-full flex-shrink-0 mt-1.5" />

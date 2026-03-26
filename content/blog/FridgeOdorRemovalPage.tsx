@@ -319,7 +319,7 @@ const FridgeOdorRemovalPage: React.FC = () => {
                                 <CheckCircle className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Clean Spills Immediately</h3>
-                                    <p className="text-slate-600 text-sm">Don't wait for cleaning day. Wipe up drips and spills right away before they dry, absorb into surfaces, or spread to other areas.</p>
+                                    <p className="text-slate-600 text-sm">Don't wait for cleaning day. Wipe up drips and spills right away before they dry, absorb into surfaces, or spread to other areas. While you are at it, give the fridge exterior a wipe too — if you have a stainless steel model, our <Link href="/blog/how-to-clean-stainless-steel-appliances" className="text-teal-700 font-medium hover:text-teal-800 underline">stainless steel cleaning guide</Link> covers the right technique to avoid streaks.</p>
                                 </div>
                             </div>
                         </div>

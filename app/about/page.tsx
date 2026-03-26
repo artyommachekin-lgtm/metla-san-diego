@@ -127,7 +127,7 @@ export default function AboutPage() {
 
             <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-4">From Guests to Homeowners</h3>
             <p className="mb-8">
-              But our story didn&apos;t stay in the rental market. Word traveled fast among our neighbors and friends. They saw our teams transforming chaotic turnovers into pristine sanctuaries in a matter of hours and asked, <em>&quot;Can you do that for my house?&quot;</em>
+              But our story didn&apos;t stay in the rental market. Word traveled fast among our neighbors and friends. They saw our teams transforming chaotic turnovers into spotless sanctuaries in a matter of hours and asked, <em>&quot;Can you do that for my house?&quot;</em>
             </p>
             <p className="mb-12">
               It turns out, the same &quot;hotel-ready&quot; perfection required for a $5,000-a-week vacation rental is exactly what San Diego homeowners were missing. We brought our hospitality-grade standards—crisp linens, spotless bathrooms, and an obsessive eye for detail—into the residential market. Today, our residential cleaning service stands toe-to-toe with our commercial operations, giving busy families the daily luxury of coming home to a 5-star experience.

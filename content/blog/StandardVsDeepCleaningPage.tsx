@@ -275,7 +275,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                         </div>
 
                         <p className="text-slate-600">
-                            A biweekly maid service works well for most San Diego households — frequent enough to prevent buildup, but not so frequent that you&apos;re paying for cleaning that isn&apos;t needed yet.
+                            A biweekly maid service works well for most San Diego households — frequent enough to prevent buildup, but not so frequent that you&apos;re paying for cleaning that isn&apos;t needed yet. This is especially true for condo communities like those in <Link href="/blog/university-city-house-cleaning-guide" className="text-teal-700 font-medium hover:text-teal-800 underline">University City</Link>, where smaller floor plans stay tidy between visits.
                         </p>
 
                         {/* When to Choose Deep Cleaning */}
@@ -283,7 +283,7 @@ const StandardVsDeepCleaningPage: React.FC = () => {
                             When to Choose Deep Cleaning
                         </h2>
                         <p className="text-slate-600">
-                            Deep cleaning makes sense when your home needs a reset. If you can&apos;t remember the last time someone wiped the baseboards, or the grout in your bathroom has turned gray, a standard cleaning won&apos;t catch up — you need the full treatment first.
+                            Deep cleaning makes sense when your home needs a reset. If you can&apos;t remember the last time someone wiped the baseboards, or the grout in your bathroom has turned gray, a standard cleaning won&apos;t catch up — you need the full treatment first. Before your deep clean, <Link href="/blog/declutter-before-deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">decluttering your spaces</Link> lets the cleaning team access every surface and get the best results.
                         </p>
                         <p className="text-slate-600">
                             Choose a deep cleaning service in San Diego if:

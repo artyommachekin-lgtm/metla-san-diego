@@ -160,7 +160,7 @@ const HomeOrganizationPage: React.FC = () => {
                             Here's a truth professional cleaners wish more clients knew: a clean home and an organized home are two different things. You can't truly deep clean a cluttered space. When surfaces are covered with stuff, the best anyone can do is clean around obstructions.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            Whether you're preparing for a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link>, a <Link href="/blog/move-out-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">move-out clean</Link>, or tackling a DIY deep clean, spending time decluttering first multiplies your results. In San Diego's smaller condos and beach cottages, this is especially true—every square foot counts.
+                            Whether you're preparing for a professional <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning service</Link>, a <Link href="/blog/move-out-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">move-out clean</Link>, or cleaning up after a renovation using our <Link href="/blog/essential-post-construction-cleaning-checklist-for-homeowners" className="text-teal-700 font-medium hover:text-teal-800 underline">post-construction cleaning checklist</Link>, spending time decluttering first multiplies your results. In San Diego's smaller condos and beach cottages, this is especially true—every square foot counts.
                         </p>
 
                         {/* Stats Box */}

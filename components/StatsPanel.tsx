@@ -47,14 +47,14 @@ const StatsPanel: React.FC = () => {
           </div>
 
           <div
-            onClick={() => router.push('/policies#satisfaction-guarantee')}
+            onClick={() => router.push('/policies#satisfaction-commitment')}
             className="p-6 flex flex-col items-center justify-center bg-teal-700 hover:bg-teal-600 transition-colors cursor-pointer text-center md:text-left"
           >
             <div className="flex items-center space-x-2 mb-1">
               <Award className="w-6 h-6 text-white" />
               <span className="text-2xl font-serif">100%</span>
             </div>
-            <p className="text-sm uppercase tracking-widest font-bold">Metla Guarantee</p>
+            <p className="text-sm uppercase tracking-widest font-bold">Metla Commitment</p>
             <p className="text-xs text-white/90 mt-1">We reclean for free if unsatisfied.</p>
           </div>
 

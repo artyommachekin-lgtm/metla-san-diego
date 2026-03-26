@@ -220,14 +220,14 @@ const VacationRentalTipsPage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Salt Air Effects</h3>
-                                    <p className="text-slate-600 text-sm">Coastal properties accumulate salt residue on windows and outdoor furniture. Include exterior wipe-downs in your regular deep cleaning schedule.</p>
+                                    <p className="text-slate-600 text-sm">Coastal properties accumulate salt residue on windows and outdoor furniture. Include exterior wipe-downs in your regular deep cleaning schedule. If you're budgeting for periodic deep cleans, our guide on <Link href="/blog/how-much-does-a-deep-house-cleaning-cost" className="text-teal-700 font-medium hover:text-teal-800 underline">how much a deep house cleaning costs</Link> breaks down San Diego pricing.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-lg">
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">High Season Prep</h3>
-                                    <p className="text-slate-600 text-sm">Summer (June-August) means more turnovers. Book professional deep cleans at the start and end of summer to maintain quality during heavy use. Our guide on <Link href="/blog/how-to-prepare-your-guest-room" className="text-teal-700 font-medium hover:text-teal-800 underline">preparing your guest room</Link> covers the finishing touches that earn 5-star reviews.</p>
+                                    <p className="text-slate-600 text-sm">Summer (June-August) means more turnovers. Book professional deep cleans at the start and end of summer to maintain quality during heavy use. Not sure how often to schedule cleanings? Our guide on <Link href="/blog/how-often-house-cleaning-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">how often to clean your San Diego home</Link> helps rental hosts find the right cadence. And our guide on <Link href="/blog/how-to-prepare-your-guest-room" className="text-teal-700 font-medium hover:text-teal-800 underline">preparing your guest room</Link> covers the finishing touches that earn 5-star reviews.</p>
                                 </div>
                             </div>
                         </div>

@@ -34,8 +34,8 @@ export const SERVICES: Service[] = [
     id: 'standard',
     title: "Standard Cleaning",
     slug: "standard-cleaning",
-    shortDescription: "Recurring maintenance to keep your home consistently pristine.",
-    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently pristine living environment. Designed to keep your home in showroom condition, this service works best on a recurring schedule—weekly, biweekly, or monthly—so your San Diego home stays consistently clean. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
+    shortDescription: "Recurring maintenance to keep your home consistently spotless.",
+    fullDescription: `Our Standard Cleaning is engineered for the discerning homeowner who requires a consistently spotless living environment. Designed to keep your home in showroom condition, this service works best on a recurring schedule—weekly, biweekly, or monthly—so your San Diego home stays consistently clean. We focus on maintaining the baseline of cleanliness and order that busy San Diego families deserve.
 
 ## What to Expect From Your Standard Cleaning
 
@@ -61,7 +61,7 @@ Need to reschedule? Just give us 24 hours' notice and we'll find a new time that
 
 **Preparation:** On the day of your cleaning, our team arrives with all necessary supplies and equipment. You don't need to provide anything.
 
-**The Cleaning:** We work systematically through your home, following our comprehensive checklist. High-touch surfaces are disinfected, floors are vacuumed and mopped, and every room receives attention.
+**The Cleaning:** We work systematically through your home, following our thorough checklist. High-touch surfaces are disinfected, floors are vacuumed and mopped, and every room receives attention.
 
 **Quality Check:** Before leaving, we do a final walkthrough. If you're home, we'll invite you to inspect our work. If not, we'll secure your home and send you a notification that we've finished.
 
@@ -106,10 +106,10 @@ We focus on maintaining the baseline of cleanliness and order:`,
       points: [
         "You want a reliable recurring cleaning schedule—weekly, biweekly, or monthly.",
         "Your home is generally organized but requires professional surface management.",
-        "You want to ensure a consistently pristine environment without the effort.",
+        "You want to ensure a consistently spotless environment without the effort.",
         "You do not currently need deep tasks like inside-appliance cleaning (available as add-ons)."
       ],
-      footer: "Still unsure if we cover a specific area? Go through the comprehensive checklist below to see exactly what we touch!"
+      footer: "Still unsure if we cover a specific area? Go through the thorough checklist below to see exactly what we touch!"
     },
     iconName: 'Sparkles',
     benefits: ["Weekly / Bi-Weekly Schedule", "Surface Disinfection", "Linens & Beds Made"],
@@ -188,7 +188,7 @@ This service takes significantly more time than a standard cleaning because we'r
 
 ## Complete Transparency in Our Process
 
-We believe you deserve to know exactly what you're paying for. Before your Deep Cleaning appointment, we provide a comprehensive breakdown of what's included. Our detailed checklist (available below) shows every task we'll complete, so there are no surprises.
+We believe you deserve to know exactly what you're paying for. Before your Deep Cleaning appointment, we provide a thorough breakdown of what's included. Our detailed checklist (available below) shows every task we'll complete, so there are no surprises.
 
 During the cleaning, our team works methodically room by room. If we encounter areas that need additional attention beyond our standard scope—such as heavy staining or significant buildup—we'll communicate with you before proceeding. You're always in control, and we never add charges without your approval.
 
@@ -256,7 +256,7 @@ We're not here for just one cleaning. We're building lasting relationships with 
         "Your kitchen or bathrooms require heavy scrubbing to remove grime or scale.",
         "You are preparing to host an event or beginning a recurring service schedule."
       ],
-      footer: "Still unsure if you need a Deep or Standard clean? Check the comprehensive checklist below to see the specific inclusions for this heavy-duty service."
+      footer: "Still unsure if you need a Deep or Standard clean? Check the thorough checklist below to see the specific inclusions for this heavy-duty service."
     },
     iconName: 'ShieldCheck',
     benefits: ["Baseboards & Door Frames", "Microwave Inside & Out", "Fans, Blinds & Light Fixtures"],
@@ -432,7 +432,7 @@ Your renovation deserves a proper finishing touch. Let us reveal the beauty of y
         "New cabinets and drawers are full of sawdust or debris.",
         "You need the space finalized for furniture delivery or photography."
       ],
-      footer: "Still unsure if we cover a specific area? Go through the comprehensive checklist below to see exactly what we touch!"
+      footer: "Still unsure if we cover a specific area? Go through the thorough checklist below to see exactly what we touch!"
     },
     iconName: 'Hammer',
     benefits: ["Fine Dust Removal", "Inside Cabinets & Drawers", "Interior Windows & Sills"],
@@ -518,7 +518,7 @@ Your renovation deserves a proper finishing touch. Let us reveal the beauty of y
     id: 'vacation-rental',
     title: "Vacation Rental Cleaning",
     slug: "vacation-rental-cleaning-airbnb",
-    shortDescription: "Seamless Airbnb and VRBO turnovers for high-performing hosts in San Diego. We ensure your vacation rental is hotel-ready for every single guest check-in.",
+    shortDescription: "Smooth Airbnb and VRBO turnovers for high-performing hosts in San Diego. We ensure your vacation rental is hotel-ready for every single guest check-in.",
     fullDescription: `In the competitive San Diego short-term rental market, cleanliness is the single biggest factor in your guest ratings. Our vacation rental turnover cleaning in San Diego is not just a cleaning—it's a "hospitality turnover." We act as your eyes and ears on the ground, staging your property for maximum visual impact and ensuring that every guest feels they're the first person to stay there. We help hosts maintain their reputation with consistent, reliable quality on every turnover.
 
 ## Built for Airbnb, VRBO, and Short-Term Rental Hosts in San Diego
@@ -529,7 +529,7 @@ We've cleaned hundreds of vacation rentals across Pacific Beach, La Jolla, Coron
 
 ## Complete Transparency in Our Service
 
-You'll always know exactly what we do during each turnover. Our comprehensive checklist (detailed below) covers every room and every task, from stripping beds to restocking toiletries. You can review this list before your first booking to ensure it matches your property's specific needs.
+You'll always know exactly what we do during each turnover. Our thorough checklist (detailed below) covers every room and every task, from stripping beds to restocking toiletries. You can review this list before your first booking to ensure it matches your property's specific needs.
 
 After each cleaning, we send you a completion notification so you know the property is ready. If you use a property management platform that integrates with scheduling tools, we can coordinate timing to minimize gaps between guest stays.
 
@@ -597,7 +597,7 @@ Whether you manage one Airbnb, a VRBO listing, or a portfolio of San Diego vacat
         "You require notification of any issues or damages left by previous guests.",
         "You are looking to maintain or achieve 5-star cleanliness ratings."
       ],
-      footer: "Need to know if we handle laundry or specific restocking? Check the comprehensive checklist below for our turnover specifications."
+      footer: "Need to know if we handle laundry or specific restocking? Check the thorough checklist below for our turnover specifications."
     },
     iconName: 'Key',
     benefits: ["Linen Turnover & Staging", "Visual Verification Photos", "Damage Reporting"],
@@ -657,7 +657,7 @@ Whether you manage one Airbnb, a VRBO listing, or a portfolio of San Diego vacat
     id: 'move-in-out',
     title: "Move-In / Move-Out Cleaning",
     slug: "move-in-out-cleaning",
-    shortDescription: "A comprehensive reset for empty homes. Designed to meet strict property management standards and help you achieve a pristine fresh start for your new residence.",
+    shortDescription: "A thorough reset for empty homes. Designed to meet strict property management standards and help you achieve a spotless fresh start for your new residence.",
     fullDescription: `Our Move-In / Move-Out service is our most exhaustive cleaning package, engineered exclusively for empty properties. Whether you're handing the keys back to a landlord for an end of lease cleaning in San Diego, preparing a newly purchased home for your family, or turning over a rental unit between tenants, this service leaves zero trace of the previous occupants. Unlike furnished home cleanings, this service reaches the areas usually blocked by furniture—we focus on "interior" detailing to ensure the property is truly turnkey ready.
 
 ## What Makes Move-In/Move-Out Cleaning Different
@@ -672,7 +672,7 @@ We know this cleaning often ties into important deadlines—lease end dates, clo
 
 Before your cleaning, we'll discuss the property's size, condition, and any specific concerns. We'll give you an honest assessment of how long the job will take and what results you can expect. If the property needs more extensive work than a standard move-in/out clean, we'll tell you upfront rather than surprising you later.
 
-Our comprehensive checklist (below) shows exactly what we include. You'll know what we clean, how we clean it, and what areas receive the most attention. There are no hidden tasks—what we promise is what we deliver.
+Our thorough checklist (below) shows exactly what we include. You'll know what we clean, how we clean it, and what areas receive the most attention. There are no hidden tasks—what we outline is what we deliver.
 
 ## Meeting Property Management Standards
 
@@ -734,7 +734,7 @@ Your new beginning—or your successful property turnover—starts with a truly 
         "You are a tenant or renter looking to fulfill your lease's professional cleaning requirements with move out cleaning for renters in San Diego.",
         "You are a landlord or realtor preparing a unit for listing photos."
       ],
-      footer: "Still unsure if we cover a specific area? Go through the comprehensive checklist below to see exactly what we touch!"
+      footer: "Still unsure if we cover a specific area? Go through the thorough checklist below to see exactly what we touch!"
     },
     iconName: 'Move',
     benefits: ["Inside Fridge & Oven", "Inside Cabinets & Drawers", "Interior Windows & Sills"],

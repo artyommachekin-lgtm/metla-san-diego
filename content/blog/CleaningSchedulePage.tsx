@@ -153,7 +153,7 @@ const CleaningSchedulePage: React.FC = () => {
                             Most people fall into one of two patterns: either ignoring cleaning until it's overwhelming, or spending entire weekends catching up. Neither is sustainable. The secret to a consistently clean home is a schedule that spreads the work throughout the week -- or a <Link href="/service/standard-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">recurring cleaning service</Link> that handles it for you.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The schedule below is designed for real life -- busy careers, active social lives, and everything else San Diego has to offer. Whether you live in <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> or the suburbs, customize it to fit your lifestyle, but the principle remains: small daily efforts prevent big cleaning emergencies.
+                            The schedule below is designed for real life -- busy careers (including keeping your <Link href="/blog/how-to-clean-your-home-office" className="text-teal-700 font-medium hover:text-teal-800 underline">home office clean</Link>), active social lives, and everything else San Diego has to offer. Whether you live in <Link href="/location/hillcrest" className="text-teal-700 font-medium hover:text-teal-800 underline">Hillcrest</Link> or the suburbs, customize it to fit your lifestyle, but the principle remains: small daily efforts prevent big cleaning emergencies.
                         </p>
 
                         {/* Stats Box */}
@@ -233,9 +233,9 @@ const CleaningSchedulePage: React.FC = () => {
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-3">Seasonal (Every 3 Months)</h3>
                                     <ul className="space-y-2 text-sm text-slate-700">
-                                        <li>• Deep clean refrigerator</li>
+                                        <li>• <Link href="/blog/how-to-get-rid-of-bad-smell-in-the-fridge" className="text-teal-700 font-medium hover:text-teal-800 underline">Deep clean refrigerator</Link></li>
                                         <li>• Wash windows inside & out</li>
-                                        <li>• Flip/rotate mattress</li>
+                                        <li>• <Link href="/blog/how-to-deep-clean-your-mattress" className="text-teal-700 font-medium hover:text-teal-800 underline">Flip/rotate and deep clean mattress</Link></li>
                                         <li>• Clean behind appliances</li>
                                         <li>• Detail baseboards</li>
                                     </ul>
@@ -266,7 +266,7 @@ const CleaningSchedulePage: React.FC = () => {
                                 <Sparkles className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-slate-900">Active Lifestyle = More Laundry</h3>
-                                    <p className="text-slate-600 text-sm">Beach days, hiking, and year-round outdoor activity mean more sweaty clothes. Consider running laundry loads more frequently—small loads prevent Mount Laundry buildup.</p>
+                                    <p className="text-slate-600 text-sm">Beach days, hiking, and year-round outdoor activity mean more sweaty clothes. Consider running laundry loads more frequently—small loads prevent Mount Laundry buildup. Our guide to <Link href="/blog/how-to-deep-clean-your-laundry-room" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning your laundry room</Link> can help you keep this high-traffic area in top shape.</p>
                                 </div>
                             </div>
                         </div>

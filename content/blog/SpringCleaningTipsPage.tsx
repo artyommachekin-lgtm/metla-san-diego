@@ -37,7 +37,7 @@ const SpringCleaningTipsPage: React.FC = () => {
         },
         {
             question: "What's the difference between spring cleaning and deep cleaning?",
-            answer: "Spring cleaning typically includes deep cleaning PLUS seasonal tasks like decluttering, organizing closets, swapping out winter items, washing outdoor furniture, and prepping your home for warmer months. It's more comprehensive than a standard deep clean."
+            answer: "Spring cleaning typically includes deep cleaning PLUS seasonal tasks like decluttering, organizing closets, swapping out winter items, washing outdoor furniture, and prepping your home for warmer months. It's more thorough than a standard deep clean."
         },
         {
             question: "Should I hire cleaners for spring cleaning?",
@@ -192,10 +192,10 @@ const SpringCleaningTipsPage: React.FC = () => {
                             Spring in San Diego is special. Those perfect 70-degree days between winter rain and summer heat make it ideal for throwing open windows, airing out your home, and tackling the <Link href="/service/deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning</Link> you've been putting off.
                         </p>
                         <p className="text-slate-600">
-                            But spring cleaning in San Diego isn't quite the same as in other cities. We don't need to worry about salt from winter roads or snow boot mud tracked through the house. Instead, we're dealing with pollen season, hard water buildup from winter, and getting our outdoor living spaces ready for the months we'll spend outside.
+                            But spring cleaning in San Diego isn't quite the same as in other cities. We don't need to worry about salt from winter roads or snow boot mud tracked through the house. Instead, we're dealing with pollen season, hard water buildup from winter, and getting our outdoor living spaces ready for the months we'll spend outside. The kitchen deserves extra attention too -- if your refrigerator has developed a mystery smell over winter, our guide to <Link href="/blog/how-to-get-rid-of-bad-smell-in-the-fridge" className="text-teal-700 font-medium hover:text-teal-800 underline">eliminating bad fridge odors</Link> walks through the fix step by step.
                         </p>
                         <p className="text-slate-600">
-                            Here are our top 10 spring cleaning tips, tailored specifically for San Diego homes—whether you live in a Coronado beach cottage, a <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link> condo, or a downtown high-rise. For a more comprehensive walkthrough, check out our full <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning guide for San Diego homes</Link>.
+                            Here are our top 10 spring cleaning tips, tailored specifically for San Diego homes—whether you live in a Coronado beach cottage, a <Link href="/location/la-jolla" className="text-teal-700 font-medium hover:text-teal-800 underline">La Jolla</Link> condo, or a downtown high-rise. For a more detailed walkthrough, check out our full <Link href="/blog/deep-cleaning-guide-san-diego" className="text-teal-700 font-medium hover:text-teal-800 underline">deep cleaning guide for San Diego homes</Link>.
                         </p>
 
                         {/* Tips List */}
@@ -238,7 +238,7 @@ const SpringCleaningTipsPage: React.FC = () => {
                         <div className="space-y-4 my-6">
                             <div className="p-4 bg-blue-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏖️ Coastal Communities (La Jolla, PB, OB, Coronado)</h3>
-                                <p className="text-slate-600 text-sm">Focus extra attention on salt air residue, especially on windows, outdoor furniture, and stainless appliances. Check for any moisture or <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold issues</Link> in closets or under sinks from winter humidity.</p>
+                                <p className="text-slate-600 text-sm">Focus extra attention on salt air residue, especially on windows, outdoor furniture, and stainless appliances. Spring is also the ideal time to <Link href="/blog/how-to-clean-your-outdoor-patio" className="text-teal-700 font-medium hover:text-teal-800 underline">deep clean your outdoor patio</Link>. Check for any moisture or <Link href="/blog/how-to-eliminate-mold-from-your-home" className="text-teal-700 font-medium hover:text-teal-800 underline">mold issues</Link> in closets or under sinks from winter humidity.</p>
                             </div>
                             <div className="p-4 bg-amber-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏔️ Fire-Prone Areas (Rancho Santa Fe, Scripps Ranch, East County)</h3>
@@ -246,7 +246,7 @@ const SpringCleaningTipsPage: React.FC = () => {
                             </div>
                             <div className="p-4 bg-green-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏢 Downtown/Urban Condos</h3>
-                                <p className="text-slate-600 text-sm">Maximize your limited space by decluttering aggressively. Clean balcony/patio areas. Dust often-neglected spots like top of cabinets, HVAC vents, and behind furniture. Schedule window cleaning if your building allows.</p>
+                                <p className="text-slate-600 text-sm">Maximize your limited space by <Link href="/blog/declutter-before-deep-cleaning" className="text-teal-700 font-medium hover:text-teal-800 underline">decluttering before you deep clean</Link>. Clean balcony/patio areas. Dust often-neglected spots like top of cabinets, HVAC vents, and behind furniture. Schedule window cleaning if your building allows.</p>
                             </div>
                             <div className="p-4 bg-purple-50 rounded-lg">
                                 <h3 className="font-bold text-slate-900 mb-2">🏡 Older Neighborhoods (North Park, Normal Heights, South Park)</h3>

@@ -157,7 +157,7 @@ const StainlessSteelPage: React.FC = () => {
                             Stainless steel appliances look stunning when clean—and frustratingly smudgy when they're not. Every fingerprint, water spot, and smear shows. But here's the good news: once you know the technique, stainless steel is actually easy to maintain. If you want to tackle the whole room, pair this with our complete guide on <Link href="/blog/how-to-deep-clean-the-kitchen" className="text-teal-700 font-medium hover:text-teal-800 underline">how to deep clean the kitchen</Link>.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The key is understanding that stainless steel has a "grain"—microscopic lines running in one direction. Working with this grain, not against it, is the difference between streaky frustration and professional-looking results.
+                            The key is understanding that stainless steel has a "grain"—microscopic lines running in one direction. Working with this grain, not against it, is the difference between streaky frustration and professional-looking results. While you're caring for kitchen surfaces, your countertops deserve the same attention—see our guide on <Link href="/blog/how-to-deep-clean-granite-counters" className="text-teal-700 font-medium hover:text-teal-800 underline">how to deep clean granite counters</Link> for stone-safe techniques.
                         </p>
 
                         {/* Warning Box */}

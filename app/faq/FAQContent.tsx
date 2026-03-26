@@ -49,6 +49,10 @@ export default function FAQContent() {
         {
           question: "Are there any discounts for recurring service?",
           answer: "Yes! We offer discounts for weekly and bi-weekly recurring clients. Weekly service receives a 15% discount, bi-weekly receives 10%. These savings add up quickly and ensure your home stays consistently clean without the premium of one-time deep cleans."
+        },
+        {
+          question: "Do you offer any discounts or specials?",
+          answer: "Yes! We offer $40 off your first cleaning for new clients, plus seasonal specials throughout the year. Visit our specials page at metlahousecleaningsandiego.com/specials or call us to learn about current offers."
         }
       ]
     },
@@ -110,7 +114,7 @@ export default function FAQContent() {
       questions: [
         {
           question: "Why shouldn't I hire an independent cleaner?",
-          answer: "Independent cleaners often lack insurance, background checks, and accountability. If they cancel, you're stuck. If something breaks, you're unprotected. With Metla, you get insured professionals, a backup team guarantee (we never cancel), quality assurance, and customer support. The peace of mind is worth it."
+          answer: "Independent cleaners often lack insurance, background checks, and accountability. If they cancel, you're stuck. If something breaks, you're unprotected. With Metla, you get insured professionals, backup protocols to minimize disruptions, quality assurance, and customer support. The peace of mind is worth it."
         },
         {
           question: "Do you bring all the necessary equipment and solutions?",
@@ -118,11 +122,11 @@ export default function FAQContent() {
         },
         {
           question: "How do cleaning technicians clean so fast?",
-          answer: "Our cleaners are trained professionals, not casual laborers. They follow optimized workflows, use commercial-grade equipment, and work in teams of two. Years of experience mean they know exactly what to prioritize. Quality isn't sacrificed\u2014efficiency comes from expertise."
+          answer: "Our cleaners are trained professionals, not casual laborers. They follow optimized workflows, use professional equipment, and work in teams of two. Years of experience mean they know exactly what to prioritize. Quality isn't sacrificed\u2014efficiency comes from expertise."
         },
         {
           question: "Are you licensed and insured?",
-          answer: "Absolutely. Metla House Cleaning is fully licensed and carries comprehensive liability insurance. Every team member is background-checked and bonded. You're protected from the moment we walk in until long after we leave. Ask us for proof of insurance anytime."
+          answer: "Absolutely. Metla House Cleaning is fully licensed and carries full liability insurance. Every team member is background-checked and bonded. You're protected from the moment we walk in until long after we leave. Ask us for proof of insurance anytime."
         }
       ]
     },
@@ -131,7 +135,7 @@ export default function FAQContent() {
       icon: Shield,
       questions: [
         {
-          question: "What is your satisfaction guarantee?",
+          question: "What is your satisfaction commitment?",
           answer: "We stand behind our work. If you're not satisfied with any aspect of your cleaning, contact us within 24 hours and we'll return to re-clean the area at no charge. Our goal is your complete satisfaction\u2014we're not happy until you are."
         }
       ]
@@ -174,7 +178,7 @@ export default function FAQContent() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto text-center text-white">
             <div>
-              <div className="text-3xl font-bold">19</div>
+              <div className="text-3xl font-bold">20</div>
               <div className="text-teal-100 text-sm">Common Questions</div>
             </div>
             <div>
@@ -183,7 +187,7 @@ export default function FAQContent() {
             </div>
             <div>
               <div className="text-3xl font-bold">24hr</div>
-              <div className="text-teal-100 text-sm">Satisfaction Guarantee</div>
+              <div className="text-teal-100 text-sm">Satisfaction Commitment</div>
             </div>
             <div>
               <div className="text-3xl font-bold">100%</div>

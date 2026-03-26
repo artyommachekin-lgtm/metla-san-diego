@@ -209,6 +209,7 @@ const GuestRoomPrepPage: React.FC = () => {
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-3">Bedding & Comfort</h3>
+                                    <p className="text-sm text-slate-600 mb-2">Before making the bed, freshen upholstered chairs or headboards with our tips on <Link href="/blog/how-to-deep-clean-and-sanitize-upholstered-furniture" className="text-teal-700 font-medium hover:text-teal-800 underline">how to deep clean upholstered furniture</Link>.</p>
                                     <ul className="space-y-2 text-sm text-slate-700">
                                         {[
                                             "Fresh sheets and pillowcases",
@@ -226,6 +227,7 @@ const GuestRoomPrepPage: React.FC = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-slate-900 mb-3">Bathroom/Toiletries</h3>
+                                    <p className="text-sm text-slate-600 mb-2">If the guest bathroom needs a thorough scrub before visitors arrive, follow our <Link href="/blog/bathroom-deep-cleaning-checklist" className="text-teal-700 font-medium hover:text-teal-800 underline">bathroom deep cleaning checklist</Link> for a step-by-step guide.</p>
                                     <ul className="space-y-2 text-sm text-slate-700">
                                         {[
                                             "Fresh towels and washcloths",
