@@ -23,6 +23,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'scripps-ranch-quarterly-cleaning-guide',
         'university-city-house-cleaning-guide',
         'salt-air-la-jolla-home-cleaning',
+        'deep-cleaning-la-jolla-coastal-home',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -35,6 +36,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'how-to-prepare-your-guest-room',
         'bathroom-deep-cleaning-checklist',
         'how-to-deep-clean-your-mattress',
+        'la-jolla-vacation-rental-cleaning-guide',
     ],
     'move-in-out-cleaning': [
         'move-out-cleaning-checklist',
@@ -252,6 +254,23 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'how-to-eliminate-mold-from-your-home',
         'how-to-clean-windows-like-a-pro',
     ],
+
+    // Batch 13: La Jolla Blog Expansion
+    'la-jolla-vacation-rental-cleaning-guide': [
+        'vacation-rental-cleaning-tips-for-hosts',
+        'salt-air-la-jolla-home-cleaning',
+        'deep-cleaning-la-jolla-coastal-home',
+    ],
+    'deep-cleaning-la-jolla-coastal-home': [
+        'salt-air-la-jolla-home-cleaning',
+        'deep-cleaning-guide-san-diego',
+        'la-jolla-condo-cleaning-guide',
+    ],
+    'la-jolla-condo-cleaning-guide': [
+        'deep-cleaning-la-jolla-coastal-home',
+        'salt-air-la-jolla-home-cleaning',
+        'move-in-cleaning-checklist',
+    ],
 };
 
 /**
@@ -264,6 +283,8 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'how-to-eliminate-mold-from-your-home',
         'how-to-clean-your-outdoor-patio',
         'salt-air-la-jolla-home-cleaning',
+        'la-jolla-vacation-rental-cleaning-guide',
+        'deep-cleaning-la-jolla-coastal-home',
     ],
     'Urban Core': [
         'benefits-of-regular-cleaning-service',

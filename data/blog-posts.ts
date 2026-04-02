@@ -494,5 +494,44 @@ export const BLOG_POSTS: BlogPost[] = [
         imageAlt: 'Ocean waves breaking along the La Jolla coastline with salt spray visible in the air',
         iconName: 'Waves',
         author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'la-jolla-vacation-rental-cleaning-guide',
+        title: 'La Jolla Vacation Rental Cleaning: Coastal Turnover Guide',
+        excerpt: 'A La Jolla vacation rental host\'s guide to turnover cleaning — covering same-day turnovers, salt air wear on linens, sand tracking, and guest-ready staging across Bird Rock, The Shores, and The Village.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-04-04',
+        dateModified: '2026-04-04',
+        image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bright coastal vacation rental bedroom with ocean view and fresh white linens',
+        iconName: 'Key',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'deep-cleaning-la-jolla-coastal-home',
+        title: 'Deep Cleaning a La Jolla Coastal Home: What Salt and Sand Do to Your Surfaces',
+        excerpt: 'What professional deep cleaning addresses in La Jolla coastal homes — salt corrosion on fixtures, marine layer moisture, sand tracking, and luxury surface care across Bird Rock, Muirlands, and The Village.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-04-18',
+        dateModified: '2026-04-18',
+        image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'La Jolla coastline with waves and coastal homes visible along the bluffs',
+        iconName: 'Waves',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'la-jolla-condo-cleaning-guide',
+        title: 'La Jolla Condo Cleaning: High-Rise and Beachfront Living Guide',
+        excerpt: 'Everything La Jolla condo and apartment owners need to know about professional cleaning — from beachfront high-rises along Coast Blvd to UTC-adjacent complexes, UCSD student housing turnover, and compact layout efficiency.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-05-02',
+        dateModified: '2026-05-02',
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Modern residential high-rise buildings in a coastal San Diego neighborhood',
+        iconName: 'Building2',
+        author: DEFAULT_AUTHOR
     }
 ];
