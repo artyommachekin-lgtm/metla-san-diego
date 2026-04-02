@@ -106,7 +106,7 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                 className="inline-flex items-center justify-center px-8 py-4 border border-white/20 hover:bg-white/10 rounded transition-colors"
               >
                 <Phone className="mr-2 w-5 h-5" />
-                Call {location.phone || PHONE_NUMBER}
+                {location.phone ? `Call ${location.name} Location: ${location.phone}` : `Call ${PHONE_NUMBER}`}
               </a>
             </div>
           </div>
@@ -325,7 +325,7 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                   className="block w-full text-center border border-slate-300 text-slate-700 py-3 rounded font-medium hover:bg-slate-100 transition-colors"
                 >
                   <Phone className="w-4 h-4 inline mr-2" />
-                  Call Now
+                  {location.phone ? `Call ${location.name}: ${location.phone}` : 'Call Now'}
                 </a>
 
                 <div className="mt-4">
