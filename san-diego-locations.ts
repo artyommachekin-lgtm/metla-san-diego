@@ -41,7 +41,13 @@ Metla serves all of La Jolla — Bird Rock, the Village, Muirlands, Shores, Farm
             { question: "Do you offer vacation rental cleaning in La Jolla?", answer: "Yes. We provide turnover cleaning for La Jolla vacation rentals including same-day turnovers, photo verification for remote owners, and coastal-specific attention to salt film, sand, and humidity between every guest stay." },
             { question: "Are your La Jolla cleaners background checked?", answer: "Every member of our La Jolla cleaning team is background-checked and fully insured. We use safe, proven all-purpose products on every clean, with specialized treatments for surfaces like marble and hardwood available upon request." }
         ],
-        propertyManagerContent: "Need a reliable cleaning partner for La Jolla vacation rentals? We handle same-day turnovers for back-to-back bookings, provide photo verification for remote owners, and address coastal challenges — salt film, sand, humidity — that La Jolla properties face with every guest cycle. We serve Bird Rock through La Jolla Farms across the 92037 and 92038 zip codes."
+        propertyManagerContent: "Need a reliable cleaning partner for La Jolla vacation rentals? We handle same-day turnovers for back-to-back bookings, provide photo verification for remote owners, and address coastal challenges — salt film, sand, humidity — that La Jolla properties face with every guest cycle. We serve Bird Rock through La Jolla Farms across the 92037 and 92038 zip codes.",
+        gbpUrl: "https://maps.app.goo.gl/oceswvpwpoAA8bpu5",
+        mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.207697970596!2d-117.27526569999999!3d32.839752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60acb8c01721fd71%3A0xc886f3d4562966ef!2sMetla%20House%20Cleaning%20La%20Jolla!5e0!3m2!1sen!2sus!4v1775165212525!5m2!1sen!2sus",
+        address: { street: "727-737 Pearl St", city: "La Jolla", state: "CA", zip: "92037" },
+        coordinates: { latitude: 32.839752, longitude: -117.2752657 },
+        phone: "(858) 267-4685",
+        phoneIntl: "+1-858-267-4685"
     },
     {
         name: "Pacific Beach",

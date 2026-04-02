@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { LOCATIONS, COMPANY_NAME, PHONE_NUMBER, SERVICES } from '@/constants';
+import { LOCATIONS, COMPANY_NAME, PHONE_NUMBER, PHONE_NUMBER_INTL, SERVICES } from '@/constants';
 import {
   MapPin,
   CheckCircle,
@@ -102,11 +102,11 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <a
-                href={`tel:${PHONE_NUMBER}`}
+                href={`tel:${location.phoneIntl || PHONE_NUMBER_INTL}`}
                 className="inline-flex items-center justify-center px-8 py-4 border border-white/20 hover:bg-white/10 rounded transition-colors"
               >
                 <Phone className="mr-2 w-5 h-5" />
-                Call {PHONE_NUMBER}
+                Call {location.phone || PHONE_NUMBER}
               </a>
             </div>
           </div>
@@ -321,7 +321,7 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                   Get a Free Quote
                 </Link>
                 <a
-                  href={`tel:${PHONE_NUMBER}`}
+                  href={`tel:${location.phoneIntl || PHONE_NUMBER_INTL}`}
                   className="block w-full text-center border border-slate-300 text-slate-700 py-3 rounded font-medium hover:bg-slate-100 transition-colors"
                 >
                   <Phone className="w-4 h-4 inline mr-2" />
@@ -329,11 +329,11 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                 </a>
 
                 <div className="mt-4">
-                  <GoogleMap height="200" />
+                  <GoogleMap height="200" embedUrl={location.mapEmbedUrl} title={location.name ? `Metla House Cleaning - ${location.name}` : undefined} />
                 </div>
 
                 <a
-                  href={SITE_CONFIG.socialProfiles.gmb}
+                  href={location.gbpUrl || SITE_CONFIG.socialProfiles.gmb}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full text-center text-teal-600 hover:text-teal-700 text-sm font-medium mt-3 py-2"
@@ -343,7 +343,7 @@ const LocationPageContent: React.FC<LocationPageContentProps> = ({ slug }) => {
                 </a>
 
                 <a
-                  href={SITE_CONFIG.socialProfiles.gmb}
+                  href={location.gbpUrl || SITE_CONFIG.socialProfiles.gmb}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full text-center text-sm text-slate-500 hover:text-teal-600 mt-1 py-2 border-t border-slate-100"

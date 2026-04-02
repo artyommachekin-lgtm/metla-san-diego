@@ -28,22 +28,22 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
         "@id": `${baseUrl}/location/${location.slug}#business`,
         "name": `${SITE_CONFIG.companyName} - ${location.name}`,
         "image": `${baseUrl}${SITE_CONFIG.social.logoUrl}`,
-        "telephone": SITE_CONFIG.phoneIntl,
+        "telephone": location.phoneIntl || SITE_CONFIG.phoneIntl,
         "email": SITE_CONFIG.email,
         "url": `${baseUrl}/location/${location.slug}`,
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": SITE_CONFIG.address.street,
-            "addressLocality": SITE_CONFIG.address.city,
-            "addressRegion": SITE_CONFIG.address.state,
-            "postalCode": SITE_CONFIG.address.zip,
+            "streetAddress": location.address?.street || SITE_CONFIG.address.street,
+            "addressLocality": location.address?.city || SITE_CONFIG.address.city,
+            "addressRegion": location.address?.state || SITE_CONFIG.address.state,
+            "postalCode": location.address?.zip || SITE_CONFIG.address.zip,
             "addressCountry": "US"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": SITE_CONFIG.coordinates.latitude,
-            "longitude": SITE_CONFIG.coordinates.longitude
+            "latitude": location.coordinates?.latitude || SITE_CONFIG.coordinates.latitude,
+            "longitude": location.coordinates?.longitude || SITE_CONFIG.coordinates.longitude
         },
         "areaServed": areaServed,
         "serviceArea": {
@@ -75,7 +75,7 @@ const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = ({ location }) =
         },
         "sameAs": [
             baseUrl,
-            ...(SITE_CONFIG.socialProfiles.gmb ? [SITE_CONFIG.socialProfiles.gmb] : []),
+            ...(location.gbpUrl ? [location.gbpUrl] : SITE_CONFIG.socialProfiles.gmb ? [SITE_CONFIG.socialProfiles.gmb] : []),
             ...(SITE_CONFIG.socialProfiles.thumbtack ? [SITE_CONFIG.socialProfiles.thumbtack] : []),
             ...(SITE_CONFIG.socialProfiles.bbb ? [SITE_CONFIG.socialProfiles.bbb] : []),
             ...(SITE_CONFIG.socialProfiles.facebook ? [SITE_CONFIG.socialProfiles.facebook] : []),

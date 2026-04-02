@@ -50,6 +50,20 @@ export interface Location {
     question: string;
     answer: string;
   }[];
+  gbpUrl?: string;
+  mapEmbedUrl?: string;
+  address?: {
+    street: string;
+    city: string;
+    state: string;
+    zip: string;
+  };
+  coordinates?: {
+    latitude: number;
+    longitude: number;
+  };
+  phone?: string;
+  phoneIntl?: string;
 }
 
 export interface Testimonial {
