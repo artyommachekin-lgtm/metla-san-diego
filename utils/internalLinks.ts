@@ -15,6 +15,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'weekly-cleaning-schedule-guide',
         'standard-vs-deep-cleaning-san-diego',
         'allergy-proofing-your-home',
+        'hillcrest-craftsman-home-cleaning',
     ],
     'deep-cleaning': [
         'deep-cleaning-guide-san-diego',
@@ -24,6 +25,8 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'university-city-house-cleaning-guide',
         'salt-air-la-jolla-home-cleaning',
         'deep-cleaning-la-jolla-coastal-home',
+        'deep-cleaning-university-city-condo',
+        'hillcrest-craftsman-home-cleaning',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -271,6 +274,18 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'salt-air-la-jolla-home-cleaning',
         'move-in-cleaning-checklist',
     ],
+
+    // Batch 14: UC Condo & Hillcrest Craftsman
+    'deep-cleaning-university-city-condo': [
+        'university-city-house-cleaning-guide',
+        'deep-cleaning-guide-san-diego',
+        'move-in-cleaning-checklist',
+    ],
+    'hillcrest-craftsman-home-cleaning': [
+        'how-to-clean-hardwood-and-tile-floors',
+        'how-to-deep-clean-granite-counters',
+        'deep-cleaning-guide-san-diego',
+    ],
 };
 
 /**
@@ -290,12 +305,14 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'benefits-of-regular-cleaning-service',
         'move-out-cleaning-checklist',
         'weekly-cleaning-schedule-guide',
+        'hillcrest-craftsman-home-cleaning',
     ],
     'Suburban': [
         'deep-cleaning-guide-san-diego',
         'allergy-proofing-your-home',
         'how-to-deep-clean-the-kitchen',
         'university-city-house-cleaning-guide',
+        'deep-cleaning-university-city-condo',
     ],
     'North Inland': [
         'deep-cleaning-scripps-ranch-before-after',

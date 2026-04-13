@@ -44,6 +44,8 @@ const blogComponents: Record<string, React.ComponentType> = {
   'la-jolla-vacation-rental-cleaning-guide': dynamic(() => import('@/content/blog/LaJollaVacationRentalPage')),
   'deep-cleaning-la-jolla-coastal-home': dynamic(() => import('@/content/blog/LaJollaDeepCleanPage')),
   'la-jolla-condo-cleaning-guide': dynamic(() => import('@/content/blog/LaJollaCondoCleaningPage')),
+  'deep-cleaning-university-city-condo': dynamic(() => import('@/content/blog/UniversityCityCondoCleaningPage')),
+  'hillcrest-craftsman-home-cleaning': dynamic(() => import('@/content/blog/HillcrestCraftsmanPage')),
 };
 
 interface BlogPostContentProps {

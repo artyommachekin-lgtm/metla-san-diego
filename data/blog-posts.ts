@@ -522,6 +522,32 @@ export const BLOG_POSTS: BlogPost[] = [
         author: DEFAULT_AUTHOR
     },
     {
+        slug: 'deep-cleaning-university-city-condo',
+        title: 'Deep Cleaning a UC Condo: High-Rise Living Tips',
+        excerpt: 'How to deep clean a University City condo — managing Rose Canyon pollen, Nobel Drive construction dust, and high-rise building protocols in UTC.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-04-11',
+        dateModified: '2026-04-11',
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Modern high-rise condo building in the University City UTC neighborhood of San Diego',
+        iconName: 'Building2',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'hillcrest-craftsman-home-cleaning',
+        title: 'Hillcrest Craftsman Home Cleaning: Historic Character, Modern Clean',
+        excerpt: 'Cleaning Hillcrest craftsman homes — caring for century-old hardwood, vintage tile, and urban dust from University Ave without damaging historic character.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-04-13',
+        dateModified: '2026-04-13',
+        image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Historic craftsman-style home with wood details and vintage character in a San Diego urban neighborhood',
+        iconName: 'Home',
+        author: DEFAULT_AUTHOR
+    },
+    {
         slug: 'la-jolla-condo-cleaning-guide',
         title: 'La Jolla Condo Cleaning: High-Rise and Beachfront Living Guide',
         excerpt: 'Everything La Jolla condo and apartment owners need to know about professional cleaning — from beachfront high-rises along Coast Blvd to UTC-adjacent complexes, UCSD student housing turnover, and compact layout efficiency.',
