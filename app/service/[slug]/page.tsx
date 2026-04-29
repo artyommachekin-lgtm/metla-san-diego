@@ -8,7 +8,7 @@ const SERVICE_META_DESCRIPTIONS: Record<string, string> = {
   'standard-cleaning': 'Professional standard cleaning in San Diego. Weekly, biweekly & monthly house cleaning service. Dusting, mopping, sanitizing bathrooms & kitchen. Insured cleaners, 50-point checklist. Book online!',
   'deep-cleaning': 'Whole house deep cleaning in San Diego, La Jolla & Coronado. One time or recurring. Baseboards, ceiling fans, blinds, cabinet fronts, appliance exteriors. Insured professionals. Book today!',
   'post-construction-cleaning': 'Post-construction & post-renovation cleaning in San Diego. Construction dust removal, window cleaning, cabinet detailing after remodel. Insured professionals, surface-safe methods. Free quotes!',
-  'vacation-rental-cleaning-airbnb': 'Airbnb & VRBO cleaning in San Diego. Vacation rental turnover cleaning, same-day turnovers, linen staging, damage reporting. Hotel-quality guest-ready results. Book now!',
+  'vacation-rental-cleaning-airbnb': 'Same-day Airbnb turnovers in San Diego, built around the 11→3 check-out/check-in window. Linen staging, damage photos, 5-star ready. Book now.',
   'move-in-out-cleaning': 'Move-in & move-out cleaning in San Diego. End of lease & apartment cleaning. Inside cabinets, appliances, full sanitization. Meets property management standards. Insured team. Free quotes!',
 };
 

@@ -14,7 +14,7 @@ export const LOCATIONS: Location[] = [
         slug: "la-jolla",
         type: "Coastal",
         description: "Premium house cleaning for La Jolla's oceanfront estates and village homes.",
-        metaDescription: "Book coastal cleaning for La Jolla homes — salt-air buildup, sandy entryways, and ocean-view glass handled by insured local pros. Free quotes.",
+        metaDescription: "5-star house cleaning in La Jolla — Bird Rock to The Shores. Salt air, sand, and marble surfaces handled by insured local pros. Free same-day quotes.",
         tagline: "Where coastal elegance meets thorough cleanliness.",
         detailedContent: `You moved to La Jolla for Sunday brunch overlooking the Cove, evening walks along the Shores, and an address where Torrey Pines is your backyard and the Birch Aquarium is a quick family trip. Spend your weekends kayaking at the Sea Caves or shopping in the Village — not polishing salt residue off marble countertops and vacuuming beach sand from under the furniture.
 

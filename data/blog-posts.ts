@@ -108,7 +108,7 @@ export const BLOG_POSTS: BlogPost[] = [
     {
         slug: 'how-much-does-a-deep-house-cleaning-cost',
         title: 'How Much Does a Deep House Cleaning Cost in San Diego?',
-        excerpt: 'Understanding deep cleaning costs in San Diego. Get transparent pricing info and learn what factors affect your cleaning quote.',
+        excerpt: 'Deep cleaning in San Diego runs $300–$600. See exactly what drives pricing — home size, condition, add-ons — and get a personalized quote in 60 seconds.',
         category: 'Pricing',
         readTime: '7 min read',
         datePublished: '2024-02-02',
