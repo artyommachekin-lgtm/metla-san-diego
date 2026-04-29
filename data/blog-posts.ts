@@ -28,6 +28,32 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        slug: 'hillcrest-apartment-deep-cleaning',
+        title: 'Hillcrest Apartment Deep Clean: Urban Living Guide',
+        excerpt: 'A practical deep cleaning guide for Hillcrest apartments — HOA quiet hours, century-old plaster and original hardwood, vintage tile, cast-iron radiators, and compact urban layout priorities.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-04-29',
+        dateModified: '2026-04-29',
+        image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Cozy Hillcrest apartment interior with natural light, hardwood floors, and vintage architectural details',
+        iconName: 'Building2',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'university-city-seasonal-cleaning-guide',
+        title: 'University City Seasonal Cleaning Guide: A Year-Round Calendar',
+        excerpt: 'A season-by-season cleaning calendar for University City homes — Rose Canyon spring pollen, UTC summer construction dust, fall Santa Ana winds, and winter holiday hosting.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-04-29',
+        dateModified: '2026-04-29',
+        image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bright open-plan living room and kitchen with large windows in a University City San Diego home',
+        iconName: 'Calendar',
+        author: DEFAULT_AUTHOR
+    },
+    {
         slug: 'deep-cleaning-guide-san-diego',
         title: 'The Ultimate Deep Cleaning Guide for San Diego Homes',
         excerpt: 'Learn how to deep clean your San Diego home like a professional. Our step-by-step guide covers everything from tackling coastal dust and allergens to sanitizing every room.',

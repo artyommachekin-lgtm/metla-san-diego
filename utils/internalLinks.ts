@@ -16,6 +16,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'standard-vs-deep-cleaning-san-diego',
         'allergy-proofing-your-home',
         'hillcrest-craftsman-home-cleaning',
+        'hillcrest-apartment-deep-cleaning',
     ],
     'deep-cleaning': [
         'deep-cleaning-guide-san-diego',
@@ -27,6 +28,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'deep-cleaning-la-jolla-coastal-home',
         'deep-cleaning-university-city-condo',
         'hillcrest-craftsman-home-cleaning',
+        'university-city-seasonal-cleaning-guide',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -286,6 +288,18 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
         'how-to-deep-clean-granite-counters',
         'deep-cleaning-guide-san-diego',
     ],
+
+    // Batch 15: UC Seasonal & Hillcrest Apartment
+    'university-city-seasonal-cleaning-guide': [
+        'university-city-house-cleaning-guide',
+        'deep-cleaning-university-city-condo',
+        'top-10-spring-deep-cleaning-tips',
+    ],
+    'hillcrest-apartment-deep-cleaning': [
+        'hillcrest-craftsman-home-cleaning',
+        'how-to-clean-hardwood-and-tile-floors',
+        'benefits-of-regular-cleaning-service',
+    ],
 };
 
 /**
@@ -306,6 +320,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'move-out-cleaning-checklist',
         'weekly-cleaning-schedule-guide',
         'hillcrest-craftsman-home-cleaning',
+        'hillcrest-apartment-deep-cleaning',
     ],
     'Suburban': [
         'deep-cleaning-guide-san-diego',
@@ -313,6 +328,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'how-to-deep-clean-the-kitchen',
         'university-city-house-cleaning-guide',
         'deep-cleaning-university-city-condo',
+        'university-city-seasonal-cleaning-guide',
     ],
     'North Inland': [
         'deep-cleaning-scripps-ranch-before-after',
