@@ -48,6 +48,8 @@ const blogComponents: Record<string, React.ComponentType> = {
   'hillcrest-craftsman-home-cleaning': dynamic(() => import('@/content/blog/HillcrestCraftsmanPage')),
   'university-city-seasonal-cleaning-guide': dynamic(() => import('@/content/blog/UniversityCitySeasonalCleaningPage')),
   'hillcrest-apartment-deep-cleaning': dynamic(() => import('@/content/blog/HillcrestApartmentDeepCleanPage')),
+  'craftsman-home-cleaning-north-park': dynamic(() => import('@/content/blog/CraftsmanHomeNorthParkPage')),
+  'large-home-cleaning-poway': dynamic(() => import('@/content/blog/LargeHomePowayPage')),
 };
 
 interface BlogPostContentProps {

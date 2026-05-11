@@ -28,6 +28,32 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        slug: 'large-home-cleaning-poway',
+        title: 'Large Home Cleaning in Poway: Multi-Bedroom Homes Done Right',
+        excerpt: 'A practical house cleaning guide for large Poway homes — the time math for 2,500–4,500 sqft, multi-bathroom sequencing, room-by-room workflow, and the booking cadence for 4-to-6-bedroom homes.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-05-09',
+        dateModified: '2026-05-09',
+        image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Spacious open-plan living and dining area in a large Poway home with high ceilings and tile floors',
+        iconName: 'Home',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'craftsman-home-cleaning-north-park',
+        title: 'Craftsman Home Cleaning in North Park: Historic Detail, Modern Standard',
+        excerpt: 'A practical house cleaning guide for North Park Craftsman bungalows — original Douglas fir floors, picture rails, built-in cabinetry, vintage tile, and the deep-vs-standard rhythm for 1900s–1920s heritage homes.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-05-07',
+        dateModified: '2026-05-07',
+        image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Craftsman bungalow interior with original hardwood floors, built-in cabinetry, and warm natural light',
+        iconName: 'Home',
+        author: DEFAULT_AUTHOR
+    },
+    {
         slug: 'hillcrest-apartment-deep-cleaning',
         title: 'Hillcrest Apartment Deep Clean: Urban Living Guide',
         excerpt: 'A practical deep cleaning guide for Hillcrest apartments — HOA quiet hours, century-old plaster and original hardwood, vintage tile, cast-iron radiators, and compact urban layout priorities.',
