@@ -9,11 +9,17 @@ export function generateStaticParams() {
   }));
 }
 
+// Per-location title overrides (CTR-tuned for high-impression underperformers)
+const LOCATION_TITLE_OVERRIDES: Record<string, string> = {
+  'coronado': 'Coronado House Cleaning — Salt-Air Specialists | Metla',
+};
+
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const location = LOCATIONS.find(l => l.slug === params.slug);
   if (!location) return {};
 
-  const title = `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`;
+  const title = LOCATION_TITLE_OVERRIDES[params.slug]
+    || `Top-Rated House Cleaning in ${location.name}, San Diego | Professional Cleaning Services`;
   const description = location.metaDescription || `Professional house cleaning and maid services in ${location.name}, San Diego. ${location.description} Insured, background-checked cleaners. Book today!`;
 
   return {

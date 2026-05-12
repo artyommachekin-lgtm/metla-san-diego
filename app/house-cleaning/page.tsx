@@ -19,8 +19,8 @@ import { SITE_CONFIG } from '@/src/config/site-config';
 import FAQSchema, { FAQItem } from '@/components/FAQSchema';
 import { BLOG_POSTS } from '@/data/blog-posts';
 
-const pageTitle = `House Cleaning San Diego | ${COMPANY_NAME}`;
-const pageDescription = 'Premium house cleaning services in San Diego, La Jolla, Pacific Beach & Coronado. Standard cleaning, deep cleaning, move-in/out & vacation rental turnover. Insured professionals. Book online today!';
+const pageTitle = `House Cleaning San Diego — 245+ Five-Star Reviews | ${COMPANY_NAME}`;
+const pageDescription = 'House cleaning in San Diego with 245+ five-star reviews. 1-2 insured cleaners, the time the work actually takes, no shortcuts. Standard, deep, move-in/out & Airbnb turnover. Book online.';
 
 export const metadata: Metadata = {
   title: pageTitle,
