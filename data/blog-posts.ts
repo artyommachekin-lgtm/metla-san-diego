@@ -28,6 +28,32 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        slug: 'poway-wildfire-season-home-cleaning',
+        title: 'Poway Wildfire Ash & Dust: Post-Fire Season Home Cleaning',
+        excerpt: 'How to clear settled wildfire ash and Santa Ana dust from a Poway home (92064) — a damp-first, top-down workflow that does not re-suspend fine particles, honest scope on interior-only surfaces, and a fire-season booking cadence.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-06-03',
+        dateModified: '2026-06-03',
+        image: 'https://images.unsplash.com/photo-1762319175760-737459c35135?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Hazy golden light through a dusty window pane in a Poway home during wildfire season, fine ash and dust settled on the glass',
+        iconName: 'Flame',
+        author: DEFAULT_AUTHOR
+    },
+    {
+        slug: 'north-park-eco-friendly-cleaning',
+        title: 'Eco-Friendly Cleaning in North Park: Safer Products for Pets, Kids, and Heritage Homes',
+        excerpt: 'A practical guide to eco-friendly house cleaning in North Park (92104) — safer all-purpose products around kids and pets, fragrance-free options for sensitive households, and honest framing on what stays request-only on heritage Craftsman surfaces.',
+        category: 'Local Guide',
+        readTime: '9 min read',
+        datePublished: '2026-05-23',
+        dateModified: '2026-05-23',
+        image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Plant-based cleaning supplies in glass spray bottles next to leafy green houseplants on a kitchen counter in a North Park home',
+        iconName: 'Leaf',
+        author: DEFAULT_AUTHOR
+    },
+    {
         slug: 'large-home-cleaning-poway',
         title: 'Large Home Cleaning in Poway: Multi-Bedroom Homes Done Right',
         excerpt: 'A practical house cleaning guide for large Poway homes — the time math for 2,500–4,500 sqft, multi-bathroom sequencing, room-by-room workflow, and the booking cadence for 4-to-6-bedroom homes.',

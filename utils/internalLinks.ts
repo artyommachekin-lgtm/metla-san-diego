@@ -17,6 +17,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'allergy-proofing-your-home',
         'hillcrest-craftsman-home-cleaning',
         'hillcrest-apartment-deep-cleaning',
+        'north-park-eco-friendly-cleaning',
     ],
     'deep-cleaning': [
         'deep-cleaning-guide-san-diego',
@@ -31,6 +32,7 @@ export const SERVICE_BLOG_MAP: Record<string, string[]> = {
         'university-city-seasonal-cleaning-guide',
         'craftsman-home-cleaning-north-park',
         'large-home-cleaning-poway',
+        'poway-wildfire-season-home-cleaning',
     ],
     'post-construction-cleaning': [
         'essential-post-construction-cleaning-checklist-for-homeowners',
@@ -225,8 +227,8 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
     // Batch 8: Scripps Ranch Content Cluster
     'fire-season-eucalyptus-scripps-ranch': [
         'deep-cleaning-scripps-ranch-before-after',
+        'poway-wildfire-season-home-cleaning',
         'allergy-proofing-your-home',
-        'how-to-deep-clean-ceiling-fans',
     ],
 
     // Batch 9: Cleaning Frequency Guides
@@ -312,8 +314,22 @@ export const RELATED_POSTS_MAP: Record<string, string[]> = {
 
     // Batch 17: Poway Large Home
     'large-home-cleaning-poway': [
+        'poway-wildfire-season-home-cleaning',
         'scripps-ranch-quarterly-cleaning-guide',
-        'university-city-house-cleaning-guide',
+        'deep-cleaning-guide-san-diego',
+    ],
+
+    // Batch 18: North Park Eco-Friendly
+    'north-park-eco-friendly-cleaning': [
+        'craftsman-home-cleaning-north-park',
+        'eco-friendly-cleaning-tips',
+        'allergy-proofing-your-home',
+    ],
+
+    // Batch 19: Poway Wildfire Season
+    'poway-wildfire-season-home-cleaning': [
+        'large-home-cleaning-poway',
+        'fire-season-eucalyptus-scripps-ranch',
         'deep-cleaning-guide-san-diego',
     ],
 };
@@ -338,6 +354,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'hillcrest-craftsman-home-cleaning',
         'hillcrest-apartment-deep-cleaning',
         'craftsman-home-cleaning-north-park',
+        'north-park-eco-friendly-cleaning',
     ],
     'Suburban': [
         'deep-cleaning-guide-san-diego',
@@ -352,6 +369,7 @@ export const LOCATION_TYPE_BLOG_MAP: Record<string, string[]> = {
         'fire-season-eucalyptus-scripps-ranch',
         'scripps-ranch-quarterly-cleaning-guide',
         'large-home-cleaning-poway',
+        'poway-wildfire-season-home-cleaning',
     ],
     'South Bay': [
         'how-much-does-a-deep-house-cleaning-cost',

@@ -16,7 +16,7 @@ import FAQSchema, { FAQItem } from '@/components/FAQSchema';
 import { BLOG_POSTS } from '@/data/blog-posts';
 
 const pageTitle = `House Cleaning Specials & Discounts | San Diego | ${COMPANY_NAME}`;
-const pageDescription = `Save on San Diego house cleaning — $40 off your first clean or 15% off spring deep cleaning. Call ${PHONE_NUMBER} and mention your Google code to redeem.`;
+const pageDescription = `Save on San Diego house cleaning — $40 off your first clean or a free add-on with any summer deep clean. Call ${PHONE_NUMBER} and mention your Google code to redeem.`;
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -39,20 +39,20 @@ export default function SpecialsPage() {
 
   const faqs: FAQItem[] = [
     {
-      question: 'Can I combine the $40-off and the spring deep clean special?',
-      answer: 'No, only one promotional code can be applied per booking. However, new clients can use WELCOME40 on their first clean and then book a separate deep clean appointment using SPRING15.',
+      question: 'Can I combine the $40-off and the summer deep clean special?',
+      answer: 'No, only one promotional code can be applied per booking. However, new clients can use WELCOME40 on their first clean and then book a separate deep clean appointment using SUMMERFREE.',
     },
     {
       question: 'What services qualify for the $40-off first-time discount?',
-      answer: 'Any of our cleaning services qualifies — standard cleaning, deep cleaning, move-in/move-out cleaning, vacation rental turnover, or post-construction cleaning. The $40 discount applies to your first booking, regardless of which service you choose.',
+      answer: 'Any of our residential cleaning services qualifies — standard cleaning, deep cleaning, move-in/move-out cleaning, or post-construction cleaning. The $40 discount applies to your first booking, regardless of which service you choose.',
     },
     {
       question: 'How do I redeem a Google special?',
-      answer: `Call us at ${PHONE_NUMBER} during business hours (Monday through Sunday, 8 AM to 7 PM). Let our team know you found us on Google and mention your code — either WELCOME40 or SPRING15. We'll apply the discount to your booking.`,
+      answer: `Call us at ${PHONE_NUMBER} during business hours (Monday through Sunday, 8 AM to 7 PM). Let our team know you found us on Google and mention your code — either WELCOME40 or SUMMERFREE. We'll apply the offer to your booking.`,
     },
     {
       question: 'Do specials apply to recurring cleaning plans?',
-      answer: 'The $40-off code applies to your first cleaning only. After that, recurring clients automatically receive preferential pricing on their ongoing service. The spring 15% off applies to any single deep clean booked before June 1, 2026.',
+      answer: 'The $40-off code applies to your first cleaning only. After that, recurring clients automatically receive preferential pricing on their ongoing service. The summer free add-on applies to any deep clean booked through September 1, 2026.',
     },
     {
       question: 'Are these specials available in my San Diego neighborhood?',
@@ -71,7 +71,7 @@ export default function SpecialsPage() {
         '@type': 'Offer',
         name: '$40 Off Your First Cleaning',
         description:
-          'Get $40 off any cleaning service — standard, deep clean, or move-in/move-out. New clients only. Mention code WELCOME40.',
+          'Get $40 off any cleaning service — standard, deep clean, move-in/move-out, or post-construction. New clients only. Mention code WELCOME40.',
         priceValidUntil: '2026-06-30',
         availability: 'https://schema.org/InStock',
         availableAtOrFrom: {
@@ -87,10 +87,10 @@ export default function SpecialsPage() {
       },
       {
         '@type': 'Offer',
-        name: 'Spring Deep Clean Special — 15% Off',
+        name: 'Summer Fresh — Free Add-On with Deep Clean',
         description:
-          '15% off any deep cleaning service through June 1, 2026. Mention code SPRING15.',
-        priceValidUntil: '2026-06-01',
+          'Book any deep cleaning service this summer and get a free add-on — your choice of inside the fridge, inside the oven, or interior window cleaning. Through September 1, 2026. Mention code SUMMERFREE.',
+        priceValidUntil: '2026-09-01',
         availability: 'https://schema.org/InStock',
         availableAtOrFrom: {
           '@type': 'LocalBusiness',
@@ -160,7 +160,7 @@ export default function SpecialsPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-bold rounded transition-colors"
+                className="inline-flex items-center justify-center px-8 py-4 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded transition-colors"
               >
                 <Phone className="mr-2 w-5 h-5" />
                 Call {PHONE_NUMBER} to Redeem
@@ -185,8 +185,8 @@ export default function SpecialsPage() {
               <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
               <p className="text-slate-700">
                 {COMPANY_NAME} offers two active specials for San Diego residents: <strong>$40 off
-                your first cleaning</strong> (any service) and a seasonal <strong>spring deep clean
-                discount of 15% off</strong>. Call us at{' '}
+                your first cleaning</strong> (any service) and a seasonal <strong>free add-on with
+                any summer deep clean</strong>. Call us at{' '}
                 <a href={`tel:${PHONE_NUMBER}`} className="text-teal-700 font-medium underline">
                   {PHONE_NUMBER}
                 </a>
@@ -236,7 +236,7 @@ export default function SpecialsPage() {
                     <li>
                       <Link
                         href="/service/standard-cleaning"
-                        className="text-teal-600 hover:text-teal-700 hover:underline font-medium"
+                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
                       >
                         Standard Cleaning
                       </Link>
@@ -244,7 +244,7 @@ export default function SpecialsPage() {
                     <li>
                       <Link
                         href="/service/deep-cleaning"
-                        className="text-teal-600 hover:text-teal-700 hover:underline font-medium"
+                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
                       >
                         Deep Cleaning
                       </Link>
@@ -252,9 +252,17 @@ export default function SpecialsPage() {
                     <li>
                       <Link
                         href="/service/move-in-out-cleaning"
-                        className="text-teal-600 hover:text-teal-700 hover:underline font-medium"
+                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
                       >
                         Move-In / Move-Out Cleaning
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/service/post-construction-cleaning"
+                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
+                      >
+                        Post-Construction Cleaning
                       </Link>
                     </li>
                   </ul>
@@ -264,25 +272,25 @@ export default function SpecialsPage() {
                   <h4 className="font-bold text-slate-900 mb-3">How to Redeem</h4>
                   <ol className="space-y-2 text-slate-600 text-sm">
                     <li className="flex items-start gap-2">
-                      <span className="bg-teal-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         1
                       </span>
                       <span>Call {PHONE_NUMBER}</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-teal-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         2
                       </span>
                       <span>Tell our team you found us on Google</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-teal-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         3
                       </span>
                       <span>Mention code WELCOME40</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-teal-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         4
                       </span>
                       <span>We&apos;ll apply $40 off your first cleaning invoice</span>
@@ -292,37 +300,37 @@ export default function SpecialsPage() {
 
                 <a
                   href={`tel:${PHONE_NUMBER}`}
-                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-teal-500 hover:bg-teal-400 text-white font-bold rounded transition-colors"
+                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-teal-700 hover:bg-teal-600 text-white font-bold rounded transition-colors"
                 >
                   <Phone className="mr-2 w-5 h-5" />
                   Call {PHONE_NUMBER} to Book
                 </a>
               </div>
 
-              {/* Card 2: Spring Deep Clean */}
+              {/* Card 2: Summer Free Add-On */}
               <div className="bg-white border-2 border-amber-500 rounded-xl p-8">
                 <span className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-bold uppercase">
-                  Spring 2026 — Ends June 1
+                  Summer 2026 — Ends Sept 1
                 </span>
                 <h3 className="text-2xl font-serif font-bold text-slate-900 mt-4 mb-3">
-                  Spring Deep Clean Special — 15% Off
+                  Summer Fresh — Free Add-On with Deep Clean
                 </h3>
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-sm text-slate-600 font-medium">Your code:</span>
                   <span className="bg-slate-100 px-4 py-2 rounded font-mono font-bold text-lg">
-                    SPRING15
+                    SUMMERFREE
                   </span>
                 </div>
-                <p className="text-sm text-slate-500 mb-4">Valid through: June 1, 2026</p>
+                <p className="text-sm text-slate-500 mb-4">Valid through: September 1, 2026</p>
 
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Spring in San Diego means open windows, longer days — and months of dust, pollen,
-                  and grime you&apos;ve been putting off. If you&apos;ve been on the fence about a
-                  professional deep clean, this is the push: 15% off any deep cleaning service
-                  through June 1. We want you to see firsthand what 1-2 experienced cleaners can do
-                  to your home in a single visit — every baseboard wiped, every ceiling fan dusted,
-                  every bathroom sanitized top to bottom. Once you see the difference, you&apos;ll
-                  understand why San Diego families keep coming back.
+                  Summer in San Diego means houseguests, beach sand, and homes that work harder than
+                  usual. Book any deep cleaning service this summer and we&apos;ll add one upgrade for
+                  free — your choice of inside the fridge, inside the oven, or interior window
+                  cleaning, each normally a paid add-on. It&apos;s the perfect reset before hosting
+                  guests or after a vacation, and a low-risk way to see what 1-2 experienced cleaners
+                  can do in a single visit — every baseboard wiped, every ceiling fan dusted, every
+                  bathroom sanitized top to bottom.
                 </p>
 
                 <div className="mb-4">
@@ -364,48 +372,48 @@ export default function SpecialsPage() {
                 </div>
 
                 <div className="mb-6">
-                  <h4 className="font-bold text-slate-900 mb-2">Add-ons (at extra cost):</h4>
+                  <h4 className="font-bold text-slate-900 mb-2">Your free add-on — choose one:</h4>
                   <ul className="text-sm text-slate-600 space-y-1">
-                    <li>Inside refrigerator</li>
-                    <li>Inside oven</li>
-                    <li>Inside cabinets</li>
-                    <li>Interior windows</li>
+                    <li>Inside the refrigerator</li>
+                    <li>Inside the oven</li>
+                    <li>Interior window cleaning</li>
                   </ul>
+                  <p className="text-xs text-slate-400 mt-2">One free add-on per deep clean booking. Other add-ons remain available at regular cost.</p>
                 </div>
 
                 <div className="bg-slate-50 rounded-lg p-4 mb-6">
                   <h4 className="font-bold text-slate-900 mb-3">How to Redeem</h4>
                   <ol className="space-y-2 text-slate-600 text-sm">
                     <li className="flex items-start gap-2">
-                      <span className="bg-amber-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         1
                       </span>
                       <span>Call {PHONE_NUMBER}</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-amber-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         2
                       </span>
                       <span>Tell our team you found us on Google</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-amber-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         3
                       </span>
-                      <span>Mention code SPRING15</span>
+                      <span>Mention code SUMMERFREE</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="bg-amber-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         4
                       </span>
-                      <span>We&apos;ll apply 15% off your deep cleaning invoice</span>
+                      <span>We&apos;ll add your free upgrade to the deep clean booking</span>
                     </li>
                   </ol>
                 </div>
 
                 <a
                   href={`tel:${PHONE_NUMBER}`}
-                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-amber-500 hover:bg-amber-400 text-white font-bold rounded transition-colors"
+                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-amber-700 hover:bg-amber-600 text-white font-bold rounded transition-colors"
                 >
                   <Phone className="mr-2 w-5 h-5" />
                   Call {PHONE_NUMBER} to Book
@@ -414,7 +422,7 @@ export default function SpecialsPage() {
             </div>
 
             <p className="text-center text-slate-400 text-sm mt-8">
-              Last updated: March 25, 2026
+              Last updated: June 3, 2026
             </p>
           </div>
         </div>
@@ -431,13 +439,13 @@ export default function SpecialsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-8 h-8 text-teal-600" />
+                  <Phone className="w-8 h-8 text-teal-700" />
                 </div>
-                <div className="text-2xl font-bold text-teal-600 mb-2">1</div>
+                <div className="text-2xl font-bold text-teal-700 mb-2">1</div>
                 <h3 className="font-bold text-slate-900 mb-1">Call Us</h3>
                 <p className="text-slate-600 text-sm">
                   Call{' '}
-                  <a href={`tel:${PHONE_NUMBER}`} className="text-teal-600 font-medium">
+                  <a href={`tel:${PHONE_NUMBER}`} className="text-teal-700 font-medium">
                     {PHONE_NUMBER}
                   </a>{' '}
                   (Mon&ndash;Sun, 8 AM &ndash; 7 PM)
@@ -446,9 +454,9 @@ export default function SpecialsPage() {
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-8 h-8 text-teal-600" />
+                  <MapPin className="w-8 h-8 text-teal-700" />
                 </div>
-                <div className="text-2xl font-bold text-teal-600 mb-2">2</div>
+                <div className="text-2xl font-bold text-teal-700 mb-2">2</div>
                 <h3 className="font-bold text-slate-900 mb-1">Tell Us How You Found Us</h3>
                 <p className="text-slate-600 text-sm">
                   Let our team know you found us on Google Business
@@ -457,20 +465,20 @@ export default function SpecialsPage() {
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Tag className="w-8 h-8 text-teal-600" />
+                  <Tag className="w-8 h-8 text-teal-700" />
                 </div>
-                <div className="text-2xl font-bold text-teal-600 mb-2">3</div>
+                <div className="text-2xl font-bold text-teal-700 mb-2">3</div>
                 <h3 className="font-bold text-slate-900 mb-1">Mention Your Code</h3>
                 <p className="text-slate-600 text-sm">
-                  Say WELCOME40 or SPRING15 so we know to apply the discount
+                  Say WELCOME40 or SUMMERFREE so we know to apply the offer
                 </p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calendar className="w-8 h-8 text-teal-600" />
+                  <Calendar className="w-8 h-8 text-teal-700" />
                 </div>
-                <div className="text-2xl font-bold text-teal-600 mb-2">4</div>
+                <div className="text-2xl font-bold text-teal-700 mb-2">4</div>
                 <h3 className="font-bold text-slate-900 mb-1">Schedule Your Cleaning</h3>
                 <p className="text-slate-600 text-sm">
                   We&apos;ll confirm the discounted price before booking
@@ -480,7 +488,7 @@ export default function SpecialsPage() {
 
             <div className="mt-10 bg-white rounded-lg p-4 text-center text-sm text-slate-500">
               Specials cannot be combined with each other. New clients can use WELCOME40 on their
-              first clean and book a spring deep clean with SPRING15 as a separate appointment.
+              first clean and book a summer deep clean with SUMMERFREE as a separate appointment.
             </div>
           </div>
         </div>
@@ -494,7 +502,7 @@ export default function SpecialsPage() {
               What&apos;s Included in Each Service
             </h2>
             <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-              All three services qualify for the $40-off first-time discount. The spring 15% off
+              Every service qualifies for the $40-off first-time discount. The summer free add-on
               applies to deep cleaning.
             </p>
 
@@ -504,7 +512,7 @@ export default function SpecialsPage() {
                 href="/service/standard-cleaning"
                 className="bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-300 hover:shadow-lg transition-all group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-600 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-700 transition-colors">
                   Standard Cleaning
                 </h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -513,9 +521,8 @@ export default function SpecialsPage() {
                 </p>
                 <p className="text-xs text-slate-400">
                   Add-ons available: inside fridge, inside oven, inside cabinets, interior windows
-                  ($35-$50 each)
                 </p>
-                <span className="text-teal-600 font-medium text-sm inline-flex items-center mt-3">
+                <span className="text-teal-700 font-medium text-sm inline-flex items-center mt-3">
                   View full checklist <ArrowRight className="ml-1 w-4 h-4" />
                 </span>
               </Link>
@@ -525,7 +532,7 @@ export default function SpecialsPage() {
                 href="/service/deep-cleaning"
                 className="bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-300 hover:shadow-lg transition-all group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-600 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-700 transition-colors">
                   Deep Cleaning
                 </h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -534,9 +541,8 @@ export default function SpecialsPage() {
                 </p>
                 <p className="text-xs text-slate-400">
                   Add-ons available: inside fridge, inside oven, inside cabinets, interior windows
-                  ($35-$50 each)
                 </p>
-                <span className="text-teal-600 font-medium text-sm inline-flex items-center mt-3">
+                <span className="text-teal-700 font-medium text-sm inline-flex items-center mt-3">
                   View full checklist <ArrowRight className="ml-1 w-4 h-4" />
                 </span>
               </Link>
@@ -546,7 +552,7 @@ export default function SpecialsPage() {
                 href="/service/move-in-out-cleaning"
                 className="bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-300 hover:shadow-lg transition-all group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-600 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-teal-700 transition-colors">
                   Move-In / Move-Out
                 </h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -556,7 +562,7 @@ export default function SpecialsPage() {
                 <p className="text-xs text-slate-400">
                   Ideal for lease transitions, property closings, and new-tenant prep
                 </p>
-                <span className="text-teal-600 font-medium text-sm inline-flex items-center mt-3">
+                <span className="text-teal-700 font-medium text-sm inline-flex items-center mt-3">
                   View full checklist <ArrowRight className="ml-1 w-4 h-4" />
                 </span>
               </Link>
@@ -586,7 +592,7 @@ export default function SpecialsPage() {
                   href={`/location/${loc.slug}`}
                   className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-200 hover:border-teal-300 hover:bg-teal-50 transition-all"
                 >
-                  <MapPin className="w-4 h-4 text-teal-600 flex-shrink-0" />
+                  <MapPin className="w-4 h-4 text-teal-700 flex-shrink-0" />
                   <span className="text-slate-700 font-medium text-sm">{loc.name}</span>
                 </Link>
               ))}
@@ -651,7 +657,7 @@ export default function SpecialsPage() {
                   >
                     <ArrowRight className="w-4 h-4 text-teal-500 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-600 transition-colors text-sm">
+                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors text-sm">
                         {post.title}
                       </h3>
                       <p className="text-xs text-slate-500 mt-0.5">{post.readTime}</p>

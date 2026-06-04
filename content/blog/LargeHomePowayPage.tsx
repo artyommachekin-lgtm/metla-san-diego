@@ -227,6 +227,9 @@ function LargeHomePowayPageInner() {
                             <li><strong>Sabre Springs border:</strong> Newer construction, more uniform layouts, often three-car garages with formal entries. Cleaning runs closer to standard suburban workflow.</li>
                             <li><strong>Rancho Bernardo border:</strong> Mixed HOA and non-HOA neighborhoods. Some communities have shared landscaping that reduces outdoor-tracked debris into homes.</li>
                         </ul>
+                        <p className="text-slate-600">
+                            Poway's backcountry setting also brings fire-season ash and Santa Ana dust every fall — a load that lands on far more surfaces in a large home. For the damp-first approach to clearing settled ash, see our <Link href="/blog/poway-wildfire-season-home-cleaning" className="text-teal-600 hover:text-teal-700 underline">Poway wildfire ash and dust cleaning guide</Link>.
+                        </p>
 
                         {/* Section 3: Room-by-room sequence */}
                         <h2 className="text-2xl font-serif font-bold text-slate-900 mt-10 mb-4">

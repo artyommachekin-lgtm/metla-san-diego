@@ -193,7 +193,7 @@ export const SITE_CONFIG = {
     socialProof: {
         aggregateRating: {
             ratingValue: "4.9",
-            ratingCount: "228",
+            ratingCount: "248",
         },
         foundingDate: "2023",
         employeeCount: {
