@@ -21,8 +21,9 @@ Determine scope based on context:
 
 ### Step 1: Load all rules
 
-Read every rule file completely before scanning any content:
+Read every rule file completely before scanning any content. **Start with the consolidated guide — it summarizes and prioritizes everything below, plus the house voice:**
 
+0. **[../../../.agent-memory/copywriter.md](../../../.agent-memory/copywriter.md) — the single source of truth for voice (incl. §2.5 house style), per-service scope (turnover ≠ deep clean), and claim rules. Read it first.**
 1. [rules/content-accuracy.md](rules/content-accuracy.md) — Legal/truth: service inclusions, forbidden guarantees, team size, surface care, equipment claims, scope of work
 2. [rules/brand-voice.md](rules/brand-voice.md) — Tone: forbidden AI words, active voice, key differentiators
 3. [rules/blog-seo.md](rules/blog-seo.md) — Blog SEO: triple schema, E-E-A-T, internal links (5 min), headings, quick-answer box, word count
@@ -66,14 +67,15 @@ SEO structure (blog-seo.md):
 - FAQSchema present with 4+ real Q&As
 - HowToSchema present (when applicable) with 4+ steps, no brand names in supplies
 - quick-answer CSS class on first content section
-- 5+ internal links (up to hub, service page, location page, related blog, /booking CTA)
+- 5+ outbound internal links (up to hub, service page, location page, related blog, /booking CTA)
+- 2+ inbound links from other content pages (orphan page detection — blog-seo.md §6b)
 - H1→H2→H3 hierarchy (no skipped levels)
 - Word count 1200+ (estimate from JSX text content)
 - Published/Updated dates displayed
 - AuthorBio component at bottom
 
 Images (blog-images.md):
-- loading="lazy" on all images
+- loading="lazy" on below-fold images (loading="eager" acceptable on above-fold hero images)
 - decoding="async" on all images
 - Explicit width and height attributes
 - Descriptive alt text (not generic "cleaning service")
