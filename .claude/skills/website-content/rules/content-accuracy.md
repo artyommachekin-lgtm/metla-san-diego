@@ -77,6 +77,24 @@ Before publishing any content:
 - ❌ Window cleaning is included (only sills, not glass, in deep clean)
 - ❌ Mixing up what's included in different service tiers
 
+## ✅ Acceptable In Context (NOT Violations)
+
+### DIY How-To Guides
+Blog posts that teach readers how to clean their own homes may discuss:
+- Inside oven/fridge cleaning steps (DIY advice, not Metla service description)
+- Grout scrubbing techniques (educational, not service promise)
+- Specific cleaning product brand names (Dawn, Rain-X, Nature's Miracle, etc.) as reader recommendations
+- These are NOT violations because they describe what the READER does, not what Metla's service includes
+
+### Post-Construction Cleaning
+Post-construction cleaning is a specialized service (like move-in/out) that DOES include:
+- Inside refrigerator, oven, and dishwasher
+- Inside all cabinets and drawers
+- These are NOT add-ons for post-construction — they are standard inclusions for this service tier
+
+### Satisfaction Language
+- ✅ "Satisfaction Commitment" — approved term
+- ❌ "Satisfaction Guarantee" — forbidden (implies legal guarantee)
 
 ---
 

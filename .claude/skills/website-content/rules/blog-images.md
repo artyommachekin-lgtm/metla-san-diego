@@ -27,7 +27,7 @@ Instead, use direct Unsplash CDN URLs with verified photo IDs:
 
 ## 5. Image Tag Attributes
 All blog `<img>` tags must include:
-* `loading="lazy"` (below-fold images)
+* `loading="lazy"` (below-fold images). Note: `loading="eager"` is acceptable for above-the-fold hero/featured images — this is a web performance best practice, NOT a violation.
 * `decoding="async"`
 * `width={800}` and `height={533}` (prevents CLS)
 

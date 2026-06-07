@@ -70,6 +70,15 @@ Every blog post must link to:
 
 Plus: `<RelatedArticles currentSlug="..." />` component (adds 3 more links automatically)
 
+### 6b. Inbound Links (Orphan Page Detection — 2 minimum)
+Every blog post must be linked TO from at least 2 other content pages (blog posts, service pages, location pages, or homepage). Posts with fewer than 2 inbound links are "orphan pages" — Google struggles to discover and index them.
+
+**How to check:** Search all `.tsx` files in `content/blog/`, `app/service/`, `app/location/`, and `components/` for `href="/blog/[slug]"`. Count unique files linking to each blog slug.
+
+**Minimum threshold:** 2 inbound links from other content pages (excluding RelatedArticles auto-links, which are client-side rendered and less reliable for crawl discovery).
+
+**If below threshold:** Add natural inline links from topically related, already-indexed pages. Prefer pages that are already indexed in Google for faster crawl path discovery.
+
 ## 7. Image Optimization
 - All images: `loading="lazy"`, `decoding="async"`, explicit `width`/`height`
 - Alt text: Descriptive of the specific subject (per blog-images.md)

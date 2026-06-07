@@ -19,6 +19,7 @@ description: Strict guidelines for brand tone, style, and forbidden words. MUST 
 **Do NOT use these robotic words:**
 * "Delve," "Elevate," "Unlock," "Tapestry," "Landscape," "Game-changer," "Revolutionize."
 * "Hidden gem," "Look no further," "In today's fast-paced world," "In today's busy world," "Top-notch."
+* "Pristine," "Seamless," "Impeccable," "Masterful," "Comprehensive," "Unparalleled," "Cutting-edge."
 
 ## 4. Key Differentiators to Highlight
 * **Flexibility:** "Eco-friendly" for families, "Industrial-strength" for nasty turnovers.
