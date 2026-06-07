@@ -13,6 +13,7 @@
 - `.agent-memory/media-usage-tracker.md` — every photo/video used per post (prevents reuse).
 - `.agent-memory/gbp-offer-campaign.md` — the two-offer GBP campaign (always-on $40 + rotating seasonal) and the swap calendar.
 - `.agent-memory/copywriter.md` — **the single source of truth for ALL copy.** Voice, banned/required words, claim rules, the per-service scope table (incl. **turnover ≠ deep clean**), SEO/keyword law, channel rules, and a pre-publish checklist. **Read it before writing any blog, page, caption, or offer.**
+- `.agent-memory/ranking-strategy.md` — **the evidence-based GMB + web ranking strategy** (NavBoost/clicks, local-pack weights, reviews velocity, address visibility, the Apr-2026 review policy, monitoring sources). **Read it before any ranking/SEO/GBP decision.** Kept current by the `ranking-intel` skill.
 - Plus: `openphone-collection-progress.md`, `gsc-audit-history.md`, `la-jolla-gbp-strategy.md`, `service-area-strategy.md`, `heatmap-history.md`, and `feedback_*` / `reference_*` notes.
 
 **`.agent-memory/` is the memory now — edit it directly.** It used to live at `/Users/user/.claude/projects/-Users-user-Downloads-metla-San-Diego/memory/`, but that `.claude/` path is **protected and unreachable** from Cowork (can't be mounted, can't be read). Everything was copied into `.agent-memory/` and all workflow/skill docs were repointed here. Do **not** rely on the old path. `.agent-memory/` is gitignored (local working state, not committed) and persists in this connected folder across sessions.
@@ -69,6 +70,7 @@ The Edit/Write tools refuse any path under `.claude/` ("resolves to a protected 
 - **`/website-content`** (`.claude/skills/website-content/`) — deep-read content audit (accuracy, brand voice, blog SEO, keywords, location logic, images). The `rules/*.md` are the law for writing/auditing blogs and pages. **Read the relevant rules before writing site content.**
 - **`/social-posting`** (`.claude/skills/social-posting/`) — all GBP/FB/IG posting + GBP gallery photos. Routes to the `.agent/workflows/*.md` step-by-step guides (`gbp-posting.md`, `meta-posting.md`, `gbp-photos.md`, `openphone-photo-collection.md`, `gemini-image-generation.md`, `social-media-visuals.md`).
 - **`remotion-best-practices`** (`.claude/skills/`) — for building marketing video reels in the separate `metla-marketing` Remotion repo.
+- **`ranking-intel`** (`.claude/skills/ranking-intel/`) — weekly (or on-demand) sweep for new Google ranking/GBP/algorithm intel; verifies + appends dated deltas to `.agent-memory/ranking-strategy.md`. Runs automatically via the **`metla-ranking-intel`** scheduled task (Mondays). Run it on demand with "run ranking-intel".
 
 **Before writing or editing ANY copy — blog, page, GBP/FB/IG caption, offer, ad, or email — read `.agent-memory/copywriter.md` first and run its pre-publish checklist. No copy ships without it.** It carries the house voice (§2.5), the per-service scope (turnover ≠ deep clean), and every claim rule below.
 
