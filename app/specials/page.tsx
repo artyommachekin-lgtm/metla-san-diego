@@ -89,7 +89,7 @@ export default function SpecialsPage() {
         '@type': 'Offer',
         name: 'Summer Fresh — Free Add-On with Deep Clean',
         description:
-          'Book any deep cleaning service this summer and get a free add-on — your choice of inside the fridge, inside the oven, or interior window cleaning. Through September 1, 2026. Mention code SUMMERFREE.',
+          'Book any deep cleaning service this summer and get a free add-on — your choice of inside the fridge or inside the oven. Through September 1, 2026. Mention code SUMMERFREE.',
         priceValidUntil: '2026-09-01',
         availability: 'https://schema.org/InStock',
         availableAtOrFrom: {
@@ -326,8 +326,7 @@ export default function SpecialsPage() {
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Summer in San Diego means houseguests, beach sand, and homes that work harder than
                   usual. Book any deep cleaning service this summer and we&apos;ll add one upgrade for
-                  free — your choice of inside the fridge, inside the oven, or interior window
-                  cleaning, each normally a paid add-on. It&apos;s the perfect reset before hosting
+                  free — your choice of inside the fridge or inside the oven, each normally a paid add-on. It&apos;s the perfect reset before hosting
                   guests or after a vacation, and a low-risk way to see what 1-2 experienced cleaners
                   can do in a single visit — every baseboard wiped, every ceiling fan dusted, every
                   bathroom sanitized top to bottom.
@@ -374,11 +373,10 @@ export default function SpecialsPage() {
                 <div className="mb-6">
                   <h4 className="font-bold text-slate-900 mb-2">Your free add-on — choose one:</h4>
                   <ul className="text-sm text-slate-600 space-y-1">
-                    <li>Inside the refrigerator</li>
+                    <li>Inside the refrigerator*</li>
                     <li>Inside the oven</li>
-                    <li>Interior window cleaning</li>
                   </ul>
-                  <p className="text-xs text-slate-400 mt-2">One free add-on per deep clean booking. Other add-ons remain available at regular cost.</p>
+                  <p className="text-xs text-slate-400 mt-2">*Standard fridge clean only — heavy or hazardous build-up (spoilage, mold) is quoted separately. One free add-on per deep clean booking. Other add-ons remain available at regular cost.</p>
                 </div>
 
                 <div className="bg-slate-50 rounded-lg p-4 mb-6">
