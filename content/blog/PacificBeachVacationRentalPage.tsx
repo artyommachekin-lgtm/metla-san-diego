@@ -93,7 +93,7 @@ const PacificBeachVacationRentalPage: React.FC = () => {
                             Pacific Beach Airbnb Turnover Cleaning: A Host&apos;s Summer Playbook
                         </h1>
                         <p className="text-xl text-slate-300 mb-4">
-                            Fast, reliable resets between guests in 92109 — sand, salt, and the 11-to-4 window, handled.
+                            The checkout-to-check-in scramble, off your plate — fast, reliable turnovers across 92109.
                         </p>
                         <div className="flex items-center gap-2 text-slate-500 text-sm">
                             <Calendar className="w-4 h-4" />
@@ -118,10 +118,10 @@ const PacificBeachVacationRentalPage: React.FC = () => {
 
                         {/* Introduction */}
                         <p className="text-xl text-slate-600 leading-relaxed">
-                            In Pacific Beach, the gap between one guest checking out and the next checking in is rarely more than a few hours — and every one of those hours has to count. Salt spray off the Pacific leaves a film on the windows, fine sand from the boardwalk and Mission Bay tracks across the floors, and the marine layer pushes damp into every closed-up room between stays. For a short-term rental near Crystal Pier or Crown Point, a turnover is a full reset on a deadline. This is the part of house cleaning San Diego hosts feel most sharply, because a single missed detail shows up in the next review.
+                            You got into Pacific Beach hosting for the summer demand and the five-star stays — not to spend every checkout racing a mop around a 92109 condo before the next guest's 4 p.m. arrival. That few-hour turnaround is where a short-term rental is won or lost, though, and in peak season it lands on you again and again, often same-day. Handing it to a reliable turnover team is the part of house cleaning San Diego hosts say buys back the most time — and protects the reviews that keep the calendar full.
                         </p>
                         <p className="text-slate-600 mt-4">
-                            The good news: a reliable turnover system makes the checkout-to-check-in window predictable instead of frantic. Below is the playbook our team runs on Pacific Beach (92109) rentals — what a turnover covers, where it stops, and how we keep sand and salt from ever reaching a guest. It is the local companion to our broader <Link href="/blog/vacation-rental-cleaning-tips-for-hosts" className="text-teal-700 font-medium hover:text-teal-800 underline">vacation rental cleaning tips for San Diego hosts</Link>, tuned for the coast.
+                            A dependable turnover system makes the 11 a.m.-to-4 p.m. window predictable instead of frantic — whether your place sits near Crystal Pier, Crown Point, or up toward Kate Sessions Park. Below is the playbook our team runs on Pacific Beach (92109) rentals: what a turnover covers, where it stops, and how we keep the coast's sand and salt from ever reaching a guest. It is the local companion to our broader <Link href="/blog/vacation-rental-cleaning-tips-for-hosts" className="text-teal-700 font-medium hover:text-teal-800 underline">vacation rental cleaning tips for San Diego hosts</Link>, tuned for the beach.
                         </p>
 
                         {/* Stats Box */}
