@@ -52,6 +52,7 @@ const blogComponents: Record<string, React.ComponentType> = {
   'large-home-cleaning-poway': dynamic(() => import('@/content/blog/LargeHomePowayPage')),
   'north-park-eco-friendly-cleaning': dynamic(() => import('@/content/blog/NorthParkEcoFriendlyCleaningPage')),
   'poway-wildfire-season-home-cleaning': dynamic(() => import('@/content/blog/PowayWildfireSeasonPage')),
+  'pacific-beach-vacation-rental-turnover-cleaning': dynamic(() => import('@/content/blog/PacificBeachVacationRentalPage')),
 };
 
 interface BlogPostContentProps {

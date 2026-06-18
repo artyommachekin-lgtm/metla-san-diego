@@ -28,6 +28,19 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        slug: 'pacific-beach-vacation-rental-turnover-cleaning',
+        title: "Pacific Beach Airbnb Turnover Cleaning: A Host's Summer Playbook",
+        excerpt: 'A Pacific Beach Airbnb host\'s playbook for fast, reliable turnovers between summer guests in 92109 — what a turnover covers, where it stops short of a deep clean, and how we keep sand and salt off every surface. Honest scope from a house cleaning San Diego team.',
+        category: 'Local Guide',
+        readTime: '8 min read',
+        datePublished: '2026-06-18',
+        dateModified: '2026-06-18',
+        image: 'https://images.unsplash.com/photo-1779870458288-95fd59cd2c5b?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
+        imageAlt: 'Bright Pacific Beach vacation rental bedroom with twin beds and an ocean view, freshly turned over with crisp white linens',
+        iconName: 'Waves',
+        author: DEFAULT_AUTHOR
+    },
+    {
         slug: 'poway-wildfire-season-home-cleaning',
         title: 'Poway Wildfire Ash & Dust: Post-Fire Season Home Cleaning',
         excerpt: 'How to clear settled wildfire ash and Santa Ana dust from a Poway home (92064) — a damp-first, top-down workflow that does not re-suspend fine particles, honest scope on interior-only surfaces, and a fire-season booking cadence.',
