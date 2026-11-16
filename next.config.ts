@@ -1179,8 +1179,6 @@ const nextConfig: NextConfig = {
       { source: '/discounts', destination: '/specials', permanent: true },
       { source: '/offers', destination: '/specials', permanent: true },
       // === AUTO-ADDED MAY 11: no-slash variants for legacy URLs ===
-      { source: '/blog', destination: '/blog', permanent: true },
-      { source: '/faq', destination: '/faq', permanent: true },
       { source: '/top-quality-house-cleaning-services-in-el-cajon-ca', destination: '/locations', permanent: true },
       { source: '/expert-house-cleaning-services-in-bostonia-ca', destination: '/locations', permanent: true },
       { source: '/metla-best-rated-house-cleaning-services-in-lakeside-ca', destination: '/locations', permanent: true },
