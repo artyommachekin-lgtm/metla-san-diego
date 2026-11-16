@@ -153,7 +153,7 @@ export default function PoliciesPage() {
               <div className="mb-6">
                 <h3 className="font-bold text-lg text-teal-700 mb-2">Zelle Payments</h3>
                 <p>
-                  If you pay by Zelle, payment is due 24 hours before your clean.
+                  If you pay by Zelle, payment is due upon booking.
                 </p>
               </div>
 
