@@ -16,7 +16,7 @@ import FAQSchema, { FAQItem } from '@/components/FAQSchema';
 import { BLOG_POSTS } from '@/data/blog-posts';
 
 const pageTitle = `House Cleaning Specials & Discounts | San Diego | ${COMPANY_NAME}`;
-const pageDescription = `Save on San Diego house cleaning — $40 off your first clean or a free add-on with any summer deep clean. Call ${PHONE_NUMBER} and mention your Google code to redeem.`;
+const pageDescription = `Host-Ready Holiday Clean in San Diego: book a deep clean by December 15 for a visit December 16 to 23. New clients take $40 off with code HOLIDAY40. Call ${PHONE_NUMBER}.`;
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -39,24 +39,24 @@ export default function SpecialsPage() {
 
   const faqs: FAQItem[] = [
     {
-      question: 'Can I combine the $40-off and the summer deep clean special?',
-      answer: 'No, only one promotional code can be applied per booking. However, new clients can use WELCOME40 on their first clean and then book a separate deep clean appointment using SUMMERFREE.',
+      question: 'What is the Host-Ready Holiday Clean?',
+      answer: 'It is a deep cleaning scheduled for the week before Christmas. Book by December 15, 2026 for a visit between December 16 and December 23, 2026.',
     },
     {
-      question: 'What services qualify for the $40-off first-time discount?',
-      answer: 'Any of our residential cleaning services qualifies — standard cleaning, deep cleaning, move-in/move-out cleaning, or post-construction cleaning. The $40 discount applies to your first booking, regardless of which service you choose.',
+      question: 'Who gets $40 off?',
+      answer: 'New clients. Mention code HOLIDAY40 when you book by December 15, 2026 and we take $40 off your first cleaning: standard, deep, move-in/move-out, or post-construction. One per household.',
     },
     {
-      question: 'How do I redeem a Google special?',
-      answer: `Call us at ${PHONE_NUMBER} during business hours (Monday through Sunday, 8 AM to 7 PM). Let our team know you found us on Google and mention your code — either WELCOME40 or SUMMERFREE. We'll apply the offer to your booking.`,
+      question: 'How do I redeem the offer?',
+      answer: `Call us at ${PHONE_NUMBER} during business hours (Monday through Sunday, 8 AM to 7 PM) and mention code HOLIDAY40, or write HOLIDAY40 in the notes of the online quote request. We confirm the price before anything is booked.`,
     },
     {
-      question: 'Do specials apply to recurring cleaning plans?',
-      answer: 'The $40-off code applies to your first cleaning only. After that, recurring clients automatically receive preferential pricing on their ongoing service. The summer free add-on applies to any deep clean booked through September 1, 2026.',
+      question: 'Can I still book a holiday-week clean after December 15?',
+      answer: 'You can ask. Holiday-week appointments are scheduled first come, first served, so after December 15 it depends on what is still open.',
     },
     {
-      question: 'Are these specials available in my San Diego neighborhood?',
-      answer: 'Yes. All specials are available throughout San Diego County — from La Jolla and Coronado on the coast to Poway and Rancho Bernardo inland, and everywhere in between including Hillcrest, North Park, and Mission Valley.',
+      question: 'Is the offer available in my San Diego neighborhood?',
+      answer: 'Yes. The offer is available throughout San Diego County, from La Jolla and Coronado on the coast to Poway and Rancho Bernardo inland, and everywhere in between including Hillcrest, North Park, and Mission Valley.',
     },
   ];
 
@@ -64,15 +64,15 @@ export default function SpecialsPage() {
     '@context': 'https://schema.org',
     '@type': 'OfferCatalog',
     name: 'House Cleaning Specials - San Diego',
-    description: `Current cleaning specials and discounts from ${COMPANY_NAME} in San Diego`,
-    numberOfItems: 2,
+    description: `Current cleaning special from ${COMPANY_NAME} in San Diego`,
+    numberOfItems: 1,
     itemListElement: [
       {
         '@type': 'Offer',
-        name: '$40 Off Your First Cleaning',
+        name: 'Host-Ready Holiday Clean: $40 Off for New Clients',
         description:
-          'Get $40 off any cleaning service — standard, deep clean, move-in/move-out, or post-construction. New clients only. Mention code WELCOME40.',
-        priceValidUntil: '2026-06-30',
+          'Book a deep cleaning by December 15, 2026 for a visit December 16 to 23, 2026. New clients take $40 off their first cleaning with code HOLIDAY40.',
+        priceValidUntil: '2026-12-15',
         availability: 'https://schema.org/InStock',
         availableAtOrFrom: {
           '@type': 'LocalBusiness',
@@ -83,19 +83,6 @@ export default function SpecialsPage() {
         potentialAction: {
           '@type': 'ReserveAction',
           target: `${baseUrl}/booking`,
-        },
-      },
-      {
-        '@type': 'Offer',
-        name: 'Summer Fresh — Free Add-On with Deep Clean',
-        description:
-          'Book any deep cleaning service this summer and get a free add-on — your choice of inside the fridge or inside the oven. Through September 1, 2026. Mention code SUMMERFREE.',
-        priceValidUntil: '2026-09-01',
-        availability: 'https://schema.org/InStock',
-        availableAtOrFrom: {
-          '@type': 'LocalBusiness',
-          name: `${COMPANY_NAME} San Diego`,
-          telephone: SITE_CONFIG.phone,
         },
       },
     ],
@@ -154,8 +141,8 @@ export default function SpecialsPage() {
               House Cleaning Specials in San Diego
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
-              Exclusive offers for first-time clients and seasonal deep cleans. Available across all
-              San Diego neighborhoods.
+              A holiday deep clean for the week before Christmas, with $40 off for first-time clients.
+              Available across all San Diego neighborhoods.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -184,13 +171,14 @@ export default function SpecialsPage() {
             <div className="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg mb-8 quick-answer">
               <h2 className="text-lg font-bold text-teal-800 mb-2">Quick Answer</h2>
               <p className="text-slate-700">
-                {COMPANY_NAME} offers two active specials for San Diego residents: <strong>$40 off
-                your first cleaning</strong> (any service) and a seasonal <strong>free add-on with
-                any summer deep clean</strong>. Call us at{' '}
+                {COMPANY_NAME} has one current special for San Diego residents: the{' '}
+                <strong>Host-Ready Holiday Clean</strong>. Book a deep clean by December 15 for a
+                visit December 16 to 23. <strong>New clients take $40 off</strong> their first
+                cleaning with code HOLIDAY40. Call us at{' '}
                 <a href={`tel:${PHONE_NUMBER}`} className="text-teal-700 font-medium underline">
                   {PHONE_NUMBER}
-                </a>
-                , mention you found us on Google, and give your code to redeem.
+                </a>{' '}
+                or write the code in the notes of the online quote request.
               </p>
             </div>
           </div>
@@ -202,99 +190,76 @@ export default function SpecialsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-serif font-bold text-slate-900 mb-12 text-center">
-              Current Offers
+              Current Offer
             </h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Card 1: $40 Off */}
+            <div className="max-w-2xl mx-auto">
               <div className="bg-white border-2 border-teal-500 rounded-xl p-8">
                 <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-xs font-bold uppercase">
-                  Always Available
+                  Holiday 2026 — Book by Dec 15
                 </span>
                 <h3 className="text-2xl font-serif font-bold text-slate-900 mt-4 mb-3">
-                  $40 Off Your First Cleaning
+                  Host-Ready Holiday Clean
                 </h3>
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-sm text-slate-600 font-medium">Your code:</span>
+                  <span className="text-sm text-slate-600 font-medium">New client code:</span>
                   <span className="bg-slate-100 px-4 py-2 rounded font-mono font-bold text-lg">
-                    WELCOME40
+                    HOLIDAY40
                   </span>
                 </div>
-                <p className="text-sm text-slate-500 mb-4">Valid through: June 30, 2026</p>
-
-                <p className="text-slate-600 leading-relaxed mb-6">
-                  Maybe you&apos;ve thought about hiring a professional cleaning team but figured it
-                  wasn&apos;t in the budget. We get it. That&apos;s exactly why this offer exists — we
-                  want to show you what a real deep clean feels like, earn your trust, and hopefully
-                  keep you as a long-term client. Use code WELCOME40 and get $40 off your first
-                  cleaning, no matter which service you choose.
+                <p className="text-sm text-slate-500 mb-4">
+                  Book by: December 15, 2026 &bull; Visits: December 16 to 23, 2026
                 </p>
 
-                <div className="mb-6">
-                  <h4 className="font-bold text-slate-900 mb-2">Applies to:</h4>
-                  <ul className="space-y-1">
-                    <li>
-                      <Link
-                        href="/service/standard-cleaning"
-                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
-                      >
-                        Standard Cleaning
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/service/deep-cleaning"
-                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
-                      >
-                        Deep Cleaning
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/service/move-in-out-cleaning"
-                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
-                      >
-                        Move-In / Move-Out Cleaning
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/service/post-construction-cleaning"
-                        className="text-teal-700 hover:text-teal-800 hover:underline font-medium"
-                      >
-                        Post-Construction Cleaning
-                      </Link>
-                    </li>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  Hosting this year? Book a deep cleaning by December 15 and we come the week before
+                  Christmas, December 16 to 23. Holiday-week appointments are scheduled first come,
+                  first served. New to {COMPANY_NAME}? Mention code HOLIDAY40 and take $40 off your
+                  first cleaning.
+                </p>
+
+                <div className="mb-4">
+                  <h4 className="font-bold text-slate-900 mb-2">Deep clean includes:</h4>
+                  <ul className="grid grid-cols-2 gap-1 text-sm text-slate-600">
+                    {[
+                      'Appliance exteriors',
+                      'Baseboards',
+                      'Door frames',
+                      'Ceiling fans',
+                      'Blinds',
+                      'Light fixtures',
+                      'Window sills',
+                      'Full bathroom sanitization',
+                    ].map((item) => (
+                      <li key={item} className="flex items-start gap-1.5">
+                        <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
                   </ul>
+                  <p className="text-xs text-slate-400 mt-3">
+                    $40 off is for new clients, one per household, on a first cleaning of any type
+                    booked by December 15, 2026. Add-ons such as inside the fridge or inside the oven
+                    are available at regular cost.
+                  </p>
                 </div>
 
                 <div className="bg-slate-50 rounded-lg p-4 mb-6">
                   <h4 className="font-bold text-slate-900 mb-3">How to Redeem</h4>
                   <ol className="space-y-2 text-slate-600 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        1
-                      </span>
-                      <span>Call {PHONE_NUMBER}</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        2
-                      </span>
-                      <span>Tell our team you found us on Google</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        3
-                      </span>
-                      <span>Mention code WELCOME40</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        4
-                      </span>
-                      <span>We&apos;ll apply $40 off your first cleaning invoice</span>
-                    </li>
+                    {[
+                      `Call ${PHONE_NUMBER}`,
+                      'Ask for a deep clean between December 16 and 23',
+                      'New client? Mention code HOLIDAY40',
+                      'We confirm the price before anything is booked',
+                    ].map((step, index) => (
+                      <li key={step} className="flex items-start gap-2">
+                        <span className="bg-teal-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                          {index + 1}
+                        </span>
+                        <span>{step}</span>
+                      </li>
+                    ))}
                   </ol>
                 </div>
 
@@ -306,121 +271,10 @@ export default function SpecialsPage() {
                   Call {PHONE_NUMBER} to Book
                 </a>
               </div>
-
-              {/* Card 2: Summer Free Add-On */}
-              <div className="bg-white border-2 border-amber-500 rounded-xl p-8">
-                <span className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-bold uppercase">
-                  Summer 2026 — Ends Sept 1
-                </span>
-                <h3 className="text-2xl font-serif font-bold text-slate-900 mt-4 mb-3">
-                  Summer Fresh — Free Add-On with Deep Clean
-                </h3>
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="text-sm text-slate-600 font-medium">Your code:</span>
-                  <span className="bg-slate-100 px-4 py-2 rounded font-mono font-bold text-lg">
-                    SUMMERFREE
-                  </span>
-                </div>
-                <p className="text-sm text-slate-500 mb-4">Valid through: September 1, 2026</p>
-
-                <p className="text-slate-600 leading-relaxed mb-6">
-                  Summer in San Diego means houseguests, beach sand, and homes that work harder than
-                  usual. Book any deep cleaning service this summer and we&apos;ll add one upgrade for
-                  free — your choice of inside the fridge or inside the oven, each normally a paid add-on. It&apos;s the perfect reset before hosting
-                  guests or after a vacation, and a low-risk way to see what 1-2 experienced cleaners
-                  can do in a single visit — every baseboard wiped, every ceiling fan dusted, every
-                  bathroom sanitized top to bottom.
-                </p>
-
-                <div className="mb-4">
-                  <h4 className="font-bold text-slate-900 mb-2">Deep clean includes:</h4>
-                  <ul className="grid grid-cols-2 gap-1 text-sm text-slate-600">
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Appliance exteriors</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Baseboards</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Door frames</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Ceiling fans</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Blinds</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Light fixtures</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Window sills</span>
-                    </li>
-                    <li className="flex items-start gap-1.5">
-                      <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5" />
-                      <span>Full bathroom sanitization</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="mb-6">
-                  <h4 className="font-bold text-slate-900 mb-2">Your free add-on — choose one:</h4>
-                  <ul className="text-sm text-slate-600 space-y-1">
-                    <li>Inside the refrigerator*</li>
-                    <li>Inside the oven</li>
-                  </ul>
-                  <p className="text-xs text-slate-400 mt-2">*Standard fridge clean only — heavy or hazardous build-up (spoilage, mold) is quoted separately. One free add-on per deep clean booking. Other add-ons remain available at regular cost.</p>
-                </div>
-
-                <div className="bg-slate-50 rounded-lg p-4 mb-6">
-                  <h4 className="font-bold text-slate-900 mb-3">How to Redeem</h4>
-                  <ol className="space-y-2 text-slate-600 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        1
-                      </span>
-                      <span>Call {PHONE_NUMBER}</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        2
-                      </span>
-                      <span>Tell our team you found us on Google</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        3
-                      </span>
-                      <span>Mention code SUMMERFREE</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="bg-amber-700 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                        4
-                      </span>
-                      <span>We&apos;ll add your free upgrade to the deep clean booking</span>
-                    </li>
-                  </ol>
-                </div>
-
-                <a
-                  href={`tel:${PHONE_NUMBER}`}
-                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-amber-700 hover:bg-amber-600 text-white font-bold rounded transition-colors"
-                >
-                  <Phone className="mr-2 w-5 h-5" />
-                  Call {PHONE_NUMBER} to Book
-                </a>
-              </div>
             </div>
 
             <p className="text-center text-slate-400 text-sm mt-8">
-              Last updated: June 3, 2026
+              Last updated: November 17, 2026
             </p>
           </div>
         </div>
@@ -455,9 +309,9 @@ export default function SpecialsPage() {
                   <MapPin className="w-8 h-8 text-teal-700" />
                 </div>
                 <div className="text-2xl font-bold text-teal-700 mb-2">2</div>
-                <h3 className="font-bold text-slate-900 mb-1">Tell Us How You Found Us</h3>
+                <h3 className="font-bold text-slate-900 mb-1">Pick Your Date</h3>
                 <p className="text-slate-600 text-sm">
-                  Let our team know you found us on Google Business
+                  Ask for a deep clean between December 16 and 23
                 </p>
               </div>
 
@@ -468,7 +322,7 @@ export default function SpecialsPage() {
                 <div className="text-2xl font-bold text-teal-700 mb-2">3</div>
                 <h3 className="font-bold text-slate-900 mb-1">Mention Your Code</h3>
                 <p className="text-slate-600 text-sm">
-                  Say WELCOME40 or SUMMERFREE so we know to apply the offer
+                  New client? Say HOLIDAY40 for $40 off your first cleaning
                 </p>
               </div>
 
@@ -479,14 +333,13 @@ export default function SpecialsPage() {
                 <div className="text-2xl font-bold text-teal-700 mb-2">4</div>
                 <h3 className="font-bold text-slate-900 mb-1">Schedule Your Cleaning</h3>
                 <p className="text-slate-600 text-sm">
-                  We&apos;ll confirm the discounted price before booking
+                  We confirm the price before anything is booked
                 </p>
               </div>
             </div>
 
             <div className="mt-10 bg-white rounded-lg p-4 text-center text-sm text-slate-500">
-              Specials cannot be combined with each other. New clients can use WELCOME40 on their
-              first clean and book a summer deep clean with SUMMERFREE as a separate appointment.
+              HOLIDAY40 is for new clients, one per household, and ends December 15, 2026.
             </div>
           </div>
         </div>
@@ -500,8 +353,8 @@ export default function SpecialsPage() {
               What&apos;s Included in Each Service
             </h2>
             <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-              Every service qualifies for the $40-off first-time discount. The summer free add-on
-              applies to deep cleaning.
+              The Host-Ready Holiday Clean is a deep cleaning. New clients can use HOLIDAY40 on a
+              first cleaning of any type.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -680,7 +533,7 @@ export default function SpecialsPage() {
       <section className="py-20 bg-teal-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            Ready to Save on Your First Clean?
+            Ready to Book Your Holiday Clean?
           </h2>
           <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Join hundreds of San Diego families who trust {COMPANY_NAME}. Call today, mention your
