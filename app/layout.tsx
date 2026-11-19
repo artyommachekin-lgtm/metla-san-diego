@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import Navigation from '@/components/Navigation';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Footer from '@/components/Footer';
+import LeadSourceCapture from '@/components/LeadSource';
 import { SITE_CONFIG } from '@/src/config/site-config';
 import './globals.css';
 
@@ -106,6 +107,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans text-slate-900 antialiased selection:bg-teal-100 selection:text-teal-900">
+        <LeadSourceCapture />
         <Navigation />
         <Breadcrumbs />
         {children}
